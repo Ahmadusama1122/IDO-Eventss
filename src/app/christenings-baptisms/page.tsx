@@ -1,9 +1,14 @@
-export const metadata = { title: "Christening & Baptism Styling" };
+import { OCCASIONS } from "@/data/occasions";
+import { OccasionPage } from "@/components/OccasionPage";
+import gallery from "@/data/gallery.json";
+
+const data = OCCASIONS.find((o) => o.slug === "christenings-baptisms")!;
+
+export const metadata = {
+  title: "Christening & Baptism Styling Melbourne",
+  description: data.intro.slice(0, 160),
+};
 
 export default function ChristeningsPage() {
-  return (
-    <div className="flex min-h-[60vh] items-center justify-center">
-      <h1 className="font-heading text-4xl">Christening &amp; Baptism Styling</h1>
-    </div>
-  );
+  return <OccasionPage data={data} gallery={gallery} />;
 }

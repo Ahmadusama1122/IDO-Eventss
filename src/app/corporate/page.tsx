@@ -1,9 +1,14 @@
-export const metadata = { title: "Corporate Event Styling & Hire" };
+import { OCCASIONS } from "@/data/occasions";
+import { OccasionPage } from "@/components/OccasionPage";
+import gallery from "@/data/gallery.json";
+
+const data = OCCASIONS.find((o) => o.slug === "corporate")!;
+
+export const metadata = {
+  title: "Corporate Event Styling Melbourne",
+  description: data.intro.slice(0, 160),
+};
 
 export default function CorporatePage() {
-  return (
-    <div className="flex min-h-[60vh] items-center justify-center">
-      <h1 className="font-heading text-4xl">Corporate Event Styling &amp; Hire</h1>
-    </div>
-  );
+  return <OccasionPage data={data} gallery={gallery} />;
 }

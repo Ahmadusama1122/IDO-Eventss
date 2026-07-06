@@ -1,9 +1,14 @@
-export const metadata = { title: "Baby Shower Styling & Hire" };
+import { OCCASIONS } from "@/data/occasions";
+import { OccasionPage } from "@/components/OccasionPage";
+import gallery from "@/data/gallery.json";
+
+const data = OCCASIONS.find((o) => o.slug === "baby-showers")!;
+
+export const metadata = {
+  title: "Baby Shower Styling & Prop Hire Melbourne",
+  description: data.intro.slice(0, 160),
+};
 
 export default function BabyShowersPage() {
-  return (
-    <div className="flex min-h-[60vh] items-center justify-center">
-      <h1 className="font-heading text-4xl">Baby Shower Styling &amp; Hire</h1>
-    </div>
-  );
+  return <OccasionPage data={data} gallery={gallery} />;
 }
