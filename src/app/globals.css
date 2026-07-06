@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-sage: #8AA275;
+  --color-sage-dark: #6C7E5A;
+  --color-sage-light: #A8B89A;
+  --color-cream: #DDE4D3;
+  --color-cream-light: #F5F7F2;
+  --color-charcoal: #1C1A17;
+  --color-warm-white: #FAFAF8;
+  --color-accent-gold: #D4A574;
+  --color-accent-gold-light: #E8C9A8;
+
+  --font-heading: var(--font-cormorant), serif;
+  --font-body: var(--font-dm-sans), sans-serif;
+  --font-script: var(--font-dancing-script), cursive;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-warm-white);
+    color: var(--color-charcoal);
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+  }
+}
+
+@layer components {
+  .btn-primary {
+    background-color: var(--color-sage);
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 0.875rem;
+    display: inline-block;
+    transition: background-color 0.2s;
+  }
+  .btn-primary:hover {
+    background-color: var(--color-sage-dark);
+  }
+
+  .btn-ghost {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 0.875rem;
+    display: inline-block;
+    transition: all 0.2s;
+  }
+  .btn-ghost:hover {
+    background-color: #fff;
+    color: var(--color-charcoal);
+  }
+
+  .btn-white {
+    background-color: #fff;
+    color: var(--color-sage-dark);
+    padding: 1rem 2rem;
+    border-radius: 0.375rem;
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 1rem;
+    display: inline-block;
+    transition: background-color 0.2s;
+  }
+  .btn-white:hover {
+    background-color: var(--color-cream);
+  }
+}

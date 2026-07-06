@@ -1,0 +1,9 @@
+export const metadata = { title: "Links" };
+
+export default function LinksPage() {
+  return (
+    <div className="flex min-h-[60vh] items-center justify-center">
+      <h1 className="font-heading text-4xl">Links</h1>
+    </div>
+  );
+}
