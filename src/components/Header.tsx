@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Logo } from "./Logo";
+import { useCart } from "@/context/CartContext";
 
 const NAV_LINKS = [
   {
@@ -24,7 +25,7 @@ const NAV_LINKS = [
 ];
 
 function CartIcon() {
-  const itemCount = 0;
+  const { itemCount } = useCart();
   return (
     <Link href="/quote" className="relative flex h-10 w-10 items-center justify-center">
       <svg

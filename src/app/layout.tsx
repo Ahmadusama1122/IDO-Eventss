@@ -3,6 +3,7 @@ import { Cormorant_Garamond, DM_Sans, Dancing_Script } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { MobileBar } from "@/components/MobileBar";
+import { CartProvider } from "@/context/CartContext";
 import "./globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -48,10 +49,12 @@ export default function RootLayout({
       className={`${cormorant.variable} ${dmSans.variable} ${dancingScript.variable}`}
     >
       <body className="pb-[72px] antialiased lg:pb-0">
-        <Header />
-        <main>{children}</main>
-        <Footer />
-        <MobileBar />
+        <CartProvider>
+          <Header />
+          <main>{children}</main>
+          <Footer />
+          <MobileBar />
+        </CartProvider>
       </body>
     </html>
   );
