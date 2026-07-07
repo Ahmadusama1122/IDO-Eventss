@@ -13,8 +13,10 @@ This is the **IDO Events** website — an event styling and prop hire business s
 - **Content:** TypeScript data files for occasions/suburbs/hire items/gallery/blog
 - **Email:** Resend (API) — lazy-initialized to avoid build-time errors
 - **Deploy:** Railway (`next start -p ${PORT:-3000}`, `output: "standalone"`)
+- **Domain:** `idoeventss.com` + `www.idoeventss.com` (Namecheap DNS → Railway CNAME)
 - **Fonts:** Google Fonts via next/font (Cormorant Garamond headings, DM Sans body, Dancing Script accents)
 - **Images:** next/image, JPEG source files, WebP served via Next.js image optimization, lazy loading
+- **Social:** Instagram [@ido.eventss](https://www.instagram.com/ido.eventss/)
 
 ## Brand Tokens
 
@@ -62,13 +64,19 @@ ido-events/
 │   │   ├── gallery/page.tsx        # Photo gallery with lightbox
 │   │   ├── about/page.tsx          # About page
 │   │   ├── blog/page.tsx           # Blog index
-│   │   ├── blog/[slug]/page.tsx    # Blog post
+│   │   ├── blog/[slug]/page.tsx    # Blog post (106 posts)
 │   │   ├── contact/page.tsx        # Contact page
 │   │   ├── quote/page.tsx          # 3-step quote wizard
 │   │   ├── event-styling/[suburb]/ # Suburb SEO pages (10 suburbs)
 │   │   ├── links/page.tsx          # Instagram link-in-bio
 │   │   ├── privacy/page.tsx        # Privacy policy
-│   │   └── terms/page.tsx          # Terms & conditions
+│   │   ├── terms/page.tsx          # Terms & conditions
+│   │   ├── sitemap.ts              # Auto-generated sitemap (all routes)
+│   │   ├── robots.ts               # robots.txt (allow all, disallow /api/)
+│   │   ├── icon.svg                # Branded favicon (iDo. sage dot)
+│   │   ├── hire/layout.tsx         # Metadata wrapper for client component
+│   │   ├── gallery/layout.tsx      # Metadata wrapper for client component
+│   │   └── quote/layout.tsx        # Metadata wrapper for client component
 │   ├── components/
 │   │   ├── Header.tsx              # Sticky header with nav, cart, occasions dropdown
 │   │   ├── Footer.tsx              # 5-column footer
@@ -83,7 +91,11 @@ ido-events/
 │       ├── occasions.ts            # 6 occasion data (slug, name, tagline, intro, FAQs)
 │       ├── suburbs.ts              # 10 suburb SEO data (localized copy, venues, coords)
 │       ├── hire-items.ts           # 20 hire items/packages (8 categories)
-│       └── blog-posts.ts           # 3 blog posts with full HTML content
+│       ├── blog-posts.ts           # Main blog file — 6 original + imports 4 batch files (106 total)
+│       ├── blog-batch-wedding.ts   # 25 wedding SEO blog posts
+│       ├── blog-batch-birthday.ts  # 25 birthday + baby shower blog posts
+│       ├── blog-batch-events.ts    # 25 christening + engagement + corporate blog posts
+│       └── blog-batch-general.ts   # 25 general event styling blog posts
 ├── docs/superpowers/
 │   ├── specs/                      # Design spec
 │   └── plans/                      # Implementation plan
@@ -120,9 +132,15 @@ ido-events/
 
 ### SEO
 - Every page has explicit `metadata` (title + description) via Next.js Metadata API.
-- Suburb pages include JSON-LD (LocalBusiness + EventPlanner) and Google Maps embed.
+- OpenGraph tags on all pages (homepage, occasions, suburbs, hire, gallery, quote, blog).
+- Homepage and suburb pages include JSON-LD structured data (LocalBusiness + EventPlanner).
+- Auto-generated `sitemap.xml` covering all routes (pages, blog posts, hire items, suburbs).
+- `robots.txt` allows all crawlers, disallows `/api/`.
+- Client component pages (hire, gallery, quote) use `layout.tsx` wrappers for metadata.
+- 106 blog posts with internal linking to hire items, occasion pages, and suburb pages.
 - Blog posts use `generateStaticParams` + `generateMetadata`.
 - Hire items use `generateStaticParams` + `generateMetadata`.
+- Canonical URL base set in root layout via `alternates`.
 
 ### Forms & API
 - Server-side validation on all form submissions.
@@ -144,7 +162,20 @@ ido-events/
 4. ✅ Occasion pages (6 pages, 1 reusable component)
 5. ✅ Suburb SEO pages (10 suburbs, JSON-LD schema, Google Maps)
 6. ✅ Hire collection (20 items) + Gallery (lightbox) + Blog (3 posts) + About + Contact + Links + Privacy + Terms
-7. 🔲 Polish + trust signals + Lighthouse audit
+7. ✅ SEO optimisation (sitemap, robots.txt, metadata, OpenGraph, JSON-LD, canonical URLs)
+8. ✅ Branded favicon (iDo. SVG icon)
+9. ✅ Instagram integration (@ido.eventss linked across all pages)
+10. ✅ 100 additional SEO blog posts (106 total) with internal linking
+11. ✅ Google Search Console setup + sitemap submitted
+12. 🔲 Polish + trust signals + Lighthouse audit
+
+## Deployment
+
+- **Railway:** Service IDO-Eventss, PORT=8080, HOSTNAME=0.0.0.0
+- **Domain:** idoeventss.com (Namecheap)
+- **DNS:** CNAME @ → qax12afk.up.railway.app, CNAME www → hmhz7my1.up.railway.app
+- **Git remote:** https://github.com/Ahmadusama1122/IDO-Eventss (branch: master)
+- **Auto-deploy:** Railway deploys on push to master
 
 ## Key Files to Never Break
 
@@ -154,4 +185,6 @@ ido-events/
 - `src/components/Footer.tsx` — Footer (appears on every page)
 - `src/context/CartContext.tsx` — Cart state management
 - `src/data/gallery.json` — Photo manifest (feeds gallery, occasions, suburbs, hire)
+- `src/data/blog-posts.ts` — Main blog data (imports all batch files, exports `blogPosts` array)
+- `src/app/sitemap.ts` — Auto-generated sitemap (imports blog, hire, suburbs)
 - `next.config.ts` — standalone output + turbopack root fix
