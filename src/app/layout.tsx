@@ -35,6 +35,11 @@ export const metadata: Metadata = {
   description:
     "Melbourne's trusted event styling and prop hire specialists. Weddings, birthdays, christenings, corporate events — beautifully styled and delivered to your door.",
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
+  openGraph: {
+    siteName: "IDO Events",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

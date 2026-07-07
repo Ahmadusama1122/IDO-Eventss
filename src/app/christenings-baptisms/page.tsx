@@ -1,12 +1,19 @@
+import type { Metadata } from "next";
 import { OCCASIONS } from "@/data/occasions";
 import { OccasionPage } from "@/components/OccasionPage";
 import gallery from "@/data/gallery.json";
 
 const data = OCCASIONS.find((o) => o.slug === "christenings-baptisms")!;
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Christening & Baptism Styling Melbourne",
-  description: data.intro.slice(0, 160),
+  description:
+    "Christening and baptism styling Melbourne. Elegant backdrops, florals, signage and dessert tables. Full setup included. Free quotes from IDO Events.",
+  openGraph: {
+    title: "Christening & Baptism Styling | IDO Events Melbourne",
+    description:
+      "Beautiful christening and baptism event styling across Melbourne. Backdrops, florals, plinths, signage and full dessert table setups with delivery and pack-down.",
+  },
 };
 
 export default function ChristeningsPage() {

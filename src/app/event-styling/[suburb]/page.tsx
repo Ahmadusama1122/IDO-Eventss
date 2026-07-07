@@ -20,6 +20,10 @@ export async function generateMetadata({
   return {
     title: `Event Styling & Prop Hire in ${data.name} | IDO Events Melbourne`,
     description: `Professional event styling and prop hire in ${data.name}, Melbourne. Weddings, birthdays, christenings and more. Setup & pack-down included. Free quotes.`,
+    openGraph: {
+      title: `Event Styling in ${data.name} | IDO Events Melbourne`,
+      description: `Prop hire and event styling in ${data.name}. Backdrops, florals, balloons, signage and full setup across ${data.name} and surrounding suburbs.`,
+    },
   };
 }
 
