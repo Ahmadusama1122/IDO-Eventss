@@ -96,7 +96,7 @@ export default async function SuburbPage({
     priceRange: "$$",
     image: `https://idoevents.com.au${heroPhoto.file}`,
     sameAs: [
-      "https://www.instagram.com/idoevents.au",
+      "https://www.instagram.com/ido.eventss/",
       "https://www.facebook.com/idoevents.au",
     ],
   };

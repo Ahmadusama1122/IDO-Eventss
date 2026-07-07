@@ -35,7 +35,7 @@ const COMPANY_LINKS = [
 ];
 
 const SOCIALS = [
-  { label: "IG", href: "#" },
+  { label: "IG", href: "https://www.instagram.com/ido.eventss/" },
   { label: "FB", href: "#" },
   { label: "TK", href: "#" },
   { label: "PT", href: "#" },

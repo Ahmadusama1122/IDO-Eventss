@@ -8,7 +8,7 @@ export function InstagramFeed() {
       <div className="mx-auto max-w-6xl text-center">
         <h2 className="mb-3 font-heading text-3xl sm:text-4xl">Follow Us on Instagram</h2>
         <p className="mb-8 text-base text-charcoal/60">
-          @idoevents — Behind the scenes, styling inspiration, and our latest setups.
+          @ido.eventss — Behind the scenes, styling inspiration, and our latest setups.
         </p>
         <div className="mb-8 grid grid-cols-3 gap-1 sm:grid-cols-4 lg:grid-cols-6">
           {cells.map((n) => (
@@ -20,8 +20,8 @@ export function InstagramFeed() {
             </div>
           ))}
         </div>
-        <Link href="#" className="btn-primary">
-          Follow @idoevents
+        <Link href="https://www.instagram.com/ido.eventss/" target="_blank" rel="noopener noreferrer" className="btn-primary">
+          Follow @ido.eventss
         </Link>
       </div>
     </section>
