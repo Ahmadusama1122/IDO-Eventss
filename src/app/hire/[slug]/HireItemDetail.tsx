@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useCart } from "@/context/CartContext";
 import type { HireItem } from "@/data/hire-items";
 import { CATEGORY_LABELS } from "@/data/hire-items";
 
@@ -15,9 +14,6 @@ export function HireItemDetail({
   related: HireItem[];
   categoryLabel: string;
 }) {
-  const { addItem, items } = useCart();
-  const inCart = items.some((i) => i.id === item.slug);
-
   return (
     <>
       {/* Breadcrumb */}
@@ -51,12 +47,9 @@ export function HireItemDetail({
             <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-sage">
               {categoryLabel}
             </p>
-            <h1 className="mb-3 font-heading text-3xl font-bold sm:text-4xl">
+            <h1 className="mb-4 font-heading text-3xl font-bold sm:text-4xl">
               {item.name}
             </h1>
-            <p className="mb-6 text-lg font-semibold text-sage-dark">
-              From ${item.price}
-            </p>
             <p className="mb-8 leading-relaxed text-charcoal/70">
               {item.description}
             </p>
@@ -93,25 +86,13 @@ export function HireItemDetail({
               </div>
             </div>
 
-            {/* Add to Quote */}
-            <button
-              onClick={() =>
-                addItem({
-                  id: item.slug,
-                  name: item.name,
-                  price: `From $${item.price}`,
-                  image: item.image,
-                })
-              }
-              disabled={inCart}
-              className={`w-full rounded-md py-4 text-base font-semibold transition-colors sm:w-auto sm:px-12 ${
-                inCart
-                  ? "cursor-default bg-sage text-white"
-                  : "bg-sage text-white hover:bg-sage-dark"
-              }`}
+            {/* Enquire */}
+            <Link
+              href={`/quote?item=${item.slug}`}
+              className="block w-full rounded-md bg-sage py-4 text-center text-base font-semibold text-white transition-colors hover:bg-sage-dark sm:w-auto sm:px-12"
             >
-              {inCart ? "Added to Quote \u2713" : "+ Add to Quote"}
-            </button>
+              Enquire Now
+            </Link>
           </div>
         </div>
       </section>
@@ -124,58 +105,40 @@ export function HireItemDetail({
               You Might Also Like
             </h2>
             <div className="grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-4">
-              {related.map((rel) => {
-                const relInCart = items.some((i) => i.id === rel.slug);
-                return (
-                  <div
-                    key={rel.slug}
-                    className="group overflow-hidden rounded-xl bg-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
-                  >
-                    <Link href={`/hire/${rel.slug}`} className="block">
-                      <div className="relative aspect-[4/3] overflow-hidden bg-cream-light">
-                        <Image
-                          src={rel.image}
-                          alt={rel.name}
-                          fill
-                          className="object-cover transition-transform duration-300 group-hover:scale-105"
-                          sizes="(max-width: 640px) 50vw, 25vw"
-                        />
-                      </div>
-                    </Link>
-                    <div className="p-4">
-                      <Link href={`/hire/${rel.slug}`}>
-                        <h3 className="mb-1 font-heading text-base leading-tight transition-colors group-hover:text-sage-dark">
-                          {rel.name}
-                        </h3>
-                      </Link>
-                      <p className="mb-1 text-xs text-charcoal/40">
-                        {CATEGORY_LABELS[rel.category]}
-                      </p>
-                      <p className="mb-3 text-sm font-semibold text-sage-dark">
-                        From ${rel.price}
-                      </p>
-                      <button
-                        onClick={() =>
-                          addItem({
-                            id: rel.slug,
-                            name: rel.name,
-                            price: `From $${rel.price}`,
-                            image: rel.image,
-                          })
-                        }
-                        disabled={relInCart}
-                        className={`w-full rounded-md border-2 py-2 text-[12px] font-semibold transition-colors ${
-                          relInCart
-                            ? "cursor-default border-sage bg-sage text-white"
-                            : "border-sage text-sage-dark hover:bg-sage hover:text-white"
-                        }`}
-                      >
-                        {relInCart ? "Added \u2713" : "+ Add to Quote"}
-                      </button>
+              {related.map((rel) => (
+                <div
+                  key={rel.slug}
+                  className="group overflow-hidden rounded-xl bg-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
+                >
+                  <Link href={`/hire/${rel.slug}`} className="block">
+                    <div className="relative aspect-[4/3] overflow-hidden bg-cream-light">
+                      <Image
+                        src={rel.image}
+                        alt={rel.name}
+                        fill
+                        className="object-cover transition-transform duration-300 group-hover:scale-105"
+                        sizes="(max-width: 640px) 50vw, 25vw"
+                      />
                     </div>
+                  </Link>
+                  <div className="p-4">
+                    <Link href={`/hire/${rel.slug}`}>
+                      <h3 className="mb-1 font-heading text-base leading-tight transition-colors group-hover:text-sage-dark">
+                        {rel.name}
+                      </h3>
+                    </Link>
+                    <p className="mb-3 text-xs text-charcoal/40">
+                      {CATEGORY_LABELS[rel.category]}
+                    </p>
+                    <Link
+                      href={`/quote?item=${rel.slug}`}
+                      className="block w-full rounded-md border-2 border-sage py-2 text-center text-[12px] font-semibold text-sage-dark transition-colors hover:bg-sage hover:text-white"
+                    >
+                      Enquire Now
+                    </Link>
                   </div>
-                );
-              })}
+                </div>
+              ))}
             </div>
           </div>
         </section>
@@ -194,7 +157,7 @@ export function HireItemDetail({
           hour.
         </p>
         <Link href="/quote" className="btn-white">
-          Get a Free Quote &rarr;
+          Enquire Now &rarr;
         </Link>
       </div>
     </>

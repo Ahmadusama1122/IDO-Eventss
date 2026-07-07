@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Logo } from "./Logo";
-import { useCart } from "@/context/CartContext";
 
 const NAV_LINKS = [
   {
@@ -23,26 +22,6 @@ const NAV_LINKS = [
   { label: "About", href: "/about" },
   { label: "Blog", href: "/blog" },
 ];
-
-function CartIcon() {
-  const { itemCount } = useCart();
-  return (
-    <Link href="/quote" className="relative flex h-10 w-10 items-center justify-center">
-      <svg
-        className="h-[22px] w-[22px] fill-none stroke-charcoal"
-        strokeWidth={1.5}
-        viewBox="0 0 24 24"
-      >
-        <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4zM3 6h18M16 10a4 4 0 01-8 0" />
-      </svg>
-      {itemCount > 0 && (
-        <span className="absolute right-0.5 top-0.5 flex h-[18px] w-[18px] items-center justify-center rounded-full bg-sage text-[10px] font-bold text-white">
-          {itemCount}
-        </span>
-      )}
-    </Link>
-  );
-}
 
 export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -97,9 +76,8 @@ export function Header() {
 
         {/* Right actions */}
         <div className="flex items-center gap-3">
-          <CartIcon />
           <Link href="/quote" className="btn-primary hidden sm:inline-block">
-            Request a Quote
+            Enquire Now
           </Link>
           <button
             className="flex h-10 w-10 items-center justify-center lg:hidden"
@@ -153,7 +131,7 @@ export function Header() {
             className="btn-primary mt-4 block w-full text-center"
             onClick={() => setMobileOpen(false)}
           >
-            Request a Quote
+            Enquire Now
           </Link>
         </div>
       )}
