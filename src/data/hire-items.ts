@@ -25,7 +25,7 @@ export const CATEGORY_LABELS: Record<string, string> = {
   backdrops: "Backdrops",
   florals: "Florals",
   balloons: "Balloons",
-  furniture: "Furniture",
+  furniture: "Props",
   signage: "Signage",
   packages: "Packages",
   draping: "Draping",

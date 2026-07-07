@@ -42,14 +42,14 @@ export function Header() {
                 onMouseEnter={() => setOccasionsOpen(true)}
                 onMouseLeave={() => setOccasionsOpen(false)}
               >
-                <button className="flex items-center gap-1 text-sm font-medium text-charcoal transition-colors hover:text-sage-dark">
+                <button className="flex items-center gap-1 py-2 text-sm font-medium text-charcoal transition-colors hover:text-sage-dark">
                   {link.label}
                   <svg className="h-3 w-3" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                     <path d="M19 9l-7 7-7-7" />
                   </svg>
                 </button>
                 {occasionsOpen && (
-                  <div className="absolute left-0 top-full mt-1 min-w-[220px] rounded-lg border border-black/5 bg-white py-2 shadow-lg">
+                  <div className="absolute left-0 top-full min-w-[220px] rounded-lg border border-black/5 bg-white pt-2 pb-2 shadow-lg">
                     {link.children.map((child) => (
                       <Link
                         key={child.href}
