@@ -49,7 +49,7 @@ ido-events/
 │   └── logos/                      # SVG logo variants
 ├── src/
 │   ├── app/
-│   │   ├── layout.tsx              # Root layout (fonts, CartProvider, header, footer, mobile bar)
+│   │   ├── layout.tsx              # Root layout (fonts, CartProvider, header, footer, mobile bar, Receptflow widget)
 │   │   ├── globals.css             # Tailwind v4 @theme + component classes
 │   │   ├── page.tsx                # Homepage (11 sections)
 │   │   ├── api/quote/route.ts      # Quote submission endpoint (Resend)
@@ -67,7 +67,7 @@ ido-events/
 │   │   ├── blog/[slug]/page.tsx    # Blog post (106 posts)
 │   │   ├── contact/page.tsx        # Contact page
 │   │   ├── quote/page.tsx          # 3-step quote wizard
-│   │   ├── event-styling/[suburb]/ # Suburb SEO pages (10 suburbs)
+│   │   ├── event-styling/[suburb]/ # Suburb SEO pages (25 suburbs)
 │   │   ├── links/page.tsx          # Instagram link-in-bio
 │   │   ├── privacy/page.tsx        # Privacy policy
 │   │   ├── terms/page.tsx          # Terms & conditions
@@ -84,12 +84,14 @@ ido-events/
 │   │   ├── Logo.tsx                # Text-based logo component
 │   │   ├── OccasionPage.tsx        # Reusable occasion page component
 │   │   └── home/                   # 11 homepage section components
+│   ├── lib/
+│   │   └── schema.ts               # JSON-LD schema builders (BlogPosting, FAQPage, Product, BreadcrumbList, LocalBusiness)
 │   ├── context/
 │   │   └── CartContext.tsx          # Cart state (React context + localStorage)
 │   └── data/
-│       ├── gallery.json            # 155-photo manifest (file, occasion, alt, width)
+│       ├── gallery.json            # 153-photo manifest (file, occasion, alt, width)
 │       ├── occasions.ts            # 6 occasion data (slug, name, tagline, intro, FAQs)
-│       ├── suburbs.ts              # 10 suburb SEO data (localized copy, venues, coords)
+│       ├── suburbs.ts              # 25 suburb SEO data (localized copy, venues, coords)
 │       ├── hire-items.ts           # 20 hire items/packages (8 categories)
 │       ├── blog-posts.ts           # Main blog file — 6 original + imports 4 batch files (106 total)
 │       ├── blog-batch-wedding.ts   # 25 wedding SEO blog posts
@@ -133,8 +135,13 @@ ido-events/
 ### SEO
 - Every page has explicit `metadata` (title + description) via Next.js Metadata API.
 - OpenGraph tags on all pages (homepage, occasions, suburbs, hire, gallery, quote, blog).
-- Homepage and suburb pages include JSON-LD structured data (LocalBusiness + EventPlanner).
-- Auto-generated `sitemap.xml` covering all routes (pages, blog posts, hire items, suburbs).
+- **JSON-LD structured data** via `src/lib/schema.ts` utility (exports `BASE_URL` constant):
+  - `LocalBusiness + EventPlanner` on 25 suburb pages
+  - `BlogPosting` on 106 blog posts
+  - `FAQPage` on 6 occasion pages
+  - `Product` on 20 hire items
+  - `BreadcrumbList` on all page types (blog, hire, suburb, occasion)
+- Auto-generated `sitemap.xml` covering all 167 routes (pages, blog posts, hire items, suburbs).
 - `robots.txt` allows all crawlers, disallows `/api/`.
 - Client component pages (hire, gallery, quote) use `layout.tsx` wrappers for metadata.
 - 106 blog posts with internal linking to hire items, occasion pages, and suburb pages.
@@ -158,16 +165,19 @@ ido-events/
 
 1. ✅ Scaffold (routes, layout, header, footer, homepage)
 2. ✅ Quote cart + form + email API
-3. ✅ Photo sorting + gallery.json generation (155 photos classified)
+3. ✅ Photo sorting + gallery.json generation (153 photos classified)
 4. ✅ Occasion pages (6 pages, 1 reusable component)
-5. ✅ Suburb SEO pages (10 suburbs, JSON-LD schema, Google Maps)
+5. ✅ Suburb SEO pages (25 suburbs, JSON-LD schema, Google Maps)
 6. ✅ Hire collection (20 items) + Gallery (lightbox) + Blog (3 posts) + About + Contact + Links + Privacy + Terms
 7. ✅ SEO optimisation (sitemap, robots.txt, metadata, OpenGraph, JSON-LD, canonical URLs)
 8. ✅ Branded favicon (iDo. SVG icon)
 9. ✅ Instagram integration (@ido.eventss linked across all pages)
 10. ✅ 100 additional SEO blog posts (106 total) with internal linking
 11. ✅ Google Search Console setup + sitemap submitted
-12. 🔲 Polish + trust signals + Lighthouse audit
+12. ✅ SEO schema expansion (BlogPosting, FAQPage, Product, BreadcrumbList JSON-LD)
+13. ✅ Suburb expansion (10 → 25 suburbs)
+14. ✅ Receptflow AI chat widget installed
+15. 🔲 Polish + trust signals + Lighthouse audit
 
 ## Deployment
 
@@ -185,6 +195,8 @@ ido-events/
 - `src/components/Footer.tsx` — Footer (appears on every page)
 - `src/context/CartContext.tsx` — Cart state management
 - `src/data/gallery.json` — Photo manifest (feeds gallery, occasions, suburbs, hire)
+- `src/lib/schema.ts` — JSON-LD schema builders + `BASE_URL` constant
 - `src/data/blog-posts.ts` — Main blog data (imports all batch files, exports `blogPosts` array)
+- `src/data/suburbs.ts` — 25 suburb entries (feeds suburb pages, sitemap, schema)
 - `src/app/sitemap.ts` — Auto-generated sitemap (imports blog, hire, suburbs)
 - `next.config.ts` — standalone output + turbopack root fix
