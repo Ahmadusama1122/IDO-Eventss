@@ -64,7 +64,7 @@ export default function RootLayout({
           data-embed-key="da8f2a56-3972-4394-b404-61ab2e2b6313"
           data-color="#0066FF"
           data-greeting="Hi! How can I help you today?"
-          data-agent="AI Assistant"
+          data-agent="IDO Eventss"
           data-theme="auto"
           strategy="lazyOnload"
         />
