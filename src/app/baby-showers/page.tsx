@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { OCCASIONS } from "@/data/occasions";
 import { OccasionPage } from "@/components/OccasionPage";
 import gallery from "@/data/gallery.json";
+import { buildFaqSchema, buildBreadcrumbSchema } from "@/lib/schema";
 
 const data = OCCASIONS.find((o) => o.slug === "baby-showers")!;
 
@@ -16,6 +17,24 @@ export const metadata: Metadata = {
   },
 };
 
+const faqLd = buildFaqSchema(data.faqs);
+const breadcrumbLd = buildBreadcrumbSchema([
+  { name: "Home", url: "https://idoeventss.com" },
+  { name: "Baby Showers" },
+]);
+
 export default function BabyShowersPage() {
-  return <OccasionPage data={data} gallery={gallery} />;
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+      <OccasionPage data={data} gallery={gallery} />
+    </>
+  );
 }
