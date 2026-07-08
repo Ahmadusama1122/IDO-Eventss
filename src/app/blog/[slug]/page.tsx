@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { blogPosts, getBlogPost, getRelatedPosts } from "@/data/blog-posts";
+import { buildArticleSchema, buildBreadcrumbSchema } from "@/lib/schema";
 
 export function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }));
@@ -52,8 +53,31 @@ export default async function BlogPostPage({
 
   const relatedPosts = getRelatedPosts(slug, 2);
 
+  const articleLd = buildArticleSchema({
+    title: post.title,
+    slug: post.slug,
+    excerpt: post.excerpt,
+    date: post.date,
+    image: post.image,
+  });
+  const breadcrumbLd = buildBreadcrumbSchema([
+    { name: "Home", url: "https://idoeventss.com" },
+    { name: "Blog", url: "https://idoeventss.com/blog" },
+    { name: post.title },
+  ]);
+
   return (
     <>
+      {/* JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+
       {/* Hero image */}
       <section className="relative flex min-h-[45vh] items-center justify-center overflow-hidden bg-charcoal">
         <Image
