@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Cormorant_Garamond, DM_Sans, Dancing_Script } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -57,6 +58,16 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
         <MobileBar />
+        <Script
+          src="https://www.receptflow.com/widget.js"
+          data-business-id="38"
+          data-embed-key="da8f2a56-3972-4394-b404-61ab2e2b6313"
+          data-color="#0066FF"
+          data-greeting="Hi! How can I help you today?"
+          data-agent="AI Assistant"
+          data-theme="auto"
+          strategy="lazyOnload"
+        />
       </body>
     </html>
   );
