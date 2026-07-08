@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { hireItems, getHireItem, getRelatedItems, CATEGORY_LABELS } from "@/data/hire-items";
 import { HireItemDetail } from "./HireItemDetail";
+import { buildProductSchema, buildBreadcrumbSchema } from "@/lib/schema";
 
 export function generateStaticParams() {
   return hireItems.map((item) => ({ slug: item.slug }));
@@ -39,5 +40,30 @@ export default async function HireItemPage({
   const related = getRelatedItems(item, 4);
   const categoryLabel = CATEGORY_LABELS[item.category] || item.category;
 
-  return <HireItemDetail item={item} related={related} categoryLabel={categoryLabel} />;
+  const productLd = buildProductSchema({
+    name: item.name,
+    slug: item.slug,
+    description: item.description,
+    image: item.image,
+    category: categoryLabel,
+  });
+  const breadcrumbLd = buildBreadcrumbSchema([
+    { name: "Home", url: "https://idoeventss.com" },
+    { name: "Prop Hire", url: "https://idoeventss.com/hire" },
+    { name: item.name },
+  ]);
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+      <HireItemDetail item={item} related={related} categoryLabel={categoryLabel} />
+    </>
+  );
 }
