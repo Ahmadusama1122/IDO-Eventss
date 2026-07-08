@@ -4,6 +4,7 @@ import gallery from "@/data/gallery.json";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { buildLocalBusinessSchema, buildBreadcrumbSchema } from "@/lib/schema";
 
 export async function generateStaticParams() {
   return SUBURBS.map((s) => ({ suburb: s.slug }));
@@ -25,10 +26,6 @@ export async function generateMetadata({
       description: `Prop hire and event styling in ${data.name}. Backdrops, florals, balloons, signage and full setup across ${data.name} and surrounding suburbs.`,
     },
   };
-}
-
-function toSlug(name: string) {
-  return name.toLowerCase().replace(/\s+/g, "-");
 }
 
 export default async function SuburbPage({
@@ -58,48 +55,12 @@ export default async function SuburbPage({
 
   const introParagraphs = data.intro.split("\n\n");
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": ["LocalBusiness", "EventPlanner"],
-    name: "IDO Events",
-    description: `Professional event styling and prop hire in ${data.name}, Melbourne.`,
-    url: `https://idoevents.com.au/event-styling/${data.slug}`,
-    telephone: "+61400000000",
-    areaServed: {
-      "@type": "City",
-      name: data.name,
-      containedInPlace: {
-        "@type": "State",
-        name: "Victoria",
-      },
-    },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: data.lat,
-      longitude: data.lng,
-    },
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: data.name,
-      addressRegion: "VIC",
-      addressCountry: "AU",
-    },
-    serviceArea: {
-      "@type": "GeoCircle",
-      geoMidpoint: {
-        "@type": "GeoCoordinates",
-        latitude: data.lat,
-        longitude: data.lng,
-      },
-      geoRadius: "15000",
-    },
-    priceRange: "$$",
-    image: `https://idoevents.com.au${heroPhoto.file}`,
-    sameAs: [
-      "https://www.instagram.com/ido.eventss/",
-      "https://www.facebook.com/idoevents.au",
-    ],
-  };
+  const jsonLd = buildLocalBusinessSchema(data, heroPhoto.file);
+  const breadcrumbLd = buildBreadcrumbSchema([
+    { name: "Home", url: "https://idoeventss.com" },
+    { name: "Event Styling", url: "https://idoeventss.com/event-styling" },
+    { name: data.name },
+  ]);
 
   return (
     <>
@@ -107,6 +68,11 @@ export default async function SuburbPage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
 
       {/* Hero */}
