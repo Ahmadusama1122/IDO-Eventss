@@ -4,7 +4,7 @@ import gallery from "@/data/gallery.json";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { buildLocalBusinessSchema, buildBreadcrumbSchema } from "@/lib/schema";
+import { buildLocalBusinessSchema, buildBreadcrumbSchema, BASE_URL } from "@/lib/schema";
 
 export async function generateStaticParams() {
   return SUBURBS.map((s) => ({ suburb: s.slug }));
@@ -57,8 +57,8 @@ export default async function SuburbPage({
 
   const jsonLd = buildLocalBusinessSchema(data, heroPhoto.file);
   const breadcrumbLd = buildBreadcrumbSchema([
-    { name: "Home", url: "https://idoeventss.com" },
-    { name: "Event Styling", url: "https://idoeventss.com/event-styling" },
+    { name: "Home", url: BASE_URL },
+    { name: "Event Styling", url: `${BASE_URL}/event-styling` },
     { name: data.name },
   ]);
 

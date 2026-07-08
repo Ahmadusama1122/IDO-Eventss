@@ -1,6 +1,6 @@
 import type { SuburbData } from "@/data/suburbs";
 
-const BASE_URL = "https://idoeventss.com";
+export const BASE_URL = "https://idoeventss.com";
 
 const PUBLISHER = {
   "@type": "Organization",

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { OCCASIONS } from "@/data/occasions";
 import { OccasionPage } from "@/components/OccasionPage";
 import gallery from "@/data/gallery.json";
-import { buildFaqSchema, buildBreadcrumbSchema } from "@/lib/schema";
+import { buildFaqSchema, buildBreadcrumbSchema, BASE_URL } from "@/lib/schema";
 
 const data = OCCASIONS.find((o) => o.slug === "weddings")!;
 
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 const faqLd = buildFaqSchema(data.faqs);
 const breadcrumbLd = buildBreadcrumbSchema([
-  { name: "Home", url: "https://idoeventss.com" },
+  { name: "Home", url: BASE_URL },
   { name: "Weddings" },
 ]);
 

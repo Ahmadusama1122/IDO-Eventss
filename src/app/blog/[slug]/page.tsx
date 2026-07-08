@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { blogPosts, getBlogPost, getRelatedPosts } from "@/data/blog-posts";
-import { buildArticleSchema, buildBreadcrumbSchema } from "@/lib/schema";
+import { buildArticleSchema, buildBreadcrumbSchema, BASE_URL } from "@/lib/schema";
 
 export function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }));
@@ -61,8 +61,8 @@ export default async function BlogPostPage({
     image: post.image,
   });
   const breadcrumbLd = buildBreadcrumbSchema([
-    { name: "Home", url: "https://idoeventss.com" },
-    { name: "Blog", url: "https://idoeventss.com/blog" },
+    { name: "Home", url: BASE_URL },
+    { name: "Blog", url: `${BASE_URL}/blog` },
     { name: post.title },
   ]);
 

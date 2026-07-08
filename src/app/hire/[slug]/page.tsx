@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { hireItems, getHireItem, getRelatedItems, CATEGORY_LABELS } from "@/data/hire-items";
 import { HireItemDetail } from "./HireItemDetail";
-import { buildProductSchema, buildBreadcrumbSchema } from "@/lib/schema";
+import { buildProductSchema, buildBreadcrumbSchema, BASE_URL } from "@/lib/schema";
 
 export function generateStaticParams() {
   return hireItems.map((item) => ({ slug: item.slug }));
@@ -48,8 +48,8 @@ export default async function HireItemPage({
     category: categoryLabel,
   });
   const breadcrumbLd = buildBreadcrumbSchema([
-    { name: "Home", url: "https://idoeventss.com" },
-    { name: "Prop Hire", url: "https://idoeventss.com/hire" },
+    { name: "Home", url: BASE_URL },
+    { name: "Prop Hire", url: `${BASE_URL}/hire` },
     { name: item.name },
   ]);
 
