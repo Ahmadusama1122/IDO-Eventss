@@ -10,13 +10,16 @@ This is the **IDO Events** website — an event styling and prop hire business s
 
 - **Framework:** Next.js 16 (App Router, TypeScript)
 - **Styling:** Tailwind CSS v4 (CSS-based `@theme inline` in globals.css — no tailwind.config.ts)
+- **Animations:** Framer Motion — premium motion primitives in `src/components/motion.tsx`
+- **Smooth Scroll:** Lenis (lazy-loaded via `src/components/SmoothScroll.tsx`)
 - **Content:** TypeScript data files for occasions/suburbs/hire items/gallery/blog
 - **Email:** Resend (API) — lazy-initialized to avoid build-time errors
 - **Deploy:** Railway (`next start -p ${PORT:-3000}`, `output: "standalone"`)
 - **Domain:** `idoeventss.com` + `www.idoeventss.com` (Namecheap DNS → Railway CNAME)
 - **Fonts:** Google Fonts via next/font (Cormorant Garamond headings, DM Sans body, Dancing Script accents)
 - **Images:** next/image, JPEG source files, WebP served via Next.js image optimization, lazy loading
-- **Social:** Instagram [@ido.eventss](https://www.instagram.com/ido.eventss/)
+- **Social:** Instagram [@ido.eventss](https://www.instagram.com/ido.eventss/), Facebook [balloonheadquarters](https://www.facebook.com/balloonheadquarters/)
+- **Contact:** contact@idoeventss.com, 0406 179 786
 
 ## Brand Tokens
 
@@ -46,13 +49,17 @@ ido-events/
 │   │   ├── baby-showers/ (19)
 │   │   ├── weddings/ (16)
 │   │   └── corporate/ (6)
-│   └── logos/                      # SVG logo variants
+│   ├── logos/                      # SVG + PNG logo variants
+│   │   └── iDo-logo-circle-white.png
+│   └── favicon.ico                 # 32x32 ICO for Google Search
 ├── src/
 │   ├── app/
-│   │   ├── layout.tsx              # Root layout (fonts, CartProvider, header, footer, mobile bar, Receptflow widget)
-│   │   ├── globals.css             # Tailwind v4 @theme + component classes
-│   │   ├── page.tsx                # Homepage (11 sections)
-│   │   ├── api/quote/route.ts      # Quote submission endpoint (Resend)
+│   │   ├── layout.tsx              # Root layout (fonts, SmoothScroll, header, footer, mobile bar, Receptflow widget)
+│   │   ├── globals.css             # Tailwind v4 @theme + component classes + Lenis CSS
+│   │   ├── page.tsx                # Homepage (11 sections, 8 lazy-loaded via next/dynamic)
+│   │   ├── api/quote/route.ts      # Quote submission endpoint (Resend, XSS-safe, rate-limited)
+│   │   ├── icon.png                # 192x192 PNG favicon (iDo. logo)
+│   │   ├── apple-icon.png          # 180x180 Apple touch icon
 │   │   ├── weddings/page.tsx       # Occasion page
 │   │   ├── birthdays/page.tsx      # Occasion page
 │   │   ├── christenings-baptisms/  # Occasion page
@@ -66,24 +73,36 @@ ido-events/
 │   │   ├── blog/page.tsx           # Blog index
 │   │   ├── blog/[slug]/page.tsx    # Blog post (106 posts)
 │   │   ├── contact/page.tsx        # Contact page
-│   │   ├── quote/page.tsx          # 3-step quote wizard
+│   │   ├── quote/page.tsx          # 3-step quote wizard (with venue field)
 │   │   ├── event-styling/[suburb]/ # Suburb SEO pages (25 suburbs)
 │   │   ├── links/page.tsx          # Instagram link-in-bio
 │   │   ├── privacy/page.tsx        # Privacy policy
 │   │   ├── terms/page.tsx          # Terms & conditions
 │   │   ├── sitemap.ts              # Auto-generated sitemap (all routes)
 │   │   ├── robots.ts               # robots.txt (allow all, disallow /api/)
-│   │   ├── icon.svg                # Branded favicon (iDo. sage dot)
 │   │   ├── hire/layout.tsx         # Metadata wrapper for client component
 │   │   ├── gallery/layout.tsx      # Metadata wrapper for client component
 │   │   └── quote/layout.tsx        # Metadata wrapper for client component
 │   ├── components/
-│   │   ├── Header.tsx              # Sticky header with nav, cart, occasions dropdown
-│   │   ├── Footer.tsx              # 5-column footer
-│   │   ├── MobileBar.tsx           # Sticky bottom bar (mobile: Call, WhatsApp, Quote)
+│   │   ├── Header.tsx              # Glass header with scroll shrink, progress bar, animated dropdown
+│   │   ├── Footer.tsx              # 5-column footer (IG, FB, email, phone)
+│   │   ├── MobileBar.tsx           # Sticky bottom bar (mobile: Quote button only)
+│   │   ├── SmoothScroll.tsx        # Lenis smooth scroll integration (lazy-loaded)
+│   │   ├── motion.tsx              # Premium Framer Motion primitives (TextReveal, Parallax, Magnetic, ImageReveal, etc.)
 │   │   ├── Logo.tsx                # Text-based logo component
 │   │   ├── OccasionPage.tsx        # Reusable occasion page component
-│   │   └── home/                   # 11 homepage section components
+│   │   └── home/                   # 11 homepage section components (all with Framer Motion)
+│   │       ├── Hero.tsx            # Parallax bg, word-by-word text reveal, magnetic CTAs
+│   │       ├── OccasionGrid.tsx    # 6 occasions with image wipe reveals
+│   │       ├── HowItWorks.tsx      # 3 steps with bouncy number pop-in
+│   │       ├── FeaturedPackages.tsx # 4 packages with image reveals + magnetic buttons
+│   │       ├── ProofBand.tsx       # Animated counters (200+ events, 5.0 rating, 30+ suburbs)
+│   │       ├── BeforeAfter.tsx     # Slide-in before/after comparisons
+│   │       ├── RecentGallery.tsx   # Masonry grid with hover zoom
+│   │       ├── Testimonials.tsx    # Review cards with star pop-in
+│   │       ├── InstagramFeed.tsx   # 6-image grid with IG hover overlay
+│   │       ├── CtaBand.tsx         # Floating magnetic CTA with animated bg
+│   │       └── SuburbLinks.tsx     # Pill wave-in for 23 suburbs
 │   ├── lib/
 │   │   └── schema.ts               # JSON-LD schema builders (BlogPosting, FAQPage, Product, BreadcrumbList, LocalBusiness)
 │   ├── context/
@@ -101,10 +120,31 @@ ido-events/
 ├── docs/superpowers/
 │   ├── specs/                      # Design spec
 │   └── plans/                      # Implementation plan
-├── next.config.ts                  # standalone output, turbopack root fix
+├── next.config.ts                  # standalone output, turbopack root fix, security headers
 ├── package.json
 └── .env.example                    # RESEND_API_KEY, OWNER_EMAIL, NEXT_PUBLIC_SITE_URL
 ```
+
+## Motion / Animation System
+
+Premium Framer Motion primitives in `src/components/motion.tsx`:
+
+- **ScrollReveal** — fade/slide elements into view on scroll
+- **Stagger** — staggered children animation container
+- **TextReveal** — word-by-word text reveal with overflow masking
+- **Parallax / ParallaxImage** — scroll-driven depth with spring physics
+- **Magnetic** — elements that follow cursor on hover
+- **ImageReveal** — clip-path wipe reveals (up/left/right)
+- **Floating** — continuous bobbing animation for CTAs
+- **ScrollProgress** — thin progress bar tracking page scroll
+- **Marquee** — infinite horizontal scroll loop
+- **LineReveal** — decorative divider line grow animation
+- **AnimatedCounter** — numbers count up when scrolled into view
+
+**Variant presets:** `fadeUp`, `fadeIn`, `slideLeft`, `slideRight`, `scaleIn`, `clipRevealUp`, `clipRevealLeft`, `blurIn`
+**Transition presets:** `springSmooth`, `springBouncy`, `springSnappy`, `easeOut`, `easeSlow`, `easeClip`
+
+**Performance:** Homepage uses `next/dynamic` to lazy-load 8 below-fold sections. Only Hero, OccasionGrid, and HowItWorks load eagerly.
 
 ## Coding Rules
 
@@ -112,7 +152,7 @@ ido-events/
 - Use **TypeScript** for all files. No `any` types — use explicit types or `unknown`.
 - Use **named exports** only. No default exports except Next.js page/layout conventions.
 - Keep components **modular** — one component per file, one responsibility per component.
-- All components are **React Server Components** by default. Only add `"use client"` when the component needs interactivity (state, effects, event handlers).
+- All components are **React Server Components** by default. Only add `"use client"` when the component needs interactivity (state, effects, event handlers, Framer Motion).
 - **No inline styles.** Use Tailwind utilities exclusively.
 - **No `console.log` in committed code.**
 
@@ -141,20 +181,30 @@ ido-events/
   - `FAQPage` on 6 occasion pages
   - `Product` on 20 hire items
   - `BreadcrumbList` on all page types (blog, hire, suburb, occasion)
-- Auto-generated `sitemap.xml` covering all 167 routes (pages, blog posts, hire items, suburbs).
+- Auto-generated `sitemap.xml` covering all 174 routes (pages, blog posts, hire items, suburbs).
 - `robots.txt` allows all crawlers, disallows `/api/`.
 - Client component pages (hire, gallery, quote) use `layout.tsx` wrappers for metadata.
 - 106 blog posts with internal linking to hire items, occasion pages, and suburb pages.
 - Blog posts use `generateStaticParams` + `generateMetadata`.
 - Hire items use `generateStaticParams` + `generateMetadata`.
 - Canonical URL base set in root layout via `alternates`.
+- Favicon: `icon.png` (192x192), `apple-icon.png` (180x180), `favicon.ico` (32x32) in public.
+
+### Security
+- **XSS prevention:** All user input HTML-escaped (`esc()`) before insertion into email templates.
+- **Header injection prevention:** Newlines stripped from email subject values (`sanitizeHeaderValue()`).
+- **Rate limiting:** In-memory rate limiter on `/api/quote` — 5 requests per IP per 15 minutes.
+- **Field length limits:** All form fields truncated (name: 100, email: 254, message: 2000 chars).
+- **Security headers** in `next.config.ts`: X-Frame-Options DENY, X-Content-Type-Options nosniff, Referrer-Policy, Permissions-Policy.
+- **Honeypot field** for bot prevention on quote form.
+- Environment variables for secrets: `RESEND_API_KEY`, `OWNER_EMAIL`, `NEXT_PUBLIC_SITE_URL`.
+- Resend client uses lazy initialization (`getResend()`) to avoid build-time failures.
 
 ### Forms & API
 - Server-side validation on all form submissions.
-- Email validation: RFC-compliant check before sending.
-- Honeypot field for spam prevention (no CAPTCHA).
-- Environment variables for secrets: `RESEND_API_KEY`, `OWNER_EMAIL`, `NEXT_PUBLIC_SITE_URL`.
-- Resend client uses lazy initialization (`getResend()`) to avoid build-time failures.
+- Email validation: RFC 5322-compliant regex before sending.
+- Quote form includes venue/location field.
+- Owner notification + customer auto-reply emails sent on submission.
 
 ### Git
 - Commit after each logical unit of work.
@@ -170,14 +220,17 @@ ido-events/
 5. ✅ Suburb SEO pages (25 suburbs, JSON-LD schema, Google Maps)
 6. ✅ Hire collection (20 items) + Gallery (lightbox) + Blog (3 posts) + About + Contact + Links + Privacy + Terms
 7. ✅ SEO optimisation (sitemap, robots.txt, metadata, OpenGraph, JSON-LD, canonical URLs)
-8. ✅ Branded favicon (iDo. SVG icon)
+8. ✅ Branded favicon (iDo. circle logo, 192x192 PNG + 32x32 ICO)
 9. ✅ Instagram integration (@ido.eventss linked across all pages)
 10. ✅ 100 additional SEO blog posts (106 total) with internal linking
 11. ✅ Google Search Console setup + sitemap submitted
 12. ✅ SEO schema expansion (BlogPosting, FAQPage, Product, BreadcrumbList JSON-LD)
 13. ✅ Suburb expansion (10 → 25 suburbs)
 14. ✅ Receptflow AI chat widget installed
-15. 🔲 Polish + trust signals + Lighthouse audit
+15. ✅ Premium Framer Motion upgrade (parallax, text reveals, glass header, Lenis smooth scroll)
+16. ✅ Performance optimisation (code splitting, lazy-load below-fold, removed duplicate motion package)
+17. ✅ Security hardening (XSS prevention, rate limiting, security headers, input sanitisation)
+18. 🔲 Lighthouse audit + further optimisation
 
 ## Deployment
 
@@ -189,14 +242,17 @@ ido-events/
 
 ## Key Files to Never Break
 
-- `src/app/layout.tsx` — Root layout, fonts, CartProvider, global metadata
-- `src/app/globals.css` — Tailwind v4 theme tokens + component classes
-- `src/components/Header.tsx` — Sticky header (appears on every page)
+- `src/app/layout.tsx` — Root layout, fonts, SmoothScroll, global metadata, favicon config
+- `src/app/globals.css` — Tailwind v4 theme tokens + component classes + Lenis CSS
+- `src/components/motion.tsx` — Premium Framer Motion primitives (used by all animated components)
+- `src/components/Header.tsx` — Glass header with scroll progress (appears on every page)
 - `src/components/Footer.tsx` — Footer (appears on every page)
+- `src/components/SmoothScroll.tsx` — Lenis smooth scroll (loaded on every page)
 - `src/context/CartContext.tsx` — Cart state management
 - `src/data/gallery.json` — Photo manifest (feeds gallery, occasions, suburbs, hire)
 - `src/lib/schema.ts` — JSON-LD schema builders + `BASE_URL` constant
 - `src/data/blog-posts.ts` — Main blog data (imports all batch files, exports `blogPosts` array)
 - `src/data/suburbs.ts` — 25 suburb entries (feeds suburb pages, sitemap, schema)
 - `src/app/sitemap.ts` — Auto-generated sitemap (imports blog, hire, suburbs)
-- `next.config.ts` — standalone output + turbopack root fix
+- `src/app/api/quote/route.ts` — Quote API with security (XSS escape, rate limiter, input validation)
+- `next.config.ts` — standalone output, turbopack root fix, security headers
