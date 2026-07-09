@@ -5,8 +5,52 @@ function getResend() {
   return new Resend(process.env.RESEND_API_KEY || "");
 }
 
+/* ── Security: HTML escape to prevent XSS in email templates ── */
+function esc(text: string): string {
+  const map: Record<string, string> = {
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#039;",
+  };
+  return text.replace(/[&<>"']/g, (m) => map[m]);
+}
+
+/* ── Security: strip newlines to prevent email header injection ── */
+function sanitizeHeaderValue(text: string): string {
+  return text.replace(/[\r\n]/g, "").trim();
+}
+
 function isValidEmail(email: string): boolean {
-  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  if (email.length > 254) return false;
+  return /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+$/.test(email);
+}
+
+/* ── Security: in-memory rate limiter ── */
+const rateLimit = new Map<string, { count: number; resetAt: number }>();
+const RATE_LIMIT_MAX = 5;
+const RATE_LIMIT_WINDOW_MS = 15 * 60 * 1000; // 15 minutes
+
+function isRateLimited(ip: string): boolean {
+  const now = Date.now();
+  const entry = rateLimit.get(ip);
+
+  if (!entry || now > entry.resetAt) {
+    rateLimit.set(ip, { count: 1, resetAt: now + RATE_LIMIT_WINDOW_MS });
+    return false;
+  }
+
+  entry.count++;
+  if (entry.count > RATE_LIMIT_MAX) {
+    return true;
+  }
+  return false;
+}
+
+/* ── Security: field length limits ── */
+function truncate(text: string, max: number): string {
+  return text.length > max ? text.slice(0, max) : text;
 }
 
 interface EnquiryBody {
@@ -23,9 +67,19 @@ interface EnquiryBody {
 
 export async function POST(request: Request) {
   try {
+    // Rate limiting by IP
+    const forwarded = request.headers.get("x-forwarded-for");
+    const ip = forwarded?.split(",")[0]?.trim() || "unknown";
+    if (isRateLimited(ip)) {
+      return NextResponse.json(
+        { error: "Too many requests. Please try again later." },
+        { status: 429 }
+      );
+    }
+
     const body: EnquiryBody = await request.json();
 
-    // Honeypot check
+    // Honeypot check — silently succeed for bots
     if (body.honeypot) {
       return NextResponse.json({ success: true });
     }
@@ -45,22 +99,35 @@ export async function POST(request: Request) {
       );
     }
 
-    const itemLine = body.interestedItem
-      ? `<tr><td style="padding:6px 0;color:#666;width:140px;">Interested In</td><td style="padding:6px 0;font-weight:600;">${body.interestedItem}</td></tr>`
+    // Sanitize and truncate all user input
+    const safe = {
+      name: esc(truncate(body.name, 100)),
+      email: esc(truncate(body.email, 254)),
+      emailRaw: sanitizeHeaderValue(truncate(body.email, 254)),
+      eventType: esc(truncate(body.eventType, 100)),
+      date: esc(sanitizeHeaderValue(truncate(body.date || "", 50))),
+      venue: esc(truncate(body.venue || "", 200)),
+      phone: esc(truncate(body.phone || "", 30)),
+      message: esc(truncate(body.message || "", 2000)),
+      interestedItem: esc(truncate(body.interestedItem || "", 200)),
+    };
+
+    const itemLine = safe.interestedItem
+      ? `<tr><td style="padding:6px 0;color:#666;width:140px;">Interested In</td><td style="padding:6px 0;font-weight:600;">${safe.interestedItem}</td></tr>`
       : "";
-    const venueLine = body.venue
-      ? `<tr><td style="padding:6px 0;color:#666;width:140px;">Venue / Location</td><td style="padding:6px 0;font-weight:600;">${body.venue}</td></tr>`
+    const venueLine = safe.venue
+      ? `<tr><td style="padding:6px 0;color:#666;width:140px;">Venue / Location</td><td style="padding:6px 0;font-weight:600;">${safe.venue}</td></tr>`
       : "";
 
     // Send owner notification email
     const ownerEmail = process.env.OWNER_EMAIL || "";
     if (ownerEmail && process.env.RESEND_API_KEY) {
       const resend = getResend();
-      const subjectDate = body.date ? ` on ${body.date}` : "";
+      const subjectDate = safe.date ? ` on ${safe.date}` : "";
       await resend.emails.send({
         from: "IDO Events <quotes@updates.idoevents.com.au>",
         to: ownerEmail,
-        subject: `New Enquiry — ${body.eventType}${subjectDate}`,
+        subject: sanitizeHeaderValue(`New Enquiry — ${body.eventType}${subjectDate}`),
         html: `
           <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;">
             <div style="background:#8AA275;padding:24px;text-align:center;">
@@ -69,23 +136,23 @@ export async function POST(request: Request) {
             <div style="padding:24px;background:#fff;">
               <h2 style="color:#1C1A17;margin-top:0;">Event Details</h2>
               <table style="width:100%;font-size:14px;">
-                <tr><td style="padding:6px 0;color:#666;width:140px;">Event Type</td><td style="padding:6px 0;font-weight:600;">${body.eventType}</td></tr>
-                <tr><td style="padding:6px 0;color:#666;">Date</td><td style="padding:6px 0;font-weight:600;">${body.date || "Not specified"}</td></tr>
+                <tr><td style="padding:6px 0;color:#666;width:140px;">Event Type</td><td style="padding:6px 0;font-weight:600;">${safe.eventType}</td></tr>
+                <tr><td style="padding:6px 0;color:#666;">Date</td><td style="padding:6px 0;font-weight:600;">${safe.date || "Not specified"}</td></tr>
                 ${venueLine}
                 ${itemLine}
               </table>
 
               <h2 style="color:#1C1A17;margin-top:24px;">Contact</h2>
               <table style="width:100%;font-size:14px;">
-                <tr><td style="padding:6px 0;color:#666;width:140px;">Name</td><td style="padding:6px 0;font-weight:600;">${body.name}</td></tr>
-                <tr><td style="padding:6px 0;color:#666;">Email</td><td style="padding:6px 0;"><a href="mailto:${body.email}" style="color:#8AA275;">${body.email}</a></td></tr>
-                <tr><td style="padding:6px 0;color:#666;">Phone</td><td style="padding:6px 0;">${body.phone || "Not provided"}</td></tr>
+                <tr><td style="padding:6px 0;color:#666;width:140px;">Name</td><td style="padding:6px 0;font-weight:600;">${safe.name}</td></tr>
+                <tr><td style="padding:6px 0;color:#666;">Email</td><td style="padding:6px 0;"><a href="mailto:${safe.email}" style="color:#8AA275;">${safe.email}</a></td></tr>
+                <tr><td style="padding:6px 0;color:#666;">Phone</td><td style="padding:6px 0;">${safe.phone || "Not provided"}</td></tr>
               </table>
 
-              ${body.message ? `<h3 style="margin-top:24px;color:#1C1A17;">Message</h3><p style="font-size:14px;background:#F5F7F2;padding:12px;border-radius:8px;">${body.message}</p>` : ""}
+              ${safe.message ? `<h3 style="margin-top:24px;color:#1C1A17;">Message</h3><p style="font-size:14px;background:#F5F7F2;padding:12px;border-radius:8px;">${safe.message}</p>` : ""}
             </div>
             <div style="background:#F5F7F2;padding:16px;text-align:center;font-size:12px;color:#999;">
-              IDO Events — Melbourne's Event Styling & Prop Hire Specialists
+              IDO Events — Melbourne's Event Styling &amp; Prop Hire Specialists
             </div>
           </div>
         `,
@@ -94,18 +161,18 @@ export async function POST(request: Request) {
       // Send customer auto-reply
       await resend.emails.send({
         from: "IDO Events <hello@updates.idoevents.com.au>",
-        to: body.email,
-        subject: `Thanks ${body.name}! We've received your enquiry`,
+        to: safe.emailRaw,
+        subject: sanitizeHeaderValue(`Thanks ${body.name}! We've received your enquiry`),
         html: `
           <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;">
             <div style="background:#8AA275;padding:24px;text-align:center;">
               <h1 style="color:#fff;margin:0;font-size:24px;">Thanks for your enquiry!</h1>
             </div>
             <div style="padding:24px;background:#fff;">
-              <p style="font-size:16px;color:#1C1A17;">Hi ${body.name},</p>
+              <p style="font-size:16px;color:#1C1A17;">Hi ${safe.name},</p>
               <p style="font-size:14px;color:#666;line-height:1.6;">
-                We've received your enquiry for your <strong>${body.eventType}</strong>${body.date ? ` on <strong>${body.date}</strong>` : ""}.
-                ${body.interestedItem ? `You're interested in our <strong>${body.interestedItem}</strong>.` : ""}
+                We've received your enquiry for your <strong>${safe.eventType}</strong>${safe.date ? ` on <strong>${safe.date}</strong>` : ""}.
+                ${safe.interestedItem ? `You're interested in our <strong>${safe.interestedItem}</strong>.` : ""}
                 Our team is already looking into the best options for you.
               </p>
               <p style="font-size:14px;color:#666;line-height:1.6;">
@@ -119,7 +186,7 @@ export async function POST(request: Request) {
               </div>
             </div>
             <div style="background:#F5F7F2;padding:16px;text-align:center;font-size:12px;color:#999;">
-              IDO Events — Melbourne's Event Styling & Prop Hire Specialists
+              IDO Events — Melbourne's Event Styling &amp; Prop Hire Specialists
             </div>
           </div>
         `,
