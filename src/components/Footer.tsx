@@ -80,6 +80,9 @@ export function Footer() {
               Melbourne&apos;s trusted event styling and prop hire specialists. Weddings,
               birthdays, christenings, and more — beautifully styled and delivered to your door.
             </p>
+            <a href="mailto:contact@idoeventss.com" className="mt-3 inline-block text-sm text-sage-light transition-colors hover:text-white">
+              contact@idoeventss.com
+            </a>
           </div>
 
           <FooterColumn title="Occasions" links={OCCASION_LINKS} />
