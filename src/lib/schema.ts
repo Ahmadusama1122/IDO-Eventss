@@ -108,7 +108,7 @@ export function buildLocalBusinessSchema(
     name: "IDO Events",
     description: `Professional event styling and prop hire in ${suburb.name}, Melbourne.`,
     url: `${BASE_URL}/event-styling/${suburb.slug}`,
-    telephone: "+61400000000",
+    telephone: "+61406179786",
     areaServed: {
       "@type": "City",
       name: suburb.name,

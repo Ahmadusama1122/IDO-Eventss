@@ -113,7 +113,7 @@ export async function POST(request: Request) {
                 feel free to call us or message us on WhatsApp.
               </p>
               <div style="margin:24px 0;text-align:center;">
-                <a href="https://wa.me/61400000000" style="display:inline-block;background:#25D366;color:#fff;padding:12px 24px;border-radius:6px;text-decoration:none;font-weight:600;font-size:14px;">
+                <a href="https://wa.me/61406179786" style="display:inline-block;background:#25D366;color:#fff;padding:12px 24px;border-radius:6px;text-decoration:none;font-weight:600;font-size:14px;">
                   Message us on WhatsApp
                 </a>
               </div>
