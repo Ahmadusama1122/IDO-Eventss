@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { motion } from "@/components/motion";
 
@@ -20,13 +21,22 @@ const transition = { duration: 0.8, ease: [0.22, 1, 0.36, 1] as [number, number,
 export function Hero() {
   return (
     <section className="relative flex min-h-[85vh] items-center justify-center overflow-hidden bg-charcoal">
-      {/* Animated background zoom */}
+      {/* Animated background photo zoom */}
       <motion.div
-        className="absolute inset-0 bg-gradient-to-br from-[#3a3a2e] via-[#5a5a4a] to-[#4a4a3a] opacity-50"
+        className="absolute inset-0"
         initial={{ scale: 1.15 }}
         animate={{ scale: 1 }}
         transition={{ duration: 8, ease: "easeOut" }}
-      />
+      >
+        <Image
+          src="/gallery/drapes/drapes-7.jpg"
+          alt="Elegant drape styling by IDO Events Melbourne"
+          fill
+          className="object-cover"
+          priority
+          sizes="100vw"
+        />
+      </motion.div>
       <div className="absolute inset-0 bg-charcoal/55" />
 
       <motion.div
