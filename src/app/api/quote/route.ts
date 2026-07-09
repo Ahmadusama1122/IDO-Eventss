@@ -13,6 +13,7 @@ interface EnquiryBody {
   interestedItem: string;
   eventType: string;
   date: string;
+  venue: string;
   name: string;
   email: string;
   phone: string;
@@ -47,6 +48,9 @@ export async function POST(request: Request) {
     const itemLine = body.interestedItem
       ? `<tr><td style="padding:6px 0;color:#666;width:140px;">Interested In</td><td style="padding:6px 0;font-weight:600;">${body.interestedItem}</td></tr>`
       : "";
+    const venueLine = body.venue
+      ? `<tr><td style="padding:6px 0;color:#666;width:140px;">Venue / Location</td><td style="padding:6px 0;font-weight:600;">${body.venue}</td></tr>`
+      : "";
 
     // Send owner notification email
     const ownerEmail = process.env.OWNER_EMAIL || "";
@@ -67,6 +71,7 @@ export async function POST(request: Request) {
               <table style="width:100%;font-size:14px;">
                 <tr><td style="padding:6px 0;color:#666;width:140px;">Event Type</td><td style="padding:6px 0;font-weight:600;">${body.eventType}</td></tr>
                 <tr><td style="padding:6px 0;color:#666;">Date</td><td style="padding:6px 0;font-weight:600;">${body.date || "Not specified"}</td></tr>
+                ${venueLine}
                 ${itemLine}
               </table>
 

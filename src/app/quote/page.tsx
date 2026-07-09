@@ -19,6 +19,7 @@ interface FormData {
   interestedItem: string;
   eventType: string;
   date: string;
+  venue: string;
   name: string;
   email: string;
   phone: string;
@@ -30,6 +31,7 @@ const INITIAL_FORM: FormData = {
   interestedItem: "",
   eventType: "",
   date: "",
+  venue: "",
   name: "",
   email: "",
   phone: "",
@@ -192,6 +194,20 @@ function QuoteForm() {
                 type="date"
                 value={form.date}
                 onChange={(e) => update("date", e.target.value)}
+                className="w-full rounded-lg border border-black/10 bg-white px-4 py-3 text-sm focus:border-sage focus:outline-none focus:ring-1 focus:ring-sage"
+              />
+            </div>
+
+            {/* Venue */}
+            <div>
+              <label className="mb-1.5 block text-sm font-semibold">
+                Venue / Location (optional)
+              </label>
+              <input
+                type="text"
+                value={form.venue}
+                onChange={(e) => update("venue", e.target.value)}
+                placeholder="e.g. Brighton Savoy, backyard in Oakleigh, TBD..."
                 className="w-full rounded-lg border border-black/10 bg-white px-4 py-3 text-sm focus:border-sage focus:outline-none focus:ring-1 focus:ring-sage"
               />
             </div>
