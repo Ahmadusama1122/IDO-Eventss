@@ -29,7 +29,7 @@ export function Hero() {
         transition={{ duration: 8, ease: "easeOut" }}
       >
         <Image
-          src="/gallery/birthdays/birthdays-34.jpg"
+          src="/gallery/hero-main.jpg"
           alt="Event styling by IDO Events Melbourne"
           fill
           className="object-cover"
