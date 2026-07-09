@@ -37,8 +37,6 @@ const COMPANY_LINKS = [
 const SOCIALS = [
   { label: "IG", href: "https://www.instagram.com/ido.eventss/" },
   { label: "FB", href: "https://www.facebook.com/balloonheadquarters/" },
-  { label: "TK", href: "#" },
-  { label: "PT", href: "#" },
 ];
 
 function FooterColumn({ title, links }: { title: string; links: { label: string; href: string }[] }) {
