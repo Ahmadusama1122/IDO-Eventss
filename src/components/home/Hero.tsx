@@ -29,8 +29,8 @@ export function Hero() {
         transition={{ duration: 8, ease: "easeOut" }}
       >
         <Image
-          src="/gallery/drapes/drapes-7.jpg"
-          alt="Elegant drape styling by IDO Events Melbourne"
+          src="/gallery/birthdays/birthdays-34.jpg"
+          alt="Event styling by IDO Events Melbourne"
           fill
           className="object-cover"
           priority
