@@ -1,8 +1,22 @@
+import Image from "next/image";
 import Link from "next/link";
 
-export function InstagramFeed() {
-  const cells = Array.from({ length: 12 }, (_, i) => i + 1);
+const placeholderImages = [
+  "/gallery/weddings/weddings-1.jpg",
+  "/gallery/birthdays/birthdays-3.jpg",
+  "/gallery/engagements/engagements-5.jpg",
+  "/gallery/baby-showers/baby-showers-1.jpg",
+  "/gallery/christenings-baptisms/christenings-baptisms-2.jpg",
+  "/gallery/drapes/drapes-3.jpg",
+  "/gallery/weddings/weddings-7.jpg",
+  "/gallery/birthdays/birthdays-10.jpg",
+  "/gallery/engagements/engagements-10.jpg",
+  "/gallery/baby-showers/baby-showers-5.jpg",
+  "/gallery/corporate/corporate-1.jpg",
+  "/gallery/birthdays/birthdays-15.jpg",
+];
 
+export function InstagramFeed() {
   return (
     <section className="bg-white px-4 py-20 sm:px-6 lg:px-10">
       <div className="mx-auto max-w-6xl text-center">
@@ -11,12 +25,18 @@ export function InstagramFeed() {
           @ido.eventss — Behind the scenes, styling inspiration, and our latest setups.
         </p>
         <div className="mb-8 grid grid-cols-3 gap-1 sm:grid-cols-4 lg:grid-cols-6">
-          {cells.map((n) => (
+          {placeholderImages.map((src, i) => (
             <div
-              key={n}
-              className="flex aspect-square cursor-pointer items-center justify-center rounded bg-gradient-to-br from-cream to-sage-light text-[11px] text-charcoal/30 transition-opacity hover:opacity-80"
+              key={i}
+              className="relative aspect-square cursor-pointer overflow-hidden rounded transition-opacity hover:opacity-80"
             >
-              Post {n}
+              <Image
+                src={src}
+                alt={`IDO Events Instagram post ${i + 1}`}
+                fill
+                className="object-cover"
+                sizes="(max-width: 640px) 33vw, (max-width: 1024px) 25vw, 16vw"
+              />
             </div>
           ))}
         </div>
