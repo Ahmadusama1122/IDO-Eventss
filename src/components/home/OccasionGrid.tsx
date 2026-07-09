@@ -1,15 +1,16 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { ScrollReveal, Stagger, motion, fadeUp, springSmooth } from "@/components/motion";
 
 const OCCASIONS = [
-  { name: "Weddings", href: "/weddings", icon: "💒" },
-  { name: "Birthdays", href: "/birthdays", icon: "🎂" },
-  { name: "Christenings", href: "/christenings-baptisms", icon: "✝️" },
-  { name: "Baby Showers", href: "/baby-showers", icon: "👶" },
-  { name: "Engagements", href: "/engagements", icon: "💍" },
-  { name: "Corporate", href: "/corporate", icon: "🏢" },
+  { name: "Weddings", href: "/weddings", image: "/gallery/weddings/weddings-5.jpg" },
+  { name: "Birthdays", href: "/birthdays", image: "/gallery/birthdays/birthdays-8.jpg" },
+  { name: "Christenings", href: "/christenings-baptisms", image: "/gallery/christenings-baptisms/christenings-baptisms-3.jpg" },
+  { name: "Baby Showers", href: "/baby-showers", image: "/gallery/baby-showers/baby-showers-2.jpg" },
+  { name: "Engagements", href: "/engagements", image: "/gallery/engagements/engagements-5.jpg" },
+  { name: "Corporate", href: "/corporate", image: "/gallery/corporate/corporate-2.jpg" },
 ];
 
 export function OccasionGrid() {
@@ -34,11 +35,15 @@ export function OccasionGrid() {
             >
               <Link
                 href={o.href}
-                className="group relative block aspect-[4/3] overflow-hidden rounded-xl bg-cream"
+                className="group relative block aspect-[4/3] overflow-hidden rounded-xl"
               >
-                <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-sage-light to-cream transition-transform duration-400 group-hover:scale-105">
-                  <span className="text-5xl opacity-40">{o.icon}</span>
-                </div>
+                <Image
+                  src={o.image}
+                  alt={`${o.name} event styling by IDO Events`}
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  sizes="(max-width: 640px) 50vw, 33vw"
+                />
                 <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-charcoal/70 to-transparent p-5 sm:p-6">
                   <h3 className="mb-1 font-heading text-xl text-white sm:text-2xl">
                     {o.name}
