@@ -1,15 +1,18 @@
 import type { Metadata } from "next";
+import dynamic from "next/dynamic";
 import { Hero } from "@/components/home/Hero";
 import { OccasionGrid } from "@/components/home/OccasionGrid";
 import { HowItWorks } from "@/components/home/HowItWorks";
-import { FeaturedPackages } from "@/components/home/FeaturedPackages";
-import { ProofBand } from "@/components/home/ProofBand";
-import { BeforeAfter } from "@/components/home/BeforeAfter";
-import { RecentGallery } from "@/components/home/RecentGallery";
-import { Testimonials } from "@/components/home/Testimonials";
-import { InstagramFeed } from "@/components/home/InstagramFeed";
-import { CtaBand } from "@/components/home/CtaBand";
-import { SuburbLinks } from "@/components/home/SuburbLinks";
+
+/* Below-fold sections: lazy-loaded for faster initial page load */
+const FeaturedPackages = dynamic(() => import("@/components/home/FeaturedPackages").then(m => ({ default: m.FeaturedPackages })));
+const ProofBand = dynamic(() => import("@/components/home/ProofBand").then(m => ({ default: m.ProofBand })));
+const BeforeAfter = dynamic(() => import("@/components/home/BeforeAfter").then(m => ({ default: m.BeforeAfter })));
+const RecentGallery = dynamic(() => import("@/components/home/RecentGallery").then(m => ({ default: m.RecentGallery })));
+const Testimonials = dynamic(() => import("@/components/home/Testimonials").then(m => ({ default: m.Testimonials })));
+const InstagramFeed = dynamic(() => import("@/components/home/InstagramFeed").then(m => ({ default: m.InstagramFeed })));
+const CtaBand = dynamic(() => import("@/components/home/CtaBand").then(m => ({ default: m.CtaBand })));
+const SuburbLinks = dynamic(() => import("@/components/home/SuburbLinks").then(m => ({ default: m.SuburbLinks })));
 
 export const metadata: Metadata = {
   title: "IDO Events | Event Styling & Prop Hire Melbourne",

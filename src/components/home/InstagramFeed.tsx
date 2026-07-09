@@ -22,12 +22,6 @@ const placeholderImages = [
   "/gallery/baby-showers/baby-showers-1.jpg",
   "/gallery/christenings-baptisms/christenings-baptisms-2.jpg",
   "/gallery/drapes/drapes-3.jpg",
-  "/gallery/weddings/weddings-7.jpg",
-  "/gallery/birthdays/birthdays-10.jpg",
-  "/gallery/engagements/engagements-10.jpg",
-  "/gallery/baby-showers/baby-showers-5.jpg",
-  "/gallery/corporate/corporate-1.jpg",
-  "/gallery/birthdays/birthdays-15.jpg",
 ];
 
 export function InstagramFeed() {
