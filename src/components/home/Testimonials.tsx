@@ -1,3 +1,7 @@
+"use client";
+
+import { ScrollReveal, Stagger, motion, fadeUp, springSmooth } from "@/components/motion";
+
 const REVIEWS = [
   {
     text: "IDO Events transformed our wedding venue beyond anything I imagined. The team was professional, creative, and so easy to work with. Every detail was perfect.",
@@ -23,13 +27,21 @@ export function Testimonials() {
   return (
     <section className="bg-cream-light px-4 py-20 sm:px-6 lg:px-10">
       <div className="mx-auto max-w-6xl text-center">
-        <h2 className="mb-3 font-heading text-3xl sm:text-4xl">What Our Clients Say</h2>
-        <p className="mx-auto mb-12 max-w-xl text-base text-charcoal/60">
-          Real reviews from real events across Melbourne.
-        </p>
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+        <ScrollReveal>
+          <h2 className="mb-3 font-heading text-3xl sm:text-4xl">What Our Clients Say</h2>
+          <p className="mx-auto mb-12 max-w-xl text-base text-charcoal/60">
+            Real reviews from real events across Melbourne.
+          </p>
+        </ScrollReveal>
+        <Stagger className="grid grid-cols-1 gap-6 md:grid-cols-3">
           {REVIEWS.map((r) => (
-            <div key={r.name} className="rounded-xl bg-white p-8 text-left shadow-sm">
+            <motion.div
+              key={r.name}
+              className="rounded-xl bg-white p-8 text-left shadow-sm"
+              variants={fadeUp}
+              transition={springSmooth}
+              whileHover={{ y: -4, transition: { duration: 0.25 } }}
+            >
               <div className="mb-4 text-base text-accent-gold">★★★★★</div>
               <p className="mb-5 text-[15px] leading-relaxed italic text-charcoal/60">
                 &ldquo;{r.text}&rdquo;
@@ -43,9 +55,9 @@ export function Testimonials() {
                   <div className="text-xs text-charcoal/50">{r.event}</div>
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </Stagger>
       </div>
     </section>
   );

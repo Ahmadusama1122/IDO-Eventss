@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { ScrollReveal, Stagger, motion, fadeUp, springSmooth } from "@/components/motion";
 
 const SUBURBS = [
   "Oakleigh", "Preston", "Reservoir", "Coburg", "Brunswick", "Northcote",
@@ -15,24 +18,36 @@ export function SuburbLinks() {
   return (
     <section className="bg-cream-light px-4 py-14 sm:px-6 lg:px-10">
       <div className="mx-auto max-w-5xl text-center">
-        <h2 className="mb-6 font-heading text-2xl">We Style Events Across Melbourne</h2>
-        <div className="flex flex-wrap justify-center gap-2">
-          {SUBURBS.map((s) => (
-            <Link
+        <ScrollReveal>
+          <h2 className="mb-6 font-heading text-2xl">We Style Events Across Melbourne</h2>
+        </ScrollReveal>
+        <Stagger fast className="flex flex-wrap justify-center gap-2">
+          {SUBURBS.map((s, i) => (
+            <motion.div
               key={s}
-              href={`/event-styling/${toSlug(s)}`}
-              className="rounded-full border border-black/5 bg-white px-4 py-2 text-[13px] font-medium text-charcoal transition-colors hover:border-sage hover:bg-sage hover:text-white"
+              variants={fadeUp}
+              transition={{ ...springSmooth, delay: i * 0.02 }}
             >
-              {s}
-            </Link>
+              <Link
+                href={`/event-styling/${toSlug(s)}`}
+                className="inline-block rounded-full border border-black/5 bg-white px-4 py-2 text-[13px] font-medium text-charcoal transition-colors hover:border-sage hover:bg-sage hover:text-white"
+              >
+                {s}
+              </Link>
+            </motion.div>
           ))}
-          <Link
-            href="/contact"
-            className="rounded-full border border-sage/30 bg-white px-4 py-2 text-[13px] font-medium text-sage-dark transition-colors hover:bg-sage hover:text-white"
+          <motion.div
+            variants={fadeUp}
+            transition={{ ...springSmooth, delay: SUBURBS.length * 0.02 }}
           >
-            + More Areas
-          </Link>
-        </div>
+            <Link
+              href="/contact"
+              className="inline-block rounded-full border border-sage/30 bg-white px-4 py-2 text-[13px] font-medium text-sage-dark transition-colors hover:bg-sage hover:text-white"
+            >
+              + More Areas
+            </Link>
+          </motion.div>
+        </Stagger>
       </div>
     </section>
   );
