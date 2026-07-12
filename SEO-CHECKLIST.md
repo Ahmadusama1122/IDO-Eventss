@@ -20,8 +20,8 @@
 - [x] Homepage: H1 via TextReveal in Hero component
 - [x] Occasion pages (6): H1 via OccasionPage component
 - [x] Suburb pages (25): H1 dynamically generated
-- [x] Service-suburb pages (31): H1 dynamically generated
-- [x] Blog posts (112): H1 dynamically generated
+- [x] Service-suburb pages (105): H1 dynamically generated
+- [x] Blog posts (113): H1 dynamically generated
 - [x] Hire items (20): H1 dynamically generated
 - [x] Static pages (about, contact, blog index, FAQ, etc.): H1 hardcoded
 
@@ -30,17 +30,17 @@
 - [x] Per-page canonical URLs on all pages (homepage, occasions, suburbs, hire, blog, service-suburbs)
 
 ### Sitemap & Robots
-- [x] Auto-generated sitemap.xml at /sitemap.xml (213 URLs)
+- [x] Auto-generated sitemap.xml at /sitemap.xml (280 URLs)
 - [x] robots.txt allows all crawlers + disallows /api/
 - [x] AI crawlers explicitly allowed: GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot, Google-Extended, ChatGPT-User
 
 ### Structured Data (JSON-LD)
 - [x] EventPlanner schema on homepage
 - [x] LocalBusiness + EventPlanner on 25 suburb pages
-- [x] LocalBusiness + EventPlanner on 31 service-suburb pages
-- [x] BlogPosting on 112 blog posts
+- [x] LocalBusiness + EventPlanner on 105 service-suburb pages
+- [x] BlogPosting on 113 blog posts
 - [x] FAQPage on 6 occasion pages
-- [x] FAQPage on 31 service-suburb pages
+- [x] FAQPage on 105 service-suburb pages
 - [x] FAQPage on FAQ hub page (26 questions)
 - [x] Product on 20 hire items
 - [x] BreadcrumbList on all inner pages
@@ -55,14 +55,14 @@
 
 ## Phase 2: Local SEO Pages
 
-### Service × Suburb Pages (31 live)
+### Service × Suburb Pages (105 live — all 7 services × 15 suburbs)
 - [x] /wedding-styling/[suburb] — 15 suburbs
-- [x] /birthday-prop-hire/[suburb] — 3 suburbs (Point Cook, Tarneit, Craigieburn)
-- [x] /mehndi-nikkah-styling/[suburb] — 5 suburbs (Tarneit, Craigieburn, Dandenong, Epping, Preston)
-- [x] /baby-shower-styling/[suburb] — 2 suburbs (Point Cook, Glen Waverley)
-- [x] /engagement-party-styling/[suburb] — 2 suburbs (Doncaster, Brunswick)
-- [x] /corporate-event-styling/[suburb] — 2 suburbs (Footscray, Dandenong)
-- [x] /bridal-shower-setup/[suburb] — 2 suburbs (Glen Waverley, Point Cook)
+- [x] /birthday-prop-hire/[suburb] — 15 suburbs
+- [x] /mehndi-nikkah-styling/[suburb] — 15 suburbs
+- [x] /baby-shower-styling/[suburb] — 15 suburbs
+- [x] /engagement-party-styling/[suburb] — 15 suburbs
+- [x] /corporate-event-styling/[suburb] — 15 suburbs
+- [x] /bridal-shower-setup/[suburb] — 15 suburbs
 
 ### Each page includes:
 - [x] Unique, non-template intro copy
@@ -75,13 +75,9 @@
 - [x] Quote CTA above fold and at bottom
 - [x] LocalBusiness + FAQPage + BreadcrumbList JSON-LD
 
-### Remaining service-suburb content to add:
-- [ ] More birthday suburbs (remaining 12 of 15)
-- [ ] More baby shower suburbs (remaining 13)
-- [ ] More engagement suburbs (remaining 13)
-- [ ] More corporate suburbs (remaining 13)
-- [ ] More bridal shower suburbs (remaining 13)
-- [ ] Add real event photos per suburb (TODO placeholders in gallery section)
+### Remaining service-suburb work:
+- [x] All 7 services × 15 suburbs = 105 pages complete (0 pairs >60% sentence similarity)
+- [ ] Add real event photos per suburb (currently using category-level gallery photos)
 
 ---
 
@@ -183,4 +179,4 @@
 ---
 
 *Last updated: 2026-07-12*
-*Total pages: 213 (homepage + 6 occasions + 25 suburbs + 31 service-suburbs + 20 hire items + 112 blog posts + FAQ + static pages)*
+*Total pages: 280 (11 static + 6 occasions + 25 suburbs + 105 service-suburbs + 20 hire items + 113 blog posts)*
