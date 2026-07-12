@@ -18,10 +18,11 @@ export async function generateMetadata({
   if (!item) return { title: "Item Not Found" };
 
   return {
-    title: `${item.name} — Hire`,
+    title: `${item.name} — Prop Hire Melbourne`,
     description: item.description,
+    alternates: { canonical: `https://idoeventss.com/hire/${item.slug}` },
     openGraph: {
-      title: `${item.name} | IDO Events Prop Hire Melbourne`,
+      title: `${item.name} | iDo Events Prop Hire`,
       description: item.description,
       images: [{ url: item.image, width: 1200, height: 630 }],
     },

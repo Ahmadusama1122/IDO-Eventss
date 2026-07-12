@@ -15,13 +15,14 @@ const CtaBand = dynamic(() => import("@/components/home/CtaBand").then(m => ({ d
 const SuburbLinks = dynamic(() => import("@/components/home/SuburbLinks").then(m => ({ default: m.SuburbLinks })));
 
 export const metadata: Metadata = {
-  title: "IDO Events | Event Styling & Prop Hire Melbourne",
+  title: "Event Styling & Prop Hire Melbourne | iDo Events",
   description:
-    "Melbourne's trusted event styling and prop hire specialists. Weddings, birthdays, christenings, baby showers, engagements, and corporate events — beautifully styled with full setup and pack-down included. Free quotes.",
+    "iDo Events provides event styling and prop hire across 30+ Melbourne suburbs. Weddings, birthdays, christenings, baby showers, engagements and corporate events — full setup and pack-down included. Free quotes.",
+  alternates: { canonical: "https://idoeventss.com" },
   openGraph: {
-    title: "IDO Events | Event Styling & Prop Hire Melbourne",
+    title: "Event Styling & Prop Hire Melbourne | iDo Events",
     description:
-      "Professional event styling and prop hire across 30+ Melbourne suburbs. Backdrops, florals, balloons, signage, draping and lighting — delivered, set up, and packed down for you.",
+      "Professional event styling and prop hire across 30+ Melbourne suburbs. Backdrops, florals, balloons, signage, draping and lighting — delivered and set up for you.",
     url: "https://idoeventss.com",
     type: "website",
   },

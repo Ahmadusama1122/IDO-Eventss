@@ -29,6 +29,7 @@ const COMPANY_LINKS = [
   { label: "About", href: "/about" },
   { label: "Blog", href: "/blog" },
   { label: "Gallery", href: "/gallery" },
+  { label: "FAQ", href: "/faq" },
   { label: "Contact", href: "/contact" },
   { label: "Privacy", href: "/privacy" },
   { label: "Terms", href: "/terms" },
@@ -78,9 +79,15 @@ export function Footer() {
               Melbourne&apos;s trusted event styling and prop hire specialists. Weddings,
               birthdays, christenings, and more — beautifully styled and delivered to your door.
             </p>
-            <a href="mailto:contact@idoeventss.com" className="mt-3 inline-block text-sm text-sage-light transition-colors hover:text-white">
-              contact@idoeventss.com
-            </a>
+            <div className="mt-3 space-y-1 text-sm">
+              <a href="tel:+61406179786" className="block text-sage-light transition-colors hover:text-white">
+                0406 179 786
+              </a>
+              <a href="mailto:contact@idoeventss.com" className="block text-sage-light transition-colors hover:text-white">
+                contact@idoeventss.com
+              </a>
+              <p className="text-white/40">Melbourne, Victoria, Australia</p>
+            </div>
           </div>
 
           <FooterColumn title="Occasions" links={OCCASION_LINKS} />

@@ -9,11 +9,13 @@ const data = OCCASIONS.find((o) => o.slug === "weddings")!;
 export const metadata: Metadata = {
   title: "Wedding Styling & Prop Hire Melbourne",
   description:
-    "Wedding styling and prop hire in Melbourne. Arches, florals, draping, centrepieces — full setup and pack-down included. Free quotes from IDO Events.",
+    "iDo Events provides wedding styling and prop hire in Melbourne. Arches, florals, draping, centrepieces — full setup and pack-down included. Free quotes.",
+  alternates: { canonical: "https://idoeventss.com/weddings" },
   openGraph: {
-    title: "Wedding Styling & Prop Hire | IDO Events Melbourne",
+    title: "Wedding Styling & Prop Hire Melbourne | iDo Events",
     description:
       "Create your dream wedding with professional event styling. Ceremony backdrops, reception table styling, floral installations and more across Melbourne.",
+    images: [{ url: "/gallery/weddings/weddings-1.jpg", width: 1200, height: 630 }],
   },
 };
 

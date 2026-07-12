@@ -9,11 +9,13 @@ const data = OCCASIONS.find((o) => o.slug === "corporate")!;
 export const metadata: Metadata = {
   title: "Corporate Event Styling Melbourne",
   description:
-    "Corporate event styling Melbourne. Product launches, gala dinners, conferences — professional prop hire with full setup and pack-down. Free quotes from IDO Events.",
+    "iDo Events provides corporate event styling in Melbourne. Product launches, gala dinners, conferences — professional prop hire with full setup. Free quotes.",
+  alternates: { canonical: "https://idoeventss.com/corporate" },
   openGraph: {
-    title: "Corporate Event Styling | IDO Events Melbourne",
+    title: "Corporate Event Styling Melbourne | iDo Events",
     description:
       "Professional corporate event styling for product launches, gala dinners, conferences and team celebrations across Melbourne.",
+    images: [{ url: "/gallery/corporate/corporate-1.jpg", width: 1200, height: 630 }],
   },
 };
 

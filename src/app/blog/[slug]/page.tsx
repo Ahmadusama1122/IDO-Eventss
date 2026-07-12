@@ -21,12 +21,13 @@ export async function generateMetadata({
   return {
     title: post.title,
     description: post.excerpt,
+    alternates: { canonical: `https://idoeventss.com/blog/${post.slug}` },
     openGraph: {
       title: post.title,
       description: post.excerpt,
       type: "article",
       publishedTime: post.date,
-      images: [{ url: post.image }],
+      images: [{ url: post.image, width: 1200, height: 630 }],
     },
   };
 }

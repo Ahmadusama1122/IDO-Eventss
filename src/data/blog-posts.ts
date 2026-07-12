@@ -2,6 +2,7 @@ import { weddingPosts } from "./blog-batch-wedding";
 import { birthdayPosts } from "./blog-batch-birthday";
 import { eventsPosts } from "./blog-batch-events";
 import { generalPosts } from "./blog-batch-general";
+import { seoAuthorityPosts } from "./blog-batch-seo-authority";
 
 export interface BlogPost {
   slug: string;
@@ -463,6 +464,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Planning a <a href="/baby-showers">baby shower in Melbourne</a>? Browse our <a href="/hire">full hire collection</a> or <a href="/quote">request a free quote</a>. We style baby showers across more than 30 suburbs with everything included — delivery, setup, and pack-down. Tell us your theme and we will bring it to life.</p>`,
   },
+  ...seoAuthorityPosts,
   ...weddingPosts,
   ...birthdayPosts,
   ...eventsPosts,

@@ -19,11 +19,13 @@ export async function generateMetadata({
   const data = SUBURBS.find((s) => s.slug === suburb);
   if (!data) return {};
   return {
-    title: `Event Styling & Prop Hire in ${data.name} | IDO Events Melbourne`,
-    description: `Professional event styling and prop hire in ${data.name}, Melbourne. Weddings, birthdays, christenings and more. Setup & pack-down included. Free quotes.`,
+    title: `Event Styling in ${data.name}, Melbourne`,
+    description: `iDo Events provides event styling and prop hire in ${data.name}, Melbourne. Weddings, birthdays, christenings and more — setup and pack-down included. Free quotes.`,
+    alternates: { canonical: `https://idoeventss.com/event-styling/${data.slug}` },
     openGraph: {
-      title: `Event Styling in ${data.name} | IDO Events Melbourne`,
+      title: `Event Styling in ${data.name} | iDo Events`,
       description: `Prop hire and event styling in ${data.name}. Backdrops, florals, balloons, signage and full setup across ${data.name} and surrounding suburbs.`,
+      images: [{ url: "/gallery/weddings/weddings-1.jpg", width: 1200, height: 630 }],
     },
   };
 }

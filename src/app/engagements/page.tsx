@@ -7,13 +7,15 @@ import { buildFaqSchema, buildBreadcrumbSchema, BASE_URL } from "@/lib/schema";
 const data = OCCASIONS.find((o) => o.slug === "engagements")!;
 
 export const metadata: Metadata = {
-  title: "Engagement Party Styling & Prop Hire Melbourne",
+  title: "Engagement Party Styling Melbourne",
   description:
-    "Engagement party styling Melbourne. Modern arches, neon signs, floral centrepieces and full venue styling. Setup and pack-down included. Free quotes.",
+    "iDo Events provides engagement party styling and prop hire in Melbourne. Arches, neon signs, floral centrepieces — full setup and pack-down included. Free quotes.",
+  alternates: { canonical: "https://idoeventss.com/engagements" },
   openGraph: {
-    title: "Engagement Party Styling | IDO Events Melbourne",
+    title: "Engagement Party Styling Melbourne | iDo Events",
     description:
       "Celebrate your engagement in style with professional event styling. Arches, neon signs, florals and full venue setups across Melbourne.",
+    images: [{ url: "/gallery/engagements/engagements-1.jpg", width: 1200, height: 630 }],
   },
 };
 

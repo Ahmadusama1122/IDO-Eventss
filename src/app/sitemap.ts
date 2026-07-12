@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { hireItems } from "@/data/hire-items";
 import { SUBURBS } from "@/data/suburbs";
 import { blogPosts } from "@/data/blog-posts";
+import { getAllServiceSuburbPairs } from "@/data/service-suburbs";
 
 const BASE_URL = "https://idoeventss.com";
 
@@ -14,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/contact`, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/quote`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/blog`, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE_URL}/faq`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/links`, changeFrequency: "monthly", priority: 0.3 },
     { url: `${BASE_URL}/privacy`, changeFrequency: "yearly", priority: 0.2 },
     { url: `${BASE_URL}/terms`, changeFrequency: "yearly", priority: 0.2 },
@@ -51,11 +53,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+  // Service × Suburb local SEO pages
+  const serviceSuburbPages: MetadataRoute.Sitemap = getAllServiceSuburbPairs().map((pair) => ({
+    url: `${BASE_URL}/${pair.service}/${pair.suburb}`,
+    changeFrequency: "monthly" as const,
+    priority: 0.85,
+  }));
+
   return [
     ...staticPages,
     ...occasionPages,
     ...hireItemPages,
     ...suburbPages,
+    ...serviceSuburbPages,
     ...blogPostPages,
   ];
 }

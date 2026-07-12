@@ -31,12 +31,15 @@ const dancingScript = Dancing_Script({
 
 export const metadata: Metadata = {
   title: {
-    default: "IDO Events | Event Styling & Prop Hire Melbourne",
-    template: "%s | IDO Events Melbourne",
+    default: "Event Styling & Prop Hire Melbourne | iDo Events",
+    template: "%s | iDo Events",
   },
   description:
-    "Melbourne's trusted event styling and prop hire specialists. Weddings, birthdays, christenings, corporate events — beautifully styled and delivered to your door.",
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
+    "Melbourne's trusted event styling and prop hire. Weddings, birthdays, christenings, corporate events — styled and delivered across 30+ suburbs. Free quotes.",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://idoeventss.com"),
+  alternates: {
+    canonical: "/",
+  },
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "32x32" },
@@ -47,9 +50,17 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    siteName: "IDO Events",
+    siteName: "iDo Events",
     locale: "en_AU",
     type: "website",
+    images: [
+      {
+        url: "/gallery/hero-main.jpg",
+        width: 1200,
+        height: 630,
+        alt: "iDo Events — Event Styling & Prop Hire Melbourne",
+      },
+    ],
   },
 };
 
