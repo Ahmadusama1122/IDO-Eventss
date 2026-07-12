@@ -75,6 +75,10 @@ export default function RootLayout({
       lang="en"
       className={`${cormorant.variable} ${dmSans.variable} ${dancingScript.variable}`}
     >
+      <head>
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.receptflow.com" />
+      </head>
       <body className="pb-[72px] antialiased lg:pb-0">
         <SmoothScroll />
         <Header />

@@ -119,7 +119,7 @@ export function Hero() {
 
         {/* Floating sub-text */}
         <motion.p
-          className="mt-6 text-sm text-white/40"
+          className="mt-6 text-sm text-white/60"
           variants={itemVariants}
           transition={{ ...transition, delay: 1.8 }}
         >

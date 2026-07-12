@@ -44,9 +44,9 @@ const SOCIALS = [
 function FooterColumn({ title, links }: { title: string; links: { label: string; href: string }[] }) {
   return (
     <div>
-      <h4 className="mb-4 font-body text-sm font-bold uppercase tracking-wider text-white">
+      <p className="mb-4 font-body text-sm font-bold uppercase tracking-wider text-white">
         {title}
-      </h4>
+      </p>
       <ul className="space-y-2">
         {links.map((link) => (
           <li key={link.href + link.label}>
@@ -87,7 +87,7 @@ export function Footer() {
               <a href="mailto:contact@idoeventss.com" className="block text-sage-light transition-colors hover:text-white">
                 contact@idoeventss.com
               </a>
-              <p className="text-white/40">Melbourne, Victoria, Australia</p>
+              <p className="text-white/60">Melbourne, Victoria, Australia</p>
             </div>
           </div>
 

@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-sage: #8AA275;
-  --color-sage-dark: #6C7E5A;
+  --color-sage: #5E7F46;
+  --color-sage-dark: #4E633B;
   --color-sage-light: #A8B89A;
   --color-cream: #DDE4D3;
   --color-cream-light: #F5F7F2;
