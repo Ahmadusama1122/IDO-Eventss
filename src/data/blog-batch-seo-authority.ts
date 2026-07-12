@@ -633,4 +633,136 @@ export const seoAuthorityPosts: BlogPost[] = [
 
 <p>Ready to book your first event styling? <a href="/quote">Request a free quote</a> or call us on 0406 179 786. No obligation, no pressure — just a conversation about making your celebration beautiful.</p>`,
   },
+
+  // === LISTICLE: Best Event Stylists Melbourne ===
+  {
+    slug: "best-event-stylists-melbourne-2026",
+    title: "12 Best Event Stylists in Melbourne (2026)",
+    excerpt:
+      "An honest guide to Melbourne's top event styling companies — who they are, what they specialise in, and which one suits your budget and event type.",
+    date: "2026-07-12",
+    category: "Guides",
+    image: "/gallery/weddings/weddings-1.jpg",
+    content: `<p>iDo Events provides event styling and prop hire across Melbourne. We work in this industry every week, which means we know who else is out there, what they do well, and where each company fits in the market. This is not a sponsored list — it is an honest rundown of the event stylists we see doing solid work across Melbourne in 2026, including ourselves.</p>
+
+<p>Whether you are planning a wedding, birthday, corporate event, or cultural celebration, this guide will help you find the right stylist for your event type, budget, and location.</p>
+
+<h2>1. Feel Good Events</h2>
+
+<p><strong>Best for:</strong> Large-scale weddings and corporate events</p>
+<p><strong>Price range:</strong> $$–$$$</p>
+<p><strong>Location:</strong> Ferntree Gully (services all of Melbourne)</p>
+
+<p><a href="https://www.feelgoodevents.com.au/" target="_blank" rel="noopener">Feel Good Events</a> has been operating since 2008 and has styled over 9,000 events. That is not a typo — they are one of Melbourne's most experienced event companies. Their strength is in volume: they have a massive prop inventory and the operational capacity to handle large weddings and multi-day corporate events. Their philosophy focuses on how a space feels, not just how it looks. If you are planning a 200+ guest wedding or a corporate gala, they are worth contacting.</p>
+
+<h2>2. The Small Things Co</h2>
+
+<p><strong>Best for:</strong> Wedding hire and styling packages</p>
+<p><strong>Price range:</strong> $$–$$$</p>
+<p><strong>Location:</strong> Melbourne-wide</p>
+
+<p><a href="https://www.thesmallthings.co/" target="_blank" rel="noopener">The Small Things Co</a> consistently appears at the top of Google for wedding styling in Melbourne, and for good reason. They offer a clean, curated aesthetic with a strong hire collection — arbours, signage, table settings, and ceremony props. Their styling is polished and modern, with a leaning toward the natural, earthy look that has dominated wedding aesthetics in recent years. They also handle corporate events, though weddings are clearly their core business.</p>
+
+<h2>3. JCAU Events</h2>
+
+<p><strong>Best for:</strong> Luxury weddings, galas, and high-end private events</p>
+<p><strong>Price range:</strong> $$$</p>
+<p><strong>Location:</strong> Melbourne-wide</p>
+
+<p><a href="https://www.jcauevents.com.au/" target="_blank" rel="noopener">JCAU Events</a> positions themselves at the luxury end of the market, and their portfolio backs it up. With over 20 years of combined design experience, they produce the kind of events you see in magazines — elaborate floral installations, custom builds, dramatic lighting design. If your budget allows for a full creative build rather than prop hire, JCAU is a strong choice. Their pricing reflects the premium positioning.</p>
+
+<h2>4. Ruby & James</h2>
+
+<p><strong>Best for:</strong> Design-led private events and milestone celebrations</p>
+<p><strong>Price range:</strong> $$–$$$</p>
+<p><strong>Location:</strong> Melbourne and regional Victoria</p>
+
+<p><a href="https://www.rubyandjames.com.au/" target="_blank" rel="noopener">Ruby & James</a> take a design-driven approach to event styling. Their work on private events — birthdays, dinners, milestones — stands out for its attention to detail and cohesive visual storytelling. They work across Melbourne and into regional Victoria, and they are one of the few stylists who treat a 40-person dinner with the same creative seriousness as a 200-guest wedding. Worth looking at if your event is intimate but you want it styled properly.</p>
+
+<h2>5. S&S Event Specialists</h2>
+
+<p><strong>Best for:</strong> Indian weddings, mehndi, and South Asian celebrations</p>
+<p><strong>Price range:</strong> $$–$$$</p>
+<p><strong>Location:</strong> Melbourne-wide</p>
+
+<p><a href="https://www.ssevents.com.au/" target="_blank" rel="noopener">S&S Event Specialists</a> is the name that comes up most often for Indian and South Asian wedding styling in Melbourne. They carry over 200 props specifically curated for mehndi nights, sangeet ceremonies, mandap setups, and reception styling. Their understanding of cultural requirements — colour coordination with bridal outfits, segregated seating arrangements, stage positioning — sets them apart in this niche. If you are planning a mehndi, haldi, or nikkah ceremony, they should be on your shortlist alongside iDo Events.</p>
+
+<h2>6. iDo Events</h2>
+
+<p><strong>Best for:</strong> Prop hire, birthday styling, cultural events, and western suburbs coverage</p>
+<p><strong>Price range:</strong> $–$$</p>
+<p><strong>Location:</strong> Melbourne-wide, strongest in western and northern suburbs</p>
+
+<p>This is us, so take this with appropriate bias — but here is what we actually do well. <a href="/">iDo Events</a> specialises in <a href="/hire">prop hire and event styling</a> for birthdays, <a href="/baby-showers">baby showers</a>, <a href="/engagements">engagements</a>, <a href="/weddings">weddings</a>, <a href="/corporate">corporate events</a>, and <a href="/christenings-baptisms">christenings</a>. We also have dedicated experience with <a href="/mehndi-nikkah-styling/tarneit">mehndi and nikkah styling</a> for Melbourne's South Asian communities.</p>
+
+<p>Our pricing starts from $350 for a simple birthday setup and goes to $5,000+ for full wedding transformations — a detailed breakdown is in our <a href="/blog/event-styling-cost-melbourne-2026">Melbourne event styling price guide</a>. Every quote includes delivery, professional setup, and pack-down across all Melbourne suburbs. We operate in <a href="/event-styling/point-cook">Point Cook</a>, <a href="/event-styling/tarneit">Tarneit</a>, <a href="/event-styling/craigieburn">Craigieburn</a>, <a href="/event-styling/dandenong">Dandenong</a>, <a href="/event-styling/oakleigh">Oakleigh</a>, <a href="/event-styling/preston">Preston</a>, <a href="/event-styling/brunswick">Brunswick</a>, and <a href="/event-styling/doncaster">Doncaster</a> — among 25 suburbs total.</p>
+
+<p>Where we are honest about gaps: we do not do fresh florals (we use premium silk and artificial), we do not do full event planning or coordination (styling only), and we are not the right fit for very high-end luxury weddings where everything is custom-built from scratch. For those, look at JCAU or Ruffles and Bells.</p>
+
+<h2>7. Luxe Couture Events</h2>
+
+<p><strong>Best for:</strong> Northern suburbs styling and balloon work</p>
+<p><strong>Price range:</strong> $–$$</p>
+<p><strong>Location:</strong> Craigieburn (services northern and western Melbourne)</p>
+
+<p><a href="https://luxecoutureevents.com.au/" target="_blank" rel="noopener">Luxe Couture Events</a> operates from Craigieburn and has built a strong following in Melbourne's northern suburbs. Their hire collection focuses on on-trend pieces — balloon garlands, plinth sets, neon signs, and flower walls. They offer pickup from their Craigieburn location (which saves on delivery fees) and are particularly popular for birthdays and baby showers. If you are in the northern corridor and want a hands-on, local stylist, they are worth considering.</p>
+
+<h2>8. Gather N Grace</h2>
+
+<p><strong>Best for:</strong> Mehndi and haldi ceremonies with a DIY hire option</p>
+<p><strong>Price range:</strong> $–$$</p>
+<p><strong>Location:</strong> Melbourne-wide</p>
+
+<p><a href="https://gatherngrace.com.au/" target="_blank" rel="noopener">Gather N Grace</a> offers both full-service styling and a DIY hire option for mehndi and haldi events, which is unusual in this market. Their styling leans toward the playful and elegant — marigold-inspired palettes, textured fabrics, cosy seating arrangements, and photo-ready backdrops. The DIY option makes them particularly accessible for families on a tighter budget who are happy to do their own setup with quality props.</p>
+
+<h2>9. Tru Style Events</h2>
+
+<p><strong>Best for:</strong> Luxury event styling and prop hire</p>
+<p><strong>Price range:</strong> $$–$$$</p>
+<p><strong>Location:</strong> Melbourne-wide</p>
+
+<p><a href="https://www.trustyleevents.com.au/" target="_blank" rel="noopener">Tru Style Events</a> positions themselves as a high-end event management and styling company, covering weddings, corporate events, and private celebrations. Their prop inventory is extensive and leans toward the luxe end — think gold frames, crystal candelabras, and premium fabric draping. They handle both the styling and the logistics, which makes them a good option if you want one company managing multiple aspects of your event.</p>
+
+<h2>10. Ruffles and Bells</h2>
+
+<p><strong>Best for:</strong> Luxury destination weddings</p>
+<p><strong>Price range:</strong> $$$–$$$$</p>
+<p><strong>Location:</strong> Melbourne, regional Victoria, and international</p>
+
+<p><a href="https://rufflesandbells.com.au/" target="_blank" rel="noopener">Ruffles and Bells</a> operates at the top end of Melbourne's wedding market. They are full-service wedding planners and stylists who handle everything from concept to execution, including destination weddings. Their work is editorial-quality, and their clients typically have larger budgets. If you are planning a luxury wedding at a premium venue and want a company that manages every detail, Ruffles and Bells is one of Melbourne's best. Not the right fit for smaller celebrations or budget-conscious events.</p>
+
+<h2>11. Simply Seated</h2>
+
+<p><strong>Best for:</strong> Corporate events, birthdays, and anniversaries</p>
+<p><strong>Price range:</strong> $$</p>
+<p><strong>Location:</strong> Melbourne-wide</p>
+
+<p><a href="https://www.simplyseated.com.au/" target="_blank" rel="noopener">Simply Seated</a> has carved out a niche in corporate and social event styling. They handle corporate functions, birthday parties, anniversaries, and engagement celebrations with a clean, professional aesthetic. Their approach is practical and efficient, which makes them a strong choice for corporate clients who need reliable styling without the fuss. They respond quickly to enquiries and have good availability across Melbourne.</p>
+
+<h2>12. Peachy Keen Events</h2>
+
+<p><strong>Best for:</strong> Balloon styling and one-stop party setup</p>
+<p><strong>Price range:</strong> $–$$</p>
+<p><strong>Location:</strong> Melbourne-wide</p>
+
+<p><a href="https://peachykeenevents.com.au/" target="_blank" rel="noopener">Peachy Keen Events</a> is a one-stop shop for party styling, with an in-house balloon artist and an extensive range of props. Their strength is in balloon work — garlands, arches, organic installations — and they pair that with complementary styling (backdrops, dessert tables, signage). If balloons are the centrepiece of your event, Peachy Keen specialises in exactly that. They are popular for kids' birthdays, baby showers, and first birthday celebrations.</p>
+
+<h2>How to Choose the Right Event Stylist</h2>
+
+<p>The "best" event stylist depends entirely on your event type, budget, and location. Here is a quick decision framework:</p>
+
+<ul>
+<li><strong>Budget under $500:</strong> Look at iDo Events, Luxe Couture, or Peachy Keen for focused prop hire packages.</li>
+<li><strong>Wedding styling $1,000–$3,000:</strong> The Small Things Co, Feel Good Events, or iDo Events all operate well in this range.</li>
+<li><strong>Luxury wedding $5,000+:</strong> JCAU Events, Ruffles and Bells, or Tru Style Events.</li>
+<li><strong>Mehndi or South Asian celebration:</strong> S&S Event Specialists, iDo Events, or Gather N Grace.</li>
+<li><strong>Corporate event:</strong> Feel Good Events, Simply Seated, or iDo Events.</li>
+<li><strong>Western suburbs (Point Cook, Tarneit, Werribee, Hoppers Crossing):</strong> iDo Events has the strongest local coverage.</li>
+<li><strong>Northern suburbs (Craigieburn, Epping):</strong> Luxe Couture Events or iDo Events.</li>
+</ul>
+
+<p>Every company on this list does genuinely good work. The differences are in specialisation, price point, and geographic coverage. Get 2–3 quotes, check their recent work on Instagram, and go with the stylist who understands your vision and communicates clearly.</p>
+
+<p>If you would like to see what iDo Events can do for your celebration, <a href="/quote">request a free quote</a> or browse our <a href="/hire">prop hire collection</a>. We respond within the hour.</p>`,
+  },
 ];

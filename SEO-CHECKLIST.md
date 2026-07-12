@@ -21,7 +21,7 @@
 - [x] Occasion pages (6): H1 via OccasionPage component
 - [x] Suburb pages (25): H1 dynamically generated
 - [x] Service-suburb pages (105): H1 dynamically generated
-- [x] Blog posts (113): H1 dynamically generated
+- [x] Blog posts (114): H1 dynamically generated
 - [x] Hire items (20): H1 dynamically generated
 - [x] Static pages (about, contact, blog index, FAQ, etc.): H1 hardcoded
 
@@ -30,7 +30,7 @@
 - [x] Per-page canonical URLs on all pages (homepage, occasions, suburbs, hire, blog, service-suburbs)
 
 ### Sitemap & Robots
-- [x] Auto-generated sitemap.xml at /sitemap.xml (280 URLs)
+- [x] Auto-generated sitemap.xml at /sitemap.xml (281 URLs)
 - [x] robots.txt allows all crawlers + disallows /api/
 - [x] AI crawlers explicitly allowed: GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot, Google-Extended, ChatGPT-User
 
@@ -38,7 +38,7 @@
 - [x] EventPlanner schema on homepage
 - [x] LocalBusiness + EventPlanner on 25 suburb pages
 - [x] LocalBusiness + EventPlanner on 105 service-suburb pages
-- [x] BlogPosting on 113 blog posts
+- [x] BlogPosting on 114 blog posts
 - [x] FAQPage on 6 occasion pages
 - [x] FAQPage on 105 service-suburb pages
 - [x] FAQPage on FAQ hub page (26 questions)
@@ -179,4 +179,4 @@
 ---
 
 *Last updated: 2026-07-12*
-*Total pages: 280 (11 static + 6 occasions + 25 suburbs + 105 service-suburbs + 20 hire items + 113 blog posts)*
+*Total pages: 281 (11 static + 6 occasions + 25 suburbs + 105 service-suburbs + 20 hire items + 114 blog posts)*
