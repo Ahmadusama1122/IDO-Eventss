@@ -12,7 +12,8 @@ This is the **IDO Events** website — an event styling and prop hire business s
 - **Styling:** Tailwind CSS v4 (CSS-based `@theme inline` in globals.css — no tailwind.config.ts)
 - **Animations:** Framer Motion — premium motion primitives in `src/components/motion.tsx`
 - **Smooth Scroll:** Lenis (lazy-loaded via `src/components/SmoothScroll.tsx`)
-- **Content:** TypeScript data files for occasions/suburbs/hire items/gallery/blog
+- **Content:** TypeScript data files for occasions/suburbs/hire items/gallery/blog/service-suburbs
+- **Analytics:** Google Analytics 4 via @next/third-parties (G-EKNJBST7QP, production-only)
 - **Email:** Resend (API) — lazy-initialized to avoid build-time errors
 - **Deploy:** Railway (`next start -p ${PORT:-3000}`, `output: "standalone"`)
 - **Domain:** `idoeventss.com` + `www.idoeventss.com` (Namecheap DNS → Railway CNAME)
@@ -71,21 +72,24 @@ ido-events/
 │   │   ├── gallery/page.tsx        # Photo gallery with lightbox
 │   │   ├── about/page.tsx          # About page
 │   │   ├── blog/page.tsx           # Blog index
-│   │   ├── blog/[slug]/page.tsx    # Blog post (106 posts)
+│   │   ├── blog/[slug]/page.tsx    # Blog post (113 posts)
 │   │   ├── contact/page.tsx        # Contact page
-│   │   ├── quote/page.tsx          # 3-step quote wizard (with venue field)
+│   │   ├── quote/page.tsx          # Quote wizard (with venue field)
+│   │   ├── faq/page.tsx            # FAQ hub (26 questions, FAQPage JSON-LD)
 │   │   ├── event-styling/[suburb]/ # Suburb SEO pages (25 suburbs)
+│   │   ├── [service]/[suburb]/     # Service × Suburb pages (105 pages)
 │   │   ├── links/page.tsx          # Instagram link-in-bio
 │   │   ├── privacy/page.tsx        # Privacy policy
 │   │   ├── terms/page.tsx          # Terms & conditions
-│   │   ├── sitemap.ts              # Auto-generated sitemap (all routes)
-│   │   ├── robots.ts               # robots.txt (allow all, disallow /api/)
+│   │   ├── sitemap.ts              # Auto-generated sitemap (280 URLs)
+│   │   ├── robots.ts               # robots.txt (allow all + AI crawlers, disallow /api/)
 │   │   ├── hire/layout.tsx         # Metadata wrapper for client component
 │   │   ├── gallery/layout.tsx      # Metadata wrapper for client component
 │   │   └── quote/layout.tsx        # Metadata wrapper for client component
 │   ├── components/
 │   │   ├── Header.tsx              # Glass header with scroll shrink, progress bar, animated dropdown
 │   │   ├── Footer.tsx              # 5-column footer (IG, FB, email, phone)
+│   │   ├── TrackedPhoneLink.tsx    # GA4-tracked phone link (client component)
 │   │   ├── MobileBar.tsx           # Sticky bottom bar (mobile: Quote button only)
 │   │   ├── SmoothScroll.tsx        # Lenis smooth scroll integration (lazy-loaded)
 │   │   ├── motion.tsx              # Premium Framer Motion primitives (TextReveal, Parallax, Magnetic, ImageReveal, etc.)
@@ -104,7 +108,10 @@ ido-events/
 │   │       ├── CtaBand.tsx         # Floating magnetic CTA with animated bg
 │   │       └── SuburbLinks.tsx     # Pill wave-in for 23 suburbs
 │   ├── lib/
-│   │   └── schema.ts               # JSON-LD schema builders (BlogPosting, FAQPage, Product, BreadcrumbList, LocalBusiness)
+│   │   ├── schema.ts               # JSON-LD schema builders (BlogPosting, FAQPage, Product, BreadcrumbList, LocalBusiness)
+│   │   └── analytics.ts            # GA4 event helpers (generate_lead, phone_call_click)
+│   ├── types/
+│   │   └── gtag.d.ts               # Window.gtag type declaration
 │   ├── context/
 │   │   └── CartContext.tsx          # Cart state (React context + localStorage)
 │   └── data/
@@ -112,11 +119,19 @@ ido-events/
 │       ├── occasions.ts            # 6 occasion data (slug, name, tagline, intro, FAQs)
 │       ├── suburbs.ts              # 25 suburb SEO data (localized copy, venues, coords)
 │       ├── hire-items.ts           # 20 hire items/packages (8 categories)
-│       ├── blog-posts.ts           # Main blog file — 6 original + imports 4 batch files (106 total)
+│       ├── blog-posts.ts           # Main blog file — imports batch files (113 total)
 │       ├── blog-batch-wedding.ts   # 25 wedding SEO blog posts
 │       ├── blog-batch-birthday.ts  # 25 birthday + baby shower blog posts
 │       ├── blog-batch-events.ts    # 25 christening + engagement + corporate blog posts
-│       └── blog-batch-general.ts   # 25 general event styling blog posts
+│       ├── blog-batch-general.ts   # 25 general event styling blog posts
+│       ├── blog-batch-seo-authority.ts # 6 authority blog posts (pricing, venues, mehndi)
+│       ├── service-suburbs.ts      # Main service-suburb data (7 services, 15 suburbs, imports batches)
+│       ├── service-suburb-batch-birthday.ts    # 12 birthday suburb entries
+│       ├── service-suburb-batch-baby-shower.ts # 13 baby shower suburb entries
+│       ├── service-suburb-batch-engagement.ts  # 13 engagement suburb entries
+│       ├── service-suburb-batch-corporate.ts   # 13 corporate suburb entries
+│       ├── service-suburb-batch-bridal.ts      # 13 bridal shower suburb entries
+│       └── service-suburb-batch-mehndi.ts      # 10 mehndi suburb entries
 ├── docs/superpowers/
 │   ├── specs/                      # Design spec
 │   └── plans/                      # Implementation plan
@@ -174,21 +189,29 @@ Premium Framer Motion primitives in `src/components/motion.tsx`:
 
 ### SEO
 - Every page has explicit `metadata` (title + description) via Next.js Metadata API.
-- OpenGraph tags on all pages (homepage, occasions, suburbs, hire, gallery, quote, blog).
+- OpenGraph tags on all pages (homepage, occasions, suburbs, hire, gallery, quote, blog, service-suburbs).
 - **JSON-LD structured data** via `src/lib/schema.ts` utility (exports `BASE_URL` constant):
-  - `LocalBusiness + EventPlanner` on 25 suburb pages
-  - `BlogPosting` on 106 blog posts
-  - `FAQPage` on 6 occasion pages
+  - `LocalBusiness + EventPlanner` on 25 suburb pages + 105 service-suburb pages
+  - `BlogPosting` on 113 blog posts
+  - `FAQPage` on 6 occasion pages + 105 service-suburb pages + FAQ hub
   - `Product` on 20 hire items
-  - `BreadcrumbList` on all page types (blog, hire, suburb, occasion)
-- Auto-generated `sitemap.xml` covering all 174 routes (pages, blog posts, hire items, suburbs).
-- `robots.txt` allows all crawlers, disallows `/api/`.
+  - `BreadcrumbList` on all page types (blog, hire, suburb, occasion, service-suburb)
+- Auto-generated `sitemap.xml` covering all 280 routes.
+- `robots.txt` allows all crawlers + AI crawlers (GPTBot, ClaudeBot, PerplexityBot), disallows `/api/`.
+- `llms.txt` at site root for AI crawler business summary.
 - Client component pages (hire, gallery, quote) use `layout.tsx` wrappers for metadata.
-- 106 blog posts with internal linking to hire items, occasion pages, and suburb pages.
+- 113 blog posts with internal linking to hire items, occasion pages, and suburb pages.
 - Blog posts use `generateStaticParams` + `generateMetadata`.
 - Hire items use `generateStaticParams` + `generateMetadata`.
+- Service-suburb pages use `generateStaticParams` + `generateMetadata`.
 - Canonical URL base set in root layout via `alternates`.
 - Favicon: `icon.png` (192x192), `apple-icon.png` (180x180), `favicon.ico` (32x32) in public.
+
+### Analytics
+- GA4 tracking via `@next/third-parties/google` (G-EKNJBST7QP, production-only).
+- Conversion events: `generate_lead` on quote form, `phone_call_click` on tel: links.
+- GA only loads when `NEXT_PUBLIC_GA_ID` env var is set.
+- Event helpers in `src/lib/analytics.ts`, type declarations in `src/types/gtag.d.ts`.
 
 ### Security
 - **XSS prevention:** All user input HTML-escaped (`esc()`) before insertion into email templates.
@@ -230,7 +253,10 @@ Premium Framer Motion primitives in `src/components/motion.tsx`:
 15. ✅ Premium Framer Motion upgrade (parallax, text reveals, glass header, Lenis smooth scroll)
 16. ✅ Performance optimisation (code splitting, lazy-load below-fold, removed duplicate motion package)
 17. ✅ Security hardening (XSS prevention, rate limiting, security headers, input sanitisation)
-18. 🔲 Lighthouse audit + further optimisation
+18. ✅ SEO & AI visibility (llms.txt, FAQ hub, authority blog posts, service-suburb pages)
+19. ✅ Service × Suburb expansion (105 pages — 7 services × 15 suburbs, all unique content)
+20. ✅ Google Analytics 4 (GA4 tracking, generate_lead + phone_call_click events)
+21. 🔲 Lighthouse audit + further optimisation
 
 ## Deployment
 
@@ -242,7 +268,7 @@ Premium Framer Motion primitives in `src/components/motion.tsx`:
 
 ## Key Files to Never Break
 
-- `src/app/layout.tsx` — Root layout, fonts, SmoothScroll, global metadata, favicon config
+- `src/app/layout.tsx` — Root layout, fonts, SmoothScroll, GA4, global metadata, favicon config
 - `src/app/globals.css` — Tailwind v4 theme tokens + component classes + Lenis CSS
 - `src/components/motion.tsx` — Premium Framer Motion primitives (used by all animated components)
 - `src/components/Header.tsx` — Glass header with scroll progress (appears on every page)
@@ -252,7 +278,8 @@ Premium Framer Motion primitives in `src/components/motion.tsx`:
 - `src/data/gallery.json` — Photo manifest (feeds gallery, occasions, suburbs, hire)
 - `src/lib/schema.ts` — JSON-LD schema builders + `BASE_URL` constant
 - `src/data/blog-posts.ts` — Main blog data (imports all batch files, exports `blogPosts` array)
+- `src/data/service-suburbs.ts` — Main service-suburb data (imports 6 batch files, 105 entries)
 - `src/data/suburbs.ts` — 25 suburb entries (feeds suburb pages, sitemap, schema)
-- `src/app/sitemap.ts` — Auto-generated sitemap (imports blog, hire, suburbs)
+- `src/app/sitemap.ts` — Auto-generated sitemap (imports blog, hire, suburbs, service-suburbs)
 - `src/app/api/quote/route.ts` — Quote API with security (XSS escape, rate limiter, input validation)
 - `next.config.ts` — standalone output, turbopack root fix, security headers
