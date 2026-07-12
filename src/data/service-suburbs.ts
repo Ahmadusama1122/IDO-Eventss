@@ -3,6 +3,13 @@
  * Each combination has unique, non-template content.
  */
 
+import { birthdaySuburbContent } from "./service-suburb-batch-birthday";
+import { babyShowerSuburbContent } from "./service-suburb-batch-baby-shower";
+import { engagementSuburbContent } from "./service-suburb-batch-engagement";
+import { corporateSuburbContent } from "./service-suburb-batch-corporate";
+import { bridalShowerSuburbContent } from "./service-suburb-batch-bridal";
+import { mehndiSuburbContent } from "./service-suburb-batch-mehndi";
+
 export interface ServiceData {
   slug: string;
   name: string;
@@ -612,7 +619,7 @@ export const SERVICE_SUBURB_CONTENT: ServiceSuburbContent[] = [
     ],
   },
 
-  // === BRIDAL SHOWER SETUP ===
+  // === BRIDAL SHOWER SETUP (original entries) ===
   {
     serviceSlug: "bridal-shower-setup",
     suburbSlug: "glen-waverley",
@@ -639,6 +646,14 @@ export const SERVICE_SUBURB_CONTENT: ServiceSuburbContent[] = [
       { q: "What is the difference between bridal shower and hens party styling?", a: "Bridal showers tend to be elegant daytime events (pastels, florals, afternoon tea aesthetic). Hens parties are evening celebrations with bolder styling — neon signs, gold and black palettes, cocktail-style setups. We do both." },
     ],
   },
+
+  // === BATCH IMPORTS ===
+  ...birthdaySuburbContent,
+  ...babyShowerSuburbContent,
+  ...engagementSuburbContent,
+  ...corporateSuburbContent,
+  ...bridalShowerSuburbContent,
+  ...mehndiSuburbContent,
 ];
 
 /**
