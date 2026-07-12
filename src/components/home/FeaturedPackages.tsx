@@ -62,7 +62,7 @@ export function FeaturedPackages() {
                 <div className="absolute inset-0 bg-gradient-to-t from-charcoal/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
               </ImageReveal>
               <div className="p-5">
-                <h4 className="mb-3 font-heading text-lg">{pkg.name}</h4>
+                <h3 className="mb-3 font-heading text-lg">{pkg.name}</h3>
                 <Magnetic strength={0.1}>
                   <Link
                     href={`/quote?item=${pkg.slug}`}
