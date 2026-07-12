@@ -119,13 +119,13 @@ export default async function BlogPostPage({
       {/* CTA */}
       <section className="bg-cream-light px-4 py-16 sm:px-6">
         <div className="mx-auto max-w-2xl text-center">
-          <span className="mb-2 block font-script text-lg text-sage">
+          <span className="mb-2 block font-script text-lg text-sage-dark">
             ready to get started?
           </span>
           <h2 className="mb-3 font-heading text-3xl font-bold text-charcoal">
             Let Us Style Your Event
           </h2>
-          <p className="mb-6 text-charcoal/60">
+          <p className="mb-6 text-charcoal/70">
             From concept to pack-down, we handle every detail. Tell us about your
             vision and we&apos;ll create something beautiful.
           </p>
@@ -160,7 +160,7 @@ export default async function BlogPostPage({
                     </div>
                   </Link>
                   <div className="p-6">
-                    <time className="text-xs font-medium uppercase tracking-wider text-charcoal/40">
+                    <time className="text-xs font-medium uppercase tracking-wider text-charcoal/70">
                       {formatDate(related.date)}
                     </time>
                     <Link href={`/blog/${related.slug}`}>
@@ -168,12 +168,12 @@ export default async function BlogPostPage({
                         {related.title}
                       </h3>
                     </Link>
-                    <p className="mt-2 text-sm leading-relaxed text-charcoal/60">
+                    <p className="mt-2 text-sm leading-relaxed text-charcoal/70">
                       {related.excerpt}
                     </p>
                     <Link
                       href={`/blog/${related.slug}`}
-                      className="mt-3 inline-block text-sm font-semibold text-sage transition-colors hover:text-sage-dark"
+                      className="mt-3 inline-block text-sm font-semibold text-sage-dark transition-colors hover:text-charcoal"
                     >
                       Read More →
                     </Link>

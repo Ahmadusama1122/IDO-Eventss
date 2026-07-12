@@ -158,8 +158,8 @@ export default async function ServiceSuburbPage({
               </li>
             ))}
           </ul>
-          <p className="mt-6 text-sm text-charcoal/60">
-            <Link href="/hire" className="text-sage underline">Browse our full collection</Link> — all props include delivery, setup, and pack-down.
+          <p className="mt-6 text-sm text-charcoal/70">
+            <Link href="/hire" className="text-sage-dark underline">Browse our full collection</Link> — all props include delivery, setup, and pack-down.
           </p>
         </div>
       </section>
@@ -183,9 +183,9 @@ export default async function ServiceSuburbPage({
               </div>
             ))}
           </div>
-          <p className="mt-4 text-center text-sm text-charcoal/60">
+          <p className="mt-4 text-center text-sm text-charcoal/70">
             {/* TODO: Replace with suburb-specific event photos when available */}
-            <Link href="/gallery" className="text-sage underline">View full gallery</Link>
+            <Link href="/gallery" className="text-sage-dark underline">View full gallery</Link>
           </p>
         </section>
       )}
@@ -257,7 +257,7 @@ export default async function ServiceSuburbPage({
               ) : (
                 <span
                   key={nearby}
-                  className="rounded-full border border-charcoal/10 px-4 py-2 text-sm text-charcoal/50"
+                  className="rounded-full border border-charcoal/10 px-4 py-2 text-sm text-charcoal/70"
                 >
                   {nearby}
                 </span>
@@ -273,7 +273,7 @@ export default async function ServiceSuburbPage({
           <h2 className="font-heading text-3xl font-bold text-white">
             Ready to Style Your Event in {suburbData.name}?
           </h2>
-          <p className="mt-4 text-lg text-white/90">
+          <p className="mt-4 text-lg text-white">
             Request a free, no-obligation quote and we will respond within the hour.
           </p>
           <Link href="/quote" className="btn-white mt-8 inline-block px-10 py-4 text-base">

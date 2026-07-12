@@ -72,7 +72,7 @@ export default function BlogPage() {
                   </div>
                 </Link>
                 <div className="p-6">
-                  <time className="text-xs font-medium uppercase tracking-wider text-charcoal/40">
+                  <time className="text-xs font-medium uppercase tracking-wider text-charcoal/70">
                     {formatDate(post.date)}
                   </time>
                   <Link href={`/blog/${post.slug}`}>
@@ -80,12 +80,12 @@ export default function BlogPage() {
                       {post.title}
                     </h2>
                   </Link>
-                  <p className="mt-3 text-sm leading-relaxed text-charcoal/60">
+                  <p className="mt-3 text-sm leading-relaxed text-charcoal/70">
                     {post.excerpt}
                   </p>
                   <Link
                     href={`/blog/${post.slug}`}
-                    className="mt-4 inline-block text-sm font-semibold text-sage transition-colors hover:text-sage-dark"
+                    className="mt-4 inline-block text-sm font-semibold text-sage-dark transition-colors hover:text-charcoal"
                   >
                     Read More →
                   </Link>
