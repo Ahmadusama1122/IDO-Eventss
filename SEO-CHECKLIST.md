@@ -51,6 +51,19 @@
 - [x] Referrer-Policy: strict-origin-when-cross-origin
 - [x] Permissions-Policy: camera=(), microphone=(), geolocation=()
 
+### Accessibility (WCAG AA) — Lighthouse Audit
+- [x] Color contrast: all text meets 4.5:1 ratio (sage darkened #8AA275→#5E7F46, sage-dark #6C7E5A→#4E633B)
+- [x] Heading hierarchy: no skipped levels (h1→h2→h3, footer uses `<p>` not `<h4>`)
+- [x] Preconnect hints for third-party domains (googletagmanager.com, receptflow.com)
+- [x] Secondary text uses text-charcoal/70 minimum on light backgrounds
+- [x] Date labels use text-charcoal/60 minimum on white backgrounds
+- [x] Small text links use text-sage-dark (not text-sage) on light backgrounds
+
+### Lighthouse Scores (post-audit)
+- [x] Homepage: Accessibility 100, SEO 100, Best Practices 100
+- [x] Service-suburb pages: Accessibility 100, SEO 100, Best Practices 96
+- [x] Blog posts: Accessibility 100, SEO 100, Best Practices 100
+
 ---
 
 ## Phase 2: Local SEO Pages
@@ -102,13 +115,14 @@
 
 ## Phase 4: Non-Slop Content
 
-### Authority Blog Posts (6 new)
+### Authority Blog Posts (7 new)
 - [x] "What Event Styling Actually Costs in Melbourne (2026 Price Guide)" — real pricing ranges
 - [x] "Melbourne Event Venues: What Actually Works for Styling" — venue type expertise
 - [x] "Mehndi Night Styling in Melbourne: A Complete Planning Guide" — cultural event authority
 - [x] "Backdrop Hire vs Custom Builds" — decision content with real quotes
 - [x] "A Real Wedding Setup Timeline" — behind-the-scenes process
 - [x] "DIY Party Props vs Hiring a Stylist: The Real Cost Comparison" — practical comparison
+- [x] "12 Best Event Stylists in Melbourne (2026)" — competitor listicle for AI citations
 
 ### What makes these non-slop:
 - Real Melbourne pricing ranges (not vague "contact for a quote")
@@ -157,12 +171,12 @@
 - [ ] Submit to local business directories (True Local, Yellow Pages, StartLocal)
 - [ ] Reach out to Melbourne lifestyle blogs for guest post or mention
 - [ ] Reach out to venue websites to be listed as a preferred/recommended stylist
-- [ ] Create a "Melbourne Event Styling" listicle on your own blog mentioning competitors + yourself
+- [x] Create a "Melbourne Event Styling" listicle on your own blog mentioning competitors + yourself
 
 ### Step 4: Force AI citations
 - [ ] Identify which sources ChatGPT/Perplexity cite for event styling queries
 - [ ] Contact those sources to include iDo Events (offer exchange, payment, or free content)
-- [ ] Create your own listicle content matching the format AI engines prefer
+- [x] Create your own listicle content matching the format AI engines prefer
 
 ---
 
