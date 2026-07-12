@@ -27,8 +27,8 @@ This is the **IDO Events** website — an event styling and prop hire business s
 Defined in `src/app/globals.css` via `@theme inline`:
 
 ```
-Sage:         #8AA275  (primary CTA, accents)
-Sage Dark:    #6C7E5A  (hover states, secondary text)
+Sage:         #5E7F46  (primary CTA, accents — WCAG AA 4.57:1 on white)
+Sage Dark:    #4E633B  (hover states, secondary text — WCAG AA 6.62:1 on white)
 Sage Light:   #A8B89A  (backgrounds, subtle accents)
 Cream:        #DDE4D3  (light backgrounds, cards)
 Cream Light:  #F5F7F2  (page background)
@@ -72,7 +72,7 @@ ido-events/
 │   │   ├── gallery/page.tsx        # Photo gallery with lightbox
 │   │   ├── about/page.tsx          # About page
 │   │   ├── blog/page.tsx           # Blog index
-│   │   ├── blog/[slug]/page.tsx    # Blog post (113 posts)
+│   │   ├── blog/[slug]/page.tsx    # Blog post (114 posts)
 │   │   ├── contact/page.tsx        # Contact page
 │   │   ├── quote/page.tsx          # Quote wizard (with venue field)
 │   │   ├── faq/page.tsx            # FAQ hub (26 questions, FAQPage JSON-LD)
@@ -81,7 +81,7 @@ ido-events/
 │   │   ├── links/page.tsx          # Instagram link-in-bio
 │   │   ├── privacy/page.tsx        # Privacy policy
 │   │   ├── terms/page.tsx          # Terms & conditions
-│   │   ├── sitemap.ts              # Auto-generated sitemap (280 URLs)
+│   │   ├── sitemap.ts              # Auto-generated sitemap (281 URLs)
 │   │   ├── robots.ts               # robots.txt (allow all + AI crawlers, disallow /api/)
 │   │   ├── hire/layout.tsx         # Metadata wrapper for client component
 │   │   ├── gallery/layout.tsx      # Metadata wrapper for client component
@@ -119,12 +119,12 @@ ido-events/
 │       ├── occasions.ts            # 6 occasion data (slug, name, tagline, intro, FAQs)
 │       ├── suburbs.ts              # 25 suburb SEO data (localized copy, venues, coords)
 │       ├── hire-items.ts           # 20 hire items/packages (8 categories)
-│       ├── blog-posts.ts           # Main blog file — imports batch files (113 total)
+│       ├── blog-posts.ts           # Main blog file — imports batch files (114 total)
 │       ├── blog-batch-wedding.ts   # 25 wedding SEO blog posts
 │       ├── blog-batch-birthday.ts  # 25 birthday + baby shower blog posts
 │       ├── blog-batch-events.ts    # 25 christening + engagement + corporate blog posts
 │       ├── blog-batch-general.ts   # 25 general event styling blog posts
-│       ├── blog-batch-seo-authority.ts # 6 authority blog posts (pricing, venues, mehndi)
+│       ├── blog-batch-seo-authority.ts # 7 authority blog posts (pricing, venues, mehndi, competitor listicle)
 │       ├── service-suburbs.ts      # Main service-suburb data (7 services, 15 suburbs, imports batches)
 │       ├── service-suburb-batch-birthday.ts    # 12 birthday suburb entries
 │       ├── service-suburb-batch-baby-shower.ts # 13 baby shower suburb entries
@@ -192,15 +192,15 @@ Premium Framer Motion primitives in `src/components/motion.tsx`:
 - OpenGraph tags on all pages (homepage, occasions, suburbs, hire, gallery, quote, blog, service-suburbs).
 - **JSON-LD structured data** via `src/lib/schema.ts` utility (exports `BASE_URL` constant):
   - `LocalBusiness + EventPlanner` on 25 suburb pages + 105 service-suburb pages
-  - `BlogPosting` on 113 blog posts
+  - `BlogPosting` on 114 blog posts
   - `FAQPage` on 6 occasion pages + 105 service-suburb pages + FAQ hub
   - `Product` on 20 hire items
   - `BreadcrumbList` on all page types (blog, hire, suburb, occasion, service-suburb)
-- Auto-generated `sitemap.xml` covering all 280 routes.
+- Auto-generated `sitemap.xml` covering all 281 routes.
 - `robots.txt` allows all crawlers + AI crawlers (GPTBot, ClaudeBot, PerplexityBot), disallows `/api/`.
 - `llms.txt` at site root for AI crawler business summary.
 - Client component pages (hire, gallery, quote) use `layout.tsx` wrappers for metadata.
-- 113 blog posts with internal linking to hire items, occasion pages, and suburb pages.
+- 114 blog posts with internal linking to hire items, occasion pages, and suburb pages.
 - Blog posts use `generateStaticParams` + `generateMetadata`.
 - Hire items use `generateStaticParams` + `generateMetadata`.
 - Service-suburb pages use `generateStaticParams` + `generateMetadata`.
@@ -212,6 +212,15 @@ Premium Framer Motion primitives in `src/components/motion.tsx`:
 - Conversion events: `generate_lead` on quote form, `phone_call_click` on tel: links.
 - GA only loads when `NEXT_PUBLIC_GA_ID` env var is set.
 - Event helpers in `src/lib/analytics.ts`, type declarations in `src/types/gtag.d.ts`.
+
+### Accessibility (WCAG AA)
+- All text must meet **4.5:1 contrast ratio** (normal text) or **3:1** (large text 18px+/bold 14px+).
+- Use `text-sage-dark` (not `text-sage`) for small text on light backgrounds (cream-light, warm-white).
+- Use `text-charcoal/70` minimum for secondary text on light backgrounds (not `/60` or lower).
+- Use `text-charcoal/60` minimum for metadata text on white (not `/40` or lower).
+- Use full `text-white` on sage backgrounds (not `/90` or lower).
+- Footer column headings use `<p>` not `<h4>` — heading hierarchy must follow h1 → h2 → h3 without skips.
+- Preconnect hints in `layout.tsx <head>` for third-party domains (googletagmanager, receptflow).
 
 ### Security
 - **XSS prevention:** All user input HTML-escaped (`esc()`) before insertion into email templates.
@@ -256,7 +265,7 @@ Premium Framer Motion primitives in `src/components/motion.tsx`:
 18. ✅ SEO & AI visibility (llms.txt, FAQ hub, authority blog posts, service-suburb pages)
 19. ✅ Service × Suburb expansion (105 pages — 7 services × 15 suburbs, all unique content)
 20. ✅ Google Analytics 4 (GA4 tracking, generate_lead + phone_call_click events)
-21. 🔲 Lighthouse audit + further optimisation
+21. ✅ Lighthouse audit (Accessibility 100, SEO 100, Best Practices 96-100 across all page types)
 
 ## Deployment
 
