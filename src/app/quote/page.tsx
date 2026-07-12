@@ -4,6 +4,7 @@ import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { hireItems } from "@/data/hire-items";
+import { trackGenerateLead } from "@/lib/analytics";
 
 const EVENT_TYPES = [
   { id: "wedding", label: "Wedding" },
@@ -92,6 +93,7 @@ function QuoteForm() {
         const data = await res.json();
         throw new Error(data.error || "Something went wrong");
       }
+      trackGenerateLead(form.eventType);
       setSubmitted(true);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Something went wrong");

@@ -132,8 +132,9 @@
 - [ ] Identify pages with high impressions + low CTR → improve titles/descriptions
 
 ### Google Analytics
-- [ ] Add GA4 tracking code to root layout (need GA4 Measurement ID from you)
-- [ ] Set up conversion events: quote form submission, phone click, WhatsApp click
+- [x] GA4 tracking code added to root layout via @next/third-parties (G-EKNJBST7QP)
+- [x] Conversion events: generate_lead on quote form, phone_call_click on tel: links
+- [x] GA only loads when NEXT_PUBLIC_GA_ID env var is set (production-only)
 
 ### AI Citation Monitoring
 - [ ] Monthly: search ChatGPT for "event styling Melbourne" — check if iDo Events appears

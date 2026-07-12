@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { TrackedPhoneLink } from "@/components/TrackedPhoneLink";
 
 const OCCASION_LINKS = [
   { label: "Weddings", href: "/weddings" },
@@ -80,9 +81,9 @@ export function Footer() {
               birthdays, christenings, and more — beautifully styled and delivered to your door.
             </p>
             <div className="mt-3 space-y-1 text-sm">
-              <a href="tel:+61406179786" className="block text-sage-light transition-colors hover:text-white">
+              <TrackedPhoneLink href="tel:+61406179786" className="block text-sage-light transition-colors hover:text-white">
                 0406 179 786
-              </a>
+              </TrackedPhoneLink>
               <a href="mailto:contact@idoeventss.com" className="block text-sage-light transition-colors hover:text-white">
                 contact@idoeventss.com
               </a>
