@@ -165,17 +165,17 @@ function QuoteForm() {
             )}
 
             {/* Event Type */}
-            <div>
-              <label className="mb-2 block text-sm font-semibold">
+            <fieldset>
+              <legend className="mb-2 block text-sm font-semibold">
                 Event Type <span className="text-red-400">*</span>
-              </label>
+              </legend>
               <div className="grid grid-cols-3 gap-2 sm:grid-cols-4">
                 {EVENT_TYPES.map((et) => (
                   <button
                     key={et.id}
                     type="button"
                     onClick={() => update("eventType", et.label)}
-                    className={`rounded-lg border-2 px-3 py-2.5 text-sm font-medium transition-all ${
+                    className={`rounded-lg border-2 px-3 py-2.5 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sage ${
                       form.eventType === et.label
                         ? "border-sage bg-sage/5 text-sage-dark"
                         : "border-black/5 hover:border-sage/30"
@@ -185,88 +185,104 @@ function QuoteForm() {
                   </button>
                 ))}
               </div>
-            </div>
+            </fieldset>
 
             {/* Event Date */}
             <div>
-              <label className="mb-1.5 block text-sm font-semibold">
+              <label htmlFor="quote-date" className="mb-1.5 block text-sm font-semibold">
                 Event Date
               </label>
               <input
+                id="quote-date"
                 type="date"
                 value={form.date}
                 onChange={(e) => update("date", e.target.value)}
-                className="w-full rounded-lg border border-black/10 bg-white px-4 py-3 text-sm focus:border-sage focus:outline-none focus:ring-1 focus:ring-sage"
+                className="w-full rounded-lg border border-black/10 bg-white px-4 py-3 text-sm outline-none focus-visible:border-sage focus-visible:ring-2 focus-visible:ring-sage"
               />
             </div>
 
             {/* Venue */}
             <div>
-              <label className="mb-1.5 block text-sm font-semibold">
+              <label htmlFor="quote-venue" className="mb-1.5 block text-sm font-semibold">
                 Venue / Location (optional)
               </label>
               <input
+                id="quote-venue"
                 type="text"
+                name="venue"
                 value={form.venue}
                 onChange={(e) => update("venue", e.target.value)}
-                placeholder="e.g. Brighton Savoy, backyard in Oakleigh, TBD..."
-                className="w-full rounded-lg border border-black/10 bg-white px-4 py-3 text-sm focus:border-sage focus:outline-none focus:ring-1 focus:ring-sage"
+                placeholder="e.g. Brighton Savoy, backyard in Oakleigh\u2026"
+                autoComplete="off"
+                className="w-full rounded-lg border border-black/10 bg-white px-4 py-3 text-sm outline-none focus-visible:border-sage focus-visible:ring-2 focus-visible:ring-sage"
               />
             </div>
 
             {/* Name */}
             <div>
-              <label className="mb-1.5 block text-sm font-semibold">
+              <label htmlFor="quote-name" className="mb-1.5 block text-sm font-semibold">
                 Full Name <span className="text-red-400">*</span>
               </label>
               <input
+                id="quote-name"
                 type="text"
+                name="name"
                 value={form.name}
                 onChange={(e) => update("name", e.target.value)}
                 placeholder="Your name"
-                className="w-full rounded-lg border border-black/10 bg-white px-4 py-3 text-sm focus:border-sage focus:outline-none focus:ring-1 focus:ring-sage"
+                autoComplete="name"
+                className="w-full rounded-lg border border-black/10 bg-white px-4 py-3 text-sm outline-none focus-visible:border-sage focus-visible:ring-2 focus-visible:ring-sage"
               />
             </div>
 
             {/* Email */}
             <div>
-              <label className="mb-1.5 block text-sm font-semibold">
+              <label htmlFor="quote-email" className="mb-1.5 block text-sm font-semibold">
                 Email <span className="text-red-400">*</span>
               </label>
               <input
+                id="quote-email"
                 type="email"
+                name="email"
                 value={form.email}
                 onChange={(e) => update("email", e.target.value)}
                 placeholder="you@example.com"
-                className="w-full rounded-lg border border-black/10 bg-white px-4 py-3 text-sm focus:border-sage focus:outline-none focus:ring-1 focus:ring-sage"
+                autoComplete="email"
+                spellCheck={false}
+                className="w-full rounded-lg border border-black/10 bg-white px-4 py-3 text-sm outline-none focus-visible:border-sage focus-visible:ring-2 focus-visible:ring-sage"
               />
             </div>
 
             {/* Phone */}
             <div>
-              <label className="mb-1.5 block text-sm font-semibold">
+              <label htmlFor="quote-phone" className="mb-1.5 block text-sm font-semibold">
                 Phone (optional)
               </label>
               <input
+                id="quote-phone"
                 type="tel"
+                name="phone"
                 value={form.phone}
                 onChange={(e) => update("phone", e.target.value)}
                 placeholder="04XX XXX XXX"
-                className="w-full rounded-lg border border-black/10 bg-white px-4 py-3 text-sm focus:border-sage focus:outline-none focus:ring-1 focus:ring-sage"
+                autoComplete="tel"
+                className="w-full rounded-lg border border-black/10 bg-white px-4 py-3 text-sm outline-none focus-visible:border-sage focus-visible:ring-2 focus-visible:ring-sage"
               />
             </div>
 
             {/* Message */}
             <div>
-              <label className="mb-1.5 block text-sm font-semibold">
+              <label htmlFor="quote-message" className="mb-1.5 block text-sm font-semibold">
                 Message (optional)
               </label>
               <textarea
+                id="quote-message"
+                name="message"
                 value={form.message}
                 onChange={(e) => update("message", e.target.value)}
                 rows={4}
-                placeholder="Tell us about your vision — theme, colours, style, venue..."
-                className="w-full rounded-lg border border-black/10 bg-white px-4 py-3 text-sm focus:border-sage focus:outline-none focus:ring-1 focus:ring-sage"
+                placeholder="Tell us about your vision — theme, colours, style, venue\u2026"
+                className="w-full rounded-lg border border-black/10 bg-white px-4 py-3 text-sm outline-none focus-visible:border-sage focus-visible:ring-2 focus-visible:ring-sage"
               />
             </div>
 
@@ -294,7 +310,7 @@ function QuoteForm() {
               disabled={!canSubmit() || submitting}
               className="btn-primary w-full py-4 text-base disabled:cursor-not-allowed disabled:opacity-40"
             >
-              {submitting ? "Sending..." : "Send Enquiry"}
+              {submitting ? "Sending\u2026" : "Send Enquiry"}
             </button>
           </form>
         </div>

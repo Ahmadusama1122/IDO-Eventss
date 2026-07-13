@@ -69,7 +69,7 @@ export function OccasionGrid() {
                   <h3 className="mb-1 font-heading text-xl text-white sm:text-2xl">
                     {o.name}
                   </h3>
-                  <span className="text-xs font-semibold uppercase tracking-wider text-accent-gold-light transition-all duration-300 group-hover:tracking-[0.2em]">
+                  <span className="text-xs font-semibold uppercase tracking-wider text-accent-gold-light transition-[letter-spacing] duration-300 group-hover:tracking-[0.2em]">
                     View Packages &rarr;
                   </span>
                 </div>

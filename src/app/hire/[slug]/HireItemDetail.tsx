@@ -108,7 +108,7 @@ export function HireItemDetail({
               {related.map((rel) => (
                 <div
                   key={rel.slug}
-                  className="group overflow-hidden rounded-xl bg-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
+                  className="group overflow-hidden rounded-xl bg-white shadow-sm transition-[transform,box-shadow] hover:-translate-y-1 hover:shadow-md"
                 >
                   <Link href={`/hire/${rel.slug}`} className="block">
                     <div className="relative aspect-[4/3] overflow-hidden bg-cream-light">

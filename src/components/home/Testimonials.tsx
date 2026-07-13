@@ -45,10 +45,10 @@ export function Testimonials() {
         <TextReveal
           text="What Our Clients Say"
           tag="h2"
-          className="mb-3 font-heading text-3xl sm:text-4xl lg:text-5xl"
+          className="mb-3 text-balance font-heading text-3xl sm:text-4xl lg:text-5xl"
         />
         <ScrollReveal delay={0.2}>
-          <p className="mx-auto mb-4 max-w-xl text-base text-charcoal/60">
+          <p className="mx-auto mb-4 max-w-xl text-base text-charcoal/70">
             Real reviews from real events across Melbourne.
           </p>
         </ScrollReveal>
@@ -71,7 +71,7 @@ export function Testimonials() {
               >
                 &#9733;&#9733;&#9733;&#9733;&#9733;
               </motion.div>
-              <p className="mb-6 text-[15px] leading-relaxed italic text-charcoal/60">
+              <p className="mb-6 text-[15px] leading-relaxed italic text-charcoal/70">
                 &ldquo;{r.text}&rdquo;
               </p>
               <div className="flex items-center gap-3">
@@ -84,7 +84,7 @@ export function Testimonials() {
                 </motion.div>
                 <div>
                   <div className="text-sm font-semibold">{r.name}</div>
-                  <div className="text-xs text-charcoal/50">{r.event}</div>
+                  <div className="text-xs text-charcoal/70">{r.event}</div>
                 </div>
               </div>
             </motion.div>

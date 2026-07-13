@@ -64,6 +64,10 @@
   .btn-primary:hover {
     background-color: var(--color-sage-dark);
   }
+  .btn-primary:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--color-sage);
+  }
 
   .btn-ghost {
     background-color: transparent;
@@ -75,11 +79,15 @@
     font-weight: 600;
     font-size: 0.875rem;
     display: inline-block;
-    transition: all 0.2s;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
   }
   .btn-ghost:hover {
     background-color: #fff;
     color: var(--color-charcoal);
+  }
+  .btn-ghost:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--color-sage), 0 0 0 4px #fff;
   }
 
   .btn-white {
@@ -95,5 +103,9 @@
   }
   .btn-white:hover {
     background-color: var(--color-cream);
+  }
+  .btn-white:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--color-sage), 0 0 0 4px #fff;
   }
 }

@@ -66,7 +66,7 @@ export function FeaturedPackages() {
                 <Magnetic strength={0.1}>
                   <Link
                     href={`/quote?item=${pkg.slug}`}
-                    className="block w-full rounded-lg border-2 border-sage py-2.5 text-center text-[13px] font-semibold text-sage-dark transition-all duration-300 hover:bg-sage hover:text-white hover:shadow-md hover:shadow-sage/20"
+                    className="block w-full rounded-lg border-2 border-sage py-2.5 text-center text-[13px] font-semibold text-sage-dark transition-colors duration-300 hover:bg-sage hover:text-white hover:shadow-md hover:shadow-sage/20"
                   >
                     Enquire Now
                   </Link>

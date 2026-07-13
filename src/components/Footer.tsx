@@ -37,8 +37,8 @@ const COMPANY_LINKS = [
 ];
 
 const SOCIALS = [
-  { label: "IG", href: "https://www.instagram.com/ido.eventss/" },
-  { label: "FB", href: "https://www.facebook.com/balloonheadquarters/" },
+  { label: "IG", ariaLabel: "Instagram", href: "https://www.instagram.com/ido.eventss/" },
+  { label: "FB", ariaLabel: "Facebook", href: "https://www.facebook.com/balloonheadquarters/" },
 ];
 
 function FooterColumn({ title, links }: { title: string; links: { label: string; href: string }[] }) {
@@ -52,7 +52,7 @@ function FooterColumn({ title, links }: { title: string; links: { label: string;
           <li key={link.href + link.label}>
             <Link
               href={link.href}
-              className="text-sm text-white/60 transition-colors hover:text-sage-light"
+              className="rounded text-sm text-white/60 transition-colors hover:text-sage-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sage-light"
             >
               {link.label}
             </Link>
@@ -107,7 +107,10 @@ export function Footer() {
               <a
                 key={s.label}
                 href={s.href}
-                className="flex h-9 w-9 items-center justify-center rounded-full border border-white/20 text-sm text-white/60 transition-colors hover:border-sage hover:bg-sage hover:text-white"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={s.ariaLabel}
+                className="flex h-9 w-9 items-center justify-center rounded-full border border-white/20 text-sm text-white/60 transition-colors hover:border-sage hover:bg-sage hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sage"
               >
                 {s.label}
               </a>

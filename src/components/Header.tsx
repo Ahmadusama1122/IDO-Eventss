@@ -85,7 +85,15 @@ export function Header() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.1 * i, duration: 0.5 }}
                 >
-                  <button className="flex items-center gap-1 py-2 text-sm font-medium text-charcoal transition-colors hover:text-sage-dark">
+                  <button
+                    className="flex items-center gap-1 py-2 text-sm font-medium text-charcoal transition-colors hover:text-sage-dark focus-visible:rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sage"
+                    aria-expanded={occasionsOpen}
+                    aria-haspopup="true"
+                    onClick={() => setOccasionsOpen(!occasionsOpen)}
+                    onKeyDown={(e) => {
+                      if (e.key === "Escape") setOccasionsOpen(false);
+                    }}
+                  >
                     {link.label}
                     <motion.svg
                       className="h-3 w-3"
@@ -95,6 +103,7 @@ export function Header() {
                       viewBox="0 0 24 24"
                       animate={{ rotate: occasionsOpen ? 180 : 0 }}
                       transition={{ duration: 0.2 }}
+                      aria-hidden="true"
                     >
                       <path d="M19 9l-7 7-7-7" />
                     </motion.svg>
@@ -135,7 +144,7 @@ export function Header() {
                 >
                   <Link
                     href={link.href}
-                    className="relative text-sm font-medium text-charcoal transition-colors hover:text-sage-dark"
+                    className="relative rounded text-sm font-medium text-charcoal transition-colors hover:text-sage-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sage"
                   >
                     {link.label}
                   </Link>
@@ -156,11 +165,12 @@ export function Header() {
               </Link>
             </motion.div>
             <button
-              className="flex h-10 w-10 items-center justify-center lg:hidden"
+              className="flex h-10 w-10 items-center justify-center focus-visible:rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sage lg:hidden"
               onClick={() => setMobileOpen(!mobileOpen)}
-              aria-label="Toggle menu"
+              aria-label={mobileOpen ? "Close menu" : "Open menu"}
+              aria-expanded={mobileOpen}
             >
-              <svg className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24">
+              <svg className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24" aria-hidden="true">
                 {mobileOpen ? (
                   <path d="M6 18L18 6M6 6l12 12" />
                 ) : (

@@ -34,10 +34,10 @@ export function InstagramFeed() {
         <TextReveal
           text="Follow Us on Instagram"
           tag="h2"
-          className="mb-3 font-heading text-3xl sm:text-4xl lg:text-5xl"
+          className="mb-3 text-balance font-heading text-3xl sm:text-4xl lg:text-5xl"
         />
         <ScrollReveal delay={0.2}>
-          <p className="mb-4 text-base text-charcoal/60">
+          <p className="mb-4 text-base text-charcoal/70">
             @ido.eventss — Behind the scenes, styling inspiration, and our latest setups.
           </p>
         </ScrollReveal>

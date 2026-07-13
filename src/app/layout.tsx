@@ -74,15 +74,23 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${cormorant.variable} ${dmSans.variable} ${dancingScript.variable}`}
+      style={{ colorScheme: "light" }}
     >
       <head>
+        <meta name="theme-color" content="#FAFAF8" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://www.receptflow.com" />
       </head>
       <body className="pb-[72px] antialiased lg:pb-0">
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-md focus:bg-sage focus:px-4 focus:py-2 focus:text-white focus:outline-none"
+        >
+          Skip to main content
+        </a>
         <SmoothScroll />
         <Header />
-        <main>{children}</main>
+        <main id="main-content">{children}</main>
         <Footer />
         <MobileBar />
         <Script

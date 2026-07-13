@@ -127,7 +127,7 @@ export default async function SuburbPage({
               <Link
                 key={occasion.slug}
                 href={`/${occasion.slug}`}
-                className="group rounded-xl border border-black/5 bg-white p-6 text-center transition-all hover:border-sage hover:shadow-md"
+                className="group rounded-xl border border-black/5 bg-white p-6 text-center transition-colors hover:border-sage hover:shadow-md"
               >
                 <h3 className="font-heading text-lg font-semibold group-hover:text-sage">
                   {occasion.name}

@@ -79,7 +79,7 @@ export function Hero() {
         <TextReveal
           text="Melbourne's Event Styling & Prop Hire Specialists"
           tag="h1"
-          className="mb-6 font-heading text-4xl font-bold leading-[1.08] text-white sm:text-5xl lg:text-7xl"
+          className="mb-6 text-balance font-heading text-4xl font-bold leading-[1.08] text-white sm:text-5xl lg:text-7xl"
           delay={0.6}
           staggerDelay={0.05}
         />

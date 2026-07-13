@@ -7,6 +7,7 @@ import {
   useTransform,
   useScroll,
   useSpring,
+  useReducedMotion,
   animate,
   type Variants,
   type Transition,
@@ -112,6 +113,12 @@ export function ScrollReveal({
   once = true,
   amount = 0.2,
 }: ScrollRevealProps) {
+  const prefersReduced = useReducedMotion();
+
+  if (prefersReduced) {
+    return <div className={className}>{children}</div>;
+  }
+
   return (
     <motion.div
       className={className}
@@ -145,6 +152,12 @@ export function Stagger({
   once = true,
   amount = 0.2,
 }: StaggerProps) {
+  const prefersReduced = useReducedMotion();
+
+  if (prefersReduced) {
+    return <div className={className}>{children}</div>;
+  }
+
   return (
     <motion.div
       className={className}
@@ -219,8 +232,13 @@ export function TextReveal({
   staggerDelay = 0.04,
   once = true,
 }: TextRevealProps) {
+  const prefersReduced = useReducedMotion();
   const words = text.split(" ");
   const Tag = tag;
+
+  if (prefersReduced) {
+    return <Tag className={className}>{text}</Tag>;
+  }
 
   const containerVars: Variants = {
     hidden: {},
@@ -425,6 +443,12 @@ interface FloatingProps {
 }
 
 export function Floating({ children, className, amplitude = 10, duration = 4 }: FloatingProps) {
+  const prefersReduced = useReducedMotion();
+
+  if (prefersReduced) {
+    return <div className={className}>{children}</div>;
+  }
+
   return (
     <motion.div
       className={className}
@@ -475,6 +499,16 @@ interface MarqueeProps {
 }
 
 export function Marquee({ children, className, speed = 30, direction = "left" }: MarqueeProps) {
+  const prefersReduced = useReducedMotion();
+
+  if (prefersReduced) {
+    return (
+      <div className={`overflow-hidden ${className ?? ""}`}>
+        <div className="flex w-max gap-8">{children}</div>
+      </div>
+    );
+  }
+
   return (
     <div className={`overflow-hidden ${className ?? ""}`}>
       <motion.div
@@ -562,4 +596,4 @@ export function useSmoothScroll() {
 /* ═══════════════════════════════════════════════════════════
    RE-EXPORTS
    ═══════════════════════════════════════════════════════════ */
-export { motion, useScroll, useTransform, useSpring, useMotionValue, useInView };
+export { motion, useScroll, useTransform, useSpring, useMotionValue, useInView, useReducedMotion };

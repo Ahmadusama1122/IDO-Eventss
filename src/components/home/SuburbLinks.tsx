@@ -47,7 +47,7 @@ export function SuburbLinks() {
             >
               <Link
                 href={`/event-styling/${toSlug(s)}`}
-                className="inline-block rounded-full border border-black/5 bg-white px-4 py-2 text-[13px] font-medium text-charcoal shadow-sm transition-all duration-300 hover:border-sage hover:bg-sage hover:text-white hover:shadow-md hover:shadow-sage/15"
+                className="inline-block rounded-full border border-black/5 bg-white px-4 py-2 text-[13px] font-medium text-charcoal shadow-sm transition-colors duration-300 hover:border-sage hover:bg-sage hover:text-white hover:shadow-md hover:shadow-sage/15"
               >
                 {s}
               </Link>
@@ -60,7 +60,7 @@ export function SuburbLinks() {
           >
             <Link
               href="/contact"
-              className="inline-block rounded-full border border-sage/30 bg-white px-4 py-2 text-[13px] font-medium text-sage-dark shadow-sm transition-all duration-300 hover:bg-sage hover:text-white hover:shadow-md"
+              className="inline-block rounded-full border border-sage/30 bg-white px-4 py-2 text-[13px] font-medium text-sage-dark shadow-sm transition-colors duration-300 hover:bg-sage hover:text-white hover:shadow-md"
             >
               + More Areas
             </Link>

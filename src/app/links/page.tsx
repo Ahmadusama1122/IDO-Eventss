@@ -132,7 +132,7 @@ export default function LinksPage() {
                 key={link.label}
                 href={link.href}
                 {...extraProps}
-                className={`flex w-full items-center gap-4 rounded-xl px-5 py-4 font-body text-sm font-semibold transition-all ${
+                className={`flex w-full items-center gap-4 rounded-xl px-5 py-4 font-body text-sm font-semibold transition-colors ${
                   link.primary
                     ? "bg-sage text-white shadow-sm hover:bg-sage-dark hover:shadow-md"
                     : "bg-white text-charcoal shadow-sm ring-1 ring-black/5 hover:bg-cream hover:shadow-md"

@@ -99,7 +99,7 @@ export default function ContactPage() {
             <h2 className="mb-2 font-heading text-3xl font-bold text-charcoal">
               Contact Details
             </h2>
-            <p className="mb-8 leading-relaxed text-charcoal/60">
+            <p className="mb-8 leading-relaxed text-charcoal/70">
               Whether you have a question about our services, want to discuss your
               upcoming event, or are ready to request a quote, we are here to help.
               We typically respond within the hour during business hours.
@@ -112,7 +112,7 @@ export default function ContactPage() {
                     {detail.icon}
                   </div>
                   <div>
-                    <div className="text-xs font-semibold uppercase tracking-wider text-charcoal/40">
+                    <div className="text-xs font-semibold uppercase tracking-wider text-charcoal/60">
                       {detail.label}
                     </div>
                     {detail.href ? (
@@ -136,7 +136,7 @@ export default function ContactPage() {
               <h3 className="mb-2 font-heading text-xl font-bold text-charcoal">
                 Quick Quote
               </h3>
-              <p className="mb-4 text-sm text-charcoal/60">
+              <p className="mb-4 text-sm text-charcoal/70">
                 For the fastest response, use our online quote form with all your
                 event details.
               </p>
@@ -165,7 +165,8 @@ export default function ContactPage() {
                   name="name"
                   required
                   placeholder="Jane Smith"
-                  className="w-full rounded-lg border border-black/10 bg-warm-white px-4 py-3 text-sm text-charcoal outline-none transition-colors placeholder:text-charcoal/30 focus:border-sage focus:ring-1 focus:ring-sage"
+                  autoComplete="name"
+                  className="w-full rounded-lg border border-black/10 bg-warm-white px-4 py-3 text-sm text-charcoal outline-none transition-colors placeholder:text-charcoal/30 focus-visible:border-sage focus-visible:ring-2 focus-visible:ring-sage"
                 />
               </div>
               <div>
@@ -181,7 +182,9 @@ export default function ContactPage() {
                   name="email"
                   required
                   placeholder="jane@example.com"
-                  className="w-full rounded-lg border border-black/10 bg-warm-white px-4 py-3 text-sm text-charcoal outline-none transition-colors placeholder:text-charcoal/30 focus:border-sage focus:ring-1 focus:ring-sage"
+                  autoComplete="email"
+                  spellCheck={false}
+                  className="w-full rounded-lg border border-black/10 bg-warm-white px-4 py-3 text-sm text-charcoal outline-none transition-colors placeholder:text-charcoal/30 focus-visible:border-sage focus-visible:ring-2 focus-visible:ring-sage"
                 />
               </div>
               <div>
@@ -196,7 +199,8 @@ export default function ContactPage() {
                   id="contact-phone"
                   name="phone"
                   placeholder="0406 179 786"
-                  className="w-full rounded-lg border border-black/10 bg-warm-white px-4 py-3 text-sm text-charcoal outline-none transition-colors placeholder:text-charcoal/30 focus:border-sage focus:ring-1 focus:ring-sage"
+                  autoComplete="tel"
+                  className="w-full rounded-lg border border-black/10 bg-warm-white px-4 py-3 text-sm text-charcoal outline-none transition-colors placeholder:text-charcoal/30 focus-visible:border-sage focus-visible:ring-2 focus-visible:ring-sage"
                 />
               </div>
               <div>
@@ -211,14 +215,14 @@ export default function ContactPage() {
                   name="message"
                   rows={5}
                   required
-                  placeholder="Tell us about your event..."
-                  className="w-full resize-none rounded-lg border border-black/10 bg-warm-white px-4 py-3 text-sm text-charcoal outline-none transition-colors placeholder:text-charcoal/30 focus:border-sage focus:ring-1 focus:ring-sage"
+                  placeholder="Tell us about your event&#8230;"
+                  className="w-full resize-none rounded-lg border border-black/10 bg-warm-white px-4 py-3 text-sm text-charcoal outline-none transition-colors placeholder:text-charcoal/30 focus-visible:border-sage focus-visible:ring-2 focus-visible:ring-sage"
                 />
               </div>
               <button type="submit" className="btn-primary w-full text-center">
                 Send Message
               </button>
-              <p className="text-center text-xs text-charcoal/40">
+              <p className="text-center text-xs text-charcoal/60">
                 This will redirect you to our quote form with your details
                 pre-filled.
               </p>
@@ -245,7 +249,7 @@ export default function ContactPage() {
               title="IDO Events Melbourne service area"
             />
           </div>
-          <p className="mt-4 text-center text-sm text-charcoal/50">
+          <p className="mt-4 text-center text-sm text-charcoal/70">
             We deliver and style events across 30+ Melbourne suburbs including
             Oakleigh, Preston, Coburg, Doncaster, Point Cook, and many more.
           </p>
