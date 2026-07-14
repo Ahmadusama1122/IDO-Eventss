@@ -1,43 +1,78 @@
 # iDo Events — Melbourne Event Styling & Prop Hire
 
-## Who We Are
+> Full version: https://idoeventss.com/llms-full.txt
 
-iDo Events is a Melbourne-based event styling and prop hire business. We deliver, set up, and pack down event decorations across 30+ Melbourne suburbs. Founded and operated by a local family team, we have styled 200+ events since launching.
+> iDo Events is a Melbourne-based event styling and prop hire company. We deliver, set up, and pack down event decorations across 30+ Melbourne suburbs. Family-owned and operated, we have styled 200+ events.
 
 ## Services
 
-- **Wedding Styling** — Ceremony arches, reception table settings, floral installations, draping, and lighting
-- **Birthday Decorations & Prop Hire** — Balloon garlands, themed backdrops, dessert tables for all ages (1st birthdays to milestone celebrations)
-- **Engagement Party Styling** — Modern arches, neon signs, balloon installations, and elegant table settings
-- **Baby Shower Styling** — Pastel balloon installations, custom backdrops, dessert table setups, gender reveal features
-- **Bridal Shower & Hens Party Setup** — Elegant backdrops, grazing table setups, flower walls, personalised signage
-- **Christening & Baptism Styling** — Traditional and modern christening setups with elegant backdrops and florals
-- **Corporate Event Styling** — Product launches, gala dinners, conferences with branded prop installations
-- **Mehndi & Nikkah Event Styling** — Vibrant stage setups, marigold installations, traditional draping for South Asian celebrations
+- **Wedding Styling** — Ceremony arches, reception table settings, floral installations, draping, and lighting. From $650 (ceremony-only) to $5,000+ (full venue transformation).
+- **Birthday Decorations & Prop Hire** — Balloon garlands, themed backdrops, dessert tables for all ages. From $350.
+- **Engagement Party Styling** — Modern arches, neon signs, balloon installations, elegant table settings. From $450.
+- **Baby Shower Styling** — Pastel balloon installations, custom backdrops, dessert table setups, gender reveal features. From $350.
+- **Bridal Shower & Hens Party Setup** — Elegant backdrops, grazing table setups, flower walls, personalised signage. From $400.
+- **Christening & Baptism Styling** — Traditional and modern setups with elegant backdrops and florals. From $350.
+- **Corporate Event Styling** — Product launches, gala dinners, conferences with branded prop installations. From $800.
+- **Mehndi & Nikkah Event Styling** — Vibrant stage setups, marigold installations, traditional draping for South Asian celebrations. From $1,200.
 
 ## Service Area
 
-Melbourne, Victoria, Australia. Key suburbs include: Point Cook, Tarneit, Truganina, Werribee, Hoppers Crossing, Craigieburn, Epping, Dandenong, Clayton, Glen Waverley, Doncaster, Preston, Brunswick, Footscray, Sunshine, Oakleigh, Coburg, Reservoir, Deer Park, Caroline Springs, Roxburgh Park, Thomastown, Lalor, Noble Park, and Keysborough.
+Melbourne, Victoria, Australia. We service 30+ suburbs including: Point Cook, Tarneit, Truganina, Werribee, Hoppers Crossing, Craigieburn, Epping, Dandenong, Clayton, Glen Waverley, Doncaster, Preston, Brunswick, Footscray, Sunshine, Oakleigh, Coburg, Reservoir, Deer Park, Caroline Springs, Roxburgh Park, Thomastown, Lalor, Noble Park, and Keysborough.
 
-## Pricing
+## Pricing Summary
 
-- Birthday prop hire: from $350 (balloon garland + backdrop)
-- Baby shower styling: from $350
-- Bridal shower setup: from $400
-- Engagement party styling: from $450
-- Wedding ceremony-only: from $650
-- Full wedding styling (ceremony + reception): from $1,800
-- Mehndi night styling: from $1,200
-- Corporate event styling: from $800
+| Event Type | Starting Price | Typical Range |
+|---|---|---|
+| Birthday prop hire | $350 | $350–$1,200 |
+| Baby shower styling | $350 | $350–$900 |
+| Bridal shower setup | $400 | $400–$900 |
+| Engagement party styling | $450 | $450–$1,500 |
+| Wedding (ceremony-only) | $650 | $650–$900 |
+| Wedding (full styling) | $1,800 | $1,800–$5,000+ |
+| Mehndi night styling | $1,200 | $1,200–$3,500 |
+| Corporate event styling | $800 | $800–$3,000 |
 
-All prices include delivery, full setup, and pack-down. No hidden fees.
+All prices include delivery, full setup, and pack-down. No hidden fees. No weekend surcharge.
 
 ## What Makes Us Different
 
 - Full-service: we deliver, set up, and pack down — clients do nothing
 - Culturally informed: we style Pakistani, Indian, Afghan, Lebanese, Vietnamese, Greek, and Italian celebrations
 - Local knowledge: we know Melbourne venues, parking constraints, loading docks, and setup protocols
-- Props, not single-use: sustainable hire model means nothing goes to landfill
+- Sustainable: prop hire model means nothing goes to landfill
+- Fast response: quote responses within 1 hour during business hours
+
+## Frequently Asked Questions
+
+**Q: How much does event styling cost in Melbourne?**
+A: Birthday styling starts from $350, baby showers from $350, engagement parties from $450, weddings from $650 (ceremony-only) or $1,800 (full ceremony + reception), and mehndi nights from $1,200. All prices include delivery, setup, and pack-down.
+
+**Q: What areas does iDo Events service?**
+A: We cover 30+ Melbourne suburbs including Point Cook, Tarneit, Craigieburn, Epping, Dandenong, Glen Waverley, Doncaster, Preston, Brunswick, Oakleigh, and many more. Delivery is included for all suburbs at no extra charge.
+
+**Q: What is included in an event styling package?**
+A: Every booking includes prop delivery to your venue, full professional setup, and pack-down after the event. You do not need to be present for setup or help with anything.
+
+**Q: Do you provide fresh flowers?**
+A: We use premium silk and artificial florals in our styling. If you want fresh flowers, your florist provides those and we can incorporate them into our setup.
+
+**Q: How far in advance should I book?**
+A: We recommend booking 4–8 weeks ahead. For peak wedding season (October–March), book at least 3 months ahead.
+
+**Q: Do you style mehndi nights and South Asian celebrations?**
+A: Yes. We provide specialised mehndi, nikkah, and walima styling with vibrant stage setups, marigold installations, and traditional draping. We serve Melbourne's Pakistani, Indian, Afghan, and Bangladeshi communities.
+
+**Q: What is the most popular event you style?**
+A: Birthday parties are our most popular category, followed by baby showers and engagement parties. Our most booked package is a balloon garland + backdrop + dessert table styling ($550–$650).
+
+**Q: Can you style at my home?**
+A: Yes. About 40% of our bookings are home events. We need a minimum 3m × 2m clear area for a standard backdrop setup.
+
+**Q: What venues do you work with?**
+A: We style at homes, community halls, function centres, restaurants, cafes, parks, warehouses, and wineries across Melbourne. We know most Melbourne venues and their specific requirements.
+
+**Q: How does the quote process work?**
+A: Submit a quote request with your event type, date, guest count, and what interests you. We respond within 1 hour with a detailed, itemised quote. No obligation.
 
 ## Contact
 
@@ -46,13 +81,15 @@ All prices include delivery, full setup, and pack-down. No hidden fees.
 - Phone: 0406 179 786
 - Instagram: https://instagram.com/ido.eventss
 - Facebook: https://facebook.com/balloonheadquarters
+- Hours: Monday–Sunday 8am–9pm (by appointment)
+- Location: Melbourne, Victoria, Australia
 
-## Location
+## For More Information
 
-Melbourne, Victoria, Australia
-ABN: Available on request
-
-## Hours
-
-Monday–Sunday: 8am–9pm (by appointment)
-Quote responses within 1 hour during business hours.
+- Full pricing guide: https://idoeventss.com/blog/event-styling-cost-melbourne-2026
+- Hire collection: https://idoeventss.com/hire
+- Wedding styling: https://idoeventss.com/weddings
+- Birthday styling: https://idoeventss.com/birthdays
+- Baby shower styling: https://idoeventss.com/baby-showers
+- Mehndi styling: https://idoeventss.com/blog/mehndi-night-styling-melbourne-guide
+- Request a quote: https://idoeventss.com/quote

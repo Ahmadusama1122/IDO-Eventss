@@ -10,7 +10,7 @@ export const birthdayPosts: BlogPost[] = [
     date: "2026-05-01",
     category: "Birthdays",
     image: "/gallery/birthdays/birthdays-1.jpg",
-    content: `<p>Planning a kids birthday party in Melbourne can feel like a big task, but with the right theme and a little professional styling, you can create something truly magical. Whether your little one is turning one or ten, the key is choosing a theme they will love and building the decor around it. Here are our favourite kids birthday party ideas for Melbourne families — with practical tips on how to bring each one to life.</p>
+    content: `<p>Planning a kids birthday party in Melbourne can feel like a big task, but with the right theme and a little professional styling, you can create something truly magical. Whether your little one is turning one or ten, the key is choosing a theme they will love and building the decor around it. Here are our favourite kids birthday party ideas for Melbourne families — with practical tips on how to bring each one to life. With <a href="https://www.abs.gov.au/statistics/people/population/births-australia" target="_blank" rel="noopener">over 300,000 babies born in Australia each year</a>, there is no shortage of birthdays to celebrate.</p>
 
 <h2>Themed Party Ideas for Toddlers (Ages 1–3)</h2>
 
@@ -20,7 +20,7 @@ export const birthdayPosts: BlogPost[] = [
 
 <h2>Adventure Themes for Kids (Ages 4–7)</h2>
 
-<p>This is the age where imagination runs wild. Safari adventures are hugely popular across Melbourne — think tall greenery on <a href="/hire/white-plinth-set">white plinths</a>, animal print accents, and earthy balloon garlands in greens and golds. Under the sea themes with ocean-blue draping and iridescent accents are another crowd favourite, especially for summer parties in suburbs like <a href="/event-styling/point-cook">Point Cook</a> and <a href="/event-styling/oakleigh">Oakleigh</a>.</p>
+<p>This is the age where imagination runs wild. Safari adventures are hugely popular across Melbourne — and a consistent top search on <a href="https://www.pinterest.com.au/search/pins/?q=safari+birthday+party" target="_blank" rel="noopener">Pinterest party boards</a> — think tall greenery on <a href="/hire/white-plinth-set">white plinths</a>, animal print accents, and earthy balloon garlands in greens and golds. Under the sea themes with ocean-blue draping and iridescent accents are another crowd favourite, especially for summer parties in suburbs like <a href="/event-styling/point-cook">Point Cook</a> and <a href="/event-styling/oakleigh">Oakleigh</a>.</p>
 
 <p>Garden fairy parties with butterfly props, flower crowns, and our <a href="/hire/garden-party-package">Garden Party Package</a> are perfect for outdoor celebrations. The package includes a pastel balloon garland, backdrop frame with fabric draping, dessert table styling, and a welcome sign — everything delivered and set up by our team.</p>
 
@@ -53,11 +53,11 @@ export const birthdayPosts: BlogPost[] = [
     date: "2026-05-05",
     category: "Birthdays",
     image: "/gallery/birthdays/birthdays-2.jpg",
-    content: `<p>Your baby's first birthday is one of the most special milestones you will celebrate as a family. It is a day to look back on the incredible first year and gather the people you love most. In Melbourne, first birthday parties have become beautifully styled affairs — and with professional prop hire, you can create a magazine-worthy celebration without the stress.</p>
+    content: `<p>Your baby's first birthday is one of the most special milestones you will celebrate as a family. It is a day to look back on the incredible first year and gather the people you love most. With <a href="https://www.abs.gov.au/statistics/people/population/births-australia" target="_blank" rel="noopener">Australia recording steady birth numbers year on year</a>, first birthday celebrations are a thriving tradition. In Melbourne, first birthday parties have become beautifully styled affairs — and with professional prop hire, you can create a magazine-worthy celebration without the stress.</p>
 
 <h2>Popular First Birthday Themes in Melbourne</h2>
 
-<p>The most requested first birthday themes we style across Melbourne include the classic "Oh Baby" neutral palette, teddy bear picnic, twinkle twinkle little star, and the ever-popular "One in a Melon" watermelon theme. Each of these can be adapted to suit your space, colour preferences, and budget.</p>
+<p>The most requested first birthday themes we style across Melbourne include the classic "Oh Baby" neutral palette, teddy bear picnic, twinkle twinkle little star, and the ever-popular "One in a Melon" watermelon theme — all regularly featured on <a href="https://www.pinterest.com.au/search/pins/?q=first+birthday+party+themes" target="_blank" rel="noopener">Pinterest's trending party boards</a>. Each of these can be adapted to suit your space, colour preferences, and budget.</p>
 
 <p>For a timeless look, neutral themes in cream, beige, and soft gold create an elegant setting that photographs beautifully. Pair a <a href="/hire/round-moongate-arch">round moongate arch</a> dressed in dried florals with a <a href="/hire/dessert-table-styling">styled dessert table</a> featuring a custom cake, cupcakes, and coordinating treats. Add a <a href="/hire/neon-sign-custom-text">custom neon sign</a> with your child's name for a personal touch that doubles as stunning decor.</p>
 
@@ -108,7 +108,7 @@ export const birthdayPosts: BlogPost[] = [
 
 <p>The most popular 21st birthday themes we style across Melbourne right now include black and gold glam, modern minimalist, boho garden, and vintage Hollywood. Each creates a distinctly different atmosphere, so choose based on the guest of honour's personality and the venue you are working with.</p>
 
-<p>Black and gold remains the number one choice for 21st birthdays. A <a href="/hire/gold-hexagonal-arch">gold hexagonal arch</a> paired with black draping, <a href="/hire/gold-letter-light-up">gold letter light-ups</a> spelling "21", and a metallic balloon garland creates a glamorous atmosphere that works in any function room or backyard marquee. Our <a href="/hire/modern-luxe-package">Modern Luxe Package</a> was designed with exactly this kind of celebration in mind.</p>
+<p>Black and gold remains the number one choice for 21st birthdays, consistently ranking among the <a href="https://www.pinterest.com.au/search/pins/?q=21st+birthday+black+and+gold" target="_blank" rel="noopener">most-pinned milestone party themes on Pinterest</a>. A <a href="/hire/gold-hexagonal-arch">gold hexagonal arch</a> paired with black draping, <a href="/hire/gold-letter-light-up">gold letter light-ups</a> spelling "21", and a metallic balloon garland creates a glamorous atmosphere that works in any function room or backyard marquee. Our <a href="/hire/modern-luxe-package">Modern Luxe Package</a> was designed with exactly this kind of celebration in mind.</p>
 
 <h2>Statement Pieces That Make a 21st Special</h2>
 
@@ -120,7 +120,7 @@ export const birthdayPosts: BlogPost[] = [
 
 <h2>Venue Styling Tips for a 21st in Melbourne</h2>
 
-<p>Function rooms and restaurants across Melbourne suburbs like <a href="/event-styling/oakleigh">Oakleigh</a>, <a href="/event-styling/preston">Preston</a>, and <a href="/event-styling/dandenong">Dandenong</a> are popular choices for 21st birthdays. When choosing a venue, consider the following:</p>
+<p>Function rooms and restaurants across Melbourne suburbs like <a href="/event-styling/oakleigh">Oakleigh</a>, <a href="/event-styling/preston">Preston</a>, and <a href="/event-styling/dandenong">Dandenong</a> are popular choices for 21st birthdays. The <a href="https://www.melbourne.vic.gov.au/community/hubs-bookable-spaces/Pages/702702.aspx" target="_blank" rel="noopener">City of Melbourne</a> also lists community spaces available for private functions. When choosing a venue, consider the following:</p>
 
 <ul>
 <li>Does the venue allow external decorators and stylists?</li>
@@ -151,7 +151,7 @@ export const birthdayPosts: BlogPost[] = [
 
 <h2>Elegant 30th Birthday Themes</h2>
 
-<p>The most popular 30th birthday themes we see across Melbourne lean towards sophistication. A rustic wine and cheese evening with timber accents, greenery garlands, and warm candlelight is a perennial favourite. Our <a href="/hire/rustic-arch-backdrop">rustic arch backdrop</a> dressed with eucalyptus creates the perfect photo spot for this theme, while <a href="/hire/floral-centrepiece-set">floral centrepiece sets</a> in deep greens and whites complete the tablescape.</p>
+<p>The most popular 30th birthday themes we see across Melbourne lean towards sophistication. A rustic wine and cheese evening with timber accents, greenery garlands, and warm candlelight is a perennial favourite — a style that <a href="https://www.pinterest.com.au/search/pins/?q=rustic+30th+birthday+styling" target="_blank" rel="noopener">Pinterest trend data</a> shows rising year on year. Our <a href="/hire/rustic-arch-backdrop">rustic arch backdrop</a> dressed with eucalyptus creates the perfect photo spot for this theme, while <a href="/hire/floral-centrepiece-set">floral centrepiece sets</a> in deep greens and whites complete the tablescape.</p>
 
 <p>For a more contemporary feel, the minimalist modern theme uses a neutral palette with a few carefully chosen statement pieces. A single <a href="/hire/gold-hexagonal-arch">gold hexagonal arch</a> with an asymmetric balloon arrangement, clean white table settings, and a <a href="/hire/neon-sign-custom-text">custom neon sign</a> with a meaningful phrase creates maximum impact with minimal clutter.</p>
 
@@ -163,7 +163,7 @@ export const birthdayPosts: BlogPost[] = [
 
 <h2>Colour Palettes That Work for a 30th</h2>
 
-<p>The colour palette sets the entire mood of your celebration. Here are the combinations we see working best for 30th birthdays in Melbourne:</p>
+<p>The colour palette sets the entire mood of your celebration. As <a href="https://www.elledecor.com/design-decorate/color/g26898407/color-trends/" target="_blank" rel="noopener">Elle Decor's colour trend reports</a> confirm, muted earth tones and jewel shades are dominating event design. Here are the combinations we see working best for 30th birthdays in Melbourne:</p>
 
 <ul>
 <li>Black and gold — classic glamour that works in any venue</li>
@@ -199,9 +199,9 @@ export const birthdayPosts: BlogPost[] = [
 
 <h2>Sophisticated 40th Birthday Themes</h2>
 
-<p>At 40, most people know exactly what they like — and the theme should reflect that confidence. A garden luncheon with soft florals, linen tablecloths, and natural light is perfect for those who love understated elegance. Our <a href="/hire/floral-centrepiece-set">floral centrepiece sets</a> in pastel tones paired with glass vases create beautiful table settings, while a <a href="/hire/welcome-sign-on-easel">welcome sign on easel</a> with hand-lettered details adds a personal touch.</p>
+<p>At 40, most people know exactly what they like — and the theme should reflect that confidence. A garden luncheon with soft florals, linen tablecloths, and natural light is perfect for those who love understated elegance — a styling direction championed by <a href="https://www.houseandgarden.co.uk/topic/party-ideas" target="_blank" rel="noopener">House &amp; Garden</a> as the gold standard for milestone entertaining. Our <a href="/hire/floral-centrepiece-set">floral centrepiece sets</a> in pastel tones paired with glass vases create beautiful table settings, while a <a href="/hire/welcome-sign-on-easel">welcome sign on easel</a> with hand-lettered details adds a personal touch.</p>
 
-<p>For an evening celebration, a masquerade or cocktail theme brings drama and sophistication. Deep jewel tones — emerald, burgundy, navy — paired with gold accents create a luxurious atmosphere. Our <a href="/hire/ceiling-draping-package">ceiling draping package</a> with fairy lights woven throughout transforms any function room into a glamorous ballroom, while <a href="/hire/floral-tower-arrangement">floral tower arrangements</a> on the tables add height and visual impact.</p>
+<p>For an evening celebration, a masquerade or cocktail theme brings drama and sophistication. Deep jewel tones — emerald, burgundy, navy — paired with gold accents create a luxurious atmosphere, a combination <a href="https://www.elledecor.com/design-decorate/color/g26898407/color-trends/" target="_blank" rel="noopener">Elle Decor</a> highlights as a leading interior and event colour direction. Our <a href="/hire/ceiling-draping-package">ceiling draping package</a> with fairy lights woven throughout transforms any function room into a glamorous ballroom, while <a href="/hire/floral-tower-arrangement">floral tower arrangements</a> on the tables add height and visual impact.</p>
 
 <h2>Styling That Says "This Is a Milestone"</h2>
 
@@ -240,7 +240,7 @@ export const birthdayPosts: BlogPost[] = [
     date: "2026-05-25",
     category: "Birthdays",
     image: "/gallery/birthdays/birthdays-6.jpg",
-    content: `<p>Fifty is a landmark worth celebrating with style and grace. In Melbourne, 50th birthday parties are increasingly becoming beautifully curated events that honour the guest of honour's journey while creating a warm, memorable atmosphere for family and friends. Here are our favourite ideas for styling an elegant 50th birthday celebration.</p>
+    content: `<p>Fifty is a landmark worth celebrating with style and grace. In Melbourne — one of <a href="https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population" target="_blank" rel="noopener">Australia's fastest-growing cities by population</a> — 50th birthday parties are increasingly becoming beautifully curated events that honour the guest of honour's journey while creating a warm, memorable atmosphere for family and friends. Here are our favourite ideas for styling an elegant 50th birthday celebration.</p>
 
 <h2>Classic Themes for a 50th Birthday</h2>
 
@@ -270,7 +270,7 @@ export const birthdayPosts: BlogPost[] = [
 
 <p>Lighting plays a crucial role at a 50th birthday celebration. A <a href="/hire/fairy-light-curtain">fairy light curtain</a> behind the main table creates a warm, ethereal glow, while <a href="/hire/festoon-light-string">festoon light strings</a> overhead add a relaxed, inviting ambiance to outdoor or marquee celebrations. Candles at varying heights throughout the venue complete the atmospheric lighting.</p>
 
-<p>Live music — whether a jazz trio, a solo acoustic guitarist, or a DJ — adds another layer of sophistication. Coordinate the performance area styling with the rest of the event decor for a seamless look. A styled stage area with draping and lighting creates a natural focal point.</p>
+<p>Live music — whether a jazz trio, a solo acoustic guitarist, or a DJ — adds another layer of sophistication. The <a href="https://www.melbourne.vic.gov.au/arts-and-culture/events" target="_blank" rel="noopener">City of Melbourne events calendar</a> is a great source of local entertainment inspiration. Coordinate the performance area styling with the rest of the event decor for a seamless look. A styled stage area with draping and lighting creates a natural focal point.</p>
 
 <h2>Choosing the Right Melbourne Venue</h2>
 
@@ -288,7 +288,7 @@ export const birthdayPosts: BlogPost[] = [
     date: "2026-05-30",
     category: "Birthdays",
     image: "/gallery/birthdays/birthdays-7.jpg",
-    content: `<p>Balloons have come a long way from simple bunches tied to letterboxes. In Melbourne, professional balloon styling has become one of the most impactful and versatile ways to transform a birthday celebration. From organic garlands cascading over dessert tables to structured arches framing entrances, balloon decorations create a wow factor that guests notice the moment they walk in.</p>
+    content: `<p>Balloons have come a long way from simple bunches tied to letterboxes. In Melbourne, professional balloon styling has become one of the most impactful and versatile ways to transform a birthday celebration — and <a href="https://www.pinterest.com.au/search/pins/?q=balloon+garland+birthday" target="_blank" rel="noopener">Pinterest searches for balloon garlands</a> continue to climb each year. From organic garlands cascading over dessert tables to structured arches framing entrances, balloon decorations create a wow factor that guests notice the moment they walk in.</p>
 
 <h2>Types of Balloon Installations for Birthdays</h2>
 
@@ -312,6 +312,7 @@ export const birthdayPosts: BlogPost[] = [
 <li>Add foliage, dried flowers, or ribbon tails for texture and visual interest</li>
 <li>Consider the venue temperature — heat causes balloons to expand, so avoid direct sunlight</li>
 <li>Book professional installation to ensure your balloons last the entire event</li>
+<li>Choose biodegradable latex balloons where possible — <a href="https://www.sustainability.vic.gov.au/recycling-and-reducing-waste" target="_blank" rel="noopener">Sustainability Victoria</a> recommends reducing single-use plastics at events</li>
 </ul>
 
 <h2>Pairing Balloons with Other Styling Elements</h2>
@@ -334,13 +335,13 @@ export const birthdayPosts: BlogPost[] = [
     date: "2026-06-03",
     category: "Birthdays",
     image: "/gallery/birthdays/birthdays-8.jpg",
-    content: `<p>The dessert table has become one of the most photographed and admired elements of any birthday celebration. More than just a place to put the cake, a well-styled dessert table serves as a visual centrepiece, a conversation starter, and a gathering point where guests naturally congregate. Here is how to create a show-stopping sweet display for your next Melbourne birthday party.</p>
+    content: `<p>The dessert table has become one of the most photographed and admired elements of any birthday celebration. More than just a place to put the cake, a well-styled dessert table serves as a visual centrepiece, a conversation starter, and a gathering point where guests naturally congregate. It is no surprise that <a href="https://www.pinterest.com.au/search/pins/?q=styled+dessert+table+birthday" target="_blank" rel="noopener">dessert table styling</a> is one of the most-searched party categories on Pinterest. Here is how to create a show-stopping sweet display for your next Melbourne birthday party.</p>
 
 <h2>Essential Elements of a Styled Dessert Table</h2>
 
 <p>Every great dessert table starts with a strong backdrop. Whether it is a <a href="/hire/balloon-garland-installation">balloon garland installation</a> cascading behind the table, a <a href="/hire/backdrop-draping-set">backdrop draping set</a> in your event colours, or a combination of both, the backdrop frames the entire display and makes it feel intentional. Without a backdrop, even the most beautiful treats can look lost against a plain wall.</p>
 
-<p>Height variation is critical. Use tiered cake stands, <a href="/hire/white-plinth-set">white plinths</a> at different levels, glass cloches, and raised platters to create visual interest across the table. The tallest element — usually the main cake — should sit at the centre or slightly off-centre, with other elements graduating down in height towards the edges.</p>
+<p>Height variation is critical — a principle highlighted by <a href="https://www.elledecor.com/design-decorate/g46195290/table-setting-ideas/" target="_blank" rel="noopener">Elle Decor's table styling guides</a>. Use tiered cake stands, <a href="/hire/white-plinth-set">white plinths</a> at different levels, glass cloches, and raised platters to create visual interest across the table. The tallest element — usually the main cake — should sit at the centre or slightly off-centre, with other elements graduating down in height towards the edges.</p>
 
 <p>Our <a href="/hire/dessert-table-styling">dessert table styling</a> package includes a backdrop frame, fabric draping, three-tier stands, display platters, and decorative accents — everything you need for a polished, professional look.</p>
 
@@ -381,7 +382,7 @@ export const birthdayPosts: BlogPost[] = [
     date: "2026-06-07",
     category: "Birthdays",
     image: "/gallery/birthdays/birthdays-9.jpg",
-    content: `<p>Melbourne's beautiful parks, gardens, and backyards make outdoor birthday parties a natural choice for families and hosts who want their celebration to feel relaxed, spacious, and connected to nature. With the right styling, an outdoor birthday can be just as polished and visually stunning as any indoor event — if not more so. Here are our best ideas for styling outdoor birthday parties in Melbourne.</p>
+    content: `<p>Melbourne's beautiful parks, gardens, and backyards — many of which are listed on the <a href="https://www.melbourne.vic.gov.au/community/parks-open-spaces" target="_blank" rel="noopener">City of Melbourne parks directory</a> — make outdoor birthday parties a natural choice for families and hosts who want their celebration to feel relaxed, spacious, and connected to nature. With the right styling, an outdoor birthday can be just as polished and visually stunning as any indoor event — if not more so. Here are our best ideas for styling outdoor birthday parties in Melbourne.</p>
 
 <h2>Backyard Birthday Styling</h2>
 
@@ -403,7 +404,7 @@ export const birthdayPosts: BlogPost[] = [
 
 <ul>
 <li>Always have a backup plan — a marquee, garage, or indoor alternative</li>
-<li>Avoid helium balloons outdoors as wind carries them away; opt for garlands attached to structures</li>
+<li>Avoid helium balloons outdoors as wind carries them away and they become litter — <a href="https://www.sustainability.vic.gov.au/recycling-and-reducing-waste" target="_blank" rel="noopener">Sustainability Victoria</a> advises against outdoor balloon releases; opt for garlands attached to structures</li>
 <li>Secure all lightweight props and signage — wind can topple easels and plinths</li>
 <li>Keep food displays shaded and set up close to party time in warm weather</li>
 <li>Consider the sun's position during your event for photo lighting</li>
@@ -429,7 +430,7 @@ export const birthdayPosts: BlogPost[] = [
     date: "2026-06-10",
     category: "Birthdays",
     image: "/gallery/birthdays/birthdays-10.jpg",
-    content: `<p>Hiring quality props is the smartest way to style a birthday party in Melbourne. You get professional-grade decor without the expense of buying, the hassle of storing, or the waste of disposing. But with so many options available, it can be hard to know where to start. This guide breaks down every prop category so you can choose the right items for your celebration.</p>
+    content: `<p>Hiring quality props is the smartest way to style a birthday party in Melbourne. You get professional-grade decor without the expense of buying, the hassle of storing, or the waste of disposing — an approach that aligns with <a href="https://www.sustainability.vic.gov.au/recycling-and-reducing-waste" target="_blank" rel="noopener">Sustainability Victoria's guidelines</a> on reducing single-use waste at events. But with so many options available, it can be hard to know where to start. This guide breaks down every prop category so you can choose the right items for your celebration.</p>
 
 <h2>Backdrops and Arches</h2>
 
@@ -457,7 +458,7 @@ export const birthdayPosts: BlogPost[] = [
 
 <h2>Packages That Combine Everything</h2>
 
-<p>If choosing individual items feels overwhelming, our curated packages bundle the most popular items together at a better value. The <a href="/hire/garden-party-package">Garden Party Package</a> is perfect for outdoor celebrations, the <a href="/hire/modern-luxe-package">Modern Luxe Package</a> suits glamorous milestones, and the <a href="/hire/rustic-romance-package">Rustic Romance Package</a> creates a warm, natural aesthetic. Each package includes delivery, setup, and pack-down across Melbourne suburbs including <a href="/event-styling/oakleigh">Oakleigh</a>, <a href="/event-styling/preston">Preston</a>, and <a href="/event-styling/dandenong">Dandenong</a>.</p>
+<p>If choosing individual items feels overwhelming, curated packages are the way to go — a trend <a href="https://www.pinterest.com.au/search/pins/?q=birthday+party+styling+packages" target="_blank" rel="noopener">Pinterest party planners</a> consistently recommend. Our curated packages bundle the most popular items together at a better value. The <a href="/hire/garden-party-package">Garden Party Package</a> is perfect for outdoor celebrations, the <a href="/hire/modern-luxe-package">Modern Luxe Package</a> suits glamorous milestones, and the <a href="/hire/rustic-romance-package">Rustic Romance Package</a> creates a warm, natural aesthetic. Each package includes delivery, setup, and pack-down across Melbourne suburbs including <a href="/event-styling/oakleigh">Oakleigh</a>, <a href="/event-styling/preston">Preston</a>, and <a href="/event-styling/dandenong">Dandenong</a>.</p>
 
 <p>Ready to start building your birthday party hire list? Browse the full <a href="/hire">hire collection</a> or <a href="/quote">request a free quote</a> and let our team recommend the perfect combination of props for your celebration.</p>`,
   },
@@ -475,7 +476,7 @@ export const birthdayPosts: BlogPost[] = [
 
 <h2>Neon Glow Party</h2>
 
-<p>This is consistently the number one request for teen birthdays across Melbourne. Black backdrops with UV-reactive elements, fluorescent balloon garlands, and glow sticks create an electrifying atmosphere. Our <a href="/hire/neon-sign-custom-text">custom neon signs</a> are the hero piece — personalise with the teen's name, age, or a fun phrase. Pair with a <a href="/hire/backdrop-draping-set">backdrop draping set</a> in black and add UV lighting for a party that feels like a nightclub without actually being one.</p>
+<p>This is consistently the number one request for teen birthdays across Melbourne, and <a href="https://www.pinterest.com.au/search/pins/?q=neon+glow+party+teen" target="_blank" rel="noopener">Pinterest search data</a> confirms neon glow is a top trending teen party theme globally. Black backdrops with UV-reactive elements, fluorescent balloon garlands, and glow sticks create an electrifying atmosphere. Our <a href="/hire/neon-sign-custom-text">custom neon signs</a> are the hero piece — personalise with the teen's name, age, or a fun phrase. Pair with a <a href="/hire/backdrop-draping-set">backdrop draping set</a> in black and add UV lighting for a party that feels like a nightclub without actually being one.</p>
 
 <p>Set up a photo wall with neon props and a ring light for the ultimate selfie station. Teens will spend half the party taking photos — make sure the backdrop is Instagram-worthy and they will remember it forever.</p>
 
@@ -505,6 +506,7 @@ export const birthdayPosts: BlogPost[] = [
 <li>Keep the styling cool and contemporary, not cute or childish</li>
 <li>Include interactive elements like a photo booth, DIY station, or games area</li>
 <li>Consider the music and sound setup alongside the visual styling</li>
+<li>Check local noise guidelines — the <a href="https://www.melbourne.vic.gov.au/residents/local-laws" target="_blank" rel="noopener">City of Melbourne local laws page</a> has information on residential event noise</li>
 </ul>
 
 <h2>Plan a Teen Birthday They Will Love</h2>
@@ -521,13 +523,13 @@ export const birthdayPosts: BlogPost[] = [
     date: "2026-06-18",
     category: "Birthdays",
     image: "/gallery/birthdays/birthdays-12.jpg",
-    content: `<p>Milestone birthdays mark significant chapters in life, and they deserve celebrations that match their importance. Whether it is an 18th, 21st, 30th, 40th, 50th, or 60th, each milestone has its own character and calls for styling that reflects the moment. Here is our guide to celebrating every big number in Melbourne with the right themes, props, and styling approach.</p>
+    content: `<p>Milestone birthdays mark significant chapters in life, and they deserve celebrations that match their importance. With <a href="https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population" target="_blank" rel="noopener">Victoria's population surpassing 7 million</a>, Melbourne has a thriving celebration culture around every big number. Whether it is an 18th, 21st, 30th, 40th, 50th, or 60th, each milestone has its own character and calls for styling that reflects the moment. Here is our guide to celebrating every big number in Melbourne with the right themes, props, and styling approach.</p>
 
 <h2>What Makes a Milestone Birthday Different</h2>
 
 <p>A milestone birthday is not just another year — it is a moment that people remember for decades. The styling should feel elevated above an ordinary party, with statement pieces that signal "this is special." <a href="/hire/gold-letter-light-up">Gold letter light-ups</a> spelling the age create an instant focal point that photographs beautifully and reminds everyone exactly what is being celebrated.</p>
 
-<p>A curated backdrop is essential. For milestones, we recommend going bigger and bolder than you might for a regular birthday. A <a href="/hire/backdrop-draping-set">backdrop draping set</a> layered with a <a href="/hire/balloon-garland-installation">balloon garland installation</a> and a <a href="/hire/neon-sign-custom-text">custom neon sign</a> creates a three-dimensional photo wall that guests will queue to stand in front of.</p>
+<p>A curated backdrop is essential — <a href="https://www.pinterest.com.au/search/pins/?q=milestone+birthday+backdrop" target="_blank" rel="noopener">Pinterest's milestone birthday boards</a> show layered, multi-element installations as the clear front-runner. For milestones, we recommend going bigger and bolder than you might for a regular birthday. A <a href="/hire/backdrop-draping-set">backdrop draping set</a> layered with a <a href="/hire/balloon-garland-installation">balloon garland installation</a> and a <a href="/hire/neon-sign-custom-text">custom neon sign</a> creates a three-dimensional photo wall that guests will queue to stand in front of.</p>
 
 <h2>Styling Ideas by Milestone</h2>
 
@@ -571,13 +573,13 @@ export const birthdayPosts: BlogPost[] = [
 
 <p>Before anything else, decide how much you want to spend and who you want to invite. These two decisions will shape every choice that follows — from the venue to the styling to the catering. Be realistic about your budget and allocate it across the key areas: venue, food and drinks, cake, styling and props, entertainment, and invitations.</p>
 
-<p>For styling and prop hire, many Melbourne families are surprised at how affordable professional styling can be compared to buying disposable decorations. Our packages start at accessible price points and include delivery, setup, and pack-down — which saves you time and stress on the day. Visit our <a href="/hire">hire page</a> to see options across every budget level.</p>
+<p>For styling and prop hire, many Melbourne families are surprised at how affordable professional styling can be compared to buying disposable decorations. Hiring reusable props also reduces landfill waste — something <a href="https://www.sustainability.vic.gov.au/recycling-and-reducing-waste" target="_blank" rel="noopener">Sustainability Victoria</a> actively encourages for event planning. Our packages start at accessible price points and include delivery, setup, and pack-down — which saves you time and stress on the day. Visit our <a href="/hire">hire page</a> to see options across every budget level.</p>
 
 <h2>Step 2: Choose Your Theme and Venue (6–8 Weeks Before)</h2>
 
 <p>Your theme and venue go hand in hand. A glamorous black and gold 21st suits a function room or restaurant, while a garden fairy party works best outdoors. A boho festival theme needs space for cushions and lighting, while a formal seated dinner requires a venue with tables and chairs.</p>
 
-<p>Melbourne offers fantastic venue options for every type of celebration. Backyards are free and flexible. Community halls in suburbs like <a href="/event-styling/preston">Preston</a> and <a href="/event-styling/dandenong">Dandenong</a> are affordable and spacious. Restaurants and function centres offer catering and facilities. Parks provide beautiful natural backdrops at no cost.</p>
+<p>Melbourne offers fantastic venue options for every type of celebration. The <a href="https://www.melbourne.vic.gov.au/community/hubs-bookable-spaces/Pages/702702.aspx" target="_blank" rel="noopener">City of Melbourne</a> lists bookable community spaces, and beyond the city centre, backyards are free and flexible. Community halls in suburbs like <a href="/event-styling/preston">Preston</a> and <a href="/event-styling/dandenong">Dandenong</a> are affordable and spacious. Restaurants and function centres offer catering and facilities. Parks provide beautiful natural backdrops at no cost.</p>
 
 <p>Once you have chosen your theme and venue, select a colour palette of two to three colours and lock it in. This palette will guide every styling decision from this point forward.</p>
 
@@ -589,7 +591,7 @@ export const birthdayPosts: BlogPost[] = [
 
 <h2>Step 4: Finalise Details (2–3 Weeks Before)</h2>
 
-<p>Confirm your guest count, finalise catering orders, and lock in all styling details with your prop hire company. Share venue access times, contact details, and any special requirements. Order or make your invitations if you have not already — digital invitations are popular and eco-friendly.</p>
+<p>Confirm your guest count, finalise catering orders, and lock in all styling details with your prop hire company. Share venue access times, contact details, and any special requirements. Order or make your invitations if you have not already — digital invitations are popular and eco-friendly, aligning with <a href="https://www.sustainability.vic.gov.au/recycling-and-reducing-waste" target="_blank" rel="noopener">Sustainability Victoria's waste reduction principles</a>.</p>
 
 <ul>
 <li>Confirm setup and pack-down times with your venue and stylist</li>
@@ -617,7 +619,7 @@ export const birthdayPosts: BlogPost[] = [
     date: "2026-06-26",
     category: "Birthdays",
     image: "/gallery/birthdays/birthdays-14.jpg",
-    content: `<p>The backdrop is arguably the most important styling element at any birthday party. It is where the birthday person stands for their key photos, where guests gather for group shots, and where the overall theme of the celebration is most powerfully expressed. Choosing the right backdrop can make the difference between a party that looks homemade and one that looks professionally styled. Here are the best birthday backdrop ideas for Melbourne celebrations.</p>
+    content: `<p>The backdrop is arguably the most important styling element at any birthday party. It is where the birthday person stands for their key photos, where guests gather for group shots, and where the overall theme of the celebration is most powerfully expressed. Choosing the right backdrop can make the difference between a party that looks homemade and one that looks professionally styled. <a href="https://www.pinterest.com.au/search/pins/?q=birthday+party+backdrop+ideas" target="_blank" rel="noopener">Pinterest's party decor boards</a> consistently show the backdrop as the single most-saved element of any celebration. Here are the best birthday backdrop ideas for Melbourne celebrations.</p>
 
 <h2>Arch Backdrops for Birthdays</h2>
 
@@ -627,7 +629,7 @@ export const birthdayPosts: BlogPost[] = [
 
 <h2>Draped and Fabric Backdrops</h2>
 
-<p>Fabric backdrops add softness and elegance that hard structures cannot match. Our <a href="/hire/backdrop-draping-set">backdrop draping set</a> features a freestanding frame with both sheer and solid fabric layers, available in white, ivory, blush, or sage. The flowing fabric creates a romantic, flattering background for photos.</p>
+<p>Fabric backdrops add softness and elegance that hard structures cannot match — a styling principle that <a href="https://www.elledecor.com/design-decorate/g46195290/table-setting-ideas/" target="_blank" rel="noopener">Elle Decor</a> applies to both interior and event design. Our <a href="/hire/backdrop-draping-set">backdrop draping set</a> features a freestanding frame with both sheer and solid fabric layers, available in white, ivory, blush, or sage. The flowing fabric creates a romantic, flattering background for photos.</p>
 
 <p>For maximum impact, layer draping with other elements. A fabric backdrop with a <a href="/hire/balloon-garland-installation">balloon garland</a> cascading across the top creates depth and visual interest. Adding a <a href="/hire/neon-sign-custom-text">custom neon sign</a> in front of the draping creates a focal point that draws the eye and photographs beautifully — this combination is particularly popular for 21st and 30th birthdays in suburbs like <a href="/event-styling/oakleigh">Oakleigh</a> and <a href="/event-styling/preston">Preston</a>.</p>
 
@@ -665,7 +667,7 @@ export const birthdayPosts: BlogPost[] = [
     date: "2026-06-30",
     category: "Birthdays",
     image: "/gallery/birthdays/birthdays-15.jpg",
-    content: `<p>A surprise birthday party is one of the most exciting celebrations to plan — and one of the most challenging to pull off. The styling needs to be spectacular enough to justify the secrecy, but the setup needs to happen quickly and quietly while the guest of honour is kept away. Here are our top tips for coordinating a surprise birthday party with professional styling in Melbourne.</p>
+    content: `<p>A surprise birthday party is one of the most exciting celebrations to plan — and one of the most challenging to pull off. <a href="https://www.pinterest.com.au/search/pins/?q=surprise+birthday+party+setup" target="_blank" rel="noopener">Pinterest's surprise party boards</a> are full of inspiration, but execution is where the real skill lies. The styling needs to be spectacular enough to justify the secrecy, but the setup needs to happen quickly and quietly while the guest of honour is kept away. Here are our top tips for coordinating a surprise birthday party with professional styling in Melbourne.</p>
 
 <h2>Coordinating the Secret Setup</h2>
 
@@ -691,7 +693,7 @@ export const birthdayPosts: BlogPost[] = [
 <li>Have someone monitoring the birthday person's location via text updates</li>
 </ul>
 
-<p>For surprise parties at a restaurant or function room, the logistics are simpler — the venue is a neutral space the birthday person is "invited to" for what they think is a casual dinner. The styling is already set up when they arrive, and the surprise happens at the door.</p>
+<p>If you are considering a public venue, the <a href="https://www.melbourne.vic.gov.au/community/hubs-bookable-spaces/Pages/702702.aspx" target="_blank" rel="noopener">City of Melbourne's bookable spaces</a> include rooms suitable for private functions. For surprise parties at a restaurant or function room, the logistics are simpler — the venue is a neutral space the birthday person is "invited to" for what they think is a casual dinner. The styling is already set up when they arrive, and the surprise happens at the door.</p>
 
 <h2>Theme Ideas That Work for Surprises</h2>
 
@@ -715,11 +717,11 @@ export const birthdayPosts: BlogPost[] = [
     date: "2026-07-01",
     category: "Baby Showers",
     image: "/gallery/baby-showers/baby-showers-1.jpg",
-    content: `<p>Baby shower decorations in Melbourne have evolved far beyond simple bunting and a few balloons. Today's celebrations are beautifully curated events with cohesive colour palettes, statement backdrops, and styling details that rival wedding receptions. Whether you are planning a small gathering at home or a larger celebration at a venue, here are the baby shower decoration trends shaping Melbourne celebrations in 2026.</p>
+    content: `<p>Baby shower decorations in Melbourne have evolved far beyond simple bunting and a few balloons. With <a href="https://www.abs.gov.au/statistics/people/population/births-australia" target="_blank" rel="noopener">around 300,000 babies born in Australia annually</a>, baby showers are a booming celebration category. Today's celebrations are beautifully curated events with cohesive colour palettes, statement backdrops, and styling details that rival wedding receptions. Whether you are planning a small gathering at home or a larger celebration at a venue, here are the baby shower decoration trends shaping Melbourne celebrations in 2026.</p>
 
 <h2>Trending Colour Palettes</h2>
 
-<p>The biggest shift in baby shower styling has been the move towards sophisticated, muted colour palettes. Sage green and white remains the most popular combination, creating a calming, gender-neutral aesthetic that photographs beautifully. Dusty pink and mauve offer a soft feminine alternative, while warm neutrals — cream, beige, and terracotta — create an earthy elegance that feels modern and timeless.</p>
+<p>The biggest shift in baby shower styling has been the move towards sophisticated, muted colour palettes. Sage green and white remains the most popular combination — a palette trending heavily on <a href="https://www.pinterest.com.au/search/pins/?q=sage+green+baby+shower" target="_blank" rel="noopener">Pinterest baby shower boards</a> — creating a calming, gender-neutral aesthetic that photographs beautifully. Dusty pink and mauve offer a soft feminine alternative, while warm neutrals — cream, beige, and terracotta — create an earthy elegance that feels modern and timeless.</p>
 
 <p>Bold single-colour themes are also trending. An all-white baby shower with varying textures — matte, satin, sheer — creates a stunning visual effect. A blue-and-white scheme using different shades of blue adds depth while keeping the palette cohesive. Whatever colours you choose, carry them through every element — balloons, draping, table settings, and cake.</p>
 
@@ -760,7 +762,7 @@ export const birthdayPosts: BlogPost[] = [
     date: "2026-07-03",
     category: "Baby Showers",
     image: "/gallery/baby-showers/baby-showers-2.jpg",
-    content: `<p>Gender reveal parties have become one of Melbourne's most popular celebration types, giving parents-to-be a beautiful excuse to gather loved ones and share their exciting news. The styling plays a crucial role — it builds anticipation, creates the visual framework for the big moment, and provides stunning photos that the family will treasure. Here are our favourite gender reveal party ideas for Melbourne families.</p>
+    content: `<p>Gender reveal parties have become one of Melbourne's most popular celebration types, giving parents-to-be a beautiful excuse to gather loved ones and share their exciting news. With <a href="https://www.abs.gov.au/statistics/people/population/births-australia" target="_blank" rel="noopener">Victoria recording tens of thousands of births each year</a>, it is no wonder these celebrations are in high demand. The styling plays a crucial role — it builds anticipation, creates the visual framework for the big moment, and provides stunning photos that the family will treasure. Here are our favourite gender reveal party ideas for Melbourne families.</p>
 
 <h2>The Reveal Moment: Creative Ideas</h2>
 
@@ -770,7 +772,7 @@ export const birthdayPosts: BlogPost[] = [
 
 <h2>Colour Schemes and Themes</h2>
 
-<p>The classic pink versus blue is still popular, but many Melbourne families are getting creative with their colour themes. Some popular alternatives include:</p>
+<p>The classic pink versus blue is still popular, but many Melbourne families are getting creative with their colour themes. <a href="https://www.pinterest.com.au/search/pins/?q=gender+reveal+party+ideas" target="_blank" rel="noopener">Pinterest's gender reveal boards</a> showcase dozens of alternatives that go well beyond the traditional palette. Some popular alternatives include:</p>
 
 <ul>
 <li>Touchdowns or tutus — sports versus ballet with team-coloured styling</li>
@@ -822,7 +824,7 @@ export const birthdayPosts: BlogPost[] = [
 <li>Gender known or surprise — this affects colour choices significantly</li>
 </ul>
 
-<p>Once these decisions are made, book your venue if you are not hosting at home. Melbourne offers great options for baby showers — cafes with private rooms, community halls in suburbs like <a href="/event-styling/preston">Preston</a> and <a href="/event-styling/oakleigh">Oakleigh</a>, and garden venues with natural backdrops.</p>
+<p>Once these decisions are made, book your venue if you are not hosting at home. Melbourne offers great options for baby showers — the <a href="https://www.melbourne.vic.gov.au/community/hubs-bookable-spaces/Pages/702702.aspx" target="_blank" rel="noopener">City of Melbourne lists bookable community spaces</a>, and beyond the CBD there are cafes with private rooms, community halls in suburbs like <a href="/event-styling/preston">Preston</a> and <a href="/event-styling/oakleigh">Oakleigh</a>, and garden venues with natural backdrops.</p>
 
 <h2>6–8 Weeks Before: Booking and Planning</h2>
 
@@ -892,10 +894,10 @@ export const birthdayPosts: BlogPost[] = [
 
 <h2>Garden and Park Venues</h2>
 
-<p>Melbourne's botanical gardens, public parks, and garden venues offer stunning natural backdrops for baby showers. The lush greenery, mature trees, and natural light create an atmosphere that cannot be replicated indoors.</p>
+<p>Melbourne's botanical gardens, public parks, and garden venues — many listed on the <a href="https://www.melbourne.vic.gov.au/community/parks-open-spaces" target="_blank" rel="noopener">City of Melbourne parks directory</a> — offer stunning natural backdrops for baby showers. The lush greenery, mature trees, and natural light create an atmosphere that cannot be replicated indoors.</p>
 
 <ul>
-<li>Check council permit requirements for larger gatherings in public parks</li>
+<li>Check council permit requirements for larger gatherings in public parks — <a href="https://www.sustainability.vic.gov.au/recycling-and-reducing-waste" target="_blank" rel="noopener">Sustainability Victoria</a> also has guidance on running low-waste outdoor events</li>
 <li>Choose a sheltered area in case of Melbourne's unpredictable weather</li>
 <li>Use weighted or secured props — wind can topple lightweight displays</li>
 <li>Set up shortly before the event to keep decorations fresh</li>
@@ -916,7 +918,7 @@ export const birthdayPosts: BlogPost[] = [
     date: "2026-07-09",
     category: "Baby Showers",
     image: "/gallery/baby-showers/baby-showers-5.jpg",
-    content: `<p>If there is one element of a baby shower that guests gravitate towards, photograph endlessly, and talk about afterwards, it is the dessert table. A beautifully styled sweet display serves as both the visual centrepiece and the social heart of the celebration. Getting it right requires the perfect combination of treats, props, and styling — and here is exactly how to do it.</p>
+    content: `<p>If there is one element of a baby shower that guests gravitate towards, photograph endlessly, and talk about afterwards, it is the dessert table. <a href="https://www.pinterest.com.au/search/pins/?q=baby+shower+dessert+table" target="_blank" rel="noopener">Pinterest's baby shower boards</a> are dominated by styled dessert displays, confirming their status as the must-have feature. A beautifully styled sweet display serves as both the visual centrepiece and the social heart of the celebration. Getting it right requires the perfect combination of treats, props, and styling — and here is exactly how to do it.</p>
 
 <h2>Building the Foundation</h2>
 
@@ -942,7 +944,7 @@ export const birthdayPosts: BlogPost[] = [
 
 <h2>Styling Details That Make the Difference</h2>
 
-<p>The details are what separate a good dessert table from a great one. Fresh or faux floral accents tucked between platters soften the edges and add natural beauty. Coordinating serviettes, small signage cards labelling each treat, and decorative elements like baby shoes, ultrasound frames, or themed figurines add layers of interest.</p>
+<p>The details are what separate a good dessert table from a great one — a principle that <a href="https://www.elledecor.com/design-decorate/g46195290/table-setting-ideas/" target="_blank" rel="noopener">Elle Decor's styling guides</a> emphasise for any curated display. Fresh or faux floral accents tucked between platters soften the edges and add natural beauty. Coordinating serviettes, small signage cards labelling each treat, and decorative elements like baby shoes, ultrasound frames, or themed figurines add layers of interest.</p>
 
 <p>Height variation is critical. Use tiered stands, cake domes, wooden blocks or books under fabric, and our <a href="/hire/white-plinth-set">white plinths</a> to create different levels across the table. The eye should travel up and down as it moves across the display, creating visual rhythm and interest.</p>
 
@@ -966,7 +968,7 @@ export const birthdayPosts: BlogPost[] = [
     date: "2026-07-11",
     category: "Baby Showers",
     image: "/gallery/baby-showers/baby-showers-6.jpg",
-    content: `<p>The days of baby showers being women-only events are well and truly behind us. Co-ed baby showers — also known as "Jack and Jill" showers — are one of the fastest-growing celebration types in Melbourne. They include both parents-to-be and guests of all genders, creating a more inclusive, social, and celebratory atmosphere. Here is how to style and plan a co-ed baby shower that everyone will enjoy.</p>
+    content: `<p>The days of baby showers being women-only events are well and truly behind us. Co-ed baby showers — also known as "Jack and Jill" showers — are one of the fastest-growing celebration types in Melbourne. <a href="https://www.abs.gov.au/statistics/people/population/births-australia" target="_blank" rel="noopener">ABS data</a> shows that Australian families are increasingly diverse, and celebration styles are evolving to match. They include both parents-to-be and guests of all genders, creating a more inclusive, social, and celebratory atmosphere. Here is how to style and plan a co-ed baby shower that everyone will enjoy.</p>
 
 <h2>Choosing a Co-Ed Friendly Theme</h2>
 
@@ -984,7 +986,7 @@ export const birthdayPosts: BlogPost[] = [
 
 <h2>Styling for a Mixed Crowd</h2>
 
-<p>The key to co-ed baby shower styling is choosing a palette that feels modern and neutral rather than traditionally gendered. Sage green, warm white, and gold are universally appealing. Navy and white with natural wood accents create a classic, refined look. Terracotta and cream feel warm and contemporary.</p>
+<p>The key to co-ed baby shower styling is choosing a palette that feels modern and neutral rather than traditionally gendered. Sage green, warm white, and gold are universally appealing — colours that <a href="https://www.pinterest.com.au/search/pins/?q=co+ed+baby+shower+neutral" target="_blank" rel="noopener">Pinterest's co-ed shower boards</a> highlight as top choices. Navy and white with natural wood accents create a classic, refined look. Terracotta and cream feel warm and contemporary.</p>
 
 <p>For the backdrop and main display, a <a href="/hire/gold-hexagonal-arch">gold hexagonal arch</a> with a <a href="/hire/balloon-garland-installation">balloon garland</a> in neutral tones creates a modern, polished focal point. Add a <a href="/hire/neon-sign-custom-text">custom neon sign</a> with a fun phrase like "Oh Baby!" or the baby's name for a personal touch that all guests can appreciate.</p>
 
@@ -1016,11 +1018,11 @@ export const birthdayPosts: BlogPost[] = [
     date: "2026-07-13",
     category: "Baby Showers",
     image: "/gallery/baby-showers/baby-showers-7.jpg",
-    content: `<p>Melbourne winters are famously cold and unpredictable, but that does not mean your baby shower cannot be warm, beautiful, and memorable. In fact, winter baby showers have a cosy intimacy that summer celebrations often cannot match. The key is embracing the season with your styling rather than fighting it. Here are our best ideas for hosting a stunning winter baby shower in Melbourne.</p>
+    content: `<p>Melbourne winters are famously cold and unpredictable, but that does not mean your baby shower cannot be warm, beautiful, and memorable. In fact, winter baby showers have a cosy intimacy that summer celebrations often cannot match — and <a href="https://www.houseandgarden.co.uk/topic/party-ideas" target="_blank" rel="noopener">House &amp; Garden</a> champions winter entertaining for exactly this reason. The key is embracing the season with your styling rather than fighting it. Here are our best ideas for hosting a stunning winter baby shower in Melbourne.</p>
 
 <h2>Cosy Winter Colour Palettes</h2>
 
-<p>Winter lends itself to rich, warm colour palettes that feel inviting and comforting. Deep burgundy paired with soft blush and gold creates a romantic, seasonal look. Forest green and cream evoke a classic winter garden atmosphere. Warm neutrals — caramel, terracotta, and cream — feel modern and sophisticated while creating a sense of warmth.</p>
+<p>Winter lends itself to rich, warm colour palettes that feel inviting and comforting. The <a href="https://www.melbourne.vic.gov.au/arts-and-culture/events" target="_blank" rel="noopener">City of Melbourne's winter events program</a> reflects this same embrace of warmth and atmosphere during the colder months. Deep burgundy paired with soft blush and gold creates a romantic, seasonal look. Forest green and cream evoke a classic winter garden atmosphere. Warm neutrals — caramel, terracotta, and cream — feel modern and sophisticated while creating a sense of warmth.</p>
 
 <p>For a more dramatic approach, deep navy and gold create a midnight sky aesthetic that pairs beautifully with candlelight. Our <a href="/hire/backdrop-draping-set">backdrop draping set</a> in sage or ivory provides a versatile base that works with all of these winter palettes. Layer a <a href="/hire/balloon-garland-installation">balloon garland</a> in your chosen colours across the top for a complete, polished look.</p>
 
@@ -1064,7 +1066,7 @@ export const birthdayPosts: BlogPost[] = [
     date: "2026-07-15",
     category: "Baby Showers",
     image: "/gallery/baby-showers/baby-showers-8.jpg",
-    content: `<p>Melbourne's gardens, parks, and backyards offer some of the most beautiful natural settings for a baby shower. An outdoor celebration brings fresh air, natural light, and a relaxed atmosphere that guests love. With the right styling, an outdoor baby shower can look every bit as polished as an indoor event — if not more so. Here is how to make it happen.</p>
+    content: `<p>Melbourne's gardens, parks, and backyards — including those featured on the <a href="https://www.melbourne.vic.gov.au/community/parks-open-spaces" target="_blank" rel="noopener">City of Melbourne parks directory</a> — offer some of the most beautiful natural settings for a baby shower. An outdoor celebration brings fresh air, natural light, and a relaxed atmosphere that guests love. With the right styling, an outdoor baby shower can look every bit as polished as an indoor event — if not more so. Here is how to make it happen.</p>
 
 <h2>Backyard Baby Shower Styling</h2>
 
@@ -1097,7 +1099,7 @@ export const birthdayPosts: BlogPost[] = [
 
 <p>Melbourne's parks and botanical gardens offer stunning natural backdrops for baby showers. The lush greenery, mature trees, and open spaces create a beautiful setting that requires minimal additional styling. A portable <a href="/hire/welcome-sign-on-easel">welcome sign on easel</a> directs guests, while a <a href="/hire/balloon-garland-installation">balloon garland</a> attached to a tree or temporary structure creates a photo spot.</p>
 
-<p>Parks in Melbourne suburbs like <a href="/event-styling/dandenong">Dandenong</a>, <a href="/event-styling/point-cook">Point Cook</a>, and <a href="/event-styling/epping">Epping</a> have lovely green spaces with picnic facilities. Check whether you need a council permit for larger gatherings and whether barbecue facilities are available.</p>
+<p>Parks in Melbourne suburbs like <a href="/event-styling/dandenong">Dandenong</a>, <a href="/event-styling/point-cook">Point Cook</a>, and <a href="/event-styling/epping">Epping</a> have lovely green spaces with picnic facilities. Check whether you need a council permit for larger gatherings and whether barbecue facilities are available. <a href="https://www.sustainability.vic.gov.au/recycling-and-reducing-waste" target="_blank" rel="noopener">Sustainability Victoria</a> also encourages leaving outdoor event spaces cleaner than you found them by minimising single-use items.</p>
 
 <h2>Bring Your Outdoor Baby Shower to Life</h2>
 
@@ -1113,11 +1115,11 @@ export const birthdayPosts: BlogPost[] = [
     date: "2026-07-17",
     category: "Baby Showers",
     image: "/gallery/baby-showers/baby-showers-9.jpg",
-    content: `<p>Colour is the foundation of every beautifully styled baby shower. The palette you choose influences every decision that follows — from the backdrop and balloons to the cake, table settings, and even the invitation design. In 2026, Melbourne baby shower hosts are embracing fresh, sophisticated colour combinations that feel modern and elevated. Here are the trending palettes and how to bring them to life.</p>
+    content: `<p>Colour is the foundation of every beautifully styled baby shower. The palette you choose influences every decision that follows — from the backdrop and balloons to the cake, table settings, and even the invitation design. In 2026, Melbourne baby shower hosts are embracing fresh, sophisticated colour combinations that feel modern and elevated. <a href="https://www.elledecor.com/design-decorate/color/g26898407/color-trends/" target="_blank" rel="noopener">Elle Decor's colour trend reporting</a> confirms that muted, nature-inspired tones are dominating both interior and event design this year. Here are the trending palettes and how to bring them to life.</p>
 
 <h2>Sage Green and White</h2>
 
-<p>This remains the undisputed champion of baby shower colour themes in 2026. Sage green is calming, gender-neutral, and photographs beautifully in both natural and artificial light. Paired with crisp white, it creates a fresh, modern aesthetic that suits any venue.</p>
+<p>This remains the undisputed champion of baby shower colour themes in 2026, and <a href="https://www.pinterest.com.au/search/pins/?q=sage+green+baby+shower+2026" target="_blank" rel="noopener">Pinterest search volume</a> for sage baby showers continues to grow. Sage green is calming, gender-neutral, and photographs beautifully in both natural and artificial light. Paired with crisp white, it creates a fresh, modern aesthetic that suits any venue.</p>
 
 <p>To style this palette, start with a <a href="/hire/backdrop-draping-set">backdrop draping set</a> in white with sage accents. Add a <a href="/hire/balloon-garland-installation">balloon garland</a> mixing sage, olive, white, and clear balloons for depth and texture. Our <a href="/hire/floral-centrepiece-set">floral centrepiece sets</a> with eucalyptus and white florals carry the palette through the tables. A <a href="/hire/neon-sign-custom-text">custom neon sign</a> in warm white provides a glowing focal point without introducing a competing colour.</p>
 
@@ -1164,7 +1166,7 @@ export const birthdayPosts: BlogPost[] = [
     date: "2026-07-19",
     category: "Baby Showers",
     image: "/gallery/baby-showers/baby-showers-10.jpg",
-    content: `<p>The best baby showers in Melbourne combine beautiful styling with engaging activities that bring guests together. Games and interactive elements keep the energy high, create shared moments of laughter, and give guests something memorable beyond the decorations. The trick is integrating these activities into the overall styling so they enhance the aesthetic rather than detract from it. Here is how to get the balance right.</p>
+    content: `<p>The best baby showers in Melbourne combine beautiful styling with engaging activities that bring guests together. <a href="https://www.pinterest.com.au/search/pins/?q=baby+shower+games+styled" target="_blank" rel="noopener">Pinterest's baby shower game ideas</a> show a clear trend towards activities that double as decor. Games and interactive elements keep the energy high, create shared moments of laughter, and give guests something memorable beyond the decorations. The trick is integrating these activities into the overall styling so they enhance the aesthetic rather than detract from it. Here is how to get the balance right.</p>
 
 <h2>Game Stations That Double as Decor</h2>
 
@@ -1201,7 +1203,7 @@ export const birthdayPosts: BlogPost[] = [
 
 <h2>Tips for Balancing Games and Decor</h2>
 
-<p>Keep games simple and time-appropriate — most baby showers last two to three hours. Two to three games plus an opening gifts session is usually perfect. Position game stations in areas that do not compete with the main backdrop or dessert table for attention. Use consistent styling across all elements so everything feels intentional and coordinated.</p>
+<p>Keep games simple and time-appropriate — most baby showers last two to three hours. Two to three games plus an opening gifts session is usually perfect. Position game stations in areas that do not compete with the main backdrop or dessert table for attention. Use consistent styling across all elements so everything feels intentional and coordinated. Where possible, choose reusable or recyclable materials for game supplies — <a href="https://www.sustainability.vic.gov.au/recycling-and-reducing-waste" target="_blank" rel="noopener">Sustainability Victoria</a> encourages reducing waste even at small-scale events.</p>
 
 <p>Ready to plan a baby shower that is both beautiful and fun? Browse our <a href="/hire">hire collection</a> for styling inspiration, visit the <a href="/baby-showers">baby shower page</a> for theme ideas, check the <a href="/gallery">gallery</a> for real-event photos, or <a href="/quote">request a free quote</a> today. We deliver, set up, and pack down across more than 30 Melbourne suburbs so you can focus on creating a celebration the parents-to-be will never forget.</p>`,
   },

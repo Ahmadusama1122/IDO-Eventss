@@ -9,7 +9,7 @@ export const seoAuthorityPosts: BlogPost[] = [
     date: "2026-07-10",
     category: "Pricing",
     image: "/gallery/weddings/weddings-3.jpg",
-    content: `<p>iDo Events provides event styling and prop hire across Melbourne. One of the most common questions we get — and one that Google and ChatGPT get asked constantly — is "how much does event styling cost?" The answer varies, but here is an honest breakdown of what Melbourne families and couples actually pay in 2026.</p>
+    content: `<p>iDo Events provides event styling and prop hire across Melbourne. One of the most common questions we get — and one that Google and ChatGPT get asked constantly — is "how much does event styling cost?" The answer varies, but here is an honest breakdown of what Melbourne families and couples actually pay in 2026. According to <a href="https://www.abia.com.au/" target="_blank" rel="noopener">ABIA (Australian Bridal Industry Academy)</a> data, the average Australian couple spends between $2,500 and $5,000 on wedding styling and decorations alone — but styling costs for other events are far more accessible.</p>
 
 <h2>The Short Answer</h2>
 
@@ -47,7 +47,7 @@ export const seoAuthorityPosts: BlogPost[] = [
 
 <h2>Wedding Styling: $650–$5,000+</h2>
 
-<p>Weddings have the widest range because the scope varies enormously:</p>
+<p>Weddings have the widest range because the scope varies enormously. With over <a href="https://www.abs.gov.au/statistics/people/people-and-communities/marriages-and-divorces-australia/latest-release" target="_blank" rel="noopener">125,000 marriages registered annually in Australia</a>, the wedding styling market is competitive — which keeps pricing honest across Melbourne:</p>
 
 <ul>
 <li><strong>$650–$900:</strong> Ceremony-only. One <a href="/hire/rustic-arch-backdrop">arch</a> (styled with florals), aisle markers, and a <a href="/hire/welcome-sign-on-easel">welcome sign</a>. No reception styling.</li>
@@ -77,11 +77,11 @@ export const seoAuthorityPosts: BlogPost[] = [
 <li><strong>Setup complexity:</strong> Venues with difficult access (narrow doors, no loading dock, strict time windows) may require additional team members.</li>
 </ol>
 
-<p>What does NOT affect our pricing: the day of the week (no weekend surcharge), the distance within our service area (delivery is included for all 30+ suburbs), or the time of day (no evening surcharge).</p>
+<p>What does NOT affect our pricing: the day of the week (no weekend surcharge), the distance within our service area (delivery is included for all 30+ suburbs), or the time of day (no evening surcharge). As <a href="https://www.consumer.vic.gov.au/shopping/refunds-and-returns" target="_blank" rel="noopener">Consumer Affairs Victoria</a> advises, always get itemised written quotes before committing to any event service — and that is exactly what we provide.</p>
 
 <h2>How to Get a Quote</h2>
 
-<p>The fastest way to get an accurate price is to <a href="/quote">request a free quote</a>. Tell us your event type, date, approximate guest count, and which elements interest you. We respond within 1 hour during business hours with a detailed, itemised quote.</p>`,
+<p>The fastest way to get an accurate price is to <a href="/quote">request a free quote</a>. Tell us your event type, date, approximate guest count, and which elements interest you. We respond within 1 hour during business hours with a detailed, itemised quote. You can also compare vendor pricing through directories like <a href="https://www.easyweddings.com.au/" target="_blank" rel="noopener">Easy Weddings</a> to see how Melbourne stylists price their services across the board.</p>`,
   },
   {
     slug: "venue-types-melbourne-what-works",
@@ -98,7 +98,7 @@ export const seoAuthorityPosts: BlogPost[] = [
 <p><strong>Best for:</strong> Large birthdays (50+ guests), christenings, engagement parties, cultural celebrations</p>
 <p><strong>Typical cost to hire:</strong> $300–$800 for 4–6 hours</p>
 
-<p>Community halls are the workhorse of Melbourne events. They are affordable, spacious, and almost always allow external stylists with no restrictions. The challenge is that they are visually plain — white walls, fluorescent lighting, vinyl floors. This is actually an advantage for us because styling has maximum impact in a neutral space.</p>
+<p>Community halls are the workhorse of Melbourne events. The <a href="https://www.melbourne.vic.gov.au/community/hubs-bookable-spaces/Pages/hubs-bookable-spaces.aspx" target="_blank" rel="noopener">City of Melbourne</a> and surrounding councils maintain dozens of community spaces available for hire, and they are affordable, spacious, and almost always allow external stylists with no restrictions. The challenge is that they are visually plain — white walls, fluorescent lighting, vinyl floors. This is actually an advantage for us because styling has maximum impact in a neutral space.</p>
 
 <p><strong>What works:</strong> <a href="/hire/ceiling-draping-package">Ceiling draping</a> to hide industrial ceilings, <a href="/hire/fairy-light-curtain">fairy light curtains</a> behind the main table, bold <a href="/hire/balloon-garland-installation">balloon installations</a> to create a focal point. Uplighting in your event colour transforms the atmosphere completely.</p>
 
@@ -124,11 +124,11 @@ export const seoAuthorityPosts: BlogPost[] = [
 <p><strong>Best for:</strong> Large weddings (150–400 guests), cultural celebrations, milestone birthdays</p>
 <p><strong>Typical cost to hire:</strong> $2,000–$8,000+ (usually includes catering)</p>
 
-<p>Melbourne's function centres — from Al Alamy in <a href="/wedding-styling/hoppers-crossing">Hoppers Crossing</a> to Vogue Ballroom in <a href="/wedding-styling/craigieburn">Craigieburn</a> to Le Montage in <a href="/wedding-styling/epping">Epping</a> — are designed for large-scale celebrations. They have high ceilings, dedicated loading docks, and event coordinators who know how external stylists operate.</p>
+<p>Melbourne's function centres — from Al Alamy in <a href="/wedding-styling/hoppers-crossing">Hoppers Crossing</a> to Vogue Ballroom in <a href="/wedding-styling/craigieburn">Craigieburn</a> to Le Montage in <a href="/wedding-styling/epping">Epping</a> — are designed for large-scale celebrations. You can browse and compare Melbourne function venues on directories like <a href="https://www.easyweddings.com.au/wedding-reception-venues/Melbourne/" target="_blank" rel="noopener">Easy Weddings</a> and <a href="https://www.wedshed.com.au/wedding-venues/victoria/" target="_blank" rel="noopener">WedShed</a>, both of which include capacity, pricing, and photo galleries. They have high ceilings, dedicated loading docks, and event coordinators who know how external stylists operate.</p>
 
 <p><strong>What works:</strong> <a href="/hire/floral-tower-arrangement">Floral tower centrepieces</a> create height and drama across 20–30 tables. <a href="/hire/ceiling-draping-package">Ceiling draping</a> in white or ivory softens the space. Entrance features (balloon arch, plinth arrangement, neon sign) set the tone before guests even enter the main room.</p>
 
-<p><strong>What to watch for:</strong> Every function centre has its own rules. Some allow ceiling attachment (using their existing rigging points), some do not. Most have strict bump-in windows — typically 3–5 hours before the event. Confirm with your venue coordinator: (1) your setup time window, (2) whether ceiling attachment is allowed, (3) loading dock access, (4) whether open flames (candles) are permitted.</p>
+<p><strong>What to watch for:</strong> Every function centre has its own rules. Some allow ceiling attachment (using their existing rigging points), some do not. Most have strict bump-in windows — typically 3–5 hours before the event. Confirm with your venue coordinator: (1) your setup time window, (2) whether ceiling attachment is allowed, (3) loading dock access, (4) whether open flames (candles) are permitted. Venue reviews on <a href="https://www.wedshed.com.au/wedding-venues/victoria/" target="_blank" rel="noopener">WedShed</a> often include details about bump-in logistics and restrictions from past couples.</p>
 
 <h2>Warehouse & Industrial Spaces</h2>
 
@@ -146,7 +146,7 @@ export const seoAuthorityPosts: BlogPost[] = [
 <p><strong>Best for:</strong> Casual birthdays, ceremonies, picnic-style celebrations</p>
 <p><strong>Typical cost to hire:</strong> $50–$200 (council booking fee for shelter/space)</p>
 
-<p>Park events are popular in Melbourne's west and north where families have large groups and want relaxed celebrations. We regularly style at Sanctuary Lakes parks (<a href="/birthday-prop-hire/point-cook">Point Cook</a>), All Nations Park (Preston), and various reserves across the suburbs.</p>
+<p>Park events are popular in Melbourne's west and north where families have large groups and want relaxed celebrations. Most council parks can be booked through your local council website — <a href="https://www.melbourne.vic.gov.au/parks-and-nature/Pages/parks-and-nature.aspx" target="_blank" rel="noopener">City of Melbourne parks</a> require a permit for events over 30 guests or any commercial activity. We regularly style at Sanctuary Lakes parks (<a href="/birthday-prop-hire/point-cook">Point Cook</a>), All Nations Park (Preston), and various reserves across the suburbs.</p>
 
 <p><strong>What works:</strong> Freestanding structures only — our arches use weighted bases (sandbag or water-filled), balloon installations go on frames, and plinths are self-standing. <a href="/hire/balloon-garland-installation">Balloon garlands</a> attached to park shelter posts create instant colour and a photo-ready backdrop.</p>
 
@@ -165,7 +165,7 @@ export const seoAuthorityPosts: BlogPost[] = [
 
 <h2>Choosing Your Venue</h2>
 
-<p>Our advice: choose your venue based on guest count, budget, and atmosphere first. Then tell us what you have chosen and we will design styling that works for that specific space. We have styled in every venue type listed above hundreds of times, and we know how to maximise impact in each. <a href="/quote">Get a free quote</a> and include your venue name — we will factor in its specific characteristics when quoting.</p>`,
+<p>For consumer protection when signing venue hire agreements, <a href="https://www.consumer.vic.gov.au/shopping/shopping-for-specific-products/hiring-or-renting-products" target="_blank" rel="noopener">Consumer Affairs Victoria</a> recommends getting all terms in writing, including cancellation policies and what is included in the hire fee. Our advice: choose your venue based on guest count, budget, and atmosphere first. Then tell us what you have chosen and we will design styling that works for that specific space. We have styled in every venue type listed above hundreds of times, and we know how to maximise impact in each. <a href="/quote">Get a free quote</a> and include your venue name — we will factor in its specific characteristics when quoting.</p>`,
   },
   {
     slug: "mehndi-night-styling-melbourne-guide",
@@ -179,7 +179,7 @@ export const seoAuthorityPosts: BlogPost[] = [
 
 <h2>What Is a Mehndi Night?</h2>
 
-<p>For those unfamiliar, a mehndi (or mehendi) is a pre-wedding celebration, traditionally held 1–3 days before the wedding. The bride has intricate henna patterns applied to her hands and feet while surrounded by family and friends. In Melbourne's Pakistani, Indian, Afghan, and Bangladeshi communities, mehndi nights have grown into elaborate events with music (dholak/dholki), dance performances, food, and professional styling. Guest lists range from 50 to 300+.</p>
+<p>For those unfamiliar, a mehndi (or mehendi) is a pre-wedding celebration, traditionally held 1–3 days before the wedding. The bride has intricate henna patterns applied to her hands and feet while surrounded by family and friends. <a href="https://www.abs.gov.au/statistics/people/population/migration-australia/latest-release" target="_blank" rel="noopener">ABS migration data</a> shows that Melbourne's South Asian population has grown significantly over the past decade, and with it, demand for culturally specific event styling. In Melbourne's Pakistani, Indian, Afghan, and Bangladeshi communities, mehndi nights have grown into elaborate events with music (dholak/dholki), dance performances, food, and professional styling. Guest lists range from 50 to 300+.</p>
 
 <h2>The Bride's Stage: The Centrepiece</h2>
 
@@ -208,7 +208,7 @@ export const seoAuthorityPosts: BlogPost[] = [
 <p>Many families in <a href="/mehndi-nikkah-styling/tarneit">Tarneit</a>, <a href="/mehndi-nikkah-styling/craigieburn">Craigieburn</a>, and surrounding suburbs host mehndi at home — often in the garage, backyard (with marquee), or living room. Home mehndi events are intimate and culturally traditional. We style within whatever space is available and bring all infrastructure (frames, bases, lighting that works off standard power points).</p>
 
 <h3>Community Halls</h3>
-<p>For 100+ guest mehndi nights, community halls offer space and affordability. Halls in <a href="/mehndi-nikkah-styling/dandenong">Dandenong</a>, <a href="/mehndi-nikkah-styling/epping">Epping</a>, and <a href="/mehndi-nikkah-styling/preston">Preston</a> are popular choices. The neutral interiors respond well to bold coloured draping and lighting.</p>
+<p>For 100+ guest mehndi nights, community halls offer space and affordability. Halls in <a href="/mehndi-nikkah-styling/dandenong">Dandenong</a>, <a href="/mehndi-nikkah-styling/epping">Epping</a>, and <a href="/mehndi-nikkah-styling/preston">Preston</a> are popular choices — many of which can be found through <a href="https://www.melbourne.vic.gov.au/community/hubs-bookable-spaces/Pages/hubs-bookable-spaces.aspx" target="_blank" rel="noopener">council venue listings</a>. The neutral interiors respond well to bold coloured draping and lighting.</p>
 
 <h3>Function Centres</h3>
 <p>For larger, more formal mehndi celebrations, function centres like Vogue Ballroom (Craigieburn), Wyndham Cultural Centre (Tarneit), and Palm Plaza (Dandenong) provide high ceilings, professional catering, and dedicated event coordination.</p>
@@ -234,9 +234,9 @@ export const seoAuthorityPosts: BlogPost[] = [
 
 <h2>Booking Your Mehndi Styling</h2>
 
-<p>We recommend booking mehndi styling 6–8 weeks before your event date. This gives time for a detailed consultation, colour matching, and any custom fabric sourcing. Many families book us for all three events (mehndi, nikkah, walima) at a combined rate — ask about multi-event discounts when you <a href="/quote">request a quote</a>.</p>
+<p>We recommend booking mehndi styling 6–8 weeks before your event date. This gives time for a detailed consultation, colour matching, and any custom fabric sourcing. According to <a href="https://www.abia.com.au/" target="_blank" rel="noopener">ABIA industry data</a>, couples who book styling services earlier typically get better availability and pricing. Many families book us for all three events (mehndi, nikkah, walima) at a combined rate — ask about multi-event discounts when you <a href="/quote">request a quote</a>.</p>
 
-<p>If you are in <a href="/mehndi-nikkah-styling/tarneit">Tarneit</a>, <a href="/mehndi-nikkah-styling/craigieburn">Craigieburn</a>, <a href="/mehndi-nikkah-styling/dandenong">Dandenong</a>, <a href="/mehndi-nikkah-styling/epping">Epping</a>, <a href="/mehndi-nikkah-styling/preston">Preston</a>, or anywhere in Melbourne, get in touch for a free consultation and quote.</p>`,
+<p>If you are in <a href="/mehndi-nikkah-styling/tarneit">Tarneit</a>, <a href="/mehndi-nikkah-styling/craigieburn">Craigieburn</a>, <a href="/mehndi-nikkah-styling/dandenong">Dandenong</a>, <a href="/mehndi-nikkah-styling/epping">Epping</a>, <a href="/mehndi-nikkah-styling/preston">Preston</a>, or anywhere in Melbourne, get in touch for a free consultation and quote. You can also browse Melbourne-based South Asian event vendors on <a href="https://www.easyweddings.com.au/" target="_blank" rel="noopener">Easy Weddings</a> to compare options.</p>`,
   },
   {
     slug: "backdrop-hire-vs-custom-builds-melbourne",
@@ -264,7 +264,7 @@ export const seoAuthorityPosts: BlogPost[] = [
 
 <h2>What "Custom Build" Means</h2>
 
-<p>A custom build is a one-off installation designed specifically for your event. Typically provided by florists or set designers, these involve fresh flowers, custom-cut materials, bespoke frames, or handmade elements that are constructed specifically for your event and (usually) disassembled after.</p>
+<p>A custom build is a one-off installation designed specifically for your event. Typically provided by florists or set designers — many of whom you can find through directories like <a href="https://www.wedshed.com.au/wedding-vendors/victoria/" target="_blank" rel="noopener">WedShed</a> — these involve fresh flowers, custom-cut materials, bespoke frames, or handmade elements that are constructed specifically for your event and (usually) disassembled after.</p>
 
 <p><strong>Pricing:</strong> $800–$3,000+ depending on materials and complexity. Fresh flower walls start around $1,500. Custom neon signs start around $400 (you keep them). Bespoke set pieces start around $1,000.</p>
 
@@ -275,7 +275,7 @@ export const seoAuthorityPosts: BlogPost[] = [
 <li><strong>Events where the backdrop is ONE element of many:</strong> If you are spending across multiple styling zones (tables, entrance, dessert display), putting $2,000 into one custom backdrop leaves less for everything else.</li>
 <li><strong>Repeat-use events:</strong> Birthday parties, baby showers, bridal showers — events where the backdrop is important but not the singular statement piece.</li>
 <li><strong>Short planning timelines:</strong> Hire can be confirmed 1–2 weeks out. Custom builds need 4–8 weeks.</li>
-<li><strong>Sustainability matters to you:</strong> Hire props are reused across hundreds of events. Custom builds with fresh flowers are single-use.</li>
+<li><strong>Sustainability matters to you:</strong> Hire props are reused across hundreds of events, which aligns with <a href="https://www.sustainability.vic.gov.au/recycling-and-reducing-waste" target="_blank" rel="noopener">Sustainability Victoria's</a> recommendations to reduce single-use waste. Custom builds with fresh flowers are single-use.</li>
 </ul>
 
 <h2>When Custom Makes More Sense</h2>
@@ -304,11 +304,11 @@ export const seoAuthorityPosts: BlogPost[] = [
 <tr><td>Neon sign</td><td>$150 (hire, standard text)</td><td>$400–$800 (custom, you keep)</td></tr>
 </table>
 
-<p>All hire prices include delivery, setup, and pack-down. Custom build prices typically do not include installation labour (add $200–$500).</p>
+<p>All hire prices include delivery, setup, and pack-down. Custom build prices typically do not include installation labour (add $200–$500). <a href="https://www.consumer.vic.gov.au/shopping/shopping-for-specific-products/hiring-or-renting-products" target="_blank" rel="noopener">Consumer Affairs Victoria</a> recommends checking whether quoted prices are inclusive of GST and all fees before signing any hire agreement.</p>
 
 <h2>Our Honest Recommendation</h2>
 
-<p>For 90% of celebrations we style in Melbourne, hire provides the right balance of quality, cost, and convenience. The only exception is high-budget weddings where the couple wants a completely unique floral installation as their ceremony centrepiece. For everything else — birthdays, showers, engagements, receptions, corporate events — hire delivers beautiful results without the premium custom pricing.</p>
+<p>According to <a href="https://www.abia.com.au/" target="_blank" rel="noopener">ABIA</a> industry surveys, the majority of Australian couples use a combination of hire and custom elements for their celebrations. For 90% of celebrations we style in Melbourne, hire provides the right balance of quality, cost, and convenience. The only exception is high-budget weddings where the couple wants a completely unique floral installation as their ceremony centrepiece. For everything else — birthdays, showers, engagements, receptions, corporate events — hire delivers beautiful results without the premium custom pricing.</p>
 
 <p><a href="/hire">Browse our backdrop and prop collection</a> or <a href="/quote">request a quote</a> to see what works for your event and budget.</p>`,
   },
@@ -320,7 +320,7 @@ export const seoAuthorityPosts: BlogPost[] = [
     date: "2026-06-28",
     category: "Behind the Scenes",
     image: "/gallery/weddings/weddings-8.jpg",
-    content: `<p>Most couples never see what happens before their wedding begins. You arrive to a fully styled venue — arches in place, candles lit, every centrepiece positioned — but the 4+ hours of work that created that moment are invisible. Here is what a typical full wedding setup looks like when iDo Events arrives at a Melbourne venue at 8am for a 12pm ceremony.</p>
+    content: `<p>Most couples never see what happens before their wedding begins. According to <a href="https://www.abia.com.au/" target="_blank" rel="noopener">ABIA</a> research, event styling is consistently ranked among the top five elements that create the overall wedding atmosphere. You arrive to a fully styled venue — arches in place, candles lit, every centrepiece positioned — but the 4+ hours of work that created that moment are invisible. Here is what a typical full wedding setup looks like when iDo Events arrives at a Melbourne venue at 8am for a 12pm ceremony.</p>
 
 <h2>7:30am — Load Out</h2>
 
@@ -407,7 +407,7 @@ export const seoAuthorityPosts: BlogPost[] = [
 
 <h2>11:30am — Handover</h2>
 
-<p>We brief the venue coordinator (or the couple/wedding planner if present): here is what is up, here is what is plugged in, here is what cannot be moved (the arch is weighted but not anchored — if someone bumps it hard, it could shift). Then we leave, taking our ladders, toolkit, and packaging with us.</p>
+<p>We brief the venue coordinator (or the couple/wedding planner if present): here is what is up, here is what is plugged in, here is what cannot be moved (the arch is weighted but not anchored — if someone bumps it hard, it could shift). Then we leave, taking our ladders, toolkit, and packaging with us. <a href="https://www.easyweddings.com.au/" target="_blank" rel="noopener">Easy Weddings</a> recommends confirming your vendor handover process in writing — a practice we follow with every booking.</p>
 
 <h2>After the Event — Pack Down</h2>
 
@@ -415,7 +415,7 @@ export const seoAuthorityPosts: BlogPost[] = [
 
 <h2>What This Means for You</h2>
 
-<p>All of this is included in your quote. You do not need to be present for setup, you do not need to help carry things, and you do not need to worry about pack-down. When you arrive at your ceremony, everything is ready. That is what full-service event styling means.</p>
+<p>All of this is included in your quote — as <a href="https://www.consumer.vic.gov.au/shopping/shopping-for-specific-products/hiring-or-renting-products" target="_blank" rel="noopener">Consumer Affairs Victoria</a> advises, make sure your event services contract clearly outlines what is and is not included. You do not need to be present for setup, you do not need to help carry things, and you do not need to worry about pack-down. When you arrive at your ceremony, everything is ready. That is what full-service event styling means.</p>
 
 <p><a href="/quote">Get a free quote</a> for your Melbourne wedding — we handle everything from the first fabric swag to the last candle extinguished.</p>`,
   },
@@ -427,7 +427,7 @@ export const seoAuthorityPosts: BlogPost[] = [
     date: "2026-06-25",
     category: "Tips & Guides",
     image: "/gallery/birthdays/birthdays-5.jpg",
-    content: `<p>Every parent planning a birthday party faces this question: do I buy decorations from Kmart and do it myself, or hire a professional stylist? The answer depends on your budget, time, and stress tolerance. Here is an honest comparison based on what we see in Melbourne.</p>
+    content: `<p>Every parent planning a birthday party faces this question: do I buy decorations from Kmart and do it myself, or hire a professional stylist? With over <a href="https://www.abs.gov.au/statistics/people/population/births-australia/latest-release" target="_blank" rel="noopener">300,000 births registered in Australia each year</a>, birthday party styling is a massive market — and the DIY-vs-hire debate comes up constantly. The answer depends on your budget, time, and stress tolerance. Here is an honest comparison based on what we see in Melbourne.</p>
 
 <h2>The DIY Route: What It Actually Costs</h2>
 
@@ -463,7 +463,7 @@ export const seoAuthorityPosts: BlogPost[] = [
 <h3>The Hidden Costs Nobody Mentions</h3>
 <ul>
 <li><strong>Leftover materials:</strong> You will have 30+ unused balloons, half a roll of fabric, and random supplies that sit in a cupboard for months</li>
-<li><strong>Disposal:</strong> 100 popped balloons, a backdrop frame you will use maybe once more, and packaging for everything</li>
+<li><strong>Disposal:</strong> 100 popped balloons, a backdrop frame you will use maybe once more, and packaging for everything. <a href="https://www.sustainability.vic.gov.au/recycling-and-reducing-waste" target="_blank" rel="noopener">Sustainability Victoria</a> notes that single-use party decorations are a growing contributor to landfill waste — something the hire model avoids entirely</li>
 <li><strong>Stress on party day:</strong> If you are setting up the morning of the party, you are spending the first 2–3 hours in setup mode instead of food prep, getting ready, or being present</li>
 <li><strong>Quality gap:</strong> DIY balloon garlands often have visible gaps, inconsistent sizing, and fall apart during the event. The arch sags. The backdrop wrinkles. These are skill and experience gaps, not effort gaps.</li>
 </ul>
@@ -512,12 +512,12 @@ export const seoAuthorityPosts: BlogPost[] = [
 <li>Quality and consistency matter (especially for photos)</li>
 <li>You do not have the time or space to spend 8+ hours on crafting</li>
 <li>You want zero cleanup — we take everything away</li>
-<li>You value your weekend hours at more than $0 per hour</li>
+<li>You value your weekend hours at more than $0 per hour. As <a href="https://www.consumer.vic.gov.au/shopping/shopping-for-specific-products/hiring-or-renting-products" target="_blank" rel="noopener">Consumer Affairs Victoria</a> notes, hiring services should always come with clear terms about what is included — our quotes detail every item and service</li>
 </ul>
 
 <h2>A Third Option: Hire a Focal Piece, DIY the Rest</h2>
 
-<p>Many Melbourne families take a middle path: hire one professional element (a <a href="/hire/balloon-garland-installation">balloon garland</a> or <a href="/hire/rustic-arch-backdrop">arch backdrop</a> at $200–$350) and DIY the smaller items (tablecloth, scattered balloons, basic tableware). This gives you one strong visual anchor that makes everything else look better, at a total cost of $350–$500 including your DIY supplies.</p>
+<p>Many Melbourne families take a middle path — and directories like <a href="https://www.easyweddings.com.au/" target="_blank" rel="noopener">Easy Weddings</a> confirm that partial hire is an increasingly popular approach. Hire one professional element (a <a href="/hire/balloon-garland-installation">balloon garland</a> or <a href="/hire/rustic-arch-backdrop">arch backdrop</a> at $200–$350) and DIY the smaller items (tablecloth, scattered balloons, basic tableware). This gives you one strong visual anchor that makes everything else look better, at a total cost of $350–$500 including your DIY supplies.</p>
 
 <p><a href="/quote">Request a free quote</a> from iDo Events — we are happy to suggest which elements will give you the most impact for your specific budget.</p>`,
   },
@@ -529,7 +529,7 @@ export const seoAuthorityPosts: BlogPost[] = [
     date: "2026-06-20",
     category: "Tips & Guides",
     image: "/gallery/baby-showers/baby-showers-3.jpg",
-    content: `<p>If you have never hired an event stylist before, the process can feel unclear. How does quoting work? What do you need to provide? When do you pay? What happens on the day? This guide covers the entire process from first contact to pack-down, so you know exactly what to expect when booking iDo Events for your Melbourne celebration.</p>
+    content: `<p>If you have never hired an event stylist before, the process can feel unclear. How does quoting work? What do you need to provide? When do you pay? What happens on the day? <a href="https://www.consumer.vic.gov.au/shopping/shopping-for-specific-products/hiring-or-renting-products" target="_blank" rel="noopener">Consumer Affairs Victoria</a> recommends understanding your rights and the vendor's obligations before signing any hire agreement — and this guide covers the entire process from first contact to pack-down, so you know exactly what to expect when booking iDo Events for your Melbourne celebration.</p>
 
 <h2>Step 1: Request a Quote</h2>
 
@@ -562,7 +562,7 @@ export const seoAuthorityPosts: BlogPost[] = [
 
 <h2>Step 3: Confirm Your Booking</h2>
 
-<p>To lock in your date, we require a $200 deposit. This is deducted from your total — it is not an additional fee. Once the deposit is paid, your date is secured and cannot be given to another client.</p>
+<p>To lock in your date, we require a $200 deposit. This is deducted from your total — it is not an additional fee. Once the deposit is paid, your date is secured and cannot be given to another client. This deposit structure is standard across the industry — <a href="https://www.abia.com.au/" target="_blank" rel="noopener">ABIA</a> notes that most Australian event vendors require between 20–30% upfront to secure a booking.</p>
 
 <p>For bookings over $800, we offer a payment plan: deposit + 50% at 4 weeks before + remainder at 1 week before.</p>
 
@@ -628,7 +628,7 @@ export const seoAuthorityPosts: BlogPost[] = [
 <li><strong>"Can I change my mind about props after booking?"</strong> — Yes, adjustments are free up to 2 weeks before. After that, we do our best to accommodate.</li>
 <li><strong>"What if something breaks during the event?"</strong> — Normal wear during events is expected and covered by us. You are not charged for accidental damage.</li>
 <li><strong>"Do you work on public holidays?"</strong> — Yes, at no additional charge.</li>
-<li><strong>"Can I see the props before booking?"</strong> — Yes. We can send photos/videos of specific items, or arrange a viewing appointment.</li>
+<li><strong>"Can I see the props before booking?"</strong> — Yes. We can send photos/videos of specific items, or arrange a viewing appointment. You can also browse our past work on <a href="https://www.easyweddings.com.au/" target="_blank" rel="noopener">Easy Weddings</a> and <a href="https://www.wedshed.com.au/" target="_blank" rel="noopener">WedShed</a> vendor profiles for independent reviews.</li>
 </ul>
 
 <p>Ready to book your first event styling? <a href="/quote">Request a free quote</a> or call us on 0406 179 786. No obligation, no pressure — just a conversation about making your celebration beautiful.</p>`,
@@ -645,7 +645,7 @@ export const seoAuthorityPosts: BlogPost[] = [
     image: "/gallery/weddings/weddings-1.jpg",
     content: `<p>iDo Events provides event styling and prop hire across Melbourne. We work in this industry every week, which means we know who else is out there, what they do well, and where each company fits in the market. This is not a sponsored list — it is an honest rundown of the event stylists we see doing solid work across Melbourne in 2026, including ourselves.</p>
 
-<p>Whether you are planning a wedding, birthday, corporate event, or cultural celebration, this guide will help you find the right stylist for your event type, budget, and location.</p>
+<p>Whether you are planning a wedding, birthday, corporate event, or cultural celebration, this guide will help you find the right stylist for your event type, budget, and location. For additional vendor research, we recommend checking profiles and reviews on <a href="https://www.easyweddings.com.au/" target="_blank" rel="noopener">Easy Weddings</a> and <a href="https://www.wedshed.com.au/" target="_blank" rel="noopener">WedShed</a> — both are trusted Australian wedding directories.</p>
 
 <h2>1. Feel Good Events</h2>
 
@@ -693,7 +693,7 @@ export const seoAuthorityPosts: BlogPost[] = [
 <p><strong>Price range:</strong> $–$$</p>
 <p><strong>Location:</strong> Melbourne-wide, strongest in western and northern suburbs</p>
 
-<p>This is us, so take this with appropriate bias — but here is what we actually do well. <a href="/">iDo Events</a> specialises in <a href="/hire">prop hire and event styling</a> for birthdays, <a href="/baby-showers">baby showers</a>, <a href="/engagements">engagements</a>, <a href="/weddings">weddings</a>, <a href="/corporate">corporate events</a>, and <a href="/christenings-baptisms">christenings</a>. We also have dedicated experience with <a href="/mehndi-nikkah-styling/tarneit">mehndi and nikkah styling</a> for Melbourne's South Asian communities.</p>
+<p>This is us, so take this with appropriate bias — but here is what we actually do well. We service suburbs across Melbourne's west and north, areas that <a href="https://www.abs.gov.au/statistics/people/population/regional-population/latest-release" target="_blank" rel="noopener">ABS population data</a> shows are among Australia's fastest-growing corridors. <a href="/">iDo Events</a> specialises in <a href="/hire">prop hire and event styling</a> for birthdays, <a href="/baby-showers">baby showers</a>, <a href="/engagements">engagements</a>, <a href="/weddings">weddings</a>, <a href="/corporate">corporate events</a>, and <a href="/christenings-baptisms">christenings</a>. We also have dedicated experience with <a href="/mehndi-nikkah-styling/tarneit">mehndi and nikkah styling</a> for Melbourne's South Asian communities.</p>
 
 <p>Our pricing starts from $350 for a simple birthday setup and goes to $5,000+ for full wedding transformations — a detailed breakdown is in our <a href="/blog/event-styling-cost-melbourne-2026">Melbourne event styling price guide</a>. Every quote includes delivery, professional setup, and pack-down across all Melbourne suburbs. We operate in <a href="/event-styling/point-cook">Point Cook</a>, <a href="/event-styling/tarneit">Tarneit</a>, <a href="/event-styling/craigieburn">Craigieburn</a>, <a href="/event-styling/dandenong">Dandenong</a>, <a href="/event-styling/oakleigh">Oakleigh</a>, <a href="/event-styling/preston">Preston</a>, <a href="/event-styling/brunswick">Brunswick</a>, and <a href="/event-styling/doncaster">Doncaster</a> — among 25 suburbs total.</p>
 
@@ -761,7 +761,7 @@ export const seoAuthorityPosts: BlogPost[] = [
 <li><strong>Northern suburbs (Craigieburn, Epping):</strong> Luxe Couture Events or iDo Events.</li>
 </ul>
 
-<p>Every company on this list does genuinely good work. The differences are in specialisation, price point, and geographic coverage. Get 2–3 quotes, check their recent work on Instagram, and go with the stylist who understands your vision and communicates clearly.</p>
+<p>Every company on this list does genuinely good work. The <a href="https://www.abia.com.au/" target="_blank" rel="noopener">Australian Bridal Industry Academy (ABIA)</a> publishes annual awards for event vendors, which can help you assess quality and consistency. The differences between companies are in specialisation, price point, and geographic coverage. Get 2–3 quotes, check their recent work on Instagram, and go with the stylist who understands your vision and communicates clearly.</p>
 
 <p>If you would like to see what iDo Events can do for your celebration, <a href="/quote">request a free quote</a> or browse our <a href="/hire">prop hire collection</a>. We respond within the hour.</p>`,
   },

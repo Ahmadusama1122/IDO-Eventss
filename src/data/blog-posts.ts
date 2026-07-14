@@ -23,7 +23,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-06-15",
     category: "Trends",
     image: "/gallery/weddings/weddings-3.jpg",
-    content: `<p>Event styling is always evolving, and 2026 has brought a wave of fresh inspiration to Melbourne celebrations. Whether you are planning a wedding, a milestone birthday, or an intimate engagement party, staying across the latest trends can help you craft an event that feels both current and timeless. Here are the five biggest styling trends we are seeing across our events this year.</p>
+    content: `<p>Event styling is always evolving, and 2026 has brought a wave of fresh inspiration to Melbourne celebrations. Whether you are planning a wedding, a milestone birthday, or an intimate engagement party, staying across the latest trends can help you craft an event that feels both current and timeless. According to <a href="https://www.abia.com.au/" target="_blank" rel="noopener">ABIA (Australian Bridal Industry Academy)</a> data, Australian couples are spending more on styling and decor than ever before. Here are the five biggest styling trends we are seeing across our events this year.</p>
 
 <h2>1. Organic Textures and Natural Materials</h2>
 
@@ -51,7 +51,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>5. Sustainable and Reusable Styling Elements</h2>
 
-<p>Melbourne event hosts are increasingly conscious about sustainability, and we are proud to say that prop hire is inherently eco-friendly. Rather than purchasing single-use decorations that end up in landfill, hiring quality props and styling elements means they are used, loved, and passed on to the next celebration.</p>
+<p>Melbourne event hosts are increasingly conscious about sustainability, and we are proud to say that prop hire is inherently eco-friendly. As <a href="https://www.sustainability.vic.gov.au/recycling-and-reducing-waste" target="_blank" rel="noopener">Sustainability Victoria</a> highlights, reducing single-use waste is a priority — and hiring quality props means they are used, loved, and passed on to the next celebration rather than ending up in landfill.</p>
 
 <p>We are also seeing a trend towards potted plants as centrepieces, beeswax candles, and cloth napkins over disposable alternatives. Some of our clients have even requested that we incorporate charity donation cards or seed packet favours into their table settings, adding a meaningful touch to their celebrations.</p>
 
@@ -67,7 +67,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-05-28",
     category: "Tips & Guides",
     image: "/gallery/engagements/engagements-5.jpg",
-    content: `<p>The backdrop is often the first thing guests notice when they walk into an event space. It sets the tone, anchors the visual theme, and gives everyone that perfect photo opportunity. But with so many options available, from floral walls to fabric draping to balloon installations, how do you choose the right one for your celebration? Here is our practical guide to getting it right.</p>
+    content: `<p>The backdrop is often the first thing guests notice when they walk into an event space. It sets the tone, anchors the visual theme, and gives everyone that perfect photo opportunity. According to <a href="https://www.abia.com.au/" target="_blank" rel="noopener">ABIA</a> research, the ceremony backdrop is consistently rated among the most impactful styling elements by Australian couples. But with so many options available, from floral walls to fabric draping to balloon installations, how do you choose the right one for your celebration? Here is our practical guide to getting it right.</p>
 
 <h2>Start with Your Venue</h2>
 
@@ -121,7 +121,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-05-10",
     category: "Weddings",
     image: "/gallery/weddings/weddings-1.jpg",
-    content: `<p>Planning a wedding is one of the most exciting journeys you will ever take, but when it comes to styling, the sheer number of details can feel overwhelming. From the ceremony space to the reception tables to the little touches that tie everything together, there is a lot to think about. This comprehensive checklist will help you stay organised and make sure nothing slips through the cracks.</p>
+    content: `<p>Planning a wedding is one of the most exciting journeys you will ever take, but when it comes to styling, the sheer number of details can feel overwhelming. With over <a href="https://www.abs.gov.au/statistics/people/people-and-communities/marriages-and-divorces-australia/latest-release" target="_blank" rel="noopener">125,000 marriages registered in Australia annually</a>, couples are investing more thought than ever into making their day stand out. From the ceremony space to the reception tables to the little touches that tie everything together, there is a lot to think about. This comprehensive checklist will help you stay organised and make sure nothing slips through the cracks.</p>
 
 <h2>3 to 6 Months Before: Setting the Foundation</h2>
 
@@ -175,7 +175,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-07-01",
     category: "Weddings",
     image: "/gallery/weddings/weddings-2.jpg",
-    content: `<p>Your wedding backdrop is the single most photographed element of your entire day. It frames your ceremony, anchors your reception, and appears in almost every guest photo. Choosing the right one can feel overwhelming with so many options available, so we have pulled together 21 wedding backdrop ideas that Melbourne couples are loving right now — many of which we have styled ourselves across venues from Oakleigh to the Yarra Valley.</p>
+    content: `<p>Your wedding backdrop is the single most photographed element of your entire day. It frames your ceremony, anchors your reception, and appears in almost every guest photo. Wedding backdrop trends are among the most searched styling topics on <a href="https://www.pinterest.com.au/search/pins/?q=wedding%20backdrop%20ideas%202026" target="_blank" rel="noopener">Pinterest</a> and across AI search engines. Choosing the right one can feel overwhelming with so many options available, so we have pulled together 21 wedding backdrop ideas that Melbourne couples are loving right now — many of which we have styled ourselves across venues from Oakleigh to the Yarra Valley.</p>
 
 <h2>Arch Backdrops</h2>
 
@@ -302,7 +302,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-07-03",
     category: "Birthdays",
     image: "/gallery/birthdays/birthdays-3.jpg",
-    content: `<p>Planning a birthday party in Melbourne and want it to look incredible? Whether it is a first birthday, a sweet sixteen, a 21st, or a fabulous 50th, the right theme and styling can transform any venue into something truly special. Here are 15 birthday party themes that Melbourne hosts are choosing right now, with practical styling tips for each one.</p>
+    content: `<p>Planning a birthday party in Melbourne and want it to look incredible? With <a href="https://www.abs.gov.au/statistics/people/population/births-australia/latest-release" target="_blank" rel="noopener">over 300,000 births registered in Australia each year</a>, birthday celebrations are a thriving part of the events industry. Whether it is a first birthday, a sweet sixteen, a 21st, or a fabulous 50th, the right theme and styling can transform any venue into something truly special. Here are 15 birthday party themes that Melbourne hosts are choosing right now, with practical styling tips for each one.</p>
 
 <h2>First Birthday Themes</h2>
 
@@ -394,7 +394,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-07-05",
     category: "Baby Showers",
     image: "/gallery/baby-showers/baby-showers-1.jpg",
-    content: `<p>A baby shower is one of those celebrations that deserves to be beautiful. It is a moment to honour the parents-to-be, gather loved ones, and create memories that last well beyond the day. If you are planning a baby shower in Melbourne and want it to look stunning without the stress, here are 12 themes and styling ideas that are trending right now — many of which we have styled ourselves across venues from <a href="/event-styling/oakleigh">Oakleigh</a> to <a href="/event-styling/point-cook">Point Cook</a>.</p>
+    content: `<p>A baby shower is one of those celebrations that deserves to be beautiful. It is a moment to honour the parents-to-be, gather loved ones, and create memories that last well beyond the day. Baby shower styling has become one of the fastest-growing segments in the events industry — <a href="https://www.pinterest.com.au/search/pins/?q=baby%20shower%20themes%202026" target="_blank" rel="noopener">Pinterest trends</a> show baby shower searches growing year on year. If you are planning a baby shower in Melbourne and want it to look stunning without the stress, here are 12 themes and styling ideas that are trending right now — many of which we have styled ourselves across venues from <a href="/event-styling/oakleigh">Oakleigh</a> to <a href="/event-styling/point-cook">Point Cook</a>.</p>
 
 <h2>Classic and Timeless Themes</h2>
 

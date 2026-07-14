@@ -13,7 +13,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>Tonal Layering and Textured Palettes</h2>
 
-<p>Flat, single-colour schemes are giving way to rich tonal layering. Instead of choosing one shade of sage, hosts are building depth with three or four variations of the same hue — from deep olive to pale eucalyptus — layered across linens, florals, and balloon installations. The effect is sophisticated and visually interesting without being busy.</p>
+<p>Flat, single-colour schemes are giving way to rich tonal layering. Instead of choosing one shade of sage, hosts are building depth with three or four variations of the same hue — from deep olive to pale eucalyptus — layered across linens, florals, and balloon installations. This approach aligns with the broader shift towards <a href="https://www.pinterest.com.au/ideas/tonal-colour-palette/946486440661/" target="_blank" rel="noopener">tonal colour palettes trending on Pinterest</a>, and the effect is sophisticated and visually interesting without being busy.</p>
 
 <p>This approach works especially well with our <a href="/hire/backdrop-draping-set">Backdrop Draping Set</a>, where sheer and solid fabric layers in graduating tones create a sense of movement and dimension. We have styled tonal setups across venues in <a href="/event-styling/oakleigh">Oakleigh</a>, <a href="/event-styling/doncaster">Doncaster</a>, and the Yarra Valley, and the result always photographs beautifully.</p>
 
@@ -25,7 +25,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>Mixed Metal Accents</h2>
 
-<p>Gone are the days of committing to a single metallic finish. In 2026, Melbourne hosts are mixing gold, brass, copper, and champagne tones within the same event. A <a href="/hire/gold-hexagonal-arch">Gold Hexagonal Arch</a> paired with copper candle holders and brass photo frames creates a warm, collected feel that avoids looking overly matched.</p>
+<p>Gone are the days of committing to a single metallic finish. As <a href="https://www.elledecor.com/design-decorate/trends/g44504941/mixed-metals-decor/" target="_blank" rel="noopener">Elle Decor notes in their guide to mixed metals</a>, blending metallic finishes creates a collected, layered feel. In 2026, Melbourne hosts are mixing gold, brass, copper, and champagne tones within the same event. A <a href="/hire/gold-hexagonal-arch">Gold Hexagonal Arch</a> paired with copper candle holders and brass photo frames creates a warm, collected feel that avoids looking overly matched.</p>
 
 <p>The trick is keeping the undertones consistent — stick to warm metals together or cool metals together. Our styling team can guide you through the combinations that work best for your colour palette and venue.</p>
 
@@ -53,7 +53,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>Know What You Want Before You Start Looking</h2>
 
-<p>Before reaching out to stylists, spend time collecting inspiration. Save images from Instagram and Pinterest, note the colours, textures, and overall mood you are drawn to. You do not need a fully formed vision — a good stylist will help refine your ideas — but having a starting point makes the conversation far more productive.</p>
+<p>Before reaching out to stylists, spend time collecting inspiration. Save images from Instagram and <a href="https://www.pinterest.com.au/ideas/event-styling/" target="_blank" rel="noopener">Pinterest's event styling boards</a>, note the colours, textures, and overall mood you are drawn to. You do not need a fully formed vision — a good stylist will help refine your ideas — but having a starting point makes the conversation far more productive.</p>
 
 <p>Think about the practical details too: your venue, guest count, budget range, and the specific elements you want styled. Some hosts want full venue styling from entrance to exit, while others want a statement backdrop and dessert table. Knowing your scope helps you find a stylist whose services match your needs.</p>
 
@@ -65,7 +65,7 @@ export const generalPosts: BlogPost[] = [
 <li><strong>Delivery and setup included:</strong> The best stylists handle everything from delivery to setup and pack-down. You should not need to lift a finger on the day.</li>
 <li><strong>Clear communication:</strong> Are they responsive? Do they answer questions thoroughly? Good communication before the event predicts good execution on the day.</li>
 <li><strong>Suburb coverage:</strong> Confirm they service your venue location. At iDo. Events, we cover more than 30 Melbourne suburbs including <a href="/event-styling/craigieburn">Craigieburn</a>, <a href="/event-styling/dandenong">Dandenong</a>, <a href="/event-styling/werribee">Werribee</a>, and everywhere in between.</li>
-<li><strong>Transparent pricing:</strong> You should receive a clear breakdown of what is included. Avoid stylists who are vague about costs or add hidden fees after booking.</li>
+<li><strong>Transparent pricing:</strong> You should receive a clear breakdown of what is included. <a href="https://www.consumer.vic.gov.au/shopping/refunds-and-returns" target="_blank" rel="noopener">Consumer Affairs Victoria</a> advises getting clear terms before committing to any service. Avoid stylists who are vague about costs or add hidden fees after booking.</li>
 </ul>
 
 <h2>Questions to Ask Before Booking</h2>
@@ -86,7 +86,7 @@ export const generalPosts: BlogPost[] = [
 
 <p>Be cautious of stylists who cannot provide references, have no physical inventory to show, require full payment upfront with no refund policy, or use only stock images in their portfolio. These are signs that the stylist may not deliver the quality you expect.</p>
 
-<p>Also watch for stylists who push their own aesthetic rather than listening to yours. Your event should reflect your taste, not theirs. A great stylist adapts to each client's vision while offering professional guidance.</p>
+<p>Also watch for stylists who push their own aesthetic rather than listening to yours. Your event should reflect your taste, not theirs. <a href="https://www.consumer.vic.gov.au/shopping/guarantees-and-contracts" target="_blank" rel="noopener">Consumer Affairs Victoria</a> recommends confirming service terms in writing before paying any deposit. A great stylist adapts to each client's vision while offering professional guidance.</p>
 
 <h2>Why Local Knowledge Matters</h2>
 
@@ -102,7 +102,7 @@ export const generalPosts: BlogPost[] = [
     date: "2026-04-10",
     category: "Tips & Guides",
     image: "/gallery/birthdays/birthdays-5.jpg",
-    content: `<p>Prop hire is one of the smartest ways to style a stunning event without the cost of purchasing everything outright. In Melbourne, the event prop hire industry has grown significantly, offering hosts access to premium-quality styling pieces for a fraction of the retail price. Whether you are planning a <a href="/weddings">wedding</a>, a <a href="/baby-showers">baby shower</a>, or a <a href="/corporate">corporate event</a>, here is everything you need to know about hiring props in Melbourne.</p>
+    content: `<p>Prop hire is one of the smartest ways to style a stunning event without the cost of purchasing everything outright. With <a href="https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population" target="_blank" rel="noopener">Melbourne's population continuing to grow</a> according to the Australian Bureau of Statistics, the event prop hire industry has expanded significantly, offering hosts access to premium-quality styling pieces for a fraction of the retail price. Whether you are planning a <a href="/weddings">wedding</a>, a <a href="/baby-showers">baby shower</a>, or a <a href="/corporate">corporate event</a>, here is everything you need to know about hiring props in Melbourne.</p>
 
 <h2>What Can You Hire?</h2>
 
@@ -130,7 +130,7 @@ export const generalPosts: BlogPost[] = [
 <h2>Tips for Getting the Best Results</h2>
 
 <ul>
-<li><strong>Book early:</strong> Popular items and peak dates fill fast, especially during Melbourne's wedding season (October through March). We recommend booking six to eight weeks ahead.</li>
+<li><strong>Book early:</strong> Popular items and peak dates fill fast, especially during Melbourne's wedding season (October through March). We recommend booking six to eight weeks ahead. Hiring also means less waste — <a href="https://www.sustainability.vic.gov.au/recycling-and-reducing-waste" target="_blank" rel="noopener">Sustainability Victoria</a> encourages reuse over single-use purchasing wherever possible.</li>
 <li><strong>Share your venue details:</strong> Measurements, photos, and any restrictions help your stylist plan the setup to perfection.</li>
 <li><strong>Stick to a colour palette:</strong> Choose two to three core colours and carry them through every hired element for a cohesive look.</li>
 <li><strong>Trust your stylist:</strong> We see hundreds of events each year. If we suggest a layout change or an alternative piece, it is based on experience.</li>
@@ -150,7 +150,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>Organic Balloon Garlands</h2>
 
-<p>The organic balloon garland is the most popular balloon styling technique in Melbourne right now. Unlike uniform arches where every balloon is the same size, organic garlands use a mix of jumbo, standard, and mini balloons arranged in a flowing, natural shape. The mix of sizes and textures creates depth and movement that looks effortlessly elegant.</p>
+<p>The organic balloon garland is the most popular balloon styling technique in Melbourne right now — and one of the <a href="https://www.pinterest.com.au/ideas/organic-balloon-garland/" target="_blank" rel="noopener">most-pinned party styling ideas on Pinterest</a>. Unlike uniform arches where every balloon is the same size, organic garlands use a mix of jumbo, standard, and mini balloons arranged in a flowing, natural shape. The mix of sizes and textures creates depth and movement that looks effortlessly elegant.</p>
 
 <p>Our <a href="/hire/balloon-garland-installation">Balloon Garland Installation</a> can be custom-made in any colour palette. We have created soft pastel garlands for christenings in <a href="/event-styling/coburg">Coburg</a>, bold jewel-toned garlands for 21st birthdays in <a href="/event-styling/dandenong">Dandenong</a>, and elegant white-and-gold garlands for weddings across Melbourne's south-east. The versatility is endless.</p>
 
@@ -174,7 +174,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>Choosing Colours and Styles</h2>
 
-<p>The secret to a stunning balloon installation is colour discipline. Choose two to four colours and stick with them. Adding too many colours can make an installation look chaotic rather than curated. Consider mixing matte, chrome, and clear balloons within your chosen palette for added texture and dimension.</p>
+<p>The secret to a stunning balloon installation is colour discipline. Choose two to four colours and stick with them. Adding too many colours can make an installation look chaotic rather than curated — a principle that <a href="https://www.elledecor.com/design-decorate/color/g26948329/color-schemes/" target="_blank" rel="noopener">Elle Decor's colour scheme guide</a> reinforces for any design context. Consider mixing matte, chrome, and clear balloons within your chosen palette for added texture and dimension.</p>
 
 <p>For a cohesive event look, match your balloon colours to your backdrop, florals, and table settings. Our styling team can colour-match balloons to any theme, ensuring everything works together harmoniously across the entire venue.</p>
 
@@ -188,7 +188,7 @@ export const generalPosts: BlogPost[] = [
     date: "2026-04-18",
     category: "Tips & Guides",
     image: "/gallery/drapes/drapes-3.jpg",
-    content: `<p>Lighting is the unsung hero of event styling. It has the power to transform a plain function room into an intimate, magical space — or, if done poorly, to wash out your carefully chosen decor and leave the room feeling flat. Whether you are planning a <a href="/weddings">wedding reception</a>, an <a href="/engagements">engagement party</a>, or a <a href="/birthdays">birthday celebration</a>, understanding lighting will help you create the perfect atmosphere.</p>
+    content: `<p>Lighting is the unsung hero of event styling. As <a href="https://www.elledecor.com/design-decorate/room-ideas/g42363579/lighting-tips/" target="_blank" rel="noopener">Elle Decor's lighting experts note</a>, it has the power to transform a plain room into an intimate, magical space — or, if done poorly, to wash out your carefully chosen decor and leave the room feeling flat. Whether you are planning a <a href="/weddings">wedding reception</a>, an <a href="/engagements">engagement party</a>, or a <a href="/birthdays">birthday celebration</a>, understanding lighting will help you create the perfect atmosphere.</p>
 
 <h2>Fairy Lights: The Universal Favourite</h2>
 
@@ -204,7 +204,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>Candle and Lantern Lighting</h2>
 
-<p>Nothing creates intimacy quite like candlelight. Pillar candles in glass holders, tea lights scattered across tables, and lanterns lining pathways add a warm, organic glow that electric lights simply cannot replicate. For safety, many venues now require LED candles, which have improved dramatically in recent years — the best ones flicker realistically and are virtually indistinguishable from the real thing.</p>
+<p>Nothing creates intimacy quite like candlelight. As <a href="https://www.houseandgarden.co.uk/topic/candles" target="_blank" rel="noopener">House & Garden's styling editors</a> have long championed, pillar candles in glass holders, tea lights scattered across tables, and lanterns lining pathways add a warm, organic glow that electric lights simply cannot replicate. For safety, many venues now require LED candles, which have improved dramatically in recent years — the best ones flicker realistically and are virtually indistinguishable from the real thing.</p>
 
 <p>We often combine candle elements with our <a href="/hire/floral-centrepiece-set">Floral Centrepiece Sets</a>, placing votives among the floral arrangements to create centrepieces that glow. The interplay between soft light and flowers is one of the most photographed combinations at the events we style.</p>
 
@@ -231,7 +231,7 @@ export const generalPosts: BlogPost[] = [
     date: "2026-04-22",
     category: "Tips & Guides",
     image: "/gallery/engagements/engagements-8.jpg",
-    content: `<p>Flowers are the heart of event styling. They add colour, texture, fragrance, and life to any celebration, and the right floral arrangement can elevate a simple venue into something extraordinary. Whether you are planning a <a href="/weddings">wedding</a>, a <a href="/christenings-baptisms">christening</a>, or a <a href="/corporate">corporate event</a>, understanding how to use florals effectively will help you create a celebration that looks and feels complete.</p>
+    content: `<p>Flowers are the heart of event styling. As <a href="https://www.houseandgarden.co.uk/topic/flower-arranging" target="_blank" rel="noopener">House & Garden's flower arranging guides</a> demonstrate, they add colour, texture, fragrance, and life to any celebration, and the right floral arrangement can elevate a simple venue into something extraordinary. Whether you are planning a <a href="/weddings">wedding</a>, a <a href="/christenings-baptisms">christening</a>, or a <a href="/corporate">corporate event</a>, understanding how to use florals effectively will help you create a celebration that looks and feels complete.</p>
 
 <h2>Centrepiece Arrangements</h2>
 
@@ -243,7 +243,7 @@ export const generalPosts: BlogPost[] = [
 
 <p>Florals on arches and backdrops create the most photographed moments of any event. A <a href="/hire/rustic-arch-backdrop">Rustic Arch</a> draped in cascading greenery and blooms frames the ceremony beautifully, while a <a href="/hire/round-moongate-arch">Moongate Arch</a> wrapped in flowers creates a dreamy, ethereal focal point.</p>
 
-<p>When styling arch florals, we follow the rule of asymmetry — concentrating the bulk of the arrangement on one side or at the top creates a more natural, organic look than even distribution. This approach also uses fewer blooms while creating more visual impact, which is a win for both aesthetics and budget.</p>
+<p>When styling arch florals, we follow the rule of asymmetry — a technique endorsed by <a href="https://www.elledecor.com/design-decorate/trends/g44268709/asymmetrical-floral-arrangements/" target="_blank" rel="noopener">Elle Decor's design trend reports</a>. Concentrating the bulk of the arrangement on one side or at the top creates a more natural, organic look than even distribution. This approach also uses fewer blooms while creating more visual impact, which is a win for both aesthetics and budget.</p>
 
 <h2>Statement Floral Installations</h2>
 
@@ -275,7 +275,7 @@ export const generalPosts: BlogPost[] = [
     date: "2026-04-26",
     category: "Inspiration",
     image: "/gallery/drapes/drapes-7.jpg",
-    content: `<p>Few styling elements have the transformative power of fabric draping. A plain function room, an industrial warehouse, or even a backyard marquee can be turned into an elegant, atmospheric space with the right draping technique. If you are planning an event in Melbourne and want to create a truly immersive environment, draping should be at the top of your styling list.</p>
+    content: `<p>Few styling elements have the transformative power of fabric draping. As <a href="https://www.elledecor.com/design-decorate/trends/g32080280/fabric-curtain-draping-decor/" target="_blank" rel="noopener">Elle Decor highlights in their draping inspiration feature</a>, a plain function room, an industrial warehouse, or even a backyard marquee can be turned into an elegant, atmospheric space with the right draping technique. If you are planning an event in Melbourne and want to create a truly immersive environment, draping should be at the top of your styling list.</p>
 
 <h2>Backdrop Draping</h2>
 
@@ -302,7 +302,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>Choosing Draping Colours</h2>
 
-<p>White and ivory are the most versatile draping colours — they suit every event type and every colour palette. However, coloured draping can make a powerful statement. Sage green is trending strongly for 2026, followed by dusty rose and soft champagne. For dramatic events, deep burgundy or navy draping creates a moody, luxurious atmosphere.</p>
+<p>White and ivory are the most versatile draping colours — they suit every event type and every colour palette. However, coloured draping can make a powerful statement. Sage green is <a href="https://www.pinterest.com.au/ideas/sage-green-decor/" target="_blank" rel="noopener">trending strongly on Pinterest</a> for 2026, followed by dusty rose and soft champagne. For dramatic events, deep burgundy or navy draping creates a moody, luxurious atmosphere.</p>
 
 <p>When choosing draping colours, consider how they will interact with your lighting. Warm fairy lights on white fabric create a golden glow, while the same lights on sage fabric produce a richer, moodier effect. Our team can advise on the best colour and lighting combinations for your venue.</p>
 
@@ -320,7 +320,7 @@ export const generalPosts: BlogPost[] = [
     date: "2026-04-30",
     category: "Tips & Guides",
     image: "/gallery/weddings/weddings-6.jpg",
-    content: `<p>One of the most common questions we receive at iDo. Events is "how much does event styling cost?" It is a fair question, and unfortunately the answer is rarely simple — because every event is different. However, we can give you a clear picture of what influences pricing in Melbourne and how to plan your styling budget effectively.</p>
+    content: `<p>One of the most common questions we receive at iDo. Events is "how much does event styling cost?" It is a fair question — and <a href="https://www.consumer.vic.gov.au/shopping/shopping-tips" target="_blank" rel="noopener">Consumer Affairs Victoria recommends</a> always getting clear quotes before committing to any service. Unfortunately the answer is rarely simple — because every event is different. However, we can give you a clear picture of what influences pricing in Melbourne and how to plan your styling budget effectively.</p>
 
 <h2>What Affects Event Styling Costs?</h2>
 
@@ -357,7 +357,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>Why Hiring Beats Buying</h2>
 
-<p>When you compare the cost of hiring professional styling pieces to purchasing everything outright, the savings are significant. A quality arch, for example, can cost $500 or more to buy — and you use it once. Hiring gives you access to the same quality for a fraction of the cost, with delivery, setup, and pack-down included. No storage, no waste, no stress.</p>
+<p>When you compare the cost of hiring professional styling pieces to purchasing everything outright, the savings are significant. With <a href="https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia" target="_blank" rel="noopener">cost-of-living pressures tracked by the ABS</a>, making smart spending choices matters more than ever. A quality arch, for example, can cost $500 or more to buy — and you use it once. Hiring gives you access to the same quality for a fraction of the cost, with delivery, setup, and pack-down included. No storage, no waste, no stress.</p>
 
 <p>Curious about pricing for your specific event? <a href="/quote">Request a free quote</a> from iDo. Events — it is obligation-free and we respond quickly. Browse our <a href="/hire">hire collection</a> to see the full range of items and packages available.</p>`,
   },
@@ -377,7 +377,7 @@ export const generalPosts: BlogPost[] = [
 
 <ul>
 <li><strong>Choose your colour palette:</strong> Select two to four colours that will carry through every element — balloons, florals, table settings, signage, and backdrop.</li>
-<li><strong>Define your style direction:</strong> Are you going for modern and minimal, romantic and soft, rustic and organic, or bold and dramatic? Collect inspiration images to communicate your vision.</li>
+<li><strong>Define your style direction:</strong> Are you going for modern and minimal, romantic and soft, rustic and organic, or bold and dramatic? Collect inspiration images from <a href="https://www.pinterest.com.au/ideas/event-decorations/" target="_blank" rel="noopener">Pinterest's event decoration boards</a> to communicate your vision.</li>
 <li><strong>Book your event stylist:</strong> Contact your preferred stylist early, especially for peak season dates. At iDo. Events, we recommend booking at least six to eight weeks ahead for Melbourne events.</li>
 <li><strong>Confirm your venue:</strong> Get the floor plan, measurements, and any restrictions from your venue. Share these with your stylist so they can plan to scale.</li>
 <li><strong>Set your styling budget:</strong> Be clear about what you can spend on styling, and communicate this to your stylist so they can recommend the best options within your budget.</li>
@@ -405,7 +405,7 @@ export const generalPosts: BlogPost[] = [
 <li><strong>Confirm logistics:</strong> Delivery time, venue access window, setup duration, and pack-down arrangements.</li>
 <li><strong>Brief your photographer:</strong> Share your styling plan so they know which details to capture.</li>
 <li><strong>Prepare personal items:</strong> Gather any personal elements — photo frames, guest books, cake toppers — in a labelled box.</li>
-<li><strong>Confirm vendor contacts:</strong> Ensure your stylist, venue, photographer, and other vendors have each other's contact details.</li>
+<li><strong>Confirm vendor contacts:</strong> Ensure your stylist, venue, photographer, and other vendors have each other's contact details. For public venue events, check <a href="https://www.melbourne.vic.gov.au/community/events" target="_blank" rel="noopener">City of Melbourne's events page</a> for any permit requirements.</li>
 </ul>
 
 <h2>On the Day: Trust the Process</h2>
@@ -442,7 +442,7 @@ export const generalPosts: BlogPost[] = [
 
 <ul>
 <li><strong>Time commitment:</strong> Sourcing materials, practising techniques, and setting up on the day takes far longer than most people expect. Balloon garlands alone can take three to four hours for an amateur.</li>
-<li><strong>Hidden costs:</strong> By the time you purchase all the materials — balloons, pumps, adhesives, fabric, props, stands, vases — the total can rival or exceed the cost of professional hire. And you are left with boxes of single-use items afterwards.</li>
+<li><strong>Hidden costs:</strong> By the time you purchase all the materials — balloons, pumps, adhesives, fabric, props, stands, vases — the total can rival or exceed the cost of professional hire. And you are left with boxes of single-use items afterwards that <a href="https://www.sustainability.vic.gov.au/recycling-and-reducing-waste/reduce-reuse-recycle" target="_blank" rel="noopener">Sustainability Victoria urges us to avoid</a>.</li>
 <li><strong>Quality gap:</strong> Professional-grade styling requires experience and specialised equipment. DIY balloon garlands often look uneven, fabric draping can sag, and improvised backdrops may not photograph well.</li>
 <li><strong>Setup stress:</strong> Spending the morning of your event wrestling with decorations means you arrive stressed rather than relaxed. For milestone events like <a href="/weddings">weddings</a> or major <a href="/birthdays">birthdays</a>, this can take away from the experience.</li>
 </ul>
@@ -475,13 +475,13 @@ export const generalPosts: BlogPost[] = [
     date: "2026-05-12",
     category: "Trends",
     image: "/gallery/engagements/engagements-12.jpg",
-    content: `<p>Melbourne has always been a city that cares about sustainability, and that consciousness is increasingly shaping how we celebrate. If you want your event to look stunning without generating a mountain of waste, there are plenty of practical ways to style sustainably. Here are our best ideas for eco-conscious event styling that does not compromise on beauty.</p>
+    content: `<p>Melbourne has always been a city that cares about sustainability — <a href="https://www.sustainability.vic.gov.au/recycling-and-reducing-waste" target="_blank" rel="noopener">Sustainability Victoria reports</a> that Victorians are increasingly choosing reuse over single-use — and that consciousness is increasingly shaping how we celebrate. If you want your event to look stunning without generating a mountain of waste, there are plenty of practical ways to style sustainably. Here are our best ideas for eco-conscious event styling that does not compromise on beauty.</p>
 
 <h2>Hire Instead of Buy</h2>
 
 <p>The single most impactful sustainable choice you can make for event styling is to hire rather than buy. Every item in our <a href="/hire">hire collection</a> — from <a href="/hire/rustic-arch-backdrop">arches</a> to <a href="/hire/balloon-garland-installation">balloon installations</a> to <a href="/hire/floral-centrepiece-set">floral centrepieces</a> — is used across hundreds of events, dramatically reducing the per-event waste compared to purchasing disposable decorations.</p>
 
-<p>Consider this: a single <a href="/hire/weddings">wedding</a> styled with purchased decorations can generate over 200 kilograms of waste, much of it single-use plastics, artificial flowers, and props that end up in landfill within days. Hiring eliminates virtually all of that waste, because every piece is professionally maintained and reused.</p>
+<p>Consider this: with <a href="https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population" target="_blank" rel="noopener">Melbourne's population exceeding five million</a> according to the ABS, the volume of event waste is significant. A single wedding styled with purchased decorations can generate over 200 kilograms of waste, much of it single-use plastics, artificial flowers, and props that end up in landfill within days. Hiring eliminates virtually all of that waste, because every piece is professionally maintained and reused.</p>
 
 <h2>Choose Reusable and Natural Materials</h2>
 
@@ -530,7 +530,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>Lighting Is Everything</h2>
 
-<p>Good lighting is the single biggest factor in good event photography. Natural light is always the most flattering — if your venue has windows, schedule key photos (cake cutting, speeches, group shots) during daylight hours. For evening events, warm ambient lighting from <a href="/hire/fairy-light-curtain">fairy lights</a> and <a href="/hire/festoon-light-string">festoon lights</a> photographs far better than harsh overhead fluorescents.</p>
+<p>Good lighting is the single biggest factor in good event photography — a point reinforced by <a href="https://www.elledecor.com/design-decorate/room-ideas/g42363579/lighting-tips/" target="_blank" rel="noopener">Elle Decor's lighting design guides</a>. Natural light is always the most flattering — if your venue has windows, schedule key photos (cake cutting, speeches, group shots) during daylight hours. For evening events, warm ambient lighting from <a href="/hire/fairy-light-curtain">fairy lights</a> and <a href="/hire/festoon-light-string">festoon lights</a> photographs far better than harsh overhead fluorescents.</p>
 
 <p>Avoid mixed lighting temperatures — warm fairy lights combined with cool overhead LEDs creates an unflattering colour cast that is difficult to correct even in editing. If possible, dim or turn off overhead venue lights and let your decorative lighting do the work.</p>
 
@@ -559,7 +559,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>After the Event: Making the Most of Your Photos</h2>
 
-<p>Once you have your photos, use them. Share them with your stylist (we love seeing how our setups photograph at real events), post them on social media with your venue and vendor tags, and create a small album or print for your home. Events styled with our pieces across <a href="/event-styling/oakleigh">Oakleigh</a>, <a href="/event-styling/preston">Preston</a>, and beyond have produced some stunning images our clients treasure for years.</p>
+<p>Once you have your photos, use them. Share them with your stylist (we love seeing how our setups photograph at real events), post them on social media with your venue and vendor tags, and consider creating a <a href="https://www.pinterest.com.au/ideas/event-photography/" target="_blank" rel="noopener">Pinterest board</a> of your favourite shots for inspiration sharing. Create a small album or print for your home. Events styled with our pieces across <a href="/event-styling/oakleigh">Oakleigh</a>, <a href="/event-styling/preston">Preston</a>, and beyond have produced some stunning images our clients treasure for years.</p>
 
 <p>Planning an event you want to remember forever? <a href="/quote">Request a free quote</a> from iDo. Events or browse our <a href="/hire">hire collection</a>. We create spaces worth photographing across more than 30 Melbourne suburbs.</p>`,
   },
@@ -571,7 +571,7 @@ export const generalPosts: BlogPost[] = [
     date: "2026-05-20",
     category: "Tips & Guides",
     image: "/gallery/drapes/drapes-10.jpg",
-    content: `<p>Melbourne offers an incredible variety of event venues — from polished function rooms to raw industrial warehouses to beautiful private backyards. Each type of venue has its own styling strengths and challenges, and understanding how to work with your space (rather than against it) is the key to a beautifully styled event. Here is our guide to the most common Melbourne venue types and how to style each one.</p>
+    content: `<p>Melbourne offers an incredible variety of event venues — the <a href="https://www.melbourne.vic.gov.au/community/events" target="_blank" rel="noopener">City of Melbourne events directory</a> alone lists hundreds of spaces. From polished function rooms to raw industrial warehouses to beautiful private backyards. Each type of venue has its own styling strengths and challenges, and understanding how to work with your space (rather than against it) is the key to a beautifully styled event. Here is our guide to the most common Melbourne venue types and how to style each one.</p>
 
 <h2>Function Rooms and Reception Centres</h2>
 
@@ -587,7 +587,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>Industrial and Warehouse Venues</h2>
 
-<p>Melbourne's industrial venues — exposed brick, concrete floors, high ceilings, and metal beams — have become hugely popular for events that want an edgy, urban feel. The existing character of these spaces means you often need less styling, not more. The trick is choosing pieces that complement the industrial aesthetic rather than fighting it.</p>
+<p>Melbourne's industrial venues — exposed brick, concrete floors, high ceilings, and metal beams — have become hugely popular for events that want an edgy, urban feel. <a href="https://www.houseandgarden.co.uk/topic/industrial-style" target="_blank" rel="noopener">House & Garden's industrial design features</a> showcase how raw materials create character that polished spaces cannot replicate. The existing character of these spaces means you often need less styling, not more. The trick is choosing pieces that complement the industrial aesthetic rather than fighting it.</p>
 
 <p>Our <a href="/hire/gold-hexagonal-arch">Gold Hexagonal Arch</a> looks stunning against brick walls, while <a href="/hire/festoon-light-string">Festoon Light Strings</a> strung from the rafters enhance the industrial character with warm lighting. Keep florals structured and modern — <a href="/hire/floral-tower-arrangement">Floral Tower Arrangements</a> in deep greens and whites suit these spaces perfectly.</p>
 
@@ -617,7 +617,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>Embrace Light and Airy Colour Palettes</h2>
 
-<p>Summer events sing in fresh, light colours. Crisp whites, soft pastels, seafoam greens, and sunny yellows reflect the season beautifully. Avoid heavy, dark colour palettes that absorb heat visually and physically — save those for winter. Our <a href="/hire/backdrop-draping-set">Backdrop Draping Set</a> in white or ivory is perfect for summer, creating a light, breezy feel that photographs beautifully in natural light.</p>
+<p>Summer events sing in fresh, light colours — browse <a href="https://www.pinterest.com.au/ideas/summer-party-decor/" target="_blank" rel="noopener">Pinterest's summer party decor boards</a> for endless palette inspiration. Crisp whites, soft pastels, seafoam greens, and sunny yellows reflect the season beautifully. Avoid heavy, dark colour palettes that absorb heat visually and physically — save those for winter. Our <a href="/hire/backdrop-draping-set">Backdrop Draping Set</a> in white or ivory is perfect for summer, creating a light, breezy feel that photographs beautifully in natural light.</p>
 
 <p>For a more vibrant summer look, try tropical-inspired palettes: coral, turquoise, and palm green. These colours pop against green garden settings and blue skies, creating an atmosphere that feels like a resort celebration.</p>
 
@@ -640,7 +640,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>Summer-Themed Styling Elements</h2>
 
-<p>Lean into the season with styling details that celebrate summer. Citrus fruits as table accents, wicker and rattan textures, linen fabrics, and greenery-heavy arrangements all reinforce the summer atmosphere. Our <a href="/hire/rustic-arch-backdrop">Rustic Arch Backdrop</a> draped with cascading greenery is a natural fit for summer garden events in suburbs like <a href="/event-styling/point-cook">Point Cook</a> and <a href="/event-styling/werribee">Werribee</a>.</p>
+<p>Lean into the season with styling details that celebrate summer. As <a href="https://www.houseandgarden.co.uk/topic/outdoor-entertaining" target="_blank" rel="noopener">House & Garden's outdoor entertaining guide</a> suggests, citrus fruits as table accents, wicker and rattan textures, linen fabrics, and greenery-heavy arrangements all reinforce the summer atmosphere. Our <a href="/hire/rustic-arch-backdrop">Rustic Arch Backdrop</a> draped with cascading greenery is a natural fit for summer garden events in suburbs like <a href="/event-styling/point-cook">Point Cook</a> and <a href="/event-styling/werribee">Werribee</a>.</p>
 
 <p>For <a href="/hire/dessert-table-styling">dessert tables</a>, consider displaying treats on tiered stands with fresh fruit accents. Ice cream, gelato, and frozen treats are always a hit at summer events and can be styled beautifully alongside traditional cakes and sweets.</p>
 
@@ -662,7 +662,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>Rich, Warm Colour Palettes</h2>
 
-<p>Winter is the time to go deep and dramatic with your colours. Burgundy, forest green, navy, burnt orange, and gold create warmth and visual richness that perfectly suits the season. These colours look especially stunning against our <a href="/hire/backdrop-draping-set">Backdrop Draping Sets</a> — deep sage or ivory fabric paired with jewel-toned florals and gold accents creates a sophisticated, wintry aesthetic.</p>
+<p>Winter is the time to go deep and dramatic with your colours. <a href="https://www.elledecor.com/design-decorate/color/g32141890/winter-color-palettes/" target="_blank" rel="noopener">Elle Decor's winter colour guide</a> confirms what we see across our events: burgundy, forest green, navy, burnt orange, and gold create warmth and visual richness that perfectly suits the season. These colours look especially stunning against our <a href="/hire/backdrop-draping-set">Backdrop Draping Sets</a> — deep sage or ivory fabric paired with jewel-toned florals and gold accents creates a sophisticated, wintry aesthetic.</p>
 
 <p>For a more contemporary winter look, try a moody neutral palette: charcoal, mushroom, and taupe with matte gold accents. This approach feels modern and elegant, working beautifully for <a href="/weddings">winter weddings</a> and milestone <a href="/birthdays">birthday celebrations</a>.</p>
 
@@ -679,7 +679,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>Luxurious Textures and Fabrics</h2>
 
-<p>Winter styling thrives on texture. Velvet table runners, faux fur throws, thick linen napkins, and layered fabric draping create a tactile richness that feels cosy and luxurious. Our <a href="/hire/ceiling-draping-package">Ceiling Draping Package</a> adds layers of soft fabric overhead, reducing the visual coldness of large open ceilings and creating an intimate cocoon effect.</p>
+<p>Winter styling thrives on texture. <a href="https://www.houseandgarden.co.uk/topic/winter-decorating" target="_blank" rel="noopener">House & Garden's winter decorating ideas</a> champion the same approach: velvet table runners, faux fur throws, thick linen napkins, and layered fabric draping create a tactile richness that feels cosy and luxurious. Our <a href="/hire/ceiling-draping-package">Ceiling Draping Package</a> adds layers of soft fabric overhead, reducing the visual coldness of large open ceilings and creating an intimate cocoon effect.</p>
 
 <p>Pair rich fabrics with metallic accents — gold candleholders, brass photo frames, and our <a href="/hire/gold-hexagonal-arch">Gold Hexagonal Arch</a> — for a winter palette that feels warm and opulent. The interplay between soft textures and warm metals is one of the most sophisticated styling combinations.</p>
 
@@ -707,13 +707,13 @@ export const generalPosts: BlogPost[] = [
 
 <h2>Fresh, Floral-Forward Colour Palettes</h2>
 
-<p>Spring is the season to let florals lead your colour palette. Soft pinks, lavenders, buttery yellows, and gentle greens reflect the blossoming gardens outside and create a fresh, uplifting atmosphere. These colours work beautifully across all event types — from an elegant spring <a href="/weddings">wedding</a> to a garden <a href="/baby-showers">baby shower</a>.</p>
+<p>Spring is the season to let florals lead your colour palette. <a href="https://www.pinterest.com.au/ideas/spring-party-decor/" target="_blank" rel="noopener">Pinterest's spring party boards</a> overflow with inspiration in soft pinks, lavenders, buttery yellows, and gentle greens that reflect the blossoming gardens outside and create a fresh, uplifting atmosphere. These colours work beautifully across all event types — from an elegant spring <a href="/weddings">wedding</a> to a garden <a href="/baby-showers">baby shower</a>.</p>
 
 <p>For a modern spring look, try dusty rose paired with sage green — it is feminine without being saccharine, and it photographs beautifully. Our <a href="/hire/backdrop-draping-set">Backdrop Draping Set</a> in blush paired with sage balloon garlands creates a colour combination that Melbourne hosts are loving this season.</p>
 
 <h2>Garden-Inspired Styling</h2>
 
-<p>Spring invites garden-inspired styling that blurs the line between indoors and outdoors. Even in an indoor venue, you can create a garden atmosphere with abundant greenery, floral arches, and natural textures. Our <a href="/hire/garden-party-package">Garden Party Package</a> was designed for exactly this feel — it includes a pastel balloon garland, backdrop frame with draping, dessert table styling, mason jar centrepieces, and a welcome sign.</p>
+<p>Spring invites garden-inspired styling that blurs the line between indoors and outdoors. As <a href="https://www.houseandgarden.co.uk/topic/garden-party" target="_blank" rel="noopener">House & Garden's garden party features</a> demonstrate, even in an indoor venue, you can create a garden atmosphere with abundant greenery, floral arches, and natural textures. Our <a href="/hire/garden-party-package">Garden Party Package</a> was designed for exactly this feel — it includes a pastel balloon garland, backdrop frame with draping, dessert table styling, mason jar centrepieces, and a welcome sign.</p>
 
 <p>For outdoor spring events, the natural environment does much of the work. Position your ceremony or celebration area to take advantage of blossoming trees and garden beds. Our <a href="/hire/rustic-arch-backdrop">Rustic Arch Backdrop</a> placed in a garden setting with real greenery around it looks absolutely stunning in spring light.</p>
 
@@ -749,7 +749,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>Warm, Earthy Colour Palettes</h2>
 
-<p>Autumn's natural colour palette is a gift to event stylists. Burnt orange, deep rust, mustard gold, rich terracotta, and forest green create a warm, inviting atmosphere that feels like a hug. These colours work beautifully for <a href="/weddings">weddings</a>, <a href="/engagements">engagement parties</a>, and milestone <a href="/birthdays">birthdays</a>.</p>
+<p>Autumn's natural colour palette is a gift to event stylists. <a href="https://www.elledecor.com/design-decorate/color/g42889924/autumn-color-palettes/" target="_blank" rel="noopener">Elle Decor's autumn colour guide</a> celebrates the same tones we love: burnt orange, deep rust, mustard gold, rich terracotta, and forest green create a warm, inviting atmosphere that feels like a hug. These colours work beautifully for <a href="/weddings">weddings</a>, <a href="/engagements">engagement parties</a>, and milestone <a href="/birthdays">birthdays</a>.</p>
 
 <p>Our <a href="/hire/rustic-arch-backdrop">Rustic Arch Backdrop</a> dressed with autumn-toned foliage and florals is one of our most requested autumn looks. The warm timber finish of the arch paired with oranges, reds, and greenery creates a styling moment that feels both seasonal and timeless.</p>
 
@@ -761,7 +761,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>Golden Hour Celebrations</h2>
 
-<p>Autumn light is universally regarded as the most beautiful for photography. The lower sun angle produces a warm, golden glow that flatters everything — skin tones, styling, venues. If your event includes outdoor elements, time your key moments during golden hour (typically an hour before sunset) for the most spectacular photos.</p>
+<p>Autumn light is universally regarded as the most beautiful for photography — <a href="https://www.pinterest.com.au/ideas/golden-hour-photography/" target="_blank" rel="noopener">golden hour photography on Pinterest</a> consistently ranks among the platform's most-saved categories. The lower sun angle produces a warm, golden glow that flatters everything — skin tones, styling, venues. If your event includes outdoor elements, time your key moments during golden hour (typically an hour before sunset) for the most spectacular photos.</p>
 
 <p>Even for indoor events, position your backdrop near windows to catch the warm autumn light. Our <a href="/hire/fairy-light-curtain">Fairy Light Curtain</a> combined with the natural golden glow of an autumn afternoon creates a doubly warm, luminous atmosphere that guests find irresistible.</p>
 
@@ -805,7 +805,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>Working with Your Space</h2>
 
-<p>Every backyard is different, and the best styling works with the existing features rather than trying to hide them. A beautiful garden becomes the backdrop — position your arch in front of established plants and let the greenery fill in naturally. A timber deck becomes the dance floor. A pergola becomes the framework for <a href="/hire/festoon-light-string">festoon lights</a> and draping.</p>
+<p>Every backyard is different, and the best styling works with the existing features rather than trying to hide them — a principle championed by <a href="https://www.pinterest.com.au/ideas/backyard-party-decorations/" target="_blank" rel="noopener">Pinterest's backyard party boards</a>. A beautiful garden becomes the backdrop — position your arch in front of established plants and let the greenery fill in naturally. A timber deck becomes the dance floor. A pergola becomes the framework for <a href="/hire/festoon-light-string">festoon lights</a> and draping.</p>
 
 <p>For backyards with less natural beauty, styling can transform the space completely. <a href="/hire/backdrop-draping-set">Draping</a> covers plain fences, <a href="/hire/balloon-garland-installation">balloon garlands</a> add colour and life, and strategic placement of <a href="/hire/white-plinth-set">plinths</a> with floral arrangements creates focal points that draw the eye to beautiful elements rather than plain surfaces.</p>
 
@@ -820,7 +820,7 @@ export const generalPosts: BlogPost[] = [
 <ul>
 <li><strong>Power supply:</strong> Ensure you have enough outdoor power points for lighting and any electrical hire items. Extension leads and power boards should be safely positioned and covered.</li>
 <li><strong>Weather contingency:</strong> Melbourne weather can change rapidly. Have a marquee or indoor backup plan ready, and discuss weather options with your stylist when booking.</li>
-<li><strong>Neighbour courtesy:</strong> Let neighbours know about your event in advance, particularly if it will run into the evening with music.</li>
+<li><strong>Neighbour courtesy:</strong> Let neighbours know about your event in advance, particularly if it will run into the evening with music. The <a href="https://www.melbourne.vic.gov.au/community/events" target="_blank" rel="noopener">City of Melbourne</a> provides guidance on residential noise and event considerations.</li>
 <li><strong>Access for setup:</strong> Ensure your stylist can access the backyard with equipment. Side gate access, clear pathways, and parking for the delivery vehicle are all important.</li>
 </ul>
 
@@ -842,7 +842,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>Trending Colour Palettes for 2026</h2>
 
-<p>These are the colour combinations we are seeing most across our <a href="/weddings">weddings</a>, <a href="/birthdays">birthdays</a>, <a href="/baby-showers">baby showers</a>, and <a href="/engagements">engagement parties</a> in Melbourne this year:</p>
+<p>These are the colour combinations we are seeing most across our <a href="/weddings">weddings</a>, <a href="/birthdays">birthdays</a>, <a href="/baby-showers">baby showers</a>, and <a href="/engagements">engagement parties</a> in Melbourne this year — many of them mirroring the <a href="https://www.elledecor.com/design-decorate/color/g26948329/color-schemes/" target="_blank" rel="noopener">colour trends highlighted by Elle Decor</a>:</p>
 
 <ul>
 <li><strong>Sage and cream:</strong> Soft, natural, and calming. This palette works for every event type and is especially popular for baby showers and christenings.</li>
@@ -880,7 +880,7 @@ export const generalPosts: BlogPost[] = [
 <ul>
 <li><strong>Too many colours:</strong> More than four colours starts to feel chaotic. Edit ruthlessly.</li>
 <li><strong>Ignoring venue colours:</strong> A burgundy palette against orange-tinted timber walls creates a colour clash. Consider your venue's existing colours when choosing your palette.</li>
-<li><strong>Screen vs. reality:</strong> Colours look different on screens than in person. Request physical samples of fabrics and balloons before committing.</li>
+<li><strong>Screen vs. reality:</strong> Colours look different on screens than in person — even <a href="https://www.pinterest.com.au/ideas/colour-palette-inspiration/" target="_blank" rel="noopener">Pinterest's curated colour palettes</a> can look different once you see them in fabric and latex. Request physical samples of fabrics and balloons before committing.</li>
 <li><strong>Forgetting the food:</strong> Your cake, desserts, and grazing platters are visual elements too. Brief your baker and caterer on your colour palette.</li>
 </ul>
 
@@ -894,7 +894,7 @@ export const generalPosts: BlogPost[] = [
     date: "2026-06-17",
     category: "Tips & Guides",
     image: "/gallery/birthdays/birthdays-22.jpg",
-    content: `<p>The dessert table has become one of the most important styling elements at any celebration. It is where guests gather, where the cake takes centre stage, and where some of the best event photos are captured. Whether you are styling for a <a href="/weddings">wedding</a>, a <a href="/birthdays">birthday</a>, a <a href="/baby-showers">baby shower</a>, or a <a href="/christenings-baptisms">christening</a>, a well-designed dessert table elevates the entire event.</p>
+    content: `<p>The dessert table has become one of the most important styling elements at any celebration — and one of the <a href="https://www.pinterest.com.au/ideas/dessert-table-styling/" target="_blank" rel="noopener">most-pinned event ideas on Pinterest</a>. It is where guests gather, where the cake takes centre stage, and where some of the best event photos are captured. Whether you are styling for a <a href="/weddings">wedding</a>, a <a href="/birthdays">birthday</a>, a <a href="/baby-showers">baby shower</a>, or a <a href="/christenings-baptisms">christening</a>, a well-designed dessert table elevates the entire event.</p>
 
 <h2>Start with the Backdrop</h2>
 
@@ -904,7 +904,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>Create Height Variation</h2>
 
-<p>A flat dessert table looks boring. The secret to a visually striking display is height variation — placing items at different levels to create an interesting silhouette. Use tiered cake stands, <a href="/hire/white-plinth-set">plinths</a>, stacked boxes covered in fabric, and raised platforms to create a landscape of heights.</p>
+<p>A flat dessert table looks boring. As <a href="https://www.houseandgarden.co.uk/topic/table-setting" target="_blank" rel="noopener">House & Garden's table styling experts</a> emphasise, the secret to a visually striking display is height variation — placing items at different levels to create an interesting silhouette. Use tiered cake stands, <a href="/hire/white-plinth-set">plinths</a>, stacked boxes covered in fabric, and raised platforms to create a landscape of heights.</p>
 
 <p>The tallest element (usually the cake) should be positioned slightly off-centre for a more dynamic composition. Arrange other items in descending height around it, with the lowest items (cookies, chocolates, small treats) at the table edges. This creates a natural visual flow that draws the eye to the centrepiece and then outward.</p>
 
@@ -981,13 +981,13 @@ export const generalPosts: BlogPost[] = [
 
 <h2>Sustainability</h2>
 
-<p>From an environmental perspective, hiring is the clear winner. Every item in our collection is used across hundreds of events, meaning the environmental cost of manufacturing is spread across many celebrations. Purchased decorations — especially single-use items — often end up in landfill within days of the event.</p>
+<p>From an environmental perspective, hiring is the clear winner. <a href="https://www.sustainability.vic.gov.au/recycling-and-reducing-waste/reduce-reuse-recycle" target="_blank" rel="noopener">Sustainability Victoria's reduce-reuse-recycle hierarchy</a> places reuse above recycling and disposal — and prop hire is reuse at its most practical. Every item in our collection is used across hundreds of events, meaning the environmental cost of manufacturing is spread across many celebrations. Purchased decorations — especially single-use items — often end up in landfill within days of the event.</p>
 
 <p>Melbourne hosts are increasingly aware of this, and the sustainability advantage of hire is a genuine factor in their decision-making. Choosing to hire is one of the easiest ways to reduce the environmental footprint of your celebration without sacrificing any visual impact.</p>
 
 <h2>When Buying Makes Sense</h2>
 
-<p>We are not going to pretend hiring is always the answer. Buying makes sense for very small events where the styling is minimal, for items you will genuinely reuse in your home, and for personal keepsake pieces like custom guest books or monogrammed items that hold sentimental value. For everything else, hiring delivers better quality, better convenience, and better value.</p>
+<p>We are not going to pretend hiring is always the answer. <a href="https://www.consumer.vic.gov.au/shopping/shopping-tips" target="_blank" rel="noopener">Consumer Affairs Victoria</a> advises comparing the total cost of ownership against hire for any major purchase. Buying makes sense for very small events where the styling is minimal, for items you will genuinely reuse in your home, and for personal keepsake pieces like custom guest books or monogrammed items that hold sentimental value. For everything else, hiring delivers better quality, better convenience, and better value.</p>
 
 <p>Ready to experience the difference that professional hire makes? <a href="/quote">Request a free quote</a> from iDo. Events or browse our <a href="/hire">hire collection</a>. We make event styling effortless across Melbourne.</p>`,
   },
@@ -1008,8 +1008,8 @@ export const generalPosts: BlogPost[] = [
 <ul>
 <li><strong>Event type and purpose:</strong> Is this a <a href="/weddings">wedding</a>, a <a href="/birthdays">birthday</a>, a <a href="/baby-showers">baby shower</a>, a <a href="/christenings-baptisms">christening</a>, or a <a href="/corporate">corporate function</a>? The type shapes every subsequent choice.</li>
 <li><strong>Guest count:</strong> This determines venue size, catering quantities, and table configuration.</li>
-<li><strong>Budget:</strong> Set a total budget and allocate percentages to each category — venue, food, styling, entertainment, and miscellaneous.</li>
-<li><strong>Date and time:</strong> Consider Melbourne's seasonal patterns. Spring (September to November) and autumn (March to May) offer the most pleasant weather. Summer (December to February) is peak season with higher venue costs.</li>
+<li><strong>Budget:</strong> Set a total budget and allocate percentages to each category — venue, food, styling, entertainment, and miscellaneous. <a href="https://www.consumer.vic.gov.au/shopping/shopping-tips" target="_blank" rel="noopener">Consumer Affairs Victoria</a> recommends budgeting for deposits, cancellation policies, and any potential extras upfront.</li>
+<li><strong>Date and time:</strong> Consider Melbourne's seasonal patterns. Spring (September to November) and autumn (March to May) offer the most pleasant weather. Summer (December to February) is peak season with higher venue costs. Check the <a href="https://www.melbourne.vic.gov.au/community/events" target="_blank" rel="noopener">City of Melbourne events calendar</a> to avoid clashing with major public events.</li>
 </ul>
 
 <h2>Step 2: Book Your Venue and Key Vendors (8-12 Weeks Before)</h2>
@@ -1056,7 +1056,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>1. Too Many Colours</h2>
 
-<p>This is the number one mistake. Hosts get excited and want to include every colour they love, resulting in a chaotic visual experience. The fix is simple: choose two to three core colours and one metallic accent, then carry them through every element — <a href="/hire/balloon-garland-installation">balloons</a>, <a href="/hire/backdrop-draping-set">draping</a>, <a href="/hire/floral-centrepiece-set">florals</a>, table settings, and signage. Discipline with colour is what makes an event look professionally styled.</p>
+<p>This is the number one mistake. <a href="https://www.elledecor.com/design-decorate/color/g26948329/color-schemes/" target="_blank" rel="noopener">Elle Decor's colour theory guides</a> stress that restraint is the hallmark of good design. Hosts get excited and want to include every colour they love, resulting in a chaotic visual experience. The fix is simple: choose two to three core colours and one metallic accent, then carry them through every element — <a href="/hire/balloon-garland-installation">balloons</a>, <a href="/hire/backdrop-draping-set">draping</a>, <a href="/hire/floral-centrepiece-set">florals</a>, table settings, and signage. Discipline with colour is what makes an event look professionally styled.</p>
 
 <h2>2. Ignoring the Venue's Existing Features</h2>
 
@@ -1092,7 +1092,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>10. Last-Minute Planning</h2>
 
-<p>Rushing your styling decisions leads to compromises. Popular items book out, colour options become limited, and there is no time to refine the design. Start your styling planning at least six to eight weeks before your event, and book your stylist as early as possible for <a href="/weddings">weddings</a> and peak-season events.</p>
+<p>Rushing your styling decisions leads to compromises. Popular items book out, colour options become limited, and there is no time to refine the design. <a href="https://www.consumer.vic.gov.au/shopping/guarantees-and-contracts" target="_blank" rel="noopener">Consumer Affairs Victoria recommends</a> locking in contracts early and getting all terms in writing. Start your styling planning at least six to eight weeks before your event, and book your stylist as early as possible for <a href="/weddings">weddings</a> and peak-season events.</p>
 
 <p>Want to get your styling right the first time? <a href="/quote">Request a free quote</a> from iDo. Events or browse our <a href="/hire">hire collection</a>. We help Melbourne hosts avoid every one of these mistakes — and create celebrations they are proud of.</p>`,
   },
@@ -1108,7 +1108,7 @@ export const generalPosts: BlogPost[] = [
 
 <h2>Choose Fewer, Stronger Elements</h2>
 
-<p>In a small space, every styling element carries more visual weight. Rather than filling the room with multiple small pieces, invest in two or three statement elements that make a strong impact. A single <a href="/hire/round-moongate-arch">Moongate Arch</a> as a backdrop will command a small room beautifully. A <a href="/hire/fairy-light-curtain">Fairy Light Curtain</a> across one wall creates an immersive glow without taking up any floor space.</p>
+<p>In a small space, every styling element carries more visual weight. <a href="https://www.houseandgarden.co.uk/topic/small-spaces" target="_blank" rel="noopener">House & Garden's small space design features</a> consistently advocate this approach: rather than filling the room with multiple small pieces, invest in two or three statement elements that make a strong impact. A single <a href="/hire/round-moongate-arch">Moongate Arch</a> as a backdrop will command a small room beautifully. A <a href="/hire/fairy-light-curtain">Fairy Light Curtain</a> across one wall creates an immersive glow without taking up any floor space.</p>
 
 <p>Our <a href="/hire/classic-elegance-package">Classic Elegance Package</a> works exceptionally well in small spaces because it is designed around a cohesive set of pieces that create maximum impact without requiring extensive floor area. The round arch, plinths, and fairy light curtain combination creates a complete, polished look in even the most compact venues.</p>
 
@@ -1127,7 +1127,7 @@ export const generalPosts: BlogPost[] = [
 
 <p>In small spaces, colour discipline is even more important. A tight palette of two colours plus one metallic accent creates visual calm and makes the space feel larger. Lighter colours — whites, creams, soft pastels — reflect light and create a sense of openness, while dark colours can make a small space feel even smaller.</p>
 
-<p>That said, an intentionally moody, dark-toned small space can feel incredibly intimate and dramatic — especially for evening events. Deep burgundy draping, warm candlelight, and gold accents in a small dining room create a luxurious, cocooning atmosphere that larger venues struggle to replicate.</p>
+<p>That said, an intentionally moody, dark-toned small space can feel incredibly intimate and dramatic — a technique <a href="https://www.elledecor.com/design-decorate/room-ideas/g29908368/dark-room-ideas/" target="_blank" rel="noopener">Elle Decor explores in their dark interiors feature</a>. Deep burgundy draping, warm candlelight, and gold accents in a small dining room create a luxurious, cocooning atmosphere that larger venues struggle to replicate.</p>
 
 <h2>Smart Layout and Flow</h2>
 
@@ -1149,7 +1149,7 @@ export const generalPosts: BlogPost[] = [
     date: "2026-07-07",
     category: "Tips & Guides",
     image: "/gallery/engagements/engagements-25.jpg",
-    content: `<p>In the age of social media, many hosts want their event to look as stunning in photos as it does in real life. The good news is that the same principles that create a beautiful in-person experience also produce great photos — with a few strategic additions. Here is what actually works for creating Instagram-worthy events in Melbourne, based on hundreds of celebrations we have styled.</p>
+    content: `<p>In the age of social media — where <a href="https://www.pinterest.com.au/ideas/event-styling/" target="_blank" rel="noopener">Pinterest event boards</a> set the visual standard — many hosts want their event to look as stunning in photos as it does in real life. The good news is that the same principles that create a beautiful in-person experience also produce great photos — with a few strategic additions. Here is what actually works for creating Instagram-worthy events in Melbourne, based on hundreds of celebrations we have styled.</p>
 
 <h2>Invest in a Statement Backdrop</h2>
 
@@ -1173,7 +1173,7 @@ export const generalPosts: BlogPost[] = [
 
 <p>The events that look best on Instagram are the ones with disciplined colour palettes. When every element — balloons, draping, florals, signage, cake, and tableware — works within the same two to three colours, the photos look cohesive and intentional. Scrolling through a gallery of images from a colour-consistent event feels like flipping through a styled editorial.</p>
 
-<p>Choose colours that photograph well. Soft, muted tones (sage, dusty pink, warm neutrals) are universally flattering and trending on social media. Bold colours (emerald, cobalt, hot pink) pop in photos and stand out in feeds. White and metallics reflect light beautifully and add a luxe quality to every image.</p>
+<p>Choose colours that photograph well. <a href="https://www.elledecor.com/design-decorate/color/g26948329/color-schemes/" target="_blank" rel="noopener">Elle Decor's colour advice</a> applies just as well to events as interiors: soft, muted tones (sage, dusty pink, warm neutrals) are universally flattering and trending on social media. Bold colours (emerald, cobalt, hot pink) pop in photos and stand out in feeds. White and metallics reflect light beautifully and add a luxe quality to every image.</p>
 
 <h2>Lighting Makes or Breaks Photos</h2>
 

@@ -9,7 +9,7 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-06-01",
     category: "Weddings",
     image: "/gallery/weddings/weddings-1.jpg",
-    content: `<p>Planning your Melbourne wedding and searching for decoration inspiration? You are not alone. Every couple wants their big day to feel unique, personal, and absolutely stunning. Whether you are hosting a garden ceremony in the Dandenong Ranges or a sleek reception in South Melbourne, the right decorations transform any venue into something magical. Here are ten wedding decoration ideas that Melbourne couples are loving right now.</p>
+    content: `<p>Planning your Melbourne wedding and searching for decoration inspiration? You are not alone. With over 120,000 marriages registered in Australia each year according to the <a href="https://www.abs.gov.au/statistics/people/people-and-communities/marriages-and-divorces-australia" target="_blank" rel="noopener">Australian Bureau of Statistics</a>, couples nationwide are investing more thought than ever into making their celebration stand out. Every couple wants their big day to feel unique, personal, and absolutely stunning. Whether you are hosting a garden ceremony in the Dandenong Ranges or a sleek reception in South Melbourne, the right decorations transform any venue into something magical. Here are ten wedding decoration ideas that Melbourne couples are loving right now.</p>
 
 <h2>1. Statement Arch Backdrops</h2>
 
@@ -19,7 +19,7 @@ export const weddingPosts: BlogPost[] = [
 
 <h2>2. Lush Floral Centrepieces and Towers</h2>
 
-<p>Table centrepieces set the tone for your reception, and in 2026, Melbourne couples are going big. Tall <a href="/hire/floral-tower-arrangement">Floral Tower Arrangements</a> create dramatic height and elegance, while our <a href="/hire/floral-centrepiece-set">Floral Centrepiece Sets</a> in soft pastels or bold jewel tones bring colour and life to every table. The key trend this year is mixing heights — alternating tall towers with low, lush arrangements for visual depth across the room.</p>
+<p>Table centrepieces set the tone for your reception, and in 2026, Melbourne couples are going big. Tall <a href="/hire/floral-tower-arrangement">Floral Tower Arrangements</a> create dramatic height and elegance, while our <a href="/hire/floral-centrepiece-set">Floral Centrepiece Sets</a> in soft pastels or bold jewel tones bring colour and life to every table. The key trend this year — widely shared across <a href="https://www.pinterest.com.au/search/pins/?q=wedding%20centrepiece%20trends%202026" target="_blank" rel="noopener">Pinterest wedding boards</a> — is mixing heights, alternating tall towers with low, lush arrangements for visual depth across the room.</p>
 
 <h2>3. Fairy Light Curtains and Festoon Lighting</h2>
 
@@ -55,7 +55,7 @@ export const weddingPosts: BlogPost[] = [
 
 <h2>Rustic Timber Arch</h2>
 
-<p>The rustic timber arch remains the most popular choice for Melbourne weddings, and for good reason. Its warm, natural tones work beautifully in garden settings, winery venues, and country estates across the Yarra Valley and Mornington Peninsula. Our <a href="/hire/rustic-arch-backdrop">Rustic Arch Backdrop</a> stands 2.2 metres tall and pairs effortlessly with native greenery, eucalyptus garlands, and seasonal blooms.</p>
+<p>The rustic timber arch remains the most popular choice for Melbourne weddings, and for good reason. Its warm, natural tones work beautifully in garden settings, winery venues, and country estates across the Yarra Valley and Mornington Peninsula — regions that <a href="https://www.easyweddings.com.au/wedding-venues/melbourne/" target="_blank" rel="noopener">Easy Weddings</a> consistently ranks among Australia's most sought-after wedding destinations. Our <a href="/hire/rustic-arch-backdrop">Rustic Arch Backdrop</a> stands 2.2 metres tall and pairs effortlessly with native greenery, eucalyptus garlands, and seasonal blooms.</p>
 
 <p>This arch style is ideal for couples planning a <a href="/weddings">wedding</a> with an organic, relaxed feel. It photographs especially well in golden hour light and suits outdoor ceremonies in suburbs like <a href="/event-styling/werribee">Werribee</a> and <a href="/event-styling/doncaster">Doncaster</a>. If you are drawn to the <a href="/hire/rustic-romance-package">Rustic Romance Package</a>, the timber arch is the hero piece that ties the entire look together.</p>
 
@@ -67,7 +67,7 @@ export const weddingPosts: BlogPost[] = [
 
 <h2>Round Moongate Arch</h2>
 
-<p>The <a href="/hire/round-moongate-arch">Round Moongate Arch</a> has surged in popularity across Melbourne over the past year. Its circular shape creates a dreamy, ethereal frame that symbolises wholeness and eternity — a beautiful sentiment for a wedding ceremony. Wrap it in cascading florals, soft draping, or a combination of both for a truly romantic effect.</p>
+<p>The <a href="/hire/round-moongate-arch">Round Moongate Arch</a> has surged in popularity across Melbourne over the past year — a trend reflected in <a href="https://www.pinterest.com.au/search/pins/?q=moongate%20wedding%20arch" target="_blank" rel="noopener">Pinterest search data</a> showing circular arches as one of the fastest-growing wedding styling searches. Its circular shape creates a dreamy, ethereal frame that symbolises wholeness and eternity — a beautiful sentiment for a wedding ceremony. Wrap it in cascading florals, soft draping, or a combination of both for a truly romantic effect.</p>
 
 <p>Moongate arches look particularly striking at outdoor venues where the circular shape contrasts with the natural landscape behind it. They also photograph beautifully from multiple angles, giving your photographer more creative flexibility during the ceremony.</p>
 
@@ -97,7 +97,7 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-06-05",
     category: "Weddings",
     image: "/gallery/weddings/weddings-3.jpg",
-    content: `<p>Your ceremony may be where the vows happen, but the reception is where the party lives. Styling a wedding reception means thinking about the entire guest journey — from the moment they arrive at the entrance through to the last dance. At iDo. Events, we have styled hundreds of receptions across Melbourne, and we have learned that the best ones treat the space as a series of connected zones, each with its own purpose and visual identity. Here is how to style each one.</p>
+    content: `<p>Your ceremony may be where the vows happen, but the reception is where the party lives. Styling a wedding reception means thinking about the entire guest journey — from the moment they arrive at the entrance through to the last dance. The <a href="https://www.abia.com.au/" target="_blank" rel="noopener">Australian Bridal Industry Academy</a> highlights that couples are spending more on reception styling than ever, with decor now ranking among the top three wedding budget priorities. At iDo. Events, we have styled hundreds of receptions across Melbourne, and we have learned that the best ones treat the space as a series of connected zones, each with its own purpose and visual identity. Here is how to style each one.</p>
 
 <h2>The Entrance: Setting the Tone</h2>
 
@@ -125,7 +125,7 @@ export const weddingPosts: BlogPost[] = [
 
 <h2>Tying It All Together</h2>
 
-<p>The secret to a beautifully styled reception is cohesion. Every zone — entrance, dining, bridal table, dessert area, and dance floor — should feel connected through your colour palette, material choices, and overall aesthetic. Choose two to three core colours and carry them through every element. If your ceremony featured a <a href="/hire/rustic-arch-backdrop">Rustic Arch Backdrop</a>, echo those timber and greenery tones throughout the reception.</p>
+<p>The secret to a beautifully styled reception is cohesion — a principle echoed by <a href="https://www.elledecor.com/life-culture/entertaining/g44502886/wedding-reception-decor-ideas/" target="_blank" rel="noopener">Elle Decor's wedding styling guides</a>. Every zone — entrance, dining, bridal table, dessert area, and dance floor — should feel connected through your colour palette, material choices, and overall aesthetic. Choose two to three core colours and carry them through every element. If your ceremony featured a <a href="/hire/rustic-arch-backdrop">Rustic Arch Backdrop</a>, echo those timber and greenery tones throughout the reception.</p>
 
 <p>At iDo. Events, we style complete receptions across Melbourne suburbs from <a href="/event-styling/point-cook">Point Cook</a> to <a href="/event-styling/doncaster">Doncaster</a>. We handle delivery, setup, and pack-down so you can focus on celebrating. Explore our <a href="/hire">hire collection</a> for individual pieces or <a href="/quote">request a free quote</a> for a complete reception styling package tailored to your venue and vision.</p>`,
   },
@@ -137,7 +137,7 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-06-07",
     category: "Weddings",
     image: "/gallery/weddings/weddings-4.jpg",
-    content: `<p>Rustic weddings continue to be one of the most sought-after styles in Melbourne, and it is easy to see why. The warm timber tones, lush greenery, soft candlelight, and relaxed elegance of a rustic theme create an atmosphere that feels both intimate and celebratory. Whether you are planning a barn wedding in the Yarra Valley, a garden ceremony in the Dandenong Ranges, or bringing rustic charm to a function room in <a href="/event-styling/oakleigh">Oakleigh</a>, here is how to achieve the look.</p>
+    content: `<p>Rustic weddings continue to be one of the most sought-after styles in Melbourne — a trend confirmed by <a href="https://www.pinterest.com.au/search/pins/?q=rustic%20wedding%20ideas" target="_blank" rel="noopener">Pinterest</a>, where rustic wedding ideas remain among the platform's top-saved wedding categories. The warm timber tones, lush greenery, soft candlelight, and relaxed elegance of a rustic theme create an atmosphere that feels both intimate and celebratory. Whether you are planning a barn wedding in the Yarra Valley, a garden ceremony in the Dandenong Ranges, or bringing rustic charm to a function room in <a href="/event-styling/oakleigh">Oakleigh</a>, here is how to achieve the look.</p>
 
 <h2>The Foundation: Timber, Greenery, and Natural Textures</h2>
 
@@ -165,7 +165,7 @@ export const weddingPosts: BlogPost[] = [
 
 <h2>Rustic Venue Considerations in Melbourne</h2>
 
-<p>Melbourne offers incredible rustic venue options. Barn venues and homesteads throughout the Yarra Valley and Macedon Ranges provide a ready-made rustic canvas. But you do not need a country property to achieve this look — many suburban function rooms and garden venues can be transformed with the right styling. We have created stunning rustic setups in venues across <a href="/event-styling/coburg">Coburg</a>, <a href="/event-styling/preston">Preston</a>, and <a href="/event-styling/doncaster">Doncaster</a> that guests assumed were purpose-built rustic spaces.</p>
+<p>Melbourne offers incredible rustic venue options. <a href="https://www.wedshed.com.au/wedding-venues/victoria/" target="_blank" rel="noopener">WedShed's Victorian venue directory</a> features dozens of barn venues and homesteads throughout the Yarra Valley and Macedon Ranges that provide a ready-made rustic canvas. But you do not need a country property to achieve this look — many suburban function rooms and garden venues can be transformed with the right styling. We have created stunning rustic setups in venues across <a href="/event-styling/coburg">Coburg</a>, <a href="/event-styling/preston">Preston</a>, and <a href="/event-styling/doncaster">Doncaster</a> that guests assumed were purpose-built rustic spaces.</p>
 
 <p>The key is layering — draping to soften walls, greenery to bring nature indoors, and warm lighting to create atmosphere. With the right <a href="/hire">hire pieces</a> and professional styling, any Melbourne venue can become the rustic wedding of your dreams. <a href="/quote">Request a free quote</a> from iDo. Events and let us show you what is possible.</p>`,
   },
@@ -177,7 +177,7 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-06-09",
     category: "Weddings",
     image: "/gallery/weddings/weddings-5.jpg",
-    content: `<p>Not every Melbourne couple wants cascading florals and vintage lace. If your taste leans towards clean lines, geometric shapes, monochromatic palettes, and curated simplicity, modern wedding styling is your aesthetic. The contemporary approach strips away excess and focuses on a few carefully chosen statement pieces that create maximum impact with minimal clutter. Here is how to achieve it.</p>
+    content: `<p>Not every Melbourne couple wants cascading florals and vintage lace. If your taste leans towards clean lines, geometric shapes, monochromatic palettes, and curated simplicity, modern wedding styling is your aesthetic. Design publications like <a href="https://www.elledecor.com/life-culture/entertaining/g60152090/modern-wedding-ideas/" target="_blank" rel="noopener">Elle Decor</a> note that the minimalist wedding movement is one of the defining shifts in contemporary event design. The contemporary approach strips away excess and focuses on a few carefully chosen statement pieces that create maximum impact with minimal clutter. Here is how to achieve it.</p>
 
 <h2>Geometric Arches and Structural Backdrops</h2>
 
@@ -212,7 +212,7 @@ export const weddingPosts: BlogPost[] = [
 
 <h2>Modern Styling in Melbourne Venues</h2>
 
-<p>Melbourne is a dream city for modern weddings. Industrial warehouses in Collingwood and Fitzroy, contemporary galleries in Southbank, and minimalist function spaces across <a href="/event-styling/oakleigh">Oakleigh</a>, <a href="/event-styling/coburg">Coburg</a>, and <a href="/event-styling/preston">Preston</a> provide the clean canvas that modern styling demands. The exposed brick, polished concrete, and floor-to-ceiling windows common in Melbourne venues are the perfect backdrop for geometric arches and monochromatic palettes.</p>
+<p>Melbourne is a dream city for modern weddings. As <a href="https://www.easyweddings.com.au/wedding-venues/melbourne/" target="_blank" rel="noopener">Easy Weddings</a> showcases, the city boasts industrial warehouses in Collingwood and Fitzroy, contemporary galleries in Southbank, and minimalist function spaces across <a href="/event-styling/oakleigh">Oakleigh</a>, <a href="/event-styling/coburg">Coburg</a>, and <a href="/event-styling/preston">Preston</a> provide the clean canvas that modern styling demands. The exposed brick, polished concrete, and floor-to-ceiling windows common in Melbourne venues are the perfect backdrop for geometric arches and monochromatic palettes.</p>
 
 <p>Even traditional venues can be transformed with modern styling. The key is to use draping and lighting to neutralise ornate existing decor and create a blank slate. Our <a href="/hire/ceiling-draping-package">Ceiling Draping Package</a> is invaluable here — it conceals dated ceiling fixtures and creates a clean, uniform canopy overhead.</p>
 
@@ -226,11 +226,11 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-06-11",
     category: "Weddings",
     image: "/gallery/weddings/weddings-6.jpg",
-    content: `<p>Melbourne is blessed with stunning outdoor wedding venues — from botanical gardens and vineyard estates to coastal clifftops and sprawling parklands. But styling an outdoor wedding comes with unique challenges that indoor celebrations simply do not face. Wind, sun, rain, uneven ground, and unpredictable Melbourne weather all need to be factored into your decoration choices. Here is our guide to getting outdoor wedding styling right.</p>
+    content: `<p>Melbourne is blessed with stunning outdoor wedding venues — from botanical gardens and vineyard estates to coastal clifftops and sprawling parklands. <a href="https://www.wedshed.com.au/wedding-venues/victoria/outdoor/" target="_blank" rel="noopener">WedShed's outdoor venue guide</a> lists hundreds of open-air options across Victoria alone. But styling an outdoor wedding comes with unique challenges that indoor celebrations simply do not face. Wind, sun, rain, uneven ground, and unpredictable Melbourne weather all need to be factored into your decoration choices. Here is our guide to getting outdoor wedding styling right.</p>
 
 <h2>Weather-Proofing Your Decorations</h2>
 
-<p>Melbourne is famous for four seasons in one day, and your outdoor wedding styling needs to handle whatever the sky throws at it. Choose props and decorations that are sturdy and wind-resistant. Our <a href="/hire/rustic-arch-backdrop">Rustic Arch Backdrop</a> and <a href="/hire/gold-hexagonal-arch">Gold Hexagonal Arch</a> are both weighted and secured for outdoor use, but lighter elements like fabric draping and balloon installations need extra consideration.</p>
+<p>Melbourne is famous for four seasons in one day — something the <a href="https://www.sustainability.vic.gov.au/energy-efficiency-and-reducing-emissions/in-a-changing-climate" target="_blank" rel="noopener">Victorian Government's sustainability resources</a> attribute to the city's variable climate patterns — and your outdoor wedding styling needs to handle whatever the sky throws at it. Choose props and decorations that are sturdy and wind-resistant. Our <a href="/hire/rustic-arch-backdrop">Rustic Arch Backdrop</a> and <a href="/hire/gold-hexagonal-arch">Gold Hexagonal Arch</a> are both weighted and secured for outdoor use, but lighter elements like fabric draping and balloon installations need extra consideration.</p>
 
 <p>If you are using a <a href="/hire/backdrop-draping-set">Backdrop Draping Set</a> outdoors, positioning matters. Place it where it is sheltered from direct wind — against a wall, hedge, or solid structure. Our styling team assesses every outdoor venue before setup to identify the best positions for wind-sensitive elements. For ceremonies in exposed locations across <a href="/event-styling/werribee">Werribee</a> and <a href="/event-styling/point-cook">Point Cook</a>, we adjust our installation methods to ensure everything stays secure.</p>
 
@@ -266,7 +266,7 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-06-13",
     category: "Weddings",
     image: "/gallery/weddings/weddings-7.jpg",
-    content: `<p>Centrepieces are the heart of your reception table styling. They set the visual tone for the entire dining experience and are one of the elements guests interact with most closely throughout the evening. In 2026, Melbourne couples are moving beyond the single vase of flowers and embracing centrepiece designs that are layered, textural, and intentionally curated. Here are the trends and options shaping wedding centrepieces this year.</p>
+    content: `<p>Centrepieces are the heart of your reception table styling. They set the visual tone for the entire dining experience and are one of the elements guests interact with most closely throughout the evening. In 2026, Melbourne couples are moving beyond the single vase of flowers and embracing centrepiece designs that are layered, textural, and intentionally curated — a shift reflected in <a href="https://www.pinterest.com.au/search/pins/?q=wedding%20centrepiece%20ideas%202026" target="_blank" rel="noopener">Pinterest's trending wedding searches</a>. Here are the trends and options shaping wedding centrepieces this year.</p>
 
 <h2>The Rise of Tall and Dramatic Centrepieces</h2>
 
@@ -278,7 +278,7 @@ export const weddingPosts: BlogPost[] = [
 
 <p>The perfectly round, tightly packed centrepiece is giving way to looser, more organic compositions in 2026. Think trailing greenery that spills over the edge of the vessel, mixed textures combining fresh blooms with dried elements, and asymmetric shapes that feel gathered rather than arranged. This organic approach suits the relaxed elegance that many Melbourne couples gravitate towards.</p>
 
-<p>Native Australian foliage is featuring heavily in these organic arrangements. Eucalyptus, banksia, protea, and wattle bring a distinctly local flavour to your centrepieces and complement the warm, earthy colour palettes trending this year. These natives are particularly stunning at winery and garden weddings across Melbourne's outer suburbs, from <a href="/event-styling/doncaster">Doncaster</a> to <a href="/event-styling/werribee">Werribee</a>.</p>
+<p>Native Australian foliage is featuring heavily in these organic arrangements — a direction that <a href="https://www.houseandgarden.co.uk/article/wedding-flower-trends" target="_blank" rel="noopener">House &amp; Garden</a> identifies as part of a broader global move towards locally sourced, seasonal florals. Eucalyptus, banksia, protea, and wattle bring a distinctly local flavour to your centrepieces and complement the warm, earthy colour palettes trending this year. These natives are particularly stunning at winery and garden weddings across Melbourne's outer suburbs, from <a href="/event-styling/doncaster">Doncaster</a> to <a href="/event-styling/werribee">Werribee</a>.</p>
 
 <h2>Candle-Centric Centrepieces</h2>
 
@@ -313,7 +313,7 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-06-15",
     category: "Weddings",
     image: "/gallery/weddings/weddings-8.jpg",
-    content: `<p>Your reception tables are where guests will spend the majority of your wedding celebration. They eat, drink, laugh, and connect at these tables, and the styling you create around them sets the mood for the entire evening. A beautifully styled table does not just look good in photos — it makes guests feel welcomed and cared for. Here is our comprehensive guide to getting every detail right.</p>
+    content: `<p>Your reception tables are where guests will spend the majority of your wedding celebration. They eat, drink, laugh, and connect at these tables, and the styling you create around them sets the mood for the entire evening. A beautifully styled table does not just look good in photos — it makes guests feel welcomed and cared for. According to the <a href="https://www.abia.com.au/" target="_blank" rel="noopener">Australian Bridal Industry Academy</a>, table presentation consistently ranks among the top factors couples invest in when planning their reception. Here is our comprehensive guide to getting every detail right.</p>
 
 <h2>Start with the Foundation: Linen and Table Runners</h2>
 
@@ -323,7 +323,7 @@ export const weddingPosts: BlogPost[] = [
 
 <h2>Place Settings: Building the Individual Guest Experience</h2>
 
-<p>Each place setting tells your guest that you have thought about them personally. Layer from the bottom up: charger plate, dinner plate, napkin, and place card. Charger plates add a frame of colour or metallic sheen around the dinner plate — gold chargers are a Melbourne favourite this year, working across both modern and traditional themes.</p>
+<p>Each place setting tells your guest that you have thought about them personally. Layer from the bottom up: charger plate, dinner plate, napkin, and place card. Charger plates add a frame of colour or metallic sheen around the dinner plate — gold chargers are a Melbourne favourite this year, a preference echoed in <a href="https://www.elledecor.com/life-culture/entertaining/g44502886/wedding-reception-decor-ideas/" target="_blank" rel="noopener">Elle Decor's reception styling roundups</a>, working across both modern and traditional themes.</p>
 
 <p>Napkin presentation is a small detail that makes a big impression. A simple fold placed on the plate with a sprig of rosemary or a printed menu tucked inside feels elegant without being fussy. For modern weddings, a relaxed drape beside the plate looks effortlessly chic. Place cards can range from traditional printed cards to acrylic names, wax-sealed envelopes, or even handwritten names on eucalyptus leaves for a rustic touch.</p>
 
@@ -360,7 +360,7 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-06-17",
     category: "Weddings",
     image: "/gallery/weddings/weddings-9.jpg",
-    content: `<p>The backdrop behind you as you exchange vows is one of the most significant visual elements of your entire wedding. It appears in every ceremony photo, frames the most emotional moments of your day, and sets the aesthetic tone for everything that follows. Melbourne offers incredible venue diversity, and the right backdrop can elevate any setting — from a heritage chapel to an open-air garden. Here are the best options to consider.</p>
+    content: `<p>The backdrop behind you as you exchange vows is one of the most significant visual elements of your entire wedding. <a href="https://www.pinterest.com.au/search/pins/?q=wedding%20ceremony%20backdrop%20ideas" target="_blank" rel="noopener">Pinterest data</a> shows that ceremony backdrop searches have grown significantly year-on-year as couples prioritise this element. It appears in every ceremony photo, frames the most emotional moments of your day, and sets the aesthetic tone for everything that follows. Melbourne offers incredible venue diversity — as <a href="https://www.easyweddings.com.au/wedding-venues/melbourne/" target="_blank" rel="noopener">Easy Weddings' Melbourne listings</a> demonstrate — and the right backdrop can elevate any setting, from a heritage chapel to an open-air garden. Here are the best options to consider.</p>
 
 <h2>Arch Backdrops: The Classic Choice</h2>
 
@@ -406,7 +406,7 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-06-19",
     category: "Weddings",
     image: "/gallery/weddings/weddings-10.jpg",
-    content: `<p>Flowers are the soul of wedding styling. They bring colour, fragrance, texture, and life to every corner of your celebration. Whether you prefer lush, abundant arrangements or restrained, minimalist compositions, the way you use florals across your wedding tells a visual story that ties every element together. Here is how Melbourne couples are using flower arrangements to style their weddings in 2026.</p>
+    content: `<p>Flowers are the soul of wedding styling — a sentiment backed by <a href="https://www.abia.com.au/" target="_blank" rel="noopener">ABIA industry research</a> showing that florals remain the single most impactful decor element Australian couples invest in. They bring colour, fragrance, texture, and life to every corner of your celebration. Whether you prefer lush, abundant arrangements or restrained, minimalist compositions, the way you use florals across your wedding tells a visual story that ties every element together. Here is how Melbourne couples are using flower arrangements to style their weddings in 2026.</p>
 
 <h2>Ceremony Florals: Framing Your Vows</h2>
 
@@ -428,7 +428,7 @@ export const weddingPosts: BlogPost[] = [
 
 <h2>Australian Native Florals</h2>
 
-<p>Melbourne couples are increasingly incorporating Australian native flowers into their wedding styling. Proteas, banksias, flannel flowers, wattle, and native gums bring a distinctly local character to your arrangements. These robust blooms hold up well in Melbourne's variable weather, making them an excellent choice for outdoor ceremonies in <a href="/event-styling/werribee">Werribee</a>, <a href="/event-styling/point-cook">Point Cook</a>, and the surrounding parklands.</p>
+<p>Melbourne couples are increasingly incorporating Australian native flowers into their wedding styling, a trend that <a href="https://www.houseandgarden.co.uk/article/wedding-flower-trends" target="_blank" rel="noopener">House &amp; Garden</a> notes is part of a global shift towards locally sourced, sustainable blooms. Proteas, banksias, flannel flowers, wattle, and native gums bring a distinctly local character to your arrangements. These robust blooms hold up well in Melbourne's variable weather, making them an excellent choice for outdoor ceremonies in <a href="/event-styling/werribee">Werribee</a>, <a href="/event-styling/point-cook">Point Cook</a>, and the surrounding parklands.</p>
 
 <p>Natives work beautifully in rustic and boho-inspired weddings, paired with our <a href="/hire/rustic-arch-backdrop">Rustic Arch Backdrop</a> and the <a href="/hire/rustic-romance-package">Rustic Romance Package</a>. They also make a stunning statement in modern settings — a single large protea on a <a href="/hire/white-plinth-set">White Plinth</a> is bold, architectural, and uniquely Australian.</p>
 
@@ -453,7 +453,7 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-06-21",
     category: "Weddings",
     image: "/gallery/weddings/weddings-11.jpg",
-    content: `<p>Fabric draping is one of the most transformative styling tools available to Melbourne couples. It softens hard edges, conceals unattractive walls or ceilings, adds colour and texture, and creates an instant sense of luxury and romance. Whether you are working with a blank-canvas warehouse or a heritage ballroom, the right draping can completely change the feel of a space. Here are the draping ideas Melbourne couples are embracing.</p>
+    content: `<p>Fabric draping is one of the most transformative styling tools available to Melbourne couples, something <a href="https://www.elledecor.com/design-decorate/trends/" target="_blank" rel="noopener">Elle Decor's design trend coverage</a> consistently highlights in event styling. It softens hard edges, conceals unattractive walls or ceilings, adds colour and texture, and creates an instant sense of luxury and romance. Whether you are working with a blank-canvas warehouse or a heritage ballroom, the right draping can completely change the feel of a space. Here are the draping ideas Melbourne couples are embracing.</p>
 
 <h2>Ceiling Draping: Transforming the Space Above</h2>
 
@@ -484,7 +484,7 @@ export const weddingPosts: BlogPost[] = [
 <li><strong>Tulle:</strong> Soft and cloud-like. Works beautifully for ceiling canopies and layered backdrop effects.</li>
 </ul>
 
-<p>Colour choice is equally important. White and ivory are timeless and universally flattering. Blush adds warmth without competing with your florals. Sage green is the trending colour for 2026 Melbourne weddings — it adds a natural, fresh quality that works with both rustic and modern themes.</p>
+<p>Colour choice is equally important. White and ivory are timeless and universally flattering. Blush adds warmth without competing with your florals. Sage green is the trending colour for 2026 Melbourne weddings — <a href="https://www.pinterest.com.au/search/pins/?q=sage%20green%20wedding" target="_blank" rel="noopener">Pinterest</a> reports sage green as one of the most-pinned wedding colour searches — and it adds a natural, fresh quality that works with both rustic and modern themes.</p>
 
 <h2>Combining Draping with Other Styling Elements</h2>
 
@@ -500,7 +500,7 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-06-23",
     category: "Weddings",
     image: "/gallery/weddings/weddings-12.jpg",
-    content: `<p>Lighting is the most underestimated element of wedding styling. Couples spend hours choosing flowers, centrepieces, and colour palettes, yet the lighting can make or break how all of those elements actually look and feel in the space. The right lighting creates warmth, romance, and atmosphere. The wrong lighting — harsh overhead fluorescents — flattens everything. Here is how Melbourne couples are using lighting to transform their wedding venues.</p>
+    content: `<p>Lighting is the most underestimated element of wedding styling. As <a href="https://www.houseandgarden.co.uk/article/wedding-lighting-ideas" target="_blank" rel="noopener">House &amp; Garden</a> notes, couples spend hours choosing flowers, centrepieces, and colour palettes, yet the lighting can make or break how all of those elements actually look and feel in the space. The right lighting creates warmth, romance, and atmosphere. The wrong lighting — harsh overhead fluorescents — flattens everything. Here is how Melbourne couples are using lighting to transform their wedding venues.</p>
 
 <h2>Fairy Light Curtains: The Signature Wedding Backdrop</h2>
 
@@ -512,7 +512,7 @@ export const weddingPosts: BlogPost[] = [
 
 <p><a href="/hire/festoon-light-string">Festoon Light Strings</a> are the signature lighting element for outdoor Melbourne weddings. Their warm Edison-style bulbs create an inviting, relaxed atmosphere that signals celebration. String them overhead between trees, posts, or purpose-built frames to define your reception space and create a canopy of golden light.</p>
 
-<p>Festoon lights are particularly effective at outdoor venues across <a href="/event-styling/werribee">Werribee</a>, <a href="/event-styling/point-cook">Point Cook</a>, and the Mornington Peninsula, where the open sky needs a visual ceiling to make the dining space feel contained and intimate. Each of our festoon strings is 10 metres long and can be linked together for larger installations. The warm glow they cast as the sun sets creates that magical transition from daytime celebration to evening party.</p>
+<p>Festoon lights are particularly effective at outdoor venues across <a href="/event-styling/werribee">Werribee</a>, <a href="/event-styling/point-cook">Point Cook</a>, and the Mornington Peninsula — popular regions featured in <a href="https://www.wedshed.com.au/wedding-venues/victoria/" target="_blank" rel="noopener">WedShed's venue reviews</a> — where the open sky needs a visual ceiling to make the dining space feel contained and intimate. Each of our festoon strings is 10 metres long and can be linked together for larger installations. The warm glow they cast as the sun sets creates that magical transition from daytime celebration to evening party.</p>
 
 <h2>Neon Signs and Letter Light-Ups</h2>
 
@@ -547,7 +547,7 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-06-25",
     category: "Weddings",
     image: "/gallery/weddings/weddings-13.jpg",
-    content: `<p>A stunning wedding does not require an unlimited budget. Some of the most beautiful Melbourne weddings we have styled have been amongst the most budget-conscious. The secret is knowing where to invest, where to save, and how to use smart styling strategies that create maximum visual impact for every dollar spent. Here is our honest guide to budget wedding styling in Melbourne.</p>
+    content: `<p>A stunning wedding does not require an unlimited budget. With the average Australian wedding costing tens of thousands of dollars according to <a href="https://www.abia.com.au/" target="_blank" rel="noopener">ABIA industry data</a>, smart couples know that beautiful styling comes from strategy, not unlimited spending. Some of the most beautiful Melbourne weddings we have styled have been amongst the most budget-conscious. The secret is knowing where to invest, where to save, and how to use smart styling strategies that create maximum visual impact for every dollar spent. Here is our honest guide to budget wedding styling in Melbourne.</p>
 
 <h2>Why Hiring Beats Buying Every Time</h2>
 
@@ -579,7 +579,7 @@ export const weddingPosts: BlogPost[] = [
 
 <p>Your venue is typically the largest single cost, and it directly affects how much styling you need. A venue with existing beautiful features — gardens, heritage architecture, water views — needs less decoration than a blank-canvas function room. Consider venues in suburbs like <a href="/event-styling/coburg">Coburg</a>, <a href="/event-styling/preston">Preston</a>, and <a href="/event-styling/oakleigh">Oakleigh</a> that offer character-filled spaces at suburban pricing rather than inner-city rates.</p>
 
-<p>Timing matters too. Friday and Sunday weddings are often significantly cheaper than Saturday events. Off-peak months — May through August in Melbourne — can offer venue discounts of 20 to 40 per cent. A winter wedding with warm candlelight, draping, and fairy lights can be absolutely magical and far more affordable than a peak-season Saturday.</p>
+<p>Timing matters too — a strategy that <a href="https://www.easyweddings.com.au/articles/save-money-on-your-wedding/" target="_blank" rel="noopener">Easy Weddings recommends</a> for maximising your budget. Friday and Sunday weddings are often significantly cheaper than Saturday events. Off-peak months — May through August in Melbourne — can offer venue discounts of 20 to 40 per cent. A winter wedding with warm candlelight, draping, and fairy lights can be absolutely magical and far more affordable than a peak-season Saturday.</p>
 
 <h2>Getting the Most from Your Styling Budget</h2>
 
@@ -595,11 +595,11 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-06-27",
     category: "Weddings",
     image: "/gallery/weddings/weddings-14.jpg",
-    content: `<p>Not every wedding needs two hundred guests and a ballroom. Small, intimate weddings with 20 to 60 guests have surged in popularity across Melbourne, and for good reason. Fewer guests means more meaningful connections, more budget per person, and the freedom to create a deeply personal celebration. But styling a smaller wedding comes with its own considerations — here is how to get it right.</p>
+    content: `<p>Not every wedding needs two hundred guests and a ballroom. Small, intimate weddings with 20 to 60 guests have surged in popularity across Melbourne. <a href="https://www.abs.gov.au/statistics/people/people-and-communities/marriages-and-divorces-australia" target="_blank" rel="noopener">ABS marriage data</a> shows a growing trend towards smaller ceremonies, and for good reason. Fewer guests means more meaningful connections, more budget per person, and the freedom to create a deeply personal celebration. But styling a smaller wedding comes with its own considerations — here is how to get it right.</p>
 
 <h2>Choosing the Right Venue Scale</h2>
 
-<p>The most common mistake with small weddings is choosing a venue that is too large. A room designed for 200 guests will feel empty and cavernous with 30, no matter how much styling you add. Look for venues that suit your guest count — private dining rooms, boutique garden spaces, courtyard restaurants, and smaller function rooms across suburbs like <a href="/event-styling/oakleigh">Oakleigh</a>, <a href="/event-styling/coburg">Coburg</a>, and <a href="/event-styling/doncaster">Doncaster</a>.</p>
+<p>The most common mistake with small weddings is choosing a venue that is too large. A room designed for 200 guests will feel empty and cavernous with 30, no matter how much styling you add. Look for venues that suit your guest count — <a href="https://www.wedshed.com.au/wedding-venues/victoria/intimate/" target="_blank" rel="noopener">WedShed</a> offers a curated directory of intimate venues. Consider private dining rooms, boutique garden spaces, courtyard restaurants, and smaller function rooms across suburbs like <a href="/event-styling/oakleigh">Oakleigh</a>, <a href="/event-styling/coburg">Coburg</a>, and <a href="/event-styling/doncaster">Doncaster</a>.</p>
 
 <p>The right-sized venue also means your styling budget goes further. A single <a href="/hire/backdrop-draping-set">Backdrop Draping Set</a> can cover an entire wall in a smaller room, and one set of <a href="/hire/festoon-light-string">Festoon Light Strings</a> can canopy the whole dining space. Every styling element has more impact when the space is proportionate to the guest count.</p>
 
@@ -642,7 +642,7 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-06-29",
     category: "Weddings",
     image: "/gallery/weddings/weddings-15.jpg",
-    content: `<p>Garden weddings hold a special place in Melbourne's wedding culture. The combination of natural beauty, open-air atmosphere, and the relaxed elegance of a garden setting creates celebrations that feel romantic, fresh, and uniquely personal. Whether you are hosting in a private backyard, a public botanical garden, or a dedicated garden venue, styling an outdoor celebration requires thoughtful planning. Here is how to create garden wedding magic across Melbourne.</p>
+    content: `<p>Garden weddings hold a special place in Melbourne's wedding culture. <a href="https://www.easyweddings.com.au/wedding-venues/melbourne/garden/" target="_blank" rel="noopener">Easy Weddings' garden venue listings</a> for Melbourne are among their most-browsed categories, reflecting how deeply couples value the combination of natural beauty, open-air atmosphere, and the relaxed elegance of a garden setting that creates celebrations feeling romantic, fresh, and uniquely personal. Whether you are hosting in a private backyard, a public botanical garden, or a dedicated garden venue, styling an outdoor celebration requires thoughtful planning. Here is how to create garden wedding magic across Melbourne.</p>
 
 <h2>Letting Nature Be Your Co-Stylist</h2>
 
@@ -667,7 +667,7 @@ export const weddingPosts: BlogPost[] = [
 <p>Melbourne weather is famously unpredictable, and garden weddings need a solid weather strategy:</p>
 
 <ul>
-<li><strong>Always have a rain plan:</strong> Whether it is a marquee, a nearby indoor space, or a clear-roof covering, ensure your plan B is confirmed well in advance.</li>
+<li><strong>Always have a rain plan:</strong> Whether it is a marquee, a nearby indoor space, or a clear-roof covering, ensure your plan B is confirmed well in advance. <a href="https://www.pinterest.com.au/search/pins/?q=wedding%20rain%20plan%20ideas" target="_blank" rel="noopener">Pinterest</a> is full of creative wet-weather backup ideas that still look stunning.</li>
 <li><strong>Wind-proof your styling:</strong> Our team secures all arches, plinths, and installations with weighted bases for outdoor use. Lighter elements like place cards and napkins need clips or weights to prevent them blowing away.</li>
 <li><strong>Sun management:</strong> Provide shade for your ceremony guests with umbrellas, a tree canopy, or a fabric awning. Our <a href="/hire/ceiling-draping-package">Ceiling Draping Package</a> can be adapted for marquee installations.</li>
 <li><strong>Ground protection:</strong> Place mats or boards under heavy items to prevent them sinking into soft lawn.</li>
@@ -689,7 +689,7 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-06-30",
     category: "Weddings",
     image: "/gallery/weddings/weddings-16.jpg",
-    content: `<p>Neon signs have become one of the most popular styling elements at Melbourne weddings. They add personality, warmth, and a modern edge that photographs beautifully at every stage of the day. Unlike traditional signage, neon signs create their own ambient light — making them both a decorative element and a lighting feature. Here is how to incorporate neon signs into your wedding and the text ideas Melbourne couples are choosing.</p>
+    content: `<p>Neon signs have become one of the most popular styling elements at Melbourne weddings — <a href="https://www.pinterest.com.au/search/pins/?q=wedding%20neon%20sign%20ideas" target="_blank" rel="noopener">Pinterest</a> reports that wedding neon sign searches have grown dramatically over recent years. They add personality, warmth, and a modern edge that photographs beautifully at every stage of the day. Unlike traditional signage, neon signs create their own ambient light — making them both a decorative element and a lighting feature. Here is how to incorporate neon signs into your wedding and the text ideas Melbourne couples are choosing.</p>
 
 <h2>Where to Place Your Neon Sign</h2>
 
@@ -727,7 +727,7 @@ export const weddingPosts: BlogPost[] = [
 
 <h2>After the Wedding</h2>
 
-<p>One of the best things about a neon sign is that it does not have to be a one-day decoration. Many Melbourne couples choose text that works as home decor — your surname, your wedding date, or a romantic phrase that looks beautiful in your bedroom, living room, or home bar. It becomes a daily reminder of your wedding day and a conversation piece when friends visit.</p>
+<p>One of the best things about a neon sign is that it does not have to be a one-day decoration. Many Melbourne couples choose text that works as home decor — a practical tip also recommended by <a href="https://www.elledecor.com/design-decorate/" target="_blank" rel="noopener">Elle Decor</a>. Your surname, your wedding date, or a romantic phrase looks beautiful in your bedroom, living room, or home bar. It becomes a daily reminder of your wedding day and a conversation piece when friends visit.</p>
 
 <p>At iDo. Events, our <a href="/hire/neon-sign-custom-text">Custom Neon Signs</a> are available for hire as part of your <a href="/weddings">wedding</a> styling package. We deliver, install, and remove everything. Browse our full <a href="/hire">hire collection</a> or <a href="/quote">request a free quote</a> to add a neon sign to your wedding.</p>`,
   },
@@ -739,7 +739,7 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-07-01",
     category: "Weddings",
     image: "/gallery/weddings/weddings-1.jpg",
-    content: `<p>When it comes to wedding styling, knowing exactly what you need to hire can be the difference between a cohesive, polished celebration and a stressful last-minute scramble. This comprehensive checklist covers every prop and styling element Melbourne couples typically need, organised by wedding zone. Use it as your planning tool and tick off items as you go.</p>
+    content: `<p>When it comes to wedding styling, knowing exactly what you need to hire can be the difference between a cohesive, polished celebration and a stressful last-minute scramble. The <a href="https://www.abia.com.au/" target="_blank" rel="noopener">Australian Bridal Industry Academy</a> advises that early planning and a clear checklist are the top factors that separate stress-free weddings from chaotic ones. This comprehensive checklist covers every prop and styling element Melbourne couples typically need, organised by wedding zone. Use it as your planning tool and tick off items as you go.</p>
 
 <h2>Ceremony Space Checklist</h2>
 
@@ -766,7 +766,7 @@ export const weddingPosts: BlogPost[] = [
 
 <h2>Dessert and Cake Area</h2>
 
-<p>The dessert table is one of the most photographed areas at any wedding reception. Our <a href="/hire/dessert-table-styling">Dessert Table Styling</a> package includes the backdrop, display stands, platters, and decorative accents that make your sweets table look like it belongs in a magazine. Consider these elements:</p>
+<p>The dessert table is one of the most photographed areas at any wedding reception — a trend well documented across <a href="https://www.pinterest.com.au/search/pins/?q=wedding%20dessert%20table" target="_blank" rel="noopener">Pinterest's wedding boards</a>. Our <a href="/hire/dessert-table-styling">Dessert Table Styling</a> package includes the backdrop, display stands, platters, and decorative accents that make your sweets table look like it belongs in a magazine. Consider these elements:</p>
 
 <ul>
 <li>Backdrop behind the dessert display — fabric draping or a floral installation</li>
@@ -801,7 +801,7 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-07-02",
     category: "Weddings",
     image: "/gallery/weddings/weddings-2.jpg",
-    content: `<p>One of the biggest decisions Melbourne couples face when planning their wedding is whether to style it themselves or hire a professional. Both options have genuine merits, and the right choice depends on your budget, time, skills, and — honestly — your stress tolerance. Here is a frank comparison to help you decide.</p>
+    content: `<p>One of the biggest decisions Melbourne couples face when planning their wedding is whether to style it themselves or hire a professional. With <a href="https://www.abs.gov.au/statistics/people/people-and-communities/marriages-and-divorces-australia" target="_blank" rel="noopener">ABS data</a> showing that Australian couples are marrying slightly later in life — often with busier careers — the time-versus-money trade-off is more relevant than ever. Both options have genuine merits, and the right choice depends on your budget, time, skills, and — honestly — your stress tolerance. Here is a frank comparison to help you decide.</p>
 
 <h2>The Case for DIY Wedding Styling</h2>
 
@@ -836,7 +836,7 @@ export const weddingPosts: BlogPost[] = [
 
 <h2>The Best of Both Worlds</h2>
 
-<p>Many Melbourne couples find the sweet spot by combining professional hire with personal DIY touches. Hire the big-impact items that require expertise — your ceremony <a href="/hire/rustic-arch-backdrop">arch</a>, <a href="/hire/floral-centrepiece-set">centrepieces</a>, lighting, and draping — and DIY the personal details that carry sentimental value: place cards, favours, a memory table, and guest book.</p>
+<p>Many Melbourne couples find the sweet spot by combining professional hire with personal DIY touches — an approach that <a href="https://www.easyweddings.com.au/articles/diy-wedding-ideas/" target="_blank" rel="noopener">Easy Weddings</a> recommends for balancing budget with polish. Hire the big-impact items that require expertise — your ceremony <a href="/hire/rustic-arch-backdrop">arch</a>, <a href="/hire/floral-centrepiece-set">centrepieces</a>, lighting, and draping — and DIY the personal details that carry sentimental value: place cards, favours, a memory table, and guest book.</p>
 
 <p>This hybrid approach gives you the polished, cohesive look of professional styling with the personal touches that make it uniquely yours. It also means the hardest logistics — heavy installation, rigging, and end-of-night pack-down — are handled by professionals while you enjoy your day.</p>
 
@@ -861,11 +861,11 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-07-03",
     category: "Weddings",
     image: "/gallery/weddings/weddings-3.jpg",
-    content: `<p>Your colour palette is the thread that weaves through every element of your wedding — from invitations and bouquets to table settings and cake. Choosing the right combination sets the mood, defines the aesthetic, and creates cohesion across your entire celebration. Here are the colour palettes Melbourne couples are gravitating towards in 2026, with tips on how to carry them through your styling.</p>
+    content: `<p>Your colour palette is the thread that weaves through every element of your wedding — from invitations and bouquets to table settings and cake. <a href="https://www.pinterest.com.au/search/pins/?q=wedding%20colour%20palette%202026" target="_blank" rel="noopener">Pinterest trend reports</a> show that couples are searching for palette inspiration earlier than ever in the planning process. Choosing the right combination sets the mood, defines the aesthetic, and creates cohesion across your entire celebration. Here are the colour palettes Melbourne couples are gravitating towards in 2026, with tips on how to carry them through your styling.</p>
 
 <h2>Sage Green and Cream: The Palette of the Year</h2>
 
-<p>Sage green and cream continue to dominate Melbourne weddings, and it is easy to see why. This palette is calming, natural, and universally flattering. It works in every season, suits every venue type, and photographs beautifully in both daylight and evening settings. At iDo. Events, sage and cream is our most requested colour combination across <a href="/event-styling/oakleigh">Oakleigh</a>, <a href="/event-styling/coburg">Coburg</a>, and <a href="/event-styling/doncaster">Doncaster</a>.</p>
+<p>Sage green and cream continue to dominate Melbourne weddings — a palette that <a href="https://www.houseandgarden.co.uk/article/wedding-colour-schemes" target="_blank" rel="noopener">House &amp; Garden</a> has identified as a global favourite — and it is easy to see why. This palette is calming, natural, and universally flattering. It works in every season, suits every venue type, and photographs beautifully in both daylight and evening settings. At iDo. Events, sage and cream is our most requested colour combination across <a href="/event-styling/oakleigh">Oakleigh</a>, <a href="/event-styling/coburg">Coburg</a>, and <a href="/event-styling/doncaster">Doncaster</a>.</p>
 
 <p>Style this palette with our <a href="/hire/backdrop-draping-set">Backdrop Draping Set</a> in sage behind a cream-dressed <a href="/hire/round-moongate-arch">Round Moongate Arch</a>. Add <a href="/hire/floral-centrepiece-set">Floral Centrepiece Sets</a> mixing white roses with eucalyptus and sage-toned foliage. Carry the green through your napkins, table runner, and bridesmaid dresses for a cohesive, nature-inspired aesthetic.</p>
 
@@ -908,7 +908,7 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-07-04",
     category: "Weddings",
     image: "/gallery/weddings/weddings-4.jpg",
-    content: `<p>The dessert table has evolved from a simple cake stand into one of the most styled and photographed areas at Melbourne weddings. It is where guests gather, graze, and snap photos — a focal point that doubles as both decor and catering. A beautifully styled dessert table creates a wow moment that guests talk about long after the last macaron is eaten. Here is how to create one that steals the show.</p>
+    content: `<p>The dessert table has evolved from a simple cake stand into one of the most styled and photographed areas at Melbourne weddings — a transformation <a href="https://www.pinterest.com.au/search/pins/?q=wedding%20dessert%20table%20styling" target="_blank" rel="noopener">Pinterest</a> reflects with millions of dessert table pins saved each year. It is where guests gather, graze, and snap photos — a focal point that doubles as both decor and catering. A beautifully styled dessert table creates a wow moment that guests talk about long after the last macaron is eaten. Here is how to create one that steals the show.</p>
 
 <h2>The Backdrop: Setting the Scene</h2>
 
@@ -918,7 +918,7 @@ export const weddingPosts: BlogPost[] = [
 
 <h2>Layout and Height: Creating Visual Drama</h2>
 
-<p>The secret to a professional-looking dessert table is height variation. Use tiered stands, cake domes, <a href="/hire/white-plinth-set">White Plinths</a> at different heights, and stacked boxes covered in fabric to create a landscape of levels. Your wedding cake should be the tallest element, positioned as the centrepiece on a dedicated stand or elevated plinth.</p>
+<p>The secret to a professional-looking dessert table, as <a href="https://www.elledecor.com/life-culture/entertaining/" target="_blank" rel="noopener">Elle Decor</a> food styling guides emphasise, is height variation. Use tiered stands, cake domes, <a href="/hire/white-plinth-set">White Plinths</a> at different heights, and stacked boxes covered in fabric to create a landscape of levels. Your wedding cake should be the tallest element, positioned as the centrepiece on a dedicated stand or elevated plinth.</p>
 
 <p>Arrange your desserts in groups — macarons on one tiered stand, cupcakes on another, cookies in a cluster, individual tarts on a flat platter. Each group should be cohesive in its presentation while contributing to the overall visual rhythm. Leave small gaps between groupings for scattered florals, greenery, or decorative elements that tie the table back to your overall wedding theme.</p>
 
@@ -953,11 +953,11 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-07-04",
     category: "Weddings",
     image: "/gallery/weddings/weddings-5.jpg",
-    content: `<p>The bridal table is the visual anchor of your entire reception. It is where you and your partner sit, where speeches are delivered, where the cake is often cut, and where every guest's eyes are drawn throughout the evening. Getting your bridal table styling right has a disproportionate impact on the overall look and feel of your wedding. Here is how to make it the standout feature of your Melbourne reception.</p>
+    content: `<p>The bridal table is the visual anchor of your entire reception. Research from the <a href="https://www.abia.com.au/" target="_blank" rel="noopener">Australian Bridal Industry Academy</a> shows that the bridal table consistently ranks as the most photographed zone at any reception. It is where you and your partner sit, where speeches are delivered, where the cake is often cut, and where every guest's eyes are drawn throughout the evening. Getting your bridal table styling right has a disproportionate impact on the overall look and feel of your wedding. Here is how to make it the standout feature of your Melbourne reception.</p>
 
 <h2>Choosing Your Bridal Table Format</h2>
 
-<p>Before styling, decide on your table format. The two most popular options in Melbourne are the long head table and the sweetheart table. A long head table seats the couple plus the bridal party, creating a grand, traditional focal point that stretches across the front of the room. A sweetheart table seats just the couple, creating an intimate moment that allows the bride and groom to enjoy the evening together with a clear view of all their guests.</p>
+<p>Before styling, decide on your table format. The two most popular options in Melbourne are the long head table and the sweetheart table. A long head table seats the couple plus the bridal party, creating a grand, traditional focal point that stretches across the front of the room. A sweetheart table — a format that <a href="https://www.pinterest.com.au/search/pins/?q=sweetheart%20table%20wedding" target="_blank" rel="noopener">Pinterest</a> shows is trending strongly — seats just the couple, creating an intimate moment that allows the bride and groom to enjoy the evening together with a clear view of all their guests.</p>
 
 <p>The format affects your styling approach. A long table needs a wider backdrop and more table decorations spread along its length. A sweetheart table can have a more concentrated, lush styling that creates a visual cocoon around the couple. Both work beautifully — the right choice depends on your personal preference and bridal party size.</p>
 
@@ -1000,7 +1000,7 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-07-05",
     category: "Weddings",
     image: "/gallery/weddings/weddings-6.jpg",
-    content: `<p>Wedding signage serves a dual purpose — it guides your guests through the day while adding another layer of styled detail that ties your aesthetic together. Well-designed signage makes your wedding feel organised, polished, and personal. Here are the signage ideas Melbourne couples are incorporating into their celebrations and how to make each one work for your day.</p>
+    content: `<p>Wedding signage serves a dual purpose — it guides your guests through the day while adding another layer of styled detail that ties your aesthetic together. <a href="https://www.pinterest.com.au/search/pins/?q=wedding%20signage%20ideas" target="_blank" rel="noopener">Pinterest</a> boards dedicated to wedding signage have exploded in popularity, reflecting how seriously couples now take this element. Well-designed signage makes your wedding feel organised, polished, and personal. Here are the signage ideas Melbourne couples are incorporating into their celebrations and how to make each one work for your day.</p>
 
 <h2>Welcome Signs: Your First Impression</h2>
 
@@ -1033,7 +1033,7 @@ export const weddingPosts: BlogPost[] = [
 
 <h2>Signage Design Tips</h2>
 
-<p>Consistency is the key to professional-looking wedding signage. Follow these principles:</p>
+<p>Consistency is the key to professional-looking wedding signage — a principle that <a href="https://www.elledecor.com/design-decorate/" target="_blank" rel="noopener">Elle Decor's design experts</a> emphasise across all event styling. Follow these principles:</p>
 
 <ul>
 <li><strong>Use one or two fonts maximum</strong> across all your signage. A script font for names and a clean sans-serif for details works universally well.</li>
@@ -1052,7 +1052,7 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-07-05",
     category: "Weddings",
     image: "/gallery/weddings/weddings-7.jpg",
-    content: `<p>The ceremony aisle is where your wedding story physically begins — it is the pathway that carries you towards the person you are marrying. The way you decorate this aisle sets the emotional tone for the entire ceremony and creates one of the most photographed moments of your day. Whether your aisle is a grand church nave, a garden pathway, or a cleared space in a function room, the right styling transforms it into something special.</p>
+    content: `<p>The ceremony aisle is where your wedding story physically begins — it is the pathway that carries you towards the person you are marrying. With over 120,000 marriages celebrated annually in Australia according to the <a href="https://www.abs.gov.au/statistics/people/people-and-communities/marriages-and-divorces-australia" target="_blank" rel="noopener">Australian Bureau of Statistics</a>, the walk down the aisle remains one of the most deeply meaningful moments in Australian culture. The way you decorate this aisle sets the emotional tone for the entire ceremony and creates one of the most photographed moments of your day. Whether your aisle is a grand church nave, a garden pathway, or a cleared space in a function room, the right styling transforms it into something special.</p>
 
 <h2>Petal and Greenery Aisle Styling</h2>
 
@@ -1080,7 +1080,7 @@ export const weddingPosts: BlogPost[] = [
 
 <h2>Creative Aisle Ideas for Melbourne Weddings</h2>
 
-<p>Beyond the traditional, Melbourne couples are getting creative with their aisles:</p>
+<p>Beyond the traditional, Melbourne couples are getting creative with their aisles — trends that are well documented across <a href="https://www.wedshed.com.au/" target="_blank" rel="noopener">WedShed's real wedding features</a>:</p>
 
 <ul>
 <li><strong>Circular ceremony:</strong> Arrange guest seating in a circle rather than traditional rows, with the couple at the centre. This eliminates a traditional aisle and creates an intimate, surrounded-by-love ceremony format.</li>
@@ -1099,11 +1099,11 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-07-06",
     category: "Weddings",
     image: "/gallery/weddings/weddings-8.jpg",
-    content: `<p>Winter weddings in Melbourne have a magic that warmer months simply cannot replicate. The moody skies, golden afternoon light, bare-branched trees, and cosy indoor atmospheres create a romantic backdrop that suits intimate, atmospheric celebrations. And with off-peak pricing at many venues, a winter wedding can also be significantly more affordable. Here is how to embrace the cold and style a winter wedding that feels warm, inviting, and utterly beautiful.</p>
+    content: `<p>Winter weddings in Melbourne have a magic that warmer months simply cannot replicate. <a href="https://www.easyweddings.com.au/articles/winter-wedding-ideas/" target="_blank" rel="noopener">Easy Weddings</a> reports that off-peak winter weddings are growing in popularity as couples discover the unique atmosphere and significant cost savings the season offers. The moody skies, golden afternoon light, bare-branched trees, and cosy indoor atmospheres create a romantic backdrop that suits intimate, atmospheric celebrations. And with off-peak pricing at many venues, a winter wedding can also be significantly more affordable. Here is how to embrace the cold and style a winter wedding that feels warm, inviting, and utterly beautiful.</p>
 
 <h2>Warm Colour Palettes for Winter</h2>
 
-<p>Winter calls for rich, warm colour palettes that counteract the grey skies outside. Deep burgundy, forest green, navy, plum, and burnt orange create depth and drama. Pair these with metallic accents — gold, copper, or brass — for warmth that catches candlelight beautifully. Our <a href="/hire/rustic-arch-backdrop">Rustic Arch Backdrop</a> dressed in winter florals — deep red roses, burgundy dahlias, and trailing greenery — creates a ceremony focal point that feels both luxurious and seasonal.</p>
+<p>Winter calls for rich, warm colour palettes that counteract the grey skies outside — think the deep, moody tones that <a href="https://www.pinterest.com.au/search/pins/?q=winter%20wedding%20colour%20palette" target="_blank" rel="noopener">Pinterest</a> showcases in its seasonal wedding trend roundups. Deep burgundy, forest green, navy, plum, and burnt orange create depth and drama. Pair these with metallic accents — gold, copper, or brass — for warmth that catches candlelight beautifully. Our <a href="/hire/rustic-arch-backdrop">Rustic Arch Backdrop</a> dressed in winter florals — deep red roses, burgundy dahlias, and trailing greenery — creates a ceremony focal point that feels both luxurious and seasonal.</p>
 
 <p>If you prefer a softer winter palette, consider ivory, champagne, and sage with touches of silver. This creates a winter-wonderland aesthetic that is elegant and light. Our <a href="/hire/round-moongate-arch">Round Moongate Arch</a> in white with silver-toned foliage and baby's breath looks ethereal and seasonal without feeling cold or stark.</p>
 
@@ -1144,13 +1144,13 @@ export const weddingPosts: BlogPost[] = [
     date: "2026-07-06",
     category: "Weddings",
     image: "/gallery/weddings/weddings-9.jpg",
-    content: `<p>Summer is Melbourne's most popular wedding season, and for good reason. Long golden evenings, warm breezes, lush green gardens, and the ability to celebrate outdoors create an atmosphere that is naturally romantic and joyful. But summer weddings come with their own styling considerations — heat, sun, extended daylight, and the transition from bright afternoon to warm evening all need to be planned for. Here is how to style a summer wedding that looks and feels incredible from ceremony to last dance.</p>
+    content: `<p>Summer is Melbourne's most popular wedding season — <a href="https://www.abs.gov.au/statistics/people/people-and-communities/marriages-and-divorces-australia" target="_blank" rel="noopener">ABS marriage statistics</a> consistently show that the warmer months from October to March account for the majority of Australian weddings — and for good reason. Long golden evenings, warm breezes, lush green gardens, and the ability to celebrate outdoors create an atmosphere that is naturally romantic and joyful. But summer weddings come with their own styling considerations — heat, sun, extended daylight, and the transition from bright afternoon to warm evening all need to be planned for. Here is how to style a summer wedding that looks and feels incredible from ceremony to last dance.</p>
 
 <h2>Light and Bright Colour Palettes</h2>
 
 <p>Summer calls for colour palettes that feel fresh, vibrant, and alive. Whites and creams with pops of coral, peach, or soft yellow reflect the warmth of the season without competing with the natural light. Sage green and white — the most popular Melbourne wedding palette of 2026 — works beautifully in summer, echoing the lush green surroundings of garden venues across <a href="/event-styling/werribee">Werribee</a>, <a href="/event-styling/point-cook">Point Cook</a>, and the Mornington Peninsula.</p>
 
-<p>For bolder summer styling, consider tropical-inspired palettes — hot pink and orange, coral and turquoise, or bright yellow and green. These vibrant combinations photograph spectacularly in summer sunlight and suit relaxed, outdoor celebrations. Our <a href="/hire/balloon-garland-installation">Balloon Garland Installations</a> in vibrant summer colours create instant festivity at ceremony and reception entrances.</p>
+<p>For bolder summer styling, consider tropical-inspired palettes — hot pink and orange, coral and turquoise, or bright yellow and green. <a href="https://www.wedshed.com.au/" target="_blank" rel="noopener">WedShed's real wedding galleries</a> are full of these vibrant combinations that photograph spectacularly in summer sunlight and suit relaxed, outdoor celebrations. Our <a href="/hire/balloon-garland-installation">Balloon Garland Installations</a> in vibrant summer colours create instant festivity at ceremony and reception entrances.</p>
 
 <h2>Sun-Smart Ceremony Styling</h2>
 

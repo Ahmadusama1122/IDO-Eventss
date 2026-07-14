@@ -56,12 +56,63 @@ const jsonLd = {
   priceRange: "$$",
 };
 
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "How much does event styling cost in Melbourne?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Birthday styling starts from $350, baby showers from $350, engagement parties from $450, wedding ceremony-only from $650, full wedding styling from $1,800, and mehndi night styling from $1,200. All prices include delivery, full setup, and pack-down across 30+ Melbourne suburbs.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What areas does iDo Events service in Melbourne?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "We deliver and set up across 30+ Melbourne suburbs including Point Cook, Tarneit, Truganina, Werribee, Hoppers Crossing, Craigieburn, Epping, Dandenong, Clayton, Glen Waverley, Doncaster, Preston, Brunswick, Footscray, Sunshine, Oakleigh, Coburg, and more. Delivery is included at no extra charge for all suburbs.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is included in event styling packages?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Every booking includes prop delivery to your venue, full professional setup, and pack-down after the event. You do not need to be present for setup or help with anything. There are no hidden fees, weekend surcharges, or distance charges.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How far in advance should I book an event stylist?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "We recommend booking 4 to 8 weeks ahead for most events. For weddings during peak season (October to March), book at least 3 months ahead. We can accommodate shorter notice if we have availability.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you style mehndi nights and South Asian celebrations?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. We provide specialised mehndi, nikkah, and walima styling with vibrant stage setups, marigold installations, and traditional draping. We serve Melbourne's Pakistani, Indian, Afghan, and Bangladeshi communities with culturally informed styling starting from $1,200.",
+      },
+    },
+  ],
+};
+
 export default function HomePage() {
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       <Hero />
       <OccasionGrid />

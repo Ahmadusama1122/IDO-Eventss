@@ -11,7 +11,7 @@ export const eventsPosts: BlogPost[] = [
     date: "2026-05-02",
     category: "Christenings",
     image: "/gallery/christenings-baptisms/christenings-baptisms-1.jpg",
-    content: `<p>A christening is one of the most meaningful milestones in a family's life, and the decoration you choose sets the tone for the entire celebration. Whether you are hosting at a church hall in <a href="/event-styling/oakleigh">Oakleigh</a>, a reception venue in <a href="/event-styling/preston">Preston</a>, or your own backyard, the right styling transforms any space into something truly special. Here are the christening decoration ideas Melbourne families are loving in 2026.</p>
+    content: `<p>A christening is one of the most meaningful milestones in a family's life — with <a href="https://www.abs.gov.au/statistics/people/population/births-australia" target="_blank" rel="noopener">over 300,000 births recorded annually in Australia</a>, christening celebrations remain a deeply cherished tradition. The decoration you choose sets the tone for the entire celebration. Whether you are hosting at a church hall in <a href="/event-styling/oakleigh">Oakleigh</a>, a reception venue in <a href="/event-styling/preston">Preston</a>, or your own backyard, the right styling transforms any space into something truly special. Here are the christening decoration ideas Melbourne families are loving in 2026.</p>
 
 <h2>Soft Pastel Themes Remain a Favourite</h2>
 
@@ -27,7 +27,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Themed Christening Decorations</h2>
 
-<p>Themed christenings are growing in popularity, especially for families who want their celebration to feel personal and unique. Some of the most popular themes we style include:</p>
+<p>Themed christenings are growing in popularity, especially for families who want their celebration to feel personal and unique. Platforms like <a href="https://www.pinterest.com.au/search/pins/?q=christening+decoration+ideas" target="_blank" rel="noopener">Pinterest</a> are full of inspiration, and some of the most popular themes we style include:</p>
 
 <ul>
 <li><strong>Little Lamb:</strong> Soft whites, creams, and greenery with lamb figurines and cloud-shaped balloon clusters.</li>
@@ -61,7 +61,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Choosing Your Baptism Colour Palette</h2>
 
-<p>Your colour palette is the foundation of your entire styling plan. For baptisms, softer tones tend to work best — they feel celebratory without overpowering the significance of the day. Popular palettes we see across Melbourne include ivory and gold for a classic look, soft blue and silver for boys, blush and rose gold for girls, and sage and white for a modern neutral feel.</p>
+<p>Your colour palette is the foundation of your entire styling plan. For baptisms, softer tones tend to work best — they feel celebratory without overpowering the significance of the day. According to <a href="https://www.abs.gov.au/statistics/people/population/births-australia" target="_blank" rel="noopener">ABS birth data</a>, Melbourne's growing multicultural population means baptism styling trends are more diverse than ever. Popular palettes we see across Melbourne include ivory and gold for a classic look, soft blue and silver for boys, blush and rose gold for girls, and sage and white for a modern neutral feel.</p>
 
 <p>Once you have your palette locked in, carry it through every element: balloons, draping, tableware, flowers, signage, and the dessert table. This consistency is what makes a celebration look professionally styled rather than pieced together. Our <a href="/hire/classic-elegance-package">Classic Elegance Package</a> is designed with exactly this cohesion in mind.</p>
 
@@ -79,7 +79,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Lighting Makes All the Difference</h2>
 
-<p>Never underestimate lighting. Many function rooms in Melbourne have harsh overhead fluorescent lights that flatten the mood. Adding warm ambient lighting — through our <a href="/hire/fairy-light-curtain">Fairy Light Curtain</a> behind the backdrop, tea lights on every table, or <a href="/hire/festoon-light-string">Festoon Light Strings</a> across the ceiling — completely changes the atmosphere. Warm lighting photographs better, feels more intimate, and makes your decorations look their best.</p>
+<p>Never underestimate lighting — it is one of the top styling elements highlighted on <a href="https://www.pinterest.com.au/search/pins/?q=baptism+party+styling" target="_blank" rel="noopener">Pinterest baptism boards</a>. Many function rooms in Melbourne have harsh overhead fluorescent lights that flatten the mood. Adding warm ambient lighting — through our <a href="/hire/fairy-light-curtain">Fairy Light Curtain</a> behind the backdrop, tea lights on every table, or <a href="/hire/festoon-light-string">Festoon Light Strings</a> across the ceiling — completely changes the atmosphere. Warm lighting photographs better, feels more intimate, and makes your decorations look their best.</p>
 
 <p>If your venue allows candles, tall taper candles in elegant holders add a beautiful, classic touch that suits the religious significance of a baptism celebration.</p>
 
@@ -106,13 +106,13 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Restaurants and Function Rooms</h2>
 
-<p>Many Melbourne families choose restaurants for their christening celebrations, particularly in suburbs like <a href="/event-styling/oakleigh">Oakleigh</a> and <a href="/event-styling/preston">Preston</a> where there are plenty of family-friendly venues with private function spaces. The advantage of a restaurant is that the existing decor usually provides a good foundation, so you need less to make an impact.</p>
+<p>Many Melbourne families choose restaurants for their christening celebrations, particularly in suburbs like <a href="/event-styling/oakleigh">Oakleigh</a> and <a href="/event-styling/preston">Preston</a> where there are plenty of family-friendly venues with private function spaces. The <a href="https://www.melbourne.vic.gov.au/community/community-events" target="_blank" rel="noopener">City of Melbourne</a> lists hundreds of function-capable venues across the metro area. The advantage of a restaurant is that the existing decor usually provides a good foundation, so you need less to make an impact.</p>
 
 <p>Focus your decoration budget on a feature backdrop behind the main table and a styled dessert or cake display. A <a href="/hire/welcome-sign-on-easel">Welcome Sign on Easel</a> at the entrance and small centrepieces on each table are often all you need to personalise the space. Always check with the restaurant about what you can and cannot attach to walls — some venues have restrictions on adhesives and fixtures.</p>
 
 <h2>Backyard and Home Celebrations</h2>
 
-<p>Home christenings have a charm all their own. The intimate setting means your decorations can be more personal and detailed. For outdoor celebrations, <a href="/hire/festoon-light-string">Festoon Light Strings</a> strung across the garden create a magical atmosphere, especially as the afternoon light fades into evening. A <a href="/hire/round-moongate-arch">Round Moongate Arch</a> in the garden serves as a beautiful ceremony and photo spot.</p>
+<p>Home christenings have a charm all their own, and with <a href="https://www.sustainability.vic.gov.au/recycling-and-reducing-waste/at-an-event" target="_blank" rel="noopener">Sustainability Victoria encouraging waste-conscious event planning</a>, a home celebration can also be a more environmentally mindful choice. The intimate setting means your decorations can be more personal and detailed. For outdoor celebrations, <a href="/hire/festoon-light-string">Festoon Light Strings</a> strung across the garden create a magical atmosphere, especially as the afternoon light fades into evening. A <a href="/hire/round-moongate-arch">Round Moongate Arch</a> in the garden serves as a beautiful ceremony and photo spot.</p>
 
 <p>If you are hosting indoors, clear a wall for your main backdrop and set up the dessert table nearby. Keep walkways clear and group your main decorations in one or two areas rather than spreading small items throughout the house. Concentrated styling in key areas has more impact than scattering decorations thinly across every room.</p>
 
@@ -135,7 +135,7 @@ export const eventsPosts: BlogPost[] = [
     date: "2026-05-18",
     category: "Christenings",
     image: "/gallery/christenings-baptisms/christenings-baptisms-4.jpg",
-    content: `<p>Melbourne is home to one of the largest Greek communities outside of Greece, and Greek Orthodox christenings are a beloved tradition celebrated with warmth, faith, and incredible attention to detail. If you are planning a Greek Orthodox christening in Melbourne, this guide covers the styling traditions, modern trends, and practical tips to help you create a celebration that honours your heritage while looking absolutely beautiful.</p>
+    content: `<p>Melbourne is home to one of the largest Greek communities outside of Greece — <a href="https://www.abs.gov.au/statistics/people/people-and-communities/cultural-diversity-census" target="_blank" rel="noopener">ABS census data</a> shows Greek ancestry is among the most commonly reported in Victoria. Greek Orthodox christenings are a beloved tradition celebrated with warmth, faith, and incredible attention to detail. If you are planning a Greek Orthodox christening in Melbourne, this guide covers the styling traditions, modern trends, and practical tips to help you create a celebration that honours your heritage while looking absolutely beautiful.</p>
 
 <h2>Traditional Greek Christening Elements</h2>
 
@@ -145,7 +145,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Modern Greek Christening Styling Trends</h2>
 
-<p>While traditions remain important, Melbourne's Greek families are also embracing modern styling trends that bring a contemporary edge to their celebrations. We are seeing a shift towards muted colour palettes — sage and white, dusty blue and gold, or soft blush and champagne — that feel current while still respecting the elegance of the occasion.</p>
+<p>While traditions remain important, Melbourne's Greek families are also embracing modern styling trends that bring a contemporary edge to their celebrations. A quick browse of <a href="https://www.pinterest.com.au/search/pins/?q=greek+christening+modern" target="_blank" rel="noopener">Pinterest's Greek christening boards</a> shows just how far contemporary styling has come. We are seeing a shift towards muted colour palettes — sage and white, dusty blue and gold, or soft blush and champagne — that feel current while still respecting the elegance of the occasion.</p>
 
 <p>Large-scale balloon installations in soft tones, custom <a href="/hire/neon-sign-custom-text">LED neon signs</a> with the child's name, and structured <a href="/hire/gold-hexagonal-arch">Gold Hexagonal Arches</a> are all popular choices for Greek christenings in 2026. These modern elements blend beautifully with traditional touches like the lambada display and the bonbonniere table.</p>
 
@@ -184,7 +184,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Modern Grazing-Style Sweet Tables</h2>
 
-<p>Grazing tables have moved beyond savoury platters and into the dessert world. A grazing-style sweet table features treats laid directly on the table surface (on food-safe paper or boards) in an abundant, overflowing arrangement. Think scattered macarons, rows of cake pops, clusters of chocolates, and fresh fruit woven throughout.</p>
+<p>Grazing tables have moved beyond savoury platters and into the dessert world — a trend that has exploded on <a href="https://www.pinterest.com.au/search/pins/?q=christening+dessert+table" target="_blank" rel="noopener">Pinterest</a> over the past year. A grazing-style sweet table features treats laid directly on the table surface (on food-safe paper or boards) in an abundant, overflowing arrangement. Think scattered macarons, rows of cake pops, clusters of chocolates, and fresh fruit woven throughout.</p>
 
 <p>This style feels generous and inviting, and it works particularly well for larger christenings where you want guests to help themselves throughout the celebration. Pair the grazing display with a few raised elements — a <a href="/hire/white-plinth-set">White Plinth</a> holding the christening cake, for example — to add height and focus.</p>
 
@@ -202,7 +202,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Create Your Perfect Christening Dessert Table</h2>
 
-<p>The dessert table is one area where a small investment in styling makes a massive difference. At iDo. Events, we provide all the props, stands, and backdrop elements you need to create a stunning display at your Melbourne <a href="/christenings-baptisms">christening celebration</a>. We deliver, set up, and style everything, then pack it all down after your event. <a href="/quote">Request a free quote</a> or browse our <a href="/hire">hire collection</a> to start planning your perfect dessert table.</p>`,
+<p>The dessert table is one area where a small investment in styling makes a massive difference — and hiring props rather than buying keeps waste down, something <a href="https://www.sustainability.vic.gov.au/recycling-and-reducing-waste/at-an-event" target="_blank" rel="noopener">Sustainability Victoria</a> actively encourages for events. At iDo. Events, we provide all the props, stands, and backdrop elements you need to create a stunning display at your Melbourne <a href="/christenings-baptisms">christening celebration</a>. We deliver, set up, and style everything, then pack it all down after your event. <a href="/quote">Request a free quote</a> or browse our <a href="/hire">hire collection</a> to start planning your perfect dessert table.</p>`,
   },
 
   {
@@ -217,13 +217,13 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Sage Green and White</h2>
 
-<p>Sage green has become the single most popular christening colour in Melbourne this year. It is calming, gender-neutral, and pairs beautifully with white, cream, and touches of gold. The natural, earthy quality of sage works well in any venue — from a modern restaurant to a traditional church hall in <a href="/event-styling/coburg">Coburg</a> or <a href="/event-styling/preston">Preston</a>.</p>
+<p>Sage green has become the single most popular christening colour in Melbourne this year — a trend reflected heavily across <a href="https://www.pinterest.com.au/search/pins/?q=sage+green+christening" target="_blank" rel="noopener">Pinterest christening boards</a>. It is calming, gender-neutral, and pairs beautifully with white, cream, and touches of gold. The natural, earthy quality of sage works well in any venue — from a modern restaurant to a traditional church hall in <a href="/event-styling/coburg">Coburg</a> or <a href="/event-styling/preston">Preston</a>.</p>
 
 <p>To style a sage christening, start with a white <a href="/hire/backdrop-draping-set">Backdrop Draping Set</a> and layer sage-toned balloon garlands across the top. Use sage linen napkins on white tablecloths, and choose <a href="/hire/floral-centrepiece-set">Floral Centrepiece Sets</a> with mixed greenery and white blooms. The result is fresh, modern, and effortlessly elegant.</p>
 
 <h2>Warm Neutrals — Cream, Beige, and Tan</h2>
 
-<p>The warm neutral palette has taken over from the cool greys that dominated a few years ago. Cream, beige, sand, and tan create a soft, welcoming atmosphere that feels luxurious without being fussy. This palette is perfect for families who want elegance but find pastels too sweet for their taste.</p>
+<p>The warm neutral palette has taken over from the cool greys that dominated a few years ago, aligning with the broader shift towards <a href="https://www.sustainability.vic.gov.au/recycling-and-reducing-waste/at-an-event" target="_blank" rel="noopener">natural, sustainable event styling</a> that Sustainability Victoria champions. Cream, beige, sand, and tan create a soft, welcoming atmosphere that feels luxurious without being fussy. This palette is perfect for families who want elegance but find pastels too sweet for their taste.</p>
 
 <p>Pair warm neutrals with our <a href="/hire/rustic-arch-backdrop">Rustic Arch Backdrop</a> for an organic, textured look. Add dried florals, pampas grass accents, and wooden elements to lean into the natural theme. <a href="/hire/gold-letter-light-up">Gold Letter Light-Ups</a> spelling the child's name add a touch of warmth and sparkle that complements the neutral tones perfectly.</p>
 
@@ -268,7 +268,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Candle and Greenery Centrepieces</h2>
 
-<p>If florals are not your style, candle-and-greenery arrangements create a warm, intimate atmosphere that suits christenings perfectly. A base of eucalyptus or ivy running down the centre of the table, punctuated by pillar candles in glass holders at varying heights, creates a natural, organic look that is both elegant and affordable.</p>
+<p>If florals are not your style, candle-and-greenery arrangements — among the most-pinned christening ideas on <a href="https://www.pinterest.com.au/search/pins/?q=christening+centrepiece+greenery+candle" target="_blank" rel="noopener">Pinterest</a> — create a warm, intimate atmosphere that suits christenings perfectly. A base of eucalyptus or ivy running down the centre of the table, punctuated by pillar candles in glass holders at varying heights, creates a natural, organic look that is both elegant and affordable.</p>
 
 <p>This style works particularly well for evening celebrations where the candlelight creates a warm, atmospheric glow across the room. It also suits a <a href="/hire/rustic-arch-backdrop">Rustic Arch Backdrop</a> beautifully — the natural materials echo each other for a cohesive aesthetic from the backdrop through to every table.</p>
 
@@ -293,7 +293,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Style Every Table at Your Christening</h2>
 
-<p>Centrepieces are one of the most effective ways to transform a venue, and at iDo. Events, we make it easy. Our <a href="/christenings-baptisms">christening styling</a> packages include centrepiece options that coordinate with your backdrop and colour palette. We deliver and set up every arrangement across all Melbourne suburbs, from <a href="/event-styling/werribee">Werribee</a> to <a href="/event-styling/cranbourne">Cranbourne</a>. <a href="/quote">Request a free quote</a> or browse our <a href="/hire">hire collection</a> to start planning.</p>`,
+<p>Centrepieces are one of the most effective ways to transform a venue — and hiring rather than buying single-use decorations supports the kind of <a href="https://www.sustainability.vic.gov.au/recycling-and-reducing-waste/at-an-event" target="_blank" rel="noopener">sustainable event practices</a> that Victoria is actively promoting. At iDo. Events, we make it easy. Our <a href="/christenings-baptisms">christening styling</a> packages include centrepiece options that coordinate with your backdrop and colour palette. We deliver and set up every arrangement across all Melbourne suburbs, from <a href="/event-styling/werribee">Werribee</a> to <a href="/event-styling/cranbourne">Cranbourne</a>. <a href="/quote">Request a free quote</a> or browse our <a href="/hire">hire collection</a> to start planning.</p>`,
   },
 
   {
@@ -304,13 +304,13 @@ export const eventsPosts: BlogPost[] = [
     date: "2026-06-10",
     category: "Christenings",
     image: "/gallery/christenings-baptisms/christenings-baptisms-8.jpg",
-    content: `<p>Planning a christening involves more moving parts than most families expect. Between the church ceremony, the reception, the guest list, the catering, and the styling, it is easy to feel overwhelmed. This step-by-step checklist will help Melbourne families stay organised and ensure nothing falls through the cracks, so you can focus on enjoying this special milestone.</p>
+    content: `<p>Planning a christening involves more moving parts than most families expect. With <a href="https://www.abs.gov.au/statistics/people/population/births-australia" target="_blank" rel="noopener">ABS data</a> showing Victoria consistently records some of Australia's highest birth numbers, christening venues and vendors book up quickly — so planning ahead is essential. Between the church ceremony, the reception, the guest list, the catering, and the styling, it is easy to feel overwhelmed. This step-by-step checklist will help Melbourne families stay organised and ensure nothing falls through the cracks, so you can focus on enjoying this special milestone.</p>
 
 <h2>8 to 12 Weeks Before Your Christening</h2>
 
 <p>Start by confirming the ceremony details with your church or parish. Book your preferred date, confirm the time, and ask about any requirements — many churches have specific preparation sessions for parents. Once the ceremony date is locked in, everything else follows.</p>
 
-<p>Book your reception venue. Popular function spaces in suburbs like <a href="/event-styling/oakleigh">Oakleigh</a>, <a href="/event-styling/preston">Preston</a>, and <a href="/event-styling/doncaster">Doncaster</a> fill up quickly, especially on weekends. If you are hosting at home, start planning the layout and seating arrangements. Create your guest list and send save-the-dates or informal invitations to give family and friends plenty of notice.</p>
+<p>Book your reception venue — the <a href="https://www.melbourne.vic.gov.au/community/community-events" target="_blank" rel="noopener">City of Melbourne events page</a> is a good starting point for finding suitable function spaces. Popular venues in suburbs like <a href="/event-styling/oakleigh">Oakleigh</a>, <a href="/event-styling/preston">Preston</a>, and <a href="/event-styling/doncaster">Doncaster</a> fill up quickly, especially on weekends. If you are hosting at home, start planning the layout and seating arrangements. Create your guest list and send save-the-dates or informal invitations to give family and friends plenty of notice.</p>
 
 <ul>
 <li>Confirm ceremony date and requirements with your church</li>
@@ -362,7 +362,7 @@ export const eventsPosts: BlogPost[] = [
     date: "2026-06-16",
     category: "Christenings",
     image: "/gallery/christenings-baptisms/christenings-baptisms-9.jpg",
-    content: `<p>Hiring props and styling elements for your christening is the smartest way to create a stunning celebration without the waste and expense of buying everything yourself. But with so many options available, how do you know what to hire and where to start? This guide breaks down the essential christening prop hire items that Melbourne families should consider, in order of impact and priority.</p>
+    content: `<p>Hiring props and styling elements for your christening is the smartest way to create a stunning celebration without the waste and expense of buying everything yourself. As <a href="https://www.sustainability.vic.gov.au/recycling-and-reducing-waste/at-an-event" target="_blank" rel="noopener">Sustainability Victoria</a> highlights, hiring and reusing event items significantly reduces the environmental footprint of celebrations. But with so many options available, how do you know what to hire and where to start? This guide breaks down the essential christening prop hire items that Melbourne families should consider, in order of impact and priority.</p>
 
 <h2>Priority One: The Backdrop</h2>
 
@@ -397,7 +397,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Packages Save Time and Money</h2>
 
-<p>If building a custom hire list feels overwhelming, our styled packages bundle the essentials together at a better value. The <a href="/hire/classic-elegance-package">Classic Elegance Package</a> and <a href="/hire/garden-party-package">Garden Party Package</a> are both excellent foundations for christening styling — each includes a backdrop, balloon garland, dessert table styling, centrepieces, and signage.</p>
+<p>If building a custom hire list feels overwhelming — and <a href="https://www.pinterest.com.au/search/pins/?q=christening+prop+hire+ideas" target="_blank" rel="noopener">Pinterest</a> can give you plenty of visual inspiration to narrow your choices — our styled packages bundle the essentials together at a better value. The <a href="/hire/classic-elegance-package">Classic Elegance Package</a> and <a href="/hire/garden-party-package">Garden Party Package</a> are both excellent foundations for christening styling — each includes a backdrop, balloon garland, dessert table styling, centrepieces, and signage.</p>
 
 <p>At iDo. Events, we deliver, set up, and pack down every item we hire to families across Melbourne. No stress, no logistics headaches — just a beautifully styled <a href="/christenings-baptisms">christening celebration</a>. <a href="/quote">Request a free quote</a> or browse our full <a href="/hire">hire collection</a> to start building your list.</p>`,
   },
@@ -414,7 +414,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Elevated Cake Displays</h2>
 
-<p>Height is your best friend when styling a cake table. An elevated cake — placed on a tall cake stand, a <a href="/hire/white-plinth-set">White Plinth</a>, or a tiered display platform — commands attention and creates visual drama. The cake should be the highest point of the table, with everything else arranged below and around it in descending heights.</p>
+<p>Height is your best friend when styling a cake table — a principle that dominates the most-saved <a href="https://www.pinterest.com.au/search/pins/?q=baptism+cake+table+styling" target="_blank" rel="noopener">baptism cake table boards on Pinterest</a>. An elevated cake — placed on a tall cake stand, a <a href="/hire/white-plinth-set">White Plinth</a>, or a tiered display platform — commands attention and creates visual drama. The cake should be the highest point of the table, with everything else arranged below and around it in descending heights.</p>
 
 <p>Surround the elevated cake with smaller desserts on lower stands: cupcakes on one side, macarons on another, and cookies or cake pops filling in the gaps. This creates a cascading effect that draws the eye upward to the cake and then down through the supporting sweets.</p>
 
@@ -432,7 +432,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Adding Personal and Religious Touches</h2>
 
-<p>A baptism cake table is the perfect place to incorporate personal and religious elements. A framed photo of the baby at the front of the table, the baptismal candle displayed on one side, a small cross or bible as a decorative accent — these details make the table feel meaningful beyond just being a sweet display.</p>
+<p>A baptism cake table is the perfect place to incorporate personal and religious elements. With <a href="https://www.abs.gov.au/statistics/people/people-and-communities/cultural-diversity-census" target="_blank" rel="noopener">ABS census data</a> showing Melbourne's rich cultural and religious diversity, these personal touches often reflect meaningful family traditions. A framed photo of the baby at the front of the table, the baptismal candle displayed on one side, a small cross or bible as a decorative accent — these details make the table feel meaningful beyond just being a sweet display.</p>
 
 <p>Some families place a guest book on the cake table, inviting guests to write blessings and well-wishes for the child. This practical touch encourages guests to spend time at the table and creates a keepsake that the family can treasure for years. Display the guest book on a small easel or stand so it does not get lost among the sweets.</p>
 
@@ -451,7 +451,7 @@ export const eventsPosts: BlogPost[] = [
     date: "2026-06-01",
     category: "Engagements",
     image: "/gallery/engagements/engagements-1.jpg",
-    content: `<p>You said yes — now it is time to celebrate. An engagement party is your first event as a couple-to-be, and setting the right tone means choosing a theme and styling approach that reflects who you are together. Whether you are planning a relaxed gathering at home in <a href="/event-styling/cranbourne">Cranbourne</a> or a glamorous affair at a venue in <a href="/event-styling/doncaster">Doncaster</a>, here are the engagement party ideas Melbourne couples are choosing in 2026.</p>
+    content: `<p>You said yes — now it is time to celebrate. According to the <a href="https://www.abia.com.au/blog" target="_blank" rel="noopener">Australian Bridal Industry Academy</a>, engagement parties are growing in scale and styling investment year on year. An engagement party is your first event as a couple-to-be, and setting the right tone means choosing a theme and styling approach that reflects who you are together. Whether you are planning a relaxed gathering at home in <a href="/event-styling/cranbourne">Cranbourne</a> or a glamorous affair at a venue in <a href="/event-styling/doncaster">Doncaster</a>, here are the engagement party ideas Melbourne couples are choosing in 2026.</p>
 
 <h2>Intimate Garden Party</h2>
 
@@ -467,7 +467,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Rustic Elegance</h2>
 
-<p>Rustic styling with a polished edge is a favourite among Melbourne couples who want warmth without casualness. Think exposed timber, greenery, warm candlelight, and gold accents. Our <a href="/hire/rustic-romance-package">Rustic Romance Package</a> brings this aesthetic together with a timber arch, draped fabric, floral arrangements, and coordinated table styling.</p>
+<p>Rustic styling with a polished edge is a favourite among Melbourne couples who want warmth without casualness — and <a href="https://www.easyweddings.com.au/articles/engagement-party-ideas/" target="_blank" rel="noopener">Easy Weddings</a> consistently ranks it among the top engagement party styles in Australia. Think exposed timber, greenery, warm candlelight, and gold accents. Our <a href="/hire/rustic-romance-package">Rustic Romance Package</a> brings this aesthetic together with a timber arch, draped fabric, floral arrangements, and coordinated table styling.</p>
 
 <p>This style works beautifully at winery venues in the Yarra Valley, barn-style spaces, or even a well-styled backyard. The combination of raw, natural materials with elegant finishing touches creates an atmosphere that is inviting, sophisticated, and deeply romantic.</p>
 
@@ -490,7 +490,7 @@ export const eventsPosts: BlogPost[] = [
     date: "2026-06-07",
     category: "Engagements",
     image: "/gallery/engagements/engagements-2.jpg",
-    content: `<p>Your engagement party is the first celebration of your love story, and the decorations should reflect the excitement and romance of the moment. From the entrance to the backdrop to the smallest table details, every element contributes to the atmosphere you create. Here are the engagement party decoration ideas that Melbourne couples are embracing this year.</p>
+    content: `<p>Your engagement party is the first celebration of your love story, and the decorations should reflect the excitement and romance of the moment. With <a href="https://www.pinterest.com.au/search/pins/?q=engagement+party+decorations" target="_blank" rel="noopener">Pinterest</a> serving as the go-to inspiration platform for engaged couples, the bar for engagement party styling has never been higher. From the entrance to the backdrop to the smallest table details, every element contributes to the atmosphere you create. Here are the engagement party decoration ideas that Melbourne couples are embracing this year.</p>
 
 <h2>Statement Backdrops That Steal the Show</h2>
 
@@ -512,7 +512,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Entrance and Welcome Styling</h2>
 
-<p>First impressions matter. A styled entrance tells guests they are arriving somewhere special and builds anticipation for what is inside. A <a href="/hire/welcome-sign-on-easel">Welcome Sign on Easel</a> with your names and engagement date, flanked by floral arrangements on <a href="/hire/white-plinth-set">White Plinths</a>, creates a polished entrance moment that sets the tone before guests even walk through the door.</p>
+<p>First impressions matter — the <a href="https://www.abia.com.au/blog" target="_blank" rel="noopener">Australian Bridal Industry Academy</a> emphasises that entrance styling is one of the highest-impact investments in event decoration. A styled entrance tells guests they are arriving somewhere special and builds anticipation for what is inside. A <a href="/hire/welcome-sign-on-easel">Welcome Sign on Easel</a> with your names and engagement date, flanked by floral arrangements on <a href="/hire/white-plinth-set">White Plinths</a>, creates a polished entrance moment that sets the tone before guests even walk through the door.</p>
 
 <p>For evening celebrations, add fairy lights or lanterns along the entrance pathway. The transition from the everyday world outside to your styled celebration inside should feel like stepping into something magical.</p>
 
@@ -529,7 +529,7 @@ export const eventsPosts: BlogPost[] = [
     date: "2026-06-13",
     category: "Engagements",
     image: "/gallery/engagements/engagements-3.jpg",
-    content: `<p>An engagement party should be a joyful celebration, not a source of financial stress. With a wedding on the horizon, many Melbourne couples want to keep their engagement party budget reasonable while still creating an event that looks and feels special. The good news is that smart styling choices can deliver stunning results without breaking the bank. Here is how to do it.</p>
+    content: `<p>An engagement party should be a joyful celebration, not a source of financial stress. <a href="https://www.abs.gov.au/statistics/people/people-and-communities/marriages-and-divorces-australia" target="_blank" rel="noopener">ABS marriage data</a> shows Australians are increasingly investing in their wedding journeys, making it even more important to budget wisely early on. With a wedding on the horizon, many Melbourne couples want to keep their engagement party budget reasonable while still creating an event that looks and feels special. The good news is that smart styling choices can deliver stunning results without breaking the bank. Here is how to do it.</p>
 
 <h2>Prioritise One Hero Feature</h2>
 
@@ -545,7 +545,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>DIY the Easy Things, Hire the Hard Things</h2>
 
-<p>Some styling elements are easy to do yourself on a budget: buying fresh flowers from the market and arranging them in simple glass vases, printing a welcome sign at home, or stringing battery-operated fairy lights from the shops. These DIY elements work perfectly alongside professionally hired statement pieces.</p>
+<p>Some styling elements are easy to do yourself on a budget — <a href="https://www.easyweddings.com.au/articles/engagement-party-ideas/" target="_blank" rel="noopener">Easy Weddings</a> has great DIY guides for engaged couples. Buying fresh flowers from the market and arranging them in simple glass vases, printing a welcome sign at home, or stringing battery-operated fairy lights from the shops all work well. These DIY elements work perfectly alongside professionally hired statement pieces.</p>
 
 <p>The things worth hiring are the items that are difficult to DIY well: balloon installations (professional-grade balloons and sizing make a huge difference), fabric draping (it requires proper frames and tensioning), and arches or structural backdrops. A <a href="/hire/rustic-arch-backdrop">Rustic Arch Backdrop</a> with DIY market flowers draped over it gives you the best of both worlds — professional structure with personal, budget-friendly finishing.</p>
 
@@ -568,7 +568,7 @@ export const eventsPosts: BlogPost[] = [
     date: "2026-06-19",
     category: "Engagements",
     image: "/gallery/engagements/engagements-4.jpg",
-    content: `<p>Hosting your engagement party at home is one of the most personal and intimate ways to celebrate. There is something special about gathering your favourite people in a space that is meaningful to you, surrounded by the comfort of home. Melbourne couples are increasingly choosing to celebrate at home — whether in a cosy terrace in <a href="/event-styling/coburg">Coburg</a>, a modern home in <a href="/event-styling/cranbourne">Cranbourne</a>, or a family property in <a href="/event-styling/werribee">Werribee</a>. Here is how to make it look incredible.</p>
+    content: `<p>Hosting your engagement party at home is one of the most personal and intimate ways to celebrate, and <a href="https://www.pinterest.com.au/search/pins/?q=at+home+engagement+party" target="_blank" rel="noopener">Pinterest</a> is bursting with inspiration for transforming everyday spaces into stunning celebration venues. There is something special about gathering your favourite people in a space that is meaningful to you, surrounded by the comfort of home. Melbourne couples are increasingly choosing to celebrate at home — whether in a cosy terrace in <a href="/event-styling/coburg">Coburg</a>, a modern home in <a href="/event-styling/cranbourne">Cranbourne</a>, or a family property in <a href="/event-styling/werribee">Werribee</a>. Here is how to make it look incredible.</p>
 
 <h2>Choosing the Right Space in Your Home</h2>
 
@@ -595,7 +595,7 @@ export const eventsPosts: BlogPost[] = [
 <ul>
 <li><strong>Parking:</strong> Let guests know about parking options in advance. If street parking is limited, suggest carpooling or provide ride-share codes.</li>
 <li><strong>Bathrooms:</strong> Make sure your bathroom is stocked and presentable. A small vase of flowers and a scented candle go a long way.</li>
-<li><strong>Noise:</strong> If you are in a residential area, let your neighbours know about the party and set a reasonable finish time.</li>
+<li><strong>Noise:</strong> If you are in a residential area, let your neighbours know about the party and set a reasonable finish time. The <a href="https://www.melbourne.vic.gov.au/residents/local-laws" target="_blank" rel="noopener">City of Melbourne</a> has noise guidelines worth checking for residential events.</li>
 <li><strong>Flow:</strong> Create a natural flow from the entrance through food and drinks to the main celebration area. Guests should be able to move comfortably without bottlenecks.</li>
 </ul>
 
@@ -612,7 +612,7 @@ export const eventsPosts: BlogPost[] = [
     date: "2026-06-25",
     category: "Engagements",
     image: "/gallery/engagements/engagements-5.jpg",
-    content: `<p>Every year brings new inspiration, and 2026 is delivering some stunning engagement party themes across Melbourne. Whether you are a couple who leans towards romantic softness, modern boldness, or relaxed charm, there is a theme trending right now that will suit your style. Here are the engagement party themes dominating Melbourne celebrations this year.</p>
+    content: `<p>Every year brings new inspiration — from <a href="https://www.pinterest.com.au/search/pins/?q=engagement+party+themes+2026" target="_blank" rel="noopener">Pinterest trend reports</a> to real celebrations across the city — and 2026 is delivering some stunning engagement party themes across Melbourne. Whether you are a couple who leans towards romantic softness, modern boldness, or relaxed charm, there is a theme trending right now that will suit your style. Here are the engagement party themes dominating Melbourne celebrations this year.</p>
 
 <h2>Coastal Luxe</h2>
 
@@ -622,7 +622,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Old-Money Elegance</h2>
 
-<p>Inspired by classic European aesthetics, the old-money elegance theme uses deep greens, ivory, gold, and rich textures to create an atmosphere of timeless sophistication. Think mahogany, marble, and champagne. Our <a href="/hire/classic-elegance-package">Classic Elegance Package</a> provides the ideal foundation — its round arch, crystal vases, and fairy light curtain capture this refined aesthetic perfectly.</p>
+<p>Inspired by classic European aesthetics and widely featured across <a href="https://www.abia.com.au/blog" target="_blank" rel="noopener">ABIA's industry insights</a>, the old-money elegance theme uses deep greens, ivory, gold, and rich textures to create an atmosphere of timeless sophistication. Think mahogany, marble, and champagne. Our <a href="/hire/classic-elegance-package">Classic Elegance Package</a> provides the ideal foundation — its round arch, crystal vases, and fairy light curtain capture this refined aesthetic perfectly.</p>
 
 <p>This theme suits indoor venues with character: heritage buildings, private dining rooms, and upscale restaurants across Melbourne's inner suburbs. The key is restraint — every element should feel considered and quality, with nothing overdone or cluttered.</p>
 
@@ -657,7 +657,7 @@ export const eventsPosts: BlogPost[] = [
     date: "2026-07-01",
     category: "Engagements",
     image: "/gallery/engagements/engagements-1.jpg",
-    content: `<p>In the age of smartphones and social media, the photo backdrop at your engagement party is arguably the most important styling element. It is where you will pose as a couple, where every guest will snap a selfie, and where the photos that end up on Instagram and in frames will be taken. Getting the backdrop right means creating something that photographs beautifully from every angle and in every lighting condition.</p>
+    content: `<p>In the age of smartphones and social media, the photo backdrop at your engagement party is arguably the most important styling element. <a href="https://www.easyweddings.com.au/articles/engagement-party-ideas/" target="_blank" rel="noopener">Easy Weddings</a> rates the backdrop as the number one styling investment for engagement celebrations. It is where you will pose as a couple, where every guest will snap a selfie, and where the photos that end up on Instagram and in frames will be taken. Getting the backdrop right means creating something that photographs beautifully from every angle and in every lighting condition.</p>
 
 <h2>Arch Backdrops for Engagement Photos</h2>
 
@@ -673,7 +673,7 @@ export const eventsPosts: BlogPost[] = [
 
 <p>A <a href="/hire/neon-sign-custom-text">Custom LED Neon Sign</a> mounted on a backdrop creates one of the most photogenic features possible. The soft glow of neon looks incredible in photos — it adds warmth, creates a focal point, and makes every guest look great. Popular phrases for engagement parties include your names, "Better Together", "She Said Yes", or simply "Love".</p>
 
-<p>Mount the neon sign on a greenery wall, a fabric draping backdrop, or directly on a clean wall for different effects. Greenery walls add texture and depth, while clean walls let the neon be the sole focus. Either way, the photos are guaranteed to be stunning.</p>
+<p>Mount the neon sign on a greenery wall, a fabric draping backdrop, or directly on a clean wall for different effects — browse <a href="https://www.pinterest.com.au/search/pins/?q=neon+sign+engagement+backdrop" target="_blank" rel="noopener">Pinterest neon backdrop ideas</a> for inspiration. Greenery walls add texture and depth, while clean walls let the neon be the sole focus. Either way, the photos are guaranteed to be stunning.</p>
 
 <h2>Fairy Light and Draping Backdrops</h2>
 
@@ -705,13 +705,13 @@ export const eventsPosts: BlogPost[] = [
     date: "2026-07-05",
     category: "Engagements",
     image: "/gallery/engagements/engagements-2.jpg",
-    content: `<p>Planning an engagement party should be exciting, not stressful. But without a clear plan, the decisions can pile up quickly — venue, guest list, catering, styling, invitations, and more. This step-by-step guide gives Melbourne couples a clear timeline and practical advice for planning an engagement party that runs smoothly and looks amazing.</p>
+    content: `<p>Planning an engagement party should be exciting, not stressful. Resources like <a href="https://www.easyweddings.com.au/articles/engagement-party-ideas/" target="_blank" rel="noopener">Easy Weddings' planning guides</a> are a great starting point, but without a clear plan, the decisions can pile up quickly — venue, guest list, catering, styling, invitations, and more. This step-by-step guide gives Melbourne couples a clear timeline and practical advice for planning an engagement party that runs smoothly and looks amazing.</p>
 
 <h2>6 to 8 Weeks Before: Setting the Foundation</h2>
 
 <p>Start with the big decisions. Set your budget first — knowing your total spend helps you allocate wisely across venue, catering, and styling. Decide on the style of celebration you want: a casual backyard gathering, a restaurant dinner, or a styled party at a function venue. Create your guest list early, as the number of guests will influence your venue choice and catering approach.</p>
 
-<p>Book your venue. Popular function spaces across Melbourne fill quickly on weekends, particularly in suburbs like <a href="/event-styling/oakleigh">Oakleigh</a>, <a href="/event-styling/doncaster">Doncaster</a>, and <a href="/event-styling/preston">Preston</a>. If you are hosting at home, confirm your layout plan and assess whether you need to hire tables, chairs, or a marquee. Choose your date and send save-the-dates via text, email, or a simple digital invitation.</p>
+<p>Book your venue — the <a href="https://www.abia.com.au/blog" target="_blank" rel="noopener">ABIA vendor directory</a> can help you find award-winning venues in your area. Popular function spaces across Melbourne fill quickly on weekends, particularly in suburbs like <a href="/event-styling/oakleigh">Oakleigh</a>, <a href="/event-styling/doncaster">Doncaster</a>, and <a href="/event-styling/preston">Preston</a>. If you are hosting at home, confirm your layout plan and assess whether you need to hire tables, chairs, or a marquee. Choose your date and send save-the-dates via text, email, or a simple digital invitation.</p>
 
 <h2>4 to 5 Weeks Before: Locking In Details</h2>
 
@@ -746,7 +746,7 @@ export const eventsPosts: BlogPost[] = [
     date: "2026-07-07",
     category: "Engagements",
     image: "/gallery/engagements/engagements-3.jpg",
-    content: `<p>A surprise engagement party is one of the most thrilling celebrations you can plan — but it requires careful coordination, especially when it comes to styling and setup. The challenge is creating a beautifully styled space without the guest of honour knowing what is happening. Here is how Melbourne families and friends pull off stunning surprise engagement parties, with practical tips on timing, logistics, and styling.</p>
+    content: `<p>A surprise engagement party is one of the most thrilling celebrations you can plan — <a href="https://www.easyweddings.com.au/articles/engagement-party-ideas/" target="_blank" rel="noopener">Easy Weddings</a> ranks it among the most memorable ways to kick off the wedding journey. But it requires careful coordination, especially when it comes to styling and setup. The challenge is creating a beautifully styled space without the guest of honour knowing what is happening. Here is how Melbourne families and friends pull off stunning surprise engagement parties, with practical tips on timing, logistics, and styling.</p>
 
 <h2>Choosing the Right Venue for a Surprise</h2>
 
@@ -762,7 +762,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Styling Choices That Create Instant Impact</h2>
 
-<p>For a surprise party, you want styling that creates an immediate visual wow the moment the couple walks in. The reveal is everything — and the right decorations amplify that moment dramatically. Focus on high-impact elements:</p>
+<p>For a surprise party, you want styling that creates an immediate visual wow the moment the couple walks in. Searching <a href="https://www.pinterest.com.au/search/pins/?q=surprise+engagement+party+reveal" target="_blank" rel="noopener">Pinterest for surprise engagement reveals</a> shows how powerful that first-sight reaction is. The reveal is everything — and the right decorations amplify that moment dramatically. Focus on high-impact elements:</p>
 
 <ul>
 <li>A <a href="/hire/gold-hexagonal-arch">Gold Hexagonal Arch</a> or <a href="/hire/round-moongate-arch">Round Moongate Arch</a> as the centrepiece, dressed and ready for the couple's first photo together as newly-announced fiancees.</li>
@@ -792,7 +792,7 @@ export const eventsPosts: BlogPost[] = [
     date: "2026-05-08",
     category: "Corporate",
     image: "/gallery/corporate/corporate-1.jpg",
-    content: `<p>Corporate events are an investment in your brand, your team, and your business relationships. Whether you are hosting a product launch, a client appreciation evening, an awards night, or a team celebration, the styling of your event communicates your brand values before a single word is spoken. Here is how Melbourne businesses are approaching corporate event styling in 2026.</p>
+    content: `<p>Corporate events are an investment in your brand, your team, and your business relationships. <a href="https://www.melbourne.vic.gov.au/business/doing-business/Pages/doing-business.aspx" target="_blank" rel="noopener">Melbourne</a> is one of Australia's leading business event destinations, and the expectations for corporate styling are higher than ever. Whether you are hosting a product launch, a client appreciation evening, an awards night, or a team celebration, the styling of your event communicates your brand values before a single word is spoken. Here is how Melbourne businesses are approaching corporate event styling in 2026.</p>
 
 <h2>Aligning Styling with Your Brand</h2>
 
@@ -819,7 +819,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Venue Considerations for Corporate Events</h2>
 
-<p>Melbourne offers an incredible range of corporate event venues, from sleek CBD function spaces to character-filled warehouses and winery estates. The venue you choose should complement your styling vision and suit the purpose of your event. Networking events need open floor plans with standing room. Seated dinners need properly sized tables and comfortable spacing. Presentations need clear sightlines and good acoustics.</p>
+<p>Melbourne offers an incredible range of corporate event venues — the <a href="https://www.abs.gov.au/statistics/industry/tourism-and-transport" target="_blank" rel="noopener">ABS reports</a> that Victoria is one of the top states for business events and conferences. From sleek CBD function spaces to character-filled warehouses and winery estates, the options are extensive. The venue you choose should complement your styling vision and suit the purpose of your event. Networking events need open floor plans with standing room. Seated dinners need properly sized tables and comfortable spacing. Presentations need clear sightlines and good acoustics.</p>
 
 <p>We have styled corporate events in venues across Melbourne — from modern spaces in the CBD to function rooms in <a href="/event-styling/doncaster">Doncaster</a> and <a href="/event-styling/oakleigh">Oakleigh</a>. Whatever your venue, we adapt our styling to suit the space and create maximum impact within the existing architecture.</p>
 
@@ -846,7 +846,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Creating Shareable Photo Moments</h2>
 
-<p>In 2026, a product launch is only as successful as the content it generates. Every guest is a potential content creator, and your styling should provide them with irresistible photo opportunities. A branded backdrop is essential — our <a href="/hire/backdrop-draping-set">Backdrop Draping Set</a> in your brand colours, paired with a <a href="/hire/neon-sign-custom-text">Custom LED Neon Sign</a> featuring your product name or tagline, creates the perfect Instagram moment.</p>
+<p>In 2026, a product launch is only as successful as the content it generates. <a href="https://www.pinterest.com.au/search/pins/?q=product+launch+event+styling" target="_blank" rel="noopener">Pinterest</a> is full of product launch styling inspiration that shows how shareable design drives brand reach. Every guest is a potential content creator, and your styling should provide them with irresistible photo opportunities. A branded backdrop is essential — our <a href="/hire/backdrop-draping-set">Backdrop Draping Set</a> in your brand colours, paired with a <a href="/hire/neon-sign-custom-text">Custom LED Neon Sign</a> featuring your product name or tagline, creates the perfect Instagram moment.</p>
 
 <p>Place a <a href="/hire/balloon-garland-installation">Balloon Garland Installation</a> in your brand palette along the top of the backdrop for added visual interest. The combination of draping, neon, and balloons creates a multi-textured photo wall that looks professional in wide shots and stunning in close-ups. Ensure the area is well-lit and has enough space for guests to stand comfortably in front.</p>
 
@@ -858,7 +858,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Flow and Guest Experience</h2>
 
-<p>Think about the guest journey from arrival to departure. The entrance should build anticipation — a branded <a href="/hire/welcome-sign-on-easel">Welcome Sign</a> and a styled arrival zone set expectations. The main space should reveal the product and the styling together. A separate area for drinks and networking allows guests to decompress and socialise after experiencing the product.</p>
+<p>Think about the guest journey from arrival to departure — the <a href="https://www.melbourne.vic.gov.au/business/doing-business/Pages/doing-business.aspx" target="_blank" rel="noopener">City of Melbourne</a> has resources for businesses planning events across the metro area. The entrance should build anticipation — a branded <a href="/hire/welcome-sign-on-easel">Welcome Sign</a> and a styled arrival zone set expectations. The main space should reveal the product and the styling together. A separate area for drinks and networking allows guests to decompress and socialise after experiencing the product.</p>
 
 <p>Consider creating distinct zones within the venue: a product display zone with plinths and spotlighting, a photo zone with the branded backdrop, a socialising zone with comfortable styling and ambient lighting, and a refreshments zone. This encourages natural movement through the space and ensures guests interact with every styled area.</p>
 
@@ -875,7 +875,7 @@ export const eventsPosts: BlogPost[] = [
     date: "2026-05-22",
     category: "Corporate",
     image: "/gallery/corporate/corporate-3.jpg",
-    content: `<p>The corporate Christmas party is the highlight of the Australian work calendar. It is a chance to thank your team for their hard work, celebrate the year's achievements, and build the camaraderie that carries into the new year. Melbourne businesses are raising the bar on end-of-year celebrations, and thoughtful styling is a big part of what makes a Christmas party memorable. Here are ideas to inspire your planning.</p>
+    content: `<p>The corporate Christmas party is the highlight of the Australian work calendar. With <a href="https://www.abs.gov.au/statistics/labour/employment-and-unemployment" target="_blank" rel="noopener">ABS employment data</a> showing Melbourne's workforce growing steadily, more businesses than ever are investing in meaningful end-of-year celebrations. It is a chance to thank your team for their hard work, celebrate the year's achievements, and build the camaraderie that carries into the new year. Melbourne businesses are raising the bar on end-of-year celebrations, and thoughtful styling is a big part of what makes a Christmas party memorable. Here are ideas to inspire your planning.</p>
 
 <h2>Elegant Christmas Dinner Styling</h2>
 
@@ -891,7 +891,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Australian Christmas Themes</h2>
 
-<p>Melbourne's Christmas falls in summer, and many businesses are embracing the Australian setting rather than importing a Northern Hemisphere winter aesthetic. Think native flowers instead of pine, warm gold and eucalyptus green instead of red and white, and outdoor styling with <a href="/hire/festoon-light-string">Festoon Lights</a> and natural greenery.</p>
+<p>Melbourne's Christmas falls in summer, and many businesses are embracing the Australian setting rather than importing a Northern Hemisphere winter aesthetic. Using native flora and locally sourced materials aligns with the <a href="https://www.sustainability.vic.gov.au/recycling-and-reducing-waste/at-an-event" target="_blank" rel="noopener">sustainable event practices</a> that Sustainability Victoria promotes. Think native flowers instead of pine, warm gold and eucalyptus green instead of red and white, and outdoor styling with <a href="/hire/festoon-light-string">Festoon Lights</a> and natural greenery.</p>
 
 <p>Our <a href="/hire/rustic-arch-backdrop">Rustic Arch Backdrop</a> dressed with native Australian greenery — eucalyptus, banksia, and wattle — creates a uniquely Australian Christmas backdrop that feels fresh and authentic. This approach resonates particularly well with businesses that have an Australian identity or international guests who appreciate the local flavour.</p>
 
@@ -914,7 +914,7 @@ export const eventsPosts: BlogPost[] = [
     date: "2026-05-28",
     category: "Corporate",
     image: "/gallery/corporate/corporate-4.jpg",
-    content: `<p>A corporate gala dinner is the pinnacle of business entertaining. It is where brands showcase their success, honour achievements, and create experiences that strengthen relationships with clients, partners, and teams. The styling of a gala dinner needs to match the significance of the occasion — grand, polished, and memorable. Here is how Melbourne businesses are creating gala events that leave lasting impressions.</p>
+    content: `<p>A corporate gala dinner is the pinnacle of business entertaining. <a href="https://www.melbourne.vic.gov.au/business/doing-business/Pages/doing-business.aspx" target="_blank" rel="noopener">Melbourne</a> has long been recognised as Australia's premier city for formal business events, with world-class venues to match. It is where brands showcase their success, honour achievements, and create experiences that strengthen relationships with clients, partners, and teams. The styling of a gala dinner needs to match the significance of the occasion — grand, polished, and memorable. Here is how Melbourne businesses are creating gala events that leave lasting impressions.</p>
 
 <h2>Grand Entrance Styling</h2>
 
@@ -936,7 +936,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Lighting That Creates Atmosphere</h2>
 
-<p>Lighting is arguably the most important element in gala dinner styling. The right lighting transforms a standard function room into a grand ballroom. Layer warm ambient lighting from <a href="/hire/fairy-light-curtain">Fairy Light Curtains</a> along the walls, candlelight from every table, and dramatic accent lighting on key features like the stage backdrop and entrance.</p>
+<p>Lighting is arguably the most important element in gala dinner styling — the <a href="https://www.abia.com.au/blog" target="_blank" rel="noopener">Australian Bridal Industry Academy</a> notes that lighting consistently ranks as the top atmosphere-shaping element at formal events. The right lighting transforms a standard function room into a grand ballroom. Layer warm ambient lighting from <a href="/hire/fairy-light-curtain">Fairy Light Curtains</a> along the walls, candlelight from every table, and dramatic accent lighting on key features like the stage backdrop and entrance.</p>
 
 <p>Avoid cold or bright overhead lighting — it kills the atmosphere of a formal dinner. If your venue has fluorescent ceiling lights, ask whether they can be dimmed or switched off entirely, relying instead on your styled lighting to create the mood. The soft, warm glow of layered lighting makes every guest feel special and makes your entire styling investment look its best.</p>
 
@@ -953,7 +953,7 @@ export const eventsPosts: BlogPost[] = [
     date: "2026-06-05",
     category: "Corporate",
     image: "/gallery/corporate/corporate-5.jpg",
-    content: `<p>Conferences are often held in functional but visually uninspiring venues — beige walls, fluorescent lighting, and rows of identical chairs. Strategic styling transforms these spaces into engaging environments that reinforce your brand, energise attendees, and create a professional atmosphere that elevates the entire experience. Here is how Melbourne event organisers are using decoration to improve their conferences.</p>
+    content: `<p>Conferences are often held in functional but visually uninspiring venues — beige walls, fluorescent lighting, and rows of identical chairs. As one of Australia's leading conference cities according to <a href="https://www.melbourne.vic.gov.au/business/doing-business/Pages/doing-business.aspx" target="_blank" rel="noopener">City of Melbourne business resources</a>, there is strong competition to make your event stand out. Strategic styling transforms these spaces into engaging environments that reinforce your brand, energise attendees, and create a professional atmosphere that elevates the entire experience. Here is how Melbourne event organisers are using decoration to improve their conferences.</p>
 
 <h2>Branded Registration and Welcome Areas</h2>
 
@@ -969,7 +969,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Networking and Break Zone Styling</h2>
 
-<p>Conference breaks are where the real connections happen, and the styling of networking zones influences how comfortable delegates feel approaching each other. Create inviting break zones with <a href="/hire/festoon-light-string">Festoon Light Strings</a> overhead, comfortable seating areas, and styled refreshment stations that encourage people to linger and chat.</p>
+<p>Conference breaks are where the real connections happen — <a href="https://www.abs.gov.au/statistics/industry/tourism-and-transport" target="_blank" rel="noopener">ABS data on business events</a> shows that networking is the primary reason delegates attend conferences. The styling of networking zones influences how comfortable delegates feel approaching each other. Create inviting break zones with <a href="/hire/festoon-light-string">Festoon Light Strings</a> overhead, comfortable seating areas, and styled refreshment stations that encourage people to linger and chat.</p>
 
 <p>A photo wall or branded backdrop in the networking area gives delegates a reason to gather and interact. Our <a href="/hire/neon-sign-custom-text">Custom LED Neon Signs</a> with the conference hashtag or a motivational phrase create shareable photo moments that extend the conference's reach on social media. This is valuable both for engagement and for building anticipation for future events.</p>
 
@@ -992,7 +992,7 @@ export const eventsPosts: BlogPost[] = [
     date: "2026-06-15",
     category: "Corporate",
     image: "/gallery/corporate/corporate-6.jpg",
-    content: `<p>Hiring props and styling elements for a corporate event is fundamentally different from personal celebrations. The stakes are higher, the brand is on display, and every element needs to communicate professionalism and quality. Here is a practical guide to corporate event prop hire in Melbourne, covering what to hire, what to prioritise, and how to get the best value from your styling investment.</p>
+    content: `<p>Hiring props and styling elements for a corporate event is fundamentally different from personal celebrations. Beyond the professional benefits, prop hire supports <a href="https://www.sustainability.vic.gov.au/recycling-and-reducing-waste/at-an-event" target="_blank" rel="noopener">sustainable event practices</a> by reducing single-use waste — something increasingly important to Melbourne businesses and their stakeholders. The stakes are higher, the brand is on display, and every element needs to communicate professionalism and quality. Here is a practical guide to corporate event prop hire in Melbourne, covering what to hire, what to prioritise, and how to get the best value from your styling investment.</p>
 
 <h2>Essential Hires for Any Corporate Event</h2>
 
@@ -1019,7 +1019,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>Budgeting for Corporate Event Styling</h2>
 
-<p>Corporate event styling should be treated as a branding investment, not a discretionary expense. The visual quality of your event directly influences how attendees perceive your brand. That said, you do not need to hire everything — strategic choices deliver better results than trying to fill every corner.</p>
+<p>Corporate event styling should be treated as a branding investment, not a discretionary expense. The <a href="https://www.melbourne.vic.gov.au/business/doing-business/Pages/doing-business.aspx" target="_blank" rel="noopener">City of Melbourne</a> actively supports local businesses in creating professional event experiences. The visual quality of your event directly influences how attendees perceive your brand. That said, you do not need to hire everything — strategic choices deliver better results than trying to fill every corner.</p>
 
 <p>Our recommendation is to allocate 60 percent of your styling budget to the backdrop and stage area, 25 percent to table and centrepiece styling, and 15 percent to entrance and ambient elements. This distribution ensures maximum impact where it matters most — the areas that appear in the most photos and receive the most visual attention.</p>
 
@@ -1042,7 +1042,7 @@ export const eventsPosts: BlogPost[] = [
     date: "2026-06-21",
     category: "Corporate",
     image: "/gallery/corporate/corporate-1.jpg",
-    content: `<p>Celebrating your team is one of the most impactful things a business can do for morale, retention, and culture. Whether you are marking a project milestone, welcoming new team members, celebrating a company anniversary, or simply saying thank you for a big quarter, the way you style the celebration signals how much you value the people who make your business work. Here are team celebration ideas Melbourne businesses are using in 2026.</p>
+    content: `<p>Celebrating your team is one of the most impactful things a business can do for morale, retention, and culture. With <a href="https://www.abs.gov.au/statistics/labour/employment-and-unemployment" target="_blank" rel="noopener">ABS labour market data</a> showing a competitive employment landscape in Melbourne, team recognition has become a key retention strategy. Whether you are marking a project milestone, welcoming new team members, celebrating a company anniversary, or simply saying thank you for a big quarter, the way you style the celebration signals how much you value the people who make your business work. Here are team celebration ideas Melbourne businesses are using in 2026.</p>
 
 <h2>Milestone and Achievement Celebrations</h2>
 
@@ -1052,7 +1052,7 @@ export const eventsPosts: BlogPost[] = [
 
 <h2>End-of-Year and Seasonal Gatherings</h2>
 
-<p>End-of-year celebrations are the most common team event, and they deserve more than paper plates and a Spotify playlist. Melbourne's summer weather makes outdoor celebrations ideal — a garden venue, a rooftop bar, or even a styled area in the office car park can work beautifully with the right styling.</p>
+<p>End-of-year celebrations are the most common team event, and they deserve more than paper plates and a Spotify playlist. The <a href="https://www.melbourne.vic.gov.au/community/community-events" target="_blank" rel="noopener">City of Melbourne</a> hosts dozens of end-of-year community and business events, setting a high bar for celebration quality. Melbourne's summer weather makes outdoor celebrations ideal — a garden venue, a rooftop bar, or even a styled area in the office car park can work beautifully with the right styling.</p>
 
 <p><a href="/hire/festoon-light-string">Festoon Light Strings</a> overhead create instant atmosphere for evening celebrations. A <a href="/hire/rustic-arch-backdrop">Rustic Arch Backdrop</a> with seasonal florals provides a photo spot that encourages team bonding through shared photos. Add a grazing table styled with linens and greenery, and you have an end-of-year celebration that feels special without being overly formal.</p>
 
