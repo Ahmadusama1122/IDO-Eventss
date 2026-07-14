@@ -52,12 +52,14 @@ ido-events/
 │   │   └── corporate/ (6)
 │   ├── logos/                      # SVG + PNG logo variants
 │   │   └── iDo-logo-circle-white.png
+│   ├── llms.txt                    # AI crawler summary (Q&A format, links to llms-full.txt)
+│   ├── llms-full.txt               # Comprehensive AI crawler info (200+ lines, all services/FAQs)
 │   └── favicon.ico                 # 32x32 ICO for Google Search
 ├── src/
 │   ├── app/
 │   │   ├── layout.tsx              # Root layout (fonts, SmoothScroll, header, footer, mobile bar, Receptflow widget)
 │   │   ├── globals.css             # Tailwind v4 @theme + component classes + Lenis CSS
-│   │   ├── page.tsx                # Homepage (11 sections, 8 lazy-loaded via next/dynamic)
+│   │   ├── page.tsx                # Homepage (11 sections, 8 lazy-loaded, FAQPage JSON-LD for GEO)
 │   │   ├── api/quote/route.ts      # Quote submission endpoint (Resend, XSS-safe, rate-limited)
 │   │   ├── icon.png                # 192x192 PNG favicon (iDo. logo)
 │   │   ├── apple-icon.png          # 180x180 Apple touch icon
@@ -193,14 +195,18 @@ Premium Framer Motion primitives in `src/components/motion.tsx`:
 - **JSON-LD structured data** via `src/lib/schema.ts` utility (exports `BASE_URL` constant):
   - `LocalBusiness + EventPlanner` on 25 suburb pages + 105 service-suburb pages
   - `BlogPosting` on 114 blog posts
-  - `FAQPage` on 6 occasion pages + 105 service-suburb pages + FAQ hub
+  - `FAQPage` on homepage + 6 occasion pages + 105 service-suburb pages + FAQ hub
   - `Product` on 20 hire items
   - `BreadcrumbList` on all page types (blog, hire, suburb, occasion, service-suburb)
 - Auto-generated `sitemap.xml` covering all 281 routes.
 - `robots.txt` allows all crawlers + AI crawlers (GPTBot, ClaudeBot, PerplexityBot), disallows `/api/`.
-- `llms.txt` at site root for AI crawler business summary.
+- **GEO (Generative Engine Optimisation):**
+  - `llms.txt` at site root — Q&A format with FAQ section, pricing table, deep links (linked to llms-full.txt)
+  - `llms-full.txt` — comprehensive 200+ line version with all services, hire items, suburb coverage, venue types, cultural expertise, booking process, 12 FAQ Q&As, and full page index
+  - `FAQPage` JSON-LD on homepage (5 common questions) for AI engine extraction
+  - Authority citations on all 114 blog posts — external links to ABS, ABIA, Consumer Affairs VIC, Sustainability VIC, Pinterest, Easy Weddings, WedShed
 - Client component pages (hire, gallery, quote) use `layout.tsx` wrappers for metadata.
-- 114 blog posts with internal linking to hire items, occasion pages, and suburb pages.
+- 114 blog posts with internal linking to hire items, occasion pages, and suburb pages + external authority citations.
 - Blog posts use `generateStaticParams` + `generateMetadata`.
 - Hire items use `generateStaticParams` + `generateMetadata`.
 - Service-suburb pages use `generateStaticParams` + `generateMetadata`.
@@ -266,6 +272,7 @@ Premium Framer Motion primitives in `src/components/motion.tsx`:
 19. ✅ Service × Suburb expansion (105 pages — 7 services × 15 suburbs, all unique content)
 20. ✅ Google Analytics 4 (GA4 tracking, generate_lead + phone_call_click events)
 21. ✅ Lighthouse audit (Accessibility 100, SEO 100, Best Practices 96-100 across all page types)
+22. ✅ GEO optimisation (llms.txt Q&A upgrade, llms-full.txt, homepage FAQPage schema, authority citations on all 114 blog posts)
 
 ## Deployment
 
@@ -291,4 +298,6 @@ Premium Framer Motion primitives in `src/components/motion.tsx`:
 - `src/data/suburbs.ts` — 25 suburb entries (feeds suburb pages, sitemap, schema)
 - `src/app/sitemap.ts` — Auto-generated sitemap (imports blog, hire, suburbs, service-suburbs)
 - `src/app/api/quote/route.ts` — Quote API with security (XSS escape, rate limiter, input validation)
+- `public/llms.txt` — AI crawler summary with FAQ Q&A format (feeds GEO)
+- `public/llms-full.txt` — Comprehensive AI crawler info (all services, hire items, FAQs)
 - `next.config.ts` — standalone output, turbopack root fix, security headers
