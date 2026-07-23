@@ -274,6 +274,7 @@ Premium Framer Motion primitives in `src/components/motion.tsx`:
 21. ✅ Lighthouse audit (Accessibility 100, SEO 100, Best Practices 96-100 across all page types)
 22. ✅ GEO optimisation (llms.txt Q&A upgrade, llms-full.txt, homepage FAQPage schema, authority citations on all 114 blog posts)
 23. ✅ GSC coverage fix — www → non-www 308 redirect (next.config.ts `redirects`), fixes duplicate canonical
+24. ✅ Claude artifact parasite SEO (6 published artifacts on claude.ai, linked from /about for Google discovery)
 
 ## GSC Index Status (2026-07-18)
 
