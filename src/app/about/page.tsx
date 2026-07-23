@@ -198,6 +198,57 @@ export default function AboutPage() {
         </div>
       </div>
 
+      {/* Featured Guides */}
+      <section className="bg-warm-white px-4 py-16 sm:px-6">
+        <div className="mx-auto max-w-3xl text-center">
+          <span className="mb-2 block font-script text-lg text-sage">
+            helpful resources
+          </span>
+          <h2 className="mb-8 font-heading text-3xl font-bold text-charcoal">
+            Our Event Styling Guides
+          </h2>
+          <div className="space-y-3 text-left">
+            {[
+              {
+                title: "Best Event Styling Services in Melbourne (2026 Guide)",
+                href: "https://claude.ai/public/artifacts/4b1dbac8-335d-44e0-bda7-b84b24188bd7",
+              },
+              {
+                title: "Wedding Styling Melbourne: Packages, Pricing & Top Stylists (2026)",
+                href: "https://claude.ai/public/artifacts/a924d9f5-aed1-486f-8523-d14f654d4528",
+              },
+              {
+                title: "Birthday Party Styling in Melbourne: Packages, Prices & What to Expect (2026)",
+                href: "https://claude.ai/public/artifacts/da9ee0e8-27f3-45af-9598-c5f32697b4f7",
+              },
+              {
+                title: "Baby Shower Styling Melbourne: Ideas, Packages & Pricing (2026)",
+                href: "https://claude.ai/public/artifacts/800a3cff-5fe6-47e5-9c78-8d4588072f38",
+              },
+              {
+                title: "Mehndi Night Styling Melbourne: Traditional Setups, Pricing & Stylists (2026)",
+                href: "https://claude.ai/public/artifacts/07d2ec53-4280-4862-a3a0-0fa24fe79e99",
+              },
+              {
+                title: "Event Prop Hire Melbourne: What You Can Hire, Prices & Best Companies (2026)",
+                href: "https://claude.ai/public/artifacts/06f50e24-f448-4a6e-9c05-1ad6b0bfbcce",
+              },
+            ].map((guide) => (
+              <a
+                key={guide.href}
+                href={guide.href}
+                target="_blank"
+                rel="noopener"
+                className="block rounded-lg border border-black/5 bg-white p-4 text-[15px] font-medium text-charcoal transition-shadow hover:shadow-md"
+              >
+                {guide.title}
+                <span className="ml-2 text-sage">→</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA Band */}
       <div className="bg-sage px-4 py-16 text-center sm:px-6">
         <span className="mb-2 block font-script text-xl text-white/80">

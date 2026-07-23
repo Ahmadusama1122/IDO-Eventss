@@ -16,7 +16,7 @@ This is the **IDO Events** website — an event styling and prop hire business s
 - **Analytics:** Google Analytics 4 via @next/third-parties (G-EKNJBST7QP, production-only)
 - **Email:** Resend (API) — lazy-initialized to avoid build-time errors
 - **Deploy:** Railway (`next start -p ${PORT:-3000}`, `output: "standalone"`)
-- **Domain:** `idoeventss.com` + `www.idoeventss.com` (Namecheap DNS → Railway CNAME)
+- **Domain:** `idoeventss.com` (canonical) + `www.idoeventss.com` (308 → non-www, via next.config.ts redirect)
 - **Fonts:** Google Fonts via next/font (Cormorant Garamond headings, DM Sans body, Dancing Script accents)
 - **Images:** next/image, JPEG source files, WebP served via Next.js image optimization, lazy loading
 - **Social:** Instagram [@ido.eventss](https://www.instagram.com/ido.eventss/), Facebook [balloonheadquarters](https://www.facebook.com/balloonheadquarters/)
@@ -273,6 +273,16 @@ Premium Framer Motion primitives in `src/components/motion.tsx`:
 20. ✅ Google Analytics 4 (GA4 tracking, generate_lead + phone_call_click events)
 21. ✅ Lighthouse audit (Accessibility 100, SEO 100, Best Practices 96-100 across all page types)
 22. ✅ GEO optimisation (llms.txt Q&A upgrade, llms-full.txt, homepage FAQPage schema, authority citations on all 114 blog posts)
+23. ✅ GSC coverage fix — www → non-www 308 redirect (next.config.ts `redirects`), fixes duplicate canonical
+
+## GSC Index Status (2026-07-18)
+
+- **Indexed:** 158 / 281 pages (56%)
+- **Crawled - not indexed:** 77 (mostly batch blog + service-suburb pages — domain authority, not code)
+- **Discovered - not indexed:** 11 (awaiting crawl)
+- **404s:** 9 (all junk — malformed crawler URLs + old WordPress ghosts, no code fix needed)
+- **Duplicate canonical:** 1 (fixed by www → non-www redirect)
+- **Next steps:** Backlinks (directory listings: Yellow Pages AU, True Local, ABIA, Easy Weddings, WedShed), Google Business Profile
 
 ## Deployment
 
@@ -300,4 +310,4 @@ Premium Framer Motion primitives in `src/components/motion.tsx`:
 - `src/app/api/quote/route.ts` — Quote API with security (XSS escape, rate limiter, input validation)
 - `public/llms.txt` — AI crawler summary with FAQ Q&A format (feeds GEO)
 - `public/llms-full.txt` — Comprehensive AI crawler info (all services, hire items, FAQs)
-- `next.config.ts` — standalone output, turbopack root fix, security headers
+- `next.config.ts` — standalone output, turbopack root fix, security headers, www→non-www redirect
