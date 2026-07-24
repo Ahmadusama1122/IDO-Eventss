@@ -38,7 +38,7 @@ const COMPANY_LINKS = [
 
 const SOCIALS = [
   { label: "IG", ariaLabel: "Instagram", href: "https://www.instagram.com/ido.eventss/" },
-  { label: "FB", ariaLabel: "Facebook", href: "https://www.facebook.com/balloonheadquarters/" },
+  { label: "FB", ariaLabel: "Facebook", href: "https://www.facebook.com/balloonheadquarters/" }, // ponytail: mismatch with brand — rename FB page to /idoevents when possible
 ];
 
 function FooterColumn({ title, links }: { title: string; links: { label: string; href: string }[] }) {

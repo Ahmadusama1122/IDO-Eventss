@@ -17,7 +17,7 @@ const SuburbLinks = dynamic(() => import("@/components/home/SuburbLinks").then(m
 export const metadata: Metadata = {
   title: "Event Styling & Prop Hire Melbourne | iDo Events",
   description:
-    "iDo Events provides event styling and prop hire across 30+ Melbourne suburbs. Weddings, birthdays, christenings, baby showers, engagements and corporate events — full setup and pack-down included. Free quotes.",
+    "Event styling & prop hire across 30+ Melbourne suburbs. Weddings, birthdays, engagements, christenings — full setup included. Free quotes within 1 hour.",
   alternates: { canonical: "https://idoeventss.com" },
   openGraph: {
     title: "Event Styling & Prop Hire Melbourne | iDo Events",
@@ -35,6 +35,8 @@ const jsonLd = {
   description:
     "Melbourne's trusted event styling and prop hire specialists. Weddings, birthdays, christenings, baby showers, engagements, and corporate events.",
   url: "https://idoeventss.com",
+  telephone: "+61406179786",
+  email: "contact@idoeventss.com",
   areaServed: {
     "@type": "City",
     name: "Melbourne",
@@ -54,6 +56,29 @@ const jsonLd = {
     addressCountry: "AU",
   },
   priceRange: "$$",
+  sameAs: [
+    "https://www.instagram.com/ido.eventss/",
+    "https://www.facebook.com/balloonheadquarters/",
+  ],
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "5.0",
+    reviewCount: "3",
+    bestRating: "5",
+    worstRating: "1",
+  },
+};
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "iDo Events",
+  url: "https://idoeventss.com",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: "https://idoeventss.com/blog?q={search_term_string}",
+    "query-input": "required name=search_term_string",
+  },
 };
 
 const faqJsonLd = {
@@ -109,6 +134,10 @@ export default function HomePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
       />
       <script
         type="application/ld+json"

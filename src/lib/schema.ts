@@ -141,7 +141,7 @@ export function buildLocalBusinessSchema(
     image: `${BASE_URL}${heroImage}`,
     sameAs: [
       "https://www.instagram.com/ido.eventss/",
-      "https://www.facebook.com/idoevents.au",
+      "https://www.facebook.com/balloonheadquarters/",
     ],
   };
 }
